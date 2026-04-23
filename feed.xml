@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timmy老師｜用易經問卦，選 AI 該怎麼走</title>
+    <link>https://etimmyqq-lab.github.io/</link>
+    <description>Timmy老師，帶中小企業主把 Claude Code 裝進日常，也用易經卦牌陪他們在數位轉型的岔路上做選擇。</description>
+    <language>zh-Hant</language>
+    <lastBuildDate>Thu, 23 Apr 2026 22:02:39 +0800</lastBuildDate>
+    <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「不信的時候最準」——這句話是心理學，不是玄學</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-04-23-de9515fa.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-23-de9515fa.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 +0800</pubDate>
+      <description>上週三下午，一位做五金貿易的老闆在我桌子對面搖頭，說他昨晚隨便抽了一張卦，本來是想證明易經是假的，結果那張「蹇卦」把他這半年在馬來西亞設廠遇到的每一道坎都講完了…</description>
+      <category>易經卦牌</category>
+    </item>
+    <item>
+      <title>老闆不學，整個企業 AI 導入就是半套</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-04-23-81ba60a0.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-23-81ba60a0.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 +0800</pubDate>
+      <description>上週三下午，我在桃園一家做汽車零件的工廠坐了三個小時。老闆六十二歲，員工 38 人，公司開了二十七年。他找我來，是因為公司裡三個年輕人已經自己偷偷用 ChatG…</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>一人公司老闆最該先用 AI 做的事</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-04-23-a71d5be0.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-23-a71d5be0.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 +0800</pubDate>
+      <description>上週四下午三點，我在民生社區一家咖啡店，對面坐著一個做進口紅酒的一人公司老闆。他翻開筆電給我看他的 Notion，密密麻麻 14 個分頁，從客戶名單、進貨報價、…</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>依賴不是問題，不動腦才是</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-04-23-d38c9029.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-23-d38c9029.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 +0800</pubDate>
+      <description>上週四下午，一家做工業閥門的中小企業老闆在會議室把筆電轉過來給我看。螢幕上是他工程師寫的報價單程式碼，下面一整排 Claude Code 的對話紀錄。他問我一句…</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>先分清楚「出錯」到底是哪一種</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-04-23-e900c92f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-23-e900c92f.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 +0800</pubDate>
+      <description>上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們…</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>客服可以完全交給 AI 嗎？我的答案是：不能，但 80% 可以——關鍵在於你分得清哪 20% 不能交出去</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-04-23-43a3f283.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-23-43a3f283.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 +0800</pubDate>
+      <description>這幾年我陪了不少中小企業做 AI 導入，被問最多的一題就是：「老師，客服可以完全交給 AI 嗎？客人會不會覺得沒溫度？」我的立場很清楚：**客服不該「完全」交給 AI，但也不該「完全」留給人**。真正成熟的企業 AI 導入，是讓 AI 處理</description>
+      <category>中小企業數位轉型</category>
+    </item>
+  </channel>
+</rss>
