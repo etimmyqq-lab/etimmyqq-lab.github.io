@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# 給 AI 爬蟲的友善指示（Perplexity、ChatGPT、Claude 等未來若有爬蟲）
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://timmytsou.github.io/sitemap.xml

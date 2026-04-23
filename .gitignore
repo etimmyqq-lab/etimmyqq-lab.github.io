@@ -1,0 +1,13 @@
+# 備份
+*.bak
+
+# 非公開的資料夾
+outbox/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
