@@ -33,7 +33,8 @@ except AttributeError:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 BASE_DIR = Path(__file__).parent
-DEFAULT_PROFILE = Path("C:/claude/auto-post/data/brand_profile.json")
+# 抽離後改指向 exposure-engine 的 brand_profile（auto-post 版已廢棄）
+DEFAULT_PROFILE = Path("C:/claude/exposure-engine/data/brand_profile.json")
 DEFAULT_INDEX = BASE_DIR / "index.html"
 
 
@@ -171,7 +172,7 @@ def build_replacements(bp: dict, existing_jsonld: dict | None) -> dict:
 # ═══════════════════════ Marker 替換 ═══════════════════════
 
 MARKER_PATTERN = re.compile(
-    r"<!--\s*BRAND:(?P<key>[a-z_]+)\s*-->(?P<content>.*?)<!--\s*/BRAND:(?P=key)\s*-->",
+    r"<!--\s*BRAND:(?P<key>[a-z0-9_]+)\s*-->(?P<content>.*?)<!--\s*/BRAND:(?P=key)\s*-->",
     re.DOTALL,
 )
 
