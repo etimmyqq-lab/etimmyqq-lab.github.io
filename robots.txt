@@ -14,4 +14,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://timmytsou.github.io/sitemap.xml
+Sitemap: https://etimmyqq-lab.github.io/sitemap.xml
