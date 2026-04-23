@@ -1,5 +1,47 @@
 # 昆廷老師個人品牌網站 — 版本歷程
 
+## [2026-04-23] 部署上線 https://etimmyqq-lab.github.io/
+
+### 變更內容
+- 新增 `site.config.json`（base_url + github_repo）
+- 新增 `.gitignore`（排除 *.bak / outbox/ / OS / editor 檔案）
+- 修改 `index.html` / `sitemap.xml` / `robots.txt` / `articles/2026-04-23-43a3f283.html`：填入實際 base_url
+- 修改 `exposure/daily_pipeline.py`（在 auto-post 專案）：新增 `get_base_url()` 讀 site.config.json，讓未來新文章 canonical 與 sitemap 自動帶絕對 URL
+- **修復 head marker bug**：原本 `<title><!-- BRAND:head_title -->...<!-- /BRAND:head_title --></title>` 會讓 title 變「含 marker 文字」（因為 `<title>` 與 `<meta content>` 內的 HTML 註解會被當成純文字）。改成 marker 在 element 外包整段：`<!-- BRAND:head_title --><title>...</title><!-- /BRAND:head_title -->`
+  - `sync_from_brand_profile.py` 對應更新：head 7 個 marker（head_title/meta_description/meta_author/meta_keywords/og_title/og_description/og_site_name/twitter_title/twitter_description）的 value 改產完整 element 字串而非純文字
+
+### 部署過程
+1. 使用者提供 GitHub username `timmytsou`
+2. 用 Playwright 開 https://github.com/new 發現登入帳號實際是 `etimmyqq-lab`（Google OAuth 自動登入）
+3. 使用者選擇 A：接受 `etimmyqq-lab.github.io`
+4. Playwright 自動填 repo name → Public → Create repository
+5. 本地 git init / remote add / commit / push（Windows Git Credential Manager 自動認證）
+6. 驗證 `Your site is live at https://etimmyqq-lab.github.io/`
+7. 發現 title 顯示含 marker → 修 → 重 push
+8. Pages rebuild 約 30 秒 → 最終驗證完成
+
+### 驗證結果（live）
+- https://etimmyqq-lab.github.io/ HTTP 200
+- https://etimmyqq-lab.github.io/articles/2026-04-23-43a3f283.html HTTP 200
+- `document.title` = `昆廷老師｜企業 AI 顧問．易經決策教練`（乾淨，無 marker）
+- JSON-LD `name=昆廷老師`、`url=https://etimmyqq-lab.github.io`、`sameAs=[LinkedIn, YouTube, Threads]`、`knowsAbout=[8 個核心關鍵字]`
+- canonical、og:title、hero 全正確
+
+### 原因
+- 使用者要求「你不是可以幫我操控網頁嗎，請直接幫我處理」→ 用 Playwright 自動化 GitHub 建 repo
+- Head marker bug 是 HTML spec 的 subtle issue（title 是 raw text element、attribute value 也不 parse 註解），上線前一定要修
+
+### 影響範圍
+- 網站正式對外公開
+- schema.org/Person 結構化資料上線，AI 爬蟲（Google/Claude/Perplexity/GPTBot）都可以抓到
+- 下一次跑 daily-publish.bat 時，新文章的 canonical 與 sitemap URL 會自動帶 `https://etimmyqq-lab.github.io`
+
+### 待使用者操作
+1. **提交 sitemap 給 Google**：到 https://search.google.com/search-console → Add property `https://etimmyqq-lab.github.io` → 驗證 → Sitemaps → 提交 `/sitemap.xml`
+2. **Rich Results Test**：https://search.google.com/test/rich-results 測 `https://etimmyqq-lab.github.io/` 驗證 JSON-LD 通過
+3. 更新 LinkedIn / YouTube / Threads bio 的「個人網站」連結為 `https://etimmyqq-lab.github.io`
+4. 等 7–14 天讓 Google 索引後，跑 weekly-report.bat 看 AI 可見度變化
+
 ## [2026-04-23] 一鍵發文 + 週報自動化（B + C 自動化）
 
 ### 變更內容
