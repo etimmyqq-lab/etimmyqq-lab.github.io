@@ -140,17 +140,20 @@ def build_replacements(bp: dict, existing_jsonld: dict | None) -> dict:
     og_description = positioning  # 完整定位陳述
     twitter_description = bio_short or positioning
 
+    # Head 區的 marker 要包整個 element（因為 HTML 註解放 <title> 或 <meta content> 內
+    # 會被當成純文字，不會被瀏覽器當成 comment）
+    ht = html.escape(head_title)
     return {
-        # Head
-        "head_title": html.escape(head_title),
-        "meta_description": html.escape(positioning),
-        "meta_author": html.escape(name),
-        "meta_keywords": html.escape(", ".join(keywords)),
-        "og_title": html.escape(head_title),
-        "og_description": html.escape(og_description),
-        "og_site_name": html.escape(name),
-        "twitter_title": html.escape(head_title),
-        "twitter_description": html.escape(twitter_description),
+        # Head — 每個值是完整 element 字串
+        "head_title": f"<title>{ht}</title>",
+        "meta_description": f'<meta name="description" content="{html.escape(positioning)}">',
+        "meta_author": f'<meta name="author" content="{html.escape(name)}">',
+        "meta_keywords": f'<meta name="keywords" content="{html.escape(", ".join(keywords))}">',
+        "og_title": f'<meta property="og:title" content="{ht}">',
+        "og_description": f'<meta property="og:description" content="{html.escape(og_description)}">',
+        "og_site_name": f'<meta property="og:site_name" content="{html.escape(name)}">',
+        "twitter_title": f'<meta name="twitter:title" content="{ht}">',
+        "twitter_description": f'<meta name="twitter:description" content="{html.escape(twitter_description)}">',
         "jsonld": _build_jsonld_html(bp, existing_jsonld),
 
         # Body
