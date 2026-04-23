@@ -1,5 +1,34 @@
 # 昆廷老師個人品牌網站 — 版本歷程
 
+## [2026-04-23] 全自動化排程：每天 08:30 自動產文 + 發社群
+
+### 變更內容
+- 新增 `daily-auto.bat`：Task Scheduler 用的全自動化批次檔
+  - 無互動、headless、log 寫到 `auto-post/logs/daily-auto.log`
+  - 跑 `python -m exposure.daily_pipeline --publish --headless` → 自動產內容 + 發 LinkedIn/Threads
+  - 自動 git commit + push 網站
+- 修改 `daily-publish.bat`（手動版）：新增 3 選項
+  - `y` = 發佈網站 + 自動發 LinkedIn + 自動發 Threads（非 headless，彈窗可見）
+  - `w` = 只發網站，LinkedIn/Threads 手動貼
+  - `n` = 都不發
+- Windows Task Scheduler 新增排程 `Exposure-DailyAutoPublish`
+  - 每天 08:30 自動跑 `daily-auto.bat`
+  - Status: Ready，Next Run: 2026-04-24 08:30
+
+### 原因
+- 使用者選擇方案 B（連社群發文也自動化），理由是「已經有 auto-post 專案在用 LinkedIn 發文」
+- 複用 auto-post 既有 Playwright poster（持久登入 session + 擬人化 timing）
+- Threads 串文自動發「第一則」（hook 句，足夠吸引點閱；後續若要發完整串文需擴充 threads_poster 支援多則）
+- YouTube 跳過（需實錄影片）
+
+### 影響範圍
+- 每天 08:30 會自動：挑題 → Claude 產 4 平台版 → 寫文章頁 → 更新首頁 + sitemap → git push → headless Playwright 發 LinkedIn → headless Playwright 發 Threads 第一則
+- 使用者每天只需查看 `auto-post/logs/daily-auto.log` 驗證狀態
+- 若想臨時跳過某天：PowerShell 執行 `Disable-ScheduledTask -TaskName 'Exposure-DailyAutoPublish'`
+
+### 帳號風險提醒
+- LinkedIn / Threads 對 bot-like 行為敏感，雖然用 persistent context + 擬人化 timing 降低風險，但**仍建議搭配定期人工監測**（每週看 weekly-report.bat 的結果，若發現被鎖帳號則暫停）
+
 ## [2026-04-23] 部署上線 https://etimmyqq-lab.github.io/
 
 ### 變更內容

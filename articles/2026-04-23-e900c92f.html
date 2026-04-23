@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>先分清楚「出錯」到底是哪一種｜昆廷老師</title>
+<meta name="description" content="上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們…">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-04-23-e900c92f.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="先分清楚「出錯」到底是哪一種">
+<meta property="og:description" content="上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們…">
+<meta property="article:author" content="昆廷老師">
+<meta property="article:published_time" content="2026-04-23">
+<meta property="og:site_name" content="昆廷老師">
+
+<!-- schema.org Article JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "先分清楚「出錯」到底是哪一種",
+  "description": "上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們…",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師"
+  },
+  "datePublished": "2026-04-23",
+  "keywords": "企業 AI 導入, Claude Code 在企業落地的實戰應用",
+  "inLanguage": "zh-Hant"
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-04-23 · 企業 AI 導入</div>
+        <h1 class="article-title">先分清楚「出錯」到底是哪一種</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們公司網路的 DNS 短暫抽風，跟 Claude 沒什麼關係。但那個當下的恐慌是真的——因為他們已經把一個禮拜的報價流程壓在上面跑了。</p>
+<p>這大概是我最近半年最常被問的問題。企業 AI 導入做到一半，老闆第二個問題永遠是：「萬一它出事怎麼辦？」</p>
+<p>我承認一開始我也低估了這個問題。Claude Code 本身穩定度很夠，但實際跑在中小企業的場景裡，會出錯的往往不是 AI 本身。是網路、是 API Key 額度、是檔案權限、是某個同事手滑改了 .env、是某天 Anthropic 發佈新版本 CLI 突然改了指令。真正讓事情當機的，八成是這些。</p>
+<h2>先分清楚「出錯」到底是哪一種</h2>
+<p>我會陪客戶先把「出錯」拆成四類，因為每一類的備援方式完全不一樣。</p>
+<p>第一類是<strong>網路或服務層的暫時性中斷</strong>。像 Anthropic 偶爾的 429 限流、公司防火牆擋住、或家裡的 WiFi 在下雨天抽風。這種其實不用備援，重試就好，但要在腳本裡寫好 retry 邏輯，指數退避，別讓它一次失敗就全部噴掉。我看過太多客戶的自動化腳本，一次 timeout 就把整批資料扔了，然後隔天來問我怎麼辦。</p>
+<p>第二類是<strong>指令層或 prompt 的錯誤</strong>。這種最麻煩，因為它會「看起來成功」。Claude Code 跑完了、檔案也生出來了，但內容是錯的。這時候備援不是換工具，是<strong>加驗證關卡</strong>——每一個關鍵輸出後面接一個檢查步驟。做報價就去驗金額合不合理，做 SQL 就先 dry run，做文件生成就留一個人工複核的卡點。</p>
+<p>第三類是<strong>帳號額度或金流斷掉</strong>。API Key 沒錢了、訂閱過期、公司財務那邊卡了張發票沒處理。這個我現在都會請客戶設兩組 Key——一組主用、一組備用，備用那組月初儲值一點點預算放著，純粹是斷頭救援用。</p>
+<p>第四類才是真正意義上的<strong>工具本身當機</strong>。說實話，這種我碰過的次數一隻手數得完。但客戶問備援方案的時候，想的都是這一類。</p>
+<h2>備援不是「換一個 AI」，是「人還能不能接手」</h2>
+<p>這是我這兩年陪跑下來最大的體會。</p>
+<p>很多企業主一問備援，直覺是「那我再裝一個 GPT，或是接一個 Gemini，Claude 掛了我就切過去」。聽起來合理，實務上通常做不到。因為每個模型對指令的理解不一樣、輸出格式不一樣、你寫好的 prompt 搬過去就是不一樣的結果。你以為有備胎，真出事那天才發現備胎從來沒打過氣。</p>
+<p>真正的備援，是<strong>當 AI 不能用的時候，人要有辦法在 30 分鐘內把事情接回來</strong>。</p>
+<p>這句話聽起來很土，但它是骨頭。意思是：你 AI 化的每一個流程，都要留一份「給人看的 SOP」。Claude Code 在跑的那個 workflow，背後的邏輯要寫成人類能執行的步驟。不是為了不用 AI，是為了確保當 AI 出事那天，公司不會停擺。</p>
+<p>我有個做食品貿易的客戶更絕，他要求每一個 AI 自動化的步驟，都要 log 一份純文字的操作軌跡到共享資料夾。這樣出事的時候，新來的工讀生拿著那份 log 都能手動跑一次。我一開始覺得他有點偏執，後來我發現，他公司是我陪過最不怕 AI 出事的一家。</p>
+<h2>講點易經的</h2>
+<p>這件事其實是《易經》裡很老的一個觀念——<strong>「君子終日乾乾，夕惕若厲，無咎」</strong>。乾卦九三爻辭。白話講就是：一天到晚往前衝的人，到了晚上要像面對危險一樣警惕，這樣才不會出事。</p>
+<p>我不是要神化易經，但這個提醒放在 AI 導入上太剛好。企業 AI 導入、Claude Code 教學走到後期，真正分出高下的，從來不是誰的 prompt 寫得比較炫，而是誰有在「夕惕若厲」——誰在每天晚上想一遍，如果明天這套東西不能用了，我的生意會不會停。</p>
+<p>會不會，就是備援成熟度的答案。</p>
+<p>易經講「時位」。AI 跑得順的時候是「時」，要衝；AI 出事的那一天是「位」，要守。一個中小企業真正的數位轉型，不是從不會用 AI 到會用 AI，是從「只會用 AI」到「AI 在、AI 不在都能運轉」。</p>
+<p>所以回到那位金屬加工客戶的電話。我那天沒有幫他修 DNS，也沒有幫他換平台。我陪他做了一件事：把那個卡住的報價流程，拆成 AI 做的部分跟人做的部分，各自寫一份 checklist。</p>
+<p>兩個禮拜後他打來跟我說，他睡得比較好了。</p>
+<p>沒別的。備援做到位，就是這個。</p>
+</article>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        昆廷老師，企業 AI 導入顧問，融合 Claude Code 教學與易經卦牌，協助中小企業在數位轉型的關鍵抉擇上，做出更穩、更準的決策。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">昆廷老師，企業 AI 導入顧問，融合 Claude Code 教學與易經卦牌，協助中小企業在數位轉型的關鍵抉擇上，做出更穩、更準的決策。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
