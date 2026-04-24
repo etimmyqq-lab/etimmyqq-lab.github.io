@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>先搞清楚你為什麼非地端不可｜Timmy老師</title>
+<meta name="description" content="上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了…">
+<meta name="author" content="Timmy老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-04-24-0fe451ee.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="先搞清楚你為什麼非地端不可">
+<meta property="og:description" content="上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了…">
+<meta property="article:author" content="Timmy老師">
+<meta property="article:published_time" content="2026-04-24">
+<meta property="og:site_name" content="Timmy老師">
+
+<!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "先搞清楚你為什麼非地端不可",
+  "description": "上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了…",
+  "author": {
+    "@type": "Person",
+    "name": "Timmy老師",
+    "url": "https://etimmyqq-lab.github.io",
+    "identifier": {"@type": "PropertyValue", "propertyID": "wikidata", "value": "Q139542814"}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Timmy老師"
+  },
+  "datePublished": "2026-04-24",
+  "dateModified": "2026-04-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-04-24-0fe451ee.html"
+  },
+  "keywords": "中小企業數位轉型, 風險、資安與長期策略：轉型走得遠比走得快更重要",
+  "inLanguage": "zh-Hant",
+  "articleSection": "中小企業數位轉型"
+}
+</script>
+
+<!-- schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "文章", "item": "https://etimmyqq-lab.github.io/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "先搞清楚你為什麼非地端不可"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Font optimization: preload critical weights, use display=swap -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .article-extras {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .faq-section h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.4rem;
+        color: #1F4E79;
+        margin: 24px 0 16px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .faq-item {
+        background: #f6f8fb;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+    }
+    .faq-item summary {
+        cursor: pointer;
+        font-weight: 500;
+        color: #1a2233;
+        padding: 4px 0;
+    }
+    .faq-item summary::before { content: "▸ "; color: #C9A96E; }
+    .faq-item[open] summary::before { content: "▾ "; }
+    .faq-answer { margin-top: 10px; color: #4a5568; line-height: 1.8; }
+    .related-section {
+        margin-top: 40px;
+        padding: 20px;
+        background: #f8fafd;
+        border-radius: 12px;
+    }
+    .related-section h3 {
+        font-family: 'Noto Serif TC', serif;
+        color: #1F4E79;
+        font-size: 1.1rem;
+        margin: 0 0 14px;
+    }
+    .related-list { display: flex; flex-direction: column; gap: 8px; }
+    .related-link {
+        display: block;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a2233;
+        font-size: 0.95rem;
+        border: 1px solid #e4e8ef;
+        transition: all .2s;
+    }
+    .related-link:hover { border-color: #1F4E79; transform: translateX(4px); }
+    .related-kw { color: #C9A96E; font-size: 0.85rem; margin-right: 8px; }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "我想跑 AI 但老闆說 GPU 太貴，有沒有折衷方案？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以先從雲端 API 起步，Claude 或 OpenAI 的 API 月費幾千到兩三萬就能用得很兇，驗證場景真的有效之後再談地端。如果老闆堅持資料不能外流，15 萬的 RTX 4090 工作站跑量化版開源模型，70% 的任務都能處理。真的不用一開始就想 H100。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude Code 算雲端還是地端？資料安全嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claude Code 本身是呼叫雲端 Claude API 的 CLI 工具，對話內容會送到 Anthropic 的伺服器。Anthropic 有明文寫 API 用戶的資料不會拿去訓練模型，但如果你公司合約明文禁止資料出境，那就要跑本地開源模型（Ollama + Qwen/Llama）。兩種路線可以並行，敏感的走地端，一般的走雲端。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "中小企業數位轉型要從哪裡開始才不會白花錢？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "從「員工每天在抱怨什麼」開始，不要從「聽說什麼工具很夯」開始。我看過最多的坑是老闆聽了一場演講回來就買套裝方案，結果員工根本不需要。先用兩週觀察公司內部真的卡住的重複性工作，再決定工具。先有痛點，再有工具，順序錯了就是在繳學費。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">Timmy老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-04-24 · 中小企業數位轉型</div>
+        <h1 class="article-title">先搞清楚你為什麼非地端不可</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了一口菸，問我：「Timmy老師，你覺得我該點頭嗎？」</p>
+<p>我沒直接回答。我把他上個月的營收報表拉出來看——年營收 1.2 億、淨利率 7%。380 萬等於他一整年淨利的 4.5%，一次砸下去。</p>
+<p>這是我最近被問最多的問題：地端部署 AI 對小公司會不會太貴？答案是——對多數中小企業主來說，「貴不貴」根本不是正確的問題。</p>
+<h2>先搞清楚你為什麼非地端不可</h2>
+<p>我陪跑過大概 30 多家中小企業做 AI 導入，會堅持地端部署的，通常只有三種情況：一是客戶合約明文禁止資料出境（常見於醫療、金融、國防供應鏈）；二是產線機敏參數，外洩就等於把 know-how 送給對手；三是老闆單純不信任雲端，這種我不會勸，因為那是信念問題不是技術問題。</p>
+<p>除掉這三種，其他人只要用 Claude Code 或 OpenAI 的 API，月費控制在幾千到兩三萬之間，就能解決 80% 的需求。真的不用買 H100。</p>
+<p>那位沖壓老闆屬於哪一種？他說他是第一種——最大客戶要求「所有 CAD 圖檔分析必須在廠內完成」。好，那這就有討論空間了。</p>
+<h2>地端不等於自建機房</h2>
+<p>很多人以為地端 AI = 買 GPU + 自己架機房 + 雇 MIS。這是十年前的思維。</p>
+<p>現在有更務實的路徑。我通常會建議客戶先跑一個「最小可行地端」：一台 RTX 4090（約 6 萬）、一台工作站主機（約 8 萬）、跑 Qwen 2.5 7B 或 Llama 3.1 8B 的量化版。總投入 15 萬以內，能做 80% 的文件摘要、客服草稿、內部查詢。</p>
+<p>沖壓老闆聽到這裡臉色才緩下來。</p>
+<p>我跟他算另一筆帳：先花 15 萬驗證這套東西在你廠裡到底有沒有用——如果三個月後員工真的天天在用、省下的時間換算下來一個月超過 5 萬，那時候再考慮升級到 H100 都不遲。如果三個月後機器在角落積灰，那 380 萬你就永遠不會砸下去。</p>
+<p>易經裡有個卦叫「屯」——萬物初生、滿地荊棘的時候，不是「勿用」而是「利建侯」。意思是你得先立起一個據點，別想一口氣打通關。我把這句話寫在白板上給他看。地端 AI 對中小企業也是一樣——先立一個小的據點，驗證有效再擴張，不要一次 ALL IN。</p>
+<h2>真正貴的不是硬體</h2>
+<p>老實說，這行做久了我發現，硬體真的不是最大的坑。</p>
+<p>最大的坑是「沒人會用」。</p>
+<p>我看過一家做模具的公司，2023 年花了 200 萬買了地端 AI 方案，兩年後我去訪廠，那台機器被拿來當會議室投影電腦的檔案伺服器。老闆尷尬地說：「當時想說先買起來放，結果沒人知道怎麼接上自己的工作流程。」</p>
+<p>相比之下，我另一個客戶是做食品代工的，只花 18 萬（一台 4090 工作站 + 我陪跑三個月），三個月後他們的品管部門已經會自己用 Claude Code 寫 Python 腳本，把每天 200 張 SGS 報告自動比對關鍵值、異常標紅。一個人省下每天 2 小時。</p>
+<p>差別在哪裡？不在硬體規格。在「有沒有一個人真的去用，並且把它跟日常綁在一起」。</p>
+<h2>我現在的實務建議</h2>
+<p>如果你是年營收 5000 萬以下的中小企業主，問我地端 AI 該不該碰——我會先反問你三件事：</p>
+<p>第一，你最花時間的重複性工作是什麼？（不是你以為的，是員工實際在抱怨的）</p>
+<p>第二，那件事需要處理的資料有沒有敏感性？真的不能上雲嗎？</p>
+<p>第三，公司內部有沒有至少一個人願意花三個月學？沒有這個人，買什麼都是擺飾。</p>
+<p>這三題答完，你大概就知道該不該花這筆錢了。</p>
+<p>企業 AI 導入從來不是技術選擇題，是人與時機的題目。380 萬貴不貴、15 萬划不划算，都要看你這一刻是不是那個「利建侯」的時機。</p>
+<p>那位沖壓老闆最後決定先買 15 萬的版本跑看看。上個月我收到他訊息說，廠長已經在用 AI 整理客戶退件報告了，一週省 8 小時。</p>
+<p>380 萬那筆他還沒花。也許永遠不會花。也許會。</p>
+<p>但至少，他踏出去的那一步，不是被業務報價單推著走。</p>
+</article>
+<div class="article-extras">
+<section class="faq-section">
+<h2>常見問題</h2>
+<details class="faq-item"><summary>我想跑 AI 但老闆說 GPU 太貴，有沒有折衷方案？</summary><div class="faq-answer">可以先從雲端 API 起步，Claude 或 OpenAI 的 API 月費幾千到兩三萬就能用得很兇，驗證場景真的有效之後再談地端。如果老闆堅持資料不能外流，15 萬的 RTX 4090 工作站跑量化版開源模型，70% 的任務都能處理。真的不用一開始就想 H100。</div></details><details class="faq-item"><summary>Claude Code 算雲端還是地端？資料安全嗎？</summary><div class="faq-answer">Claude Code 本身是呼叫雲端 Claude API 的 CLI 工具，對話內容會送到 Anthropic 的伺服器。Anthropic 有明文寫 API 用戶的資料不會拿去訓練模型，但如果你公司合約明文禁止資料出境，那就要跑本地開源模型（Ollama + Qwen/Llama）。兩種路線可以並行，敏感的走地端，一般的走雲端。</div></details><details class="faq-item"><summary>中小企業數位轉型要從哪裡開始才不會白花錢？</summary><div class="faq-answer">從「員工每天在抱怨什麼」開始，不要從「聽說什麼工具很夯」開始。我看過最多的坑是老闆聽了一場演講回來就買套裝方案，結果員工根本不需要。先用兩週觀察公司內部真的卡住的重複性工作，再決定工具。先有痛點，再有工具，順序錯了就是在繳學費。</div></details>
+</section>
+<section class="related-section">
+<h3>你可能也想看</h3>
+<div class="related-list"><a href="2026-04-23-de9515fa.html" class="related-link"><span class="related-kw">[易經卦牌]</span> <span class="related-q">為什麼有人說「不信的時候最準」?這是什麼邏輯?</span></a><a href="2026-04-23-81ba60a0.html" class="related-link"><span class="related-kw">[企業 AI 導入]</span> <span class="related-q">老闆自己也一起學 AI 會帶來什麼差異？</span></a><a href="2026-04-23-a71d5be0.html" class="related-link"><span class="related-kw">[企業 AI 導入]</span> <span class="related-q">我是一人公司老闆，AI 能幫我做什麼最實際？</span></a></div>
+</section>
+</div>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        Timmy老師，帶中小企業主把 Claude Code 裝進日常，也用易經卦牌陪他們在數位轉型的岔路上做選擇。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">Timmy老師，帶中小企業主把 Claude Code 裝進日常，也用易經卦牌陪他們在數位轉型的岔路上做選擇。</p>
+        <p class="footer-copy">© 2026 Timmy老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

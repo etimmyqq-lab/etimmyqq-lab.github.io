@@ -4,9 +4,25 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-04-23T14:02:39.880106+00:00</updated>
+  <updated>2026-04-24T00:41:02.420173+00:00</updated>
   <subtitle>Timmy老師，帶中小企業主把 Claude Code 裝進日常，也用易經卦牌陪他們在數位轉型的岔路上做選擇。</subtitle>
   <author><name>Timmy老師</name></author>
+  <entry>
+    <title>我一開始也不信</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-04-24-6caf6adb.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-04-24-6caf6adb.html</id>
+    <updated>2026-04-24T08:00:00+08:00</updated>
+    <summary>上週三下午，一位做水五金外銷的老闆娘傳訊息給我，劈頭就問：「Timmy老師，你用易經幫客戶決策，會不會被笑啊？」我笑了一下，回她：「會。上個月才被笑過。」</summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
+  <entry>
+    <title>先搞清楚你為什麼非地端不可</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-04-24-0fe451ee.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-04-24-0fe451ee.html</id>
+    <updated>2026-04-24T08:00:00+08:00</updated>
+    <summary>上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了…</summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
   <entry>
     <title>「不信的時候最準」——這句話是心理學，不是玄學</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-04-23-de9515fa.html"/>
