@@ -14,6 +14,22 @@
 
 ## 全部文章
 
+### 真正的風險，不是駭客，是你的員工
+
+URL: https://etimmyqq-lab.github.io/articles/2026-04-27-81acc446.html
+主題: 中小企業數位轉型
+日期: 2026-04-27
+
+上個月陪一家做 PCB 板的老闆開內部會議，討論要不要讓業務用 AI 幫忙寫報價單。快散會的時候，他問了一句：「我讓員工用 ChatGPT，客戶的報價資料有沒有…
+
+### 一、卦牌 App：選不混占星塔羅那種
+
+URL: https://etimmyqq-lab.github.io/articles/2026-04-26-18a837ea.html
+主題: 易經卦牌
+日期: 2026-04-26
+
+上週四晚上十點半，一個做寵物食品代工的老闆在 LINE 傳訊息給我，問的不是 Claude Code 怎麼裝，是「老師我手邊那本《周易本義》翻爛了，但我每天通勤…
+
 ### 老闆兼 AI 負責人,不是學不學得會的問題
 
 URL: https://etimmyqq-lab.github.io/articles/2026-04-25-7700884e.html
