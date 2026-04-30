@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>需求表單｜昆廷老師</title>
+<meta name="description" content="先用需求表單整理你的現況、目標與優先問題，再決定要談企業 AI 導入、Claude Code 教學或數位轉型。">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/intake.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/intake.html">
+<meta property="og:title" content="需求表單｜昆廷老師">
+<meta property="og:description" content="先整理你的現況、目標與優先問題，再決定下一步。">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="需求表單｜昆廷老師">
+<meta name="twitter:description" content="先整理你的現況、目標與優先問題，再決定下一步。">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="service-page">
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="index.html" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="about.html">作者</a>
+            <a href="cooperation.html">合作方式</a>
+            <a href="index.html#services">服務</a>
+            <a href="learn-claude.html">Claude 教學</a>
+        </nav>
+    </div>
+</header>
+
+<section class="service-hero">
+    <div class="container service-grid">
+        <div class="service-copy">
+            <p class="hero-eyebrow">需求表單</p>
+            <h1>先把現況整理清楚，再決定要不要聊</h1>
+            <p>很多人不是沒有需求，而是不知道自己卡的是 AI 導入、Claude Code 教學，還是數位轉型順序。這份表單的目的，就是幫你先把問題說清楚。</p>
+            <p>填完之後，你可以直接開信寄給我，或先把摘要複製起來。這樣我比較容易判斷你適合先談什麼，也能節省來回說明的時間。</p>
+            <div class="service-badges">
+                <span>先整理問題</span>
+                <span>降低聯絡門檻</span>
+                <span>提高詢問品質</span>
+            </div>
+        </div>
+        <div class="service-side">
+            <div class="service-box">
+                <h2>適合這樣用</h2>
+                <ul>
+                    <li>你知道想導入 AI，但不知道第一步是什麼。</li>
+                    <li>你想學 Claude Code，但不確定該上課還是先自學。</li>
+                    <li>你公司流程很亂，想先判斷是不是轉型問題。</li>
+                </ul>
+            </div>
+            <div class="service-box">
+                <h3>不用一次寫很完整</h3>
+                <p>只要能說清楚你是誰、現在卡哪裡、希望先改善什麼，就已經足夠開始。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="service-body">
+    <div class="container service-sections">
+        <section class="service-section-card">
+            <h2>需求表單</h2>
+            <form id="intake-form" class="intake-form">
+                <label>
+                    你的身份
+                    <select name="identity">
+                        <option value="企業主">企業主</option>
+                        <option value="主管">主管</option>
+                        <option value="社會人士">社會人士</option>
+                        <option value="創業者">創業者</option>
+                        <option value="其他">其他</option>
+                    </select>
+                </label>
+
+                <label>
+                    想談的主題
+                    <select name="topic">
+                        <option value="企業 AI 導入">企業 AI 導入</option>
+                        <option value="Claude Code 教學">Claude Code 教學</option>
+                        <option value="數位轉型">數位轉型</option>
+                        <option value="還不確定，想先判斷">還不確定，想先判斷</option>
+                    </select>
+                </label>
+
+                <label>
+                    目前最卡的一件事
+                    <textarea name="pain" rows="4" placeholder="例如：團隊知道要做 AI，但不知道先從哪個流程開始。"></textarea>
+                </label>
+
+                <label>
+                    你希望一個月內先看到的改變
+                    <textarea name="goal" rows="4" placeholder="例如：先找出一個可試做的 AI 場景，並讓團隊開始使用。"></textarea>
+                </label>
+
+                <label>
+                    補充背景
+                    <textarea name="context" rows="4" placeholder="例如：公司規模、目前用過哪些工具、誰會一起參與。"></textarea>
+                </label>
+
+                <div class="intake-actions">
+                    <button type="button" id="open-mail" class="btn btn-primary">整理後直接開信</button>
+                    <button type="button" id="copy-summary" class="btn btn-ghost">複製需求摘要</button>
+                </div>
+            </form>
+
+            <div class="intake-summary">
+                <h3>預覽摘要</h3>
+                <pre id="summary-output">你的需求摘要會顯示在這裡。</pre>
+                <p id="copy-feedback" class="intake-feedback" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <section class="cta-panel">
+            <h2>還想先看合作方式？</h2>
+            <p>如果你還在判斷我適不適合，也可以先看合作流程、匿名案例與適合對象，再決定要不要送出需求。</p>
+            <div class="hero-cta">
+                <a href="cooperation.html" class="btn btn-primary">看合作方式與案例</a>
+                <a href="index.html#services" class="btn btn-ghost">回服務總覽</a>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">企業 AI 導入顧問，提供 Claude Code 教學、數位轉型實作與易經決策對話。昆廷老師陪中小企業主與社會人士先想清楚問題，再把 AI 工具真正接進工作流程。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+const form = document.getElementById('intake-form');
+const summaryOutput = document.getElementById('summary-output');
+const copyFeedback = document.getElementById('copy-feedback');
+const mailButton = document.getElementById('open-mail');
+const copyButton = document.getElementById('copy-summary');
+
+function buildSummary() {
+    const data = new FormData(form);
+    const identity = data.get('identity') || '未填寫';
+    const topic = data.get('topic') || '未填寫';
+    const pain = (data.get('pain') || '').trim() || '未填寫';
+    const goal = (data.get('goal') || '').trim() || '未填寫';
+    const context = (data.get('context') || '').trim() || '未填寫';
+
+    return [
+        '我是：' + identity,
+        '想談的主題：' + topic,
+        '目前最卡的一件事：',
+        pain,
+        '',
+        '我希望一個月內先看到的改變：',
+        goal,
+        '',
+        '補充背景：',
+        context
+    ].join('\n');
+}
+
+function refreshSummary() {
+    summaryOutput.textContent = buildSummary();
+}
+
+form.addEventListener('input', refreshSummary);
+refreshSummary();
+
+mailButton.addEventListener('click', function () {
+    const data = new FormData(form);
+    const topic = data.get('topic') || '需求';
+    const subject = encodeURIComponent('我想談 ' + topic);
+    const body = encodeURIComponent(buildSummary());
+    window.location.href = 'mailto:etimmyqq@gmail.com?subject=' + subject + '&body=' + body;
+});
+
+copyButton.addEventListener('click', async function () {
+    try {
+        await navigator.clipboard.writeText(buildSummary());
+        copyFeedback.textContent = '需求摘要已複製，可以直接貼到 Email 或 LINE。';
+    } catch (error) {
+        copyFeedback.textContent = '無法自動複製，請直接選取上方摘要。';
+    }
+});
+</script>
+</body>
+</html>
