@@ -475,6 +475,130 @@ body {
     margin-bottom: 8px;
 }
 
+.cta-panel {
+    background: linear-gradient(135deg, #15395a 0%, #1F4E79 100%);
+    color: #fff;
+    border-radius: var(--radius-lg);
+    padding: 34px 30px;
+    box-shadow: var(--shadow-lg);
+}
+
+.cta-panel h2,
+.cta-panel h3 {
+    font-family: 'Noto Serif TC', serif;
+    margin: 0 0 12px;
+    color: #fff;
+}
+
+.cta-panel p {
+    color: rgba(255, 255, 255, 0.84);
+    margin: 0 0 16px;
+}
+
+.cta-panel .hero-cta {
+    margin-top: 18px;
+}
+
+.cta-panel .btn-primary {
+    background: #fff;
+    color: var(--primary-dark);
+}
+
+.cta-panel .btn-primary:hover {
+    background: #f6f8fb;
+}
+
+.cta-panel .btn-ghost {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.58);
+}
+
+.cta-panel .btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.process-step {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 24px 22px;
+    box-shadow: var(--shadow);
+}
+
+.process-step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: #eef3f9;
+    color: var(--primary-dark);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.process-step h3 {
+    font-family: 'Noto Serif TC', serif;
+    color: var(--primary-dark);
+    margin: 0 0 10px;
+    font-size: 1.08rem;
+}
+
+.process-step p {
+    color: var(--ink-soft);
+    margin: 0;
+}
+
+.case-grid {
+    display: grid;
+    gap: 18px;
+}
+
+.case-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 26px 24px;
+    box-shadow: var(--shadow);
+}
+
+.case-tag {
+    display: inline-flex;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #eef3f9;
+    color: var(--primary-dark);
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.case-card h3 {
+    font-family: 'Noto Serif TC', serif;
+    color: var(--primary-dark);
+    margin: 0 0 12px;
+    font-size: 1.15rem;
+}
+
+.case-card p {
+    color: var(--ink-soft);
+    margin: 0 0 12px;
+}
+
+.fit-grid-wide {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+
 /* ─── Topics ─── */
 .topics-grid {
     display: grid;
