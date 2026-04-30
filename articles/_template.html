@@ -19,11 +19,21 @@
 <!-- Open Graph -->
 <meta property="og:type" content="article">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="{{CANONICAL}}">
 <meta property="og:title" content="{{TITLE}}">
 <meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:image" content="{{OG_IMAGE}}">
+<meta property="og:image:alt" content="{{TITLE}}｜{{AUTHOR_NAME}}">
 <meta property="article:author" content="{{AUTHOR_NAME}}">
 <meta property="article:published_time" content="{{DATE_ISO}}">
 <meta property="og:site_name" content="{{AUTHOR_NAME}}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TITLE}}">
+<meta name="twitter:description" content="{{DESCRIPTION}}">
+<meta name="twitter:image" content="{{OG_IMAGE}}">
+<meta name="twitter:image:alt" content="{{TITLE}}｜{{AUTHOR_NAME}}">
 
 <!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
 <script type="application/ld+json">
@@ -43,6 +53,7 @@
   },
   "datePublished": "{{DATE_ISO}}",
   "dateModified": "{{DATE_ISO}}",
+  "image": "{{OG_IMAGE}}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{CANONICAL}}"

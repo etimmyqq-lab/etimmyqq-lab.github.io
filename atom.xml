@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hant">
-  <title>Timmy老師｜用易經問卦，選 AI 該怎麼走</title>
+  <title>昆廷老師｜企業 AI 導入顧問，Claude Code 教學 × 易經決策</title>
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-04-29T11:30:53.035937+00:00</updated>
-  <subtitle>Timmy老師，帶中小企業主把 Claude Code 裝進日常，也用易經卦牌陪他們在數位轉型的岔路上做選擇。</subtitle>
-  <author><name>Timmy老師</name></author>
+  <updated>2026-04-30T00:50:31.347874+00:00</updated>
+  <subtitle>企業 AI 導入顧問，提供 Claude Code 教學、數位轉型實作與易經決策對話。昆廷老師陪中小企業主與社會人士先想清楚問題，再把 AI 工具真正接進工作流程。</subtitle>
+  <author><name>昆廷老師</name></author>
+  <entry>
+    <title>先說行情：不同規模的真實落點</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-04-30-9bc61355.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-04-30-9bc61355.html</id>
+    <updated>2026-04-30T08:00:00+08:00</updated>
+    <summary>去年十一月，一家做工業用扣件的老闆——員工大概三十五人的工廠——在我辦公室的白板上寫了一個數字：「500萬」。然後轉過頭問我：「老師，夠嗎？」</summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
   <entry>
     <title>人才任用的「最終判斷」，究竟是什麼</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-04-29-756168c7.html"/>
