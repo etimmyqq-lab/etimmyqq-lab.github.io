@@ -17,6 +17,13 @@
 <meta name="twitter:title" content="需求表單｜昆廷老師">
 <meta name="twitter:description" content="先整理你的現況、目標與優先問題，再決定下一步。">
 <meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3KEGWS9929');
+</script>
 <link rel="stylesheet" href="assets/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,6 +95,7 @@
                         <option value="企業 AI 導入">企業 AI 導入</option>
                         <option value="Claude Code 教學">Claude Code 教學</option>
                         <option value="數位轉型">數位轉型</option>
+                        <option value="易經牌卡諮詢">易經牌卡諮詢</option>
                         <option value="還不確定，想先判斷">還不確定，想先判斷</option>
                     </select>
                 </label>
@@ -144,6 +152,15 @@ const summaryOutput = document.getElementById('summary-output');
 const copyFeedback = document.getElementById('copy-feedback');
 const mailButton = document.getElementById('open-mail');
 const copyButton = document.getElementById('copy-summary');
+let hasTrackedFormStart = false;
+
+function trackEvent(name, params) {
+    if (typeof gtag !== 'function') {
+        return;
+    }
+
+    gtag('event', name, params || {});
+}
 
 function buildSummary() {
     const data = new FormData(form);
@@ -172,13 +189,28 @@ function refreshSummary() {
 }
 
 form.addEventListener('input', refreshSummary);
+form.addEventListener('input', function () {
+    if (!hasTrackedFormStart) {
+        hasTrackedFormStart = true;
+        trackEvent('intake_form_start', {
+            page_location: window.location.href
+        });
+    }
+});
 refreshSummary();
+trackEvent('view_intake_page', {
+    page_location: window.location.href
+});
 
 mailButton.addEventListener('click', function () {
     const data = new FormData(form);
     const topic = data.get('topic') || '需求';
     const subject = encodeURIComponent('我想談 ' + topic);
     const body = encodeURIComponent(buildSummary());
+    trackEvent('generate_lead', {
+        method: 'mailto',
+        topic: topic
+    });
     window.location.href = 'mailto:etimmyqq@gmail.com?subject=' + subject + '&body=' + body;
 });
 
@@ -186,6 +218,10 @@ copyButton.addEventListener('click', async function () {
     try {
         await navigator.clipboard.writeText(buildSummary());
         copyFeedback.textContent = '需求摘要已複製，可以直接貼到 Email 或 LINE。';
+        const data = new FormData(form);
+        trackEvent('copy_intake_summary', {
+            topic: data.get('topic') || '未填寫'
+        });
     } catch (error) {
         copyFeedback.textContent = '無法自動複製，請直接選取上方摘要。';
     }
