@@ -7,6 +7,12 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://etimmyqq-lab.github.io/about.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://etimmyqq-lab.github.io/services/enterprise-ai-consulting.html</loc>
         <lastmod>2026-04-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -104,6 +110,42 @@
     </url>
     <url>
         <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-9bc61355.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-ai-first-step.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-ai-failure-reasons.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-claude-code-non-coder.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-claude-code-vs-chatgpt.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-dx-process-or-tool.html</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://etimmyqq-lab.github.io/articles/2026-04-30-ai-foundation-before-tools.html</loc>
         <lastmod>2026-04-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
