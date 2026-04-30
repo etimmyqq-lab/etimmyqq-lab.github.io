@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude 怎麼用｜初級到中級完整教學｜昆廷老師</title>
+<meta name="description" content="昆廷老師的 Claude 教學。從零開始學怎麼跟 AI 對話、問對問題，到中級的角色設定、結構化輸出、商業場景應用——給老闆和社會人士，不是給工程師。">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/learn-claude.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/learn-claude.html">
+<meta property="og:title" content="Claude 怎麼用｜初級到中級完整教學｜昆廷老師">
+<meta property="og:description" content="從零開始學 Claude：問對問題、角色設定、商業應用場景。給老闆和社會人士的實用教學。">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Claude 怎麼用｜昆廷老師教學">
+<meta name="twitter:description" content="從零開始到中級應用，給老闆和社會人士的 Claude 實用教學。">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3KEGWS9929');</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "name": "Claude 怎麼用｜初級到中級完整教學",
+  "description": "昆廷老師的 Claude 教學，從零開始學怎麼跟 AI 對話、問對問題，到中級的角色設定、結構化輸出、商業場景應用。給老闆和社會人士，不是給工程師。",
+  "provider": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io/"
+  },
+  "educationalLevel": ["初級", "中級"],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "中小企業主、社會人士"
+  },
+  "url": "https://etimmyqq-lab.github.io/learn-claude.html",
+  "inLanguage": "zh-TW",
+  "teaches": [
+    "Claude 基本操作",
+    "Prompt 撰寫技巧",
+    "角色設定（System Prompt）",
+    "結構化輸出",
+    "商業場景應用",
+    "AI 輔助決策"
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+/* ── 教學頁專用樣式 ── */
+.learn-hero {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: #fff;
+  padding: 72px 0 56px;
+  text-align: center;
+}
+.learn-hero .eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.learn-hero h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  margin: 0 0 20px;
+  line-height: 1.3;
+}
+.learn-hero .lede {
+  font-size: 1.05rem;
+  opacity: 0.88;
+  max-width: 600px;
+  margin: 0 auto 32px;
+  line-height: 1.8;
+}
+.level-badges {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.level-badge {
+  padding: 6px 20px;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.level-badge.beginner { background: rgba(201,169,110,0.25); color: var(--accent); border: 1.5px solid var(--accent); }
+.level-badge.intermediate { background: rgba(255,255,255,0.15); color: #fff; border: 1.5px solid rgba(255,255,255,0.4); }
+
+/* ── Tab 切換 ── */
+.tab-wrapper {
+  position: sticky;
+  top: 64px;
+  z-index: 90;
+  background: var(--bg);
+  border-bottom: 2px solid var(--border);
+}
+.tab-nav {
+  display: flex;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.tab-btn {
+  padding: 18px 32px;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink-mute);
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+.tab-btn::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0; right: 0;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 3px 3px 0 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.tab-btn.active { color: var(--primary); }
+.tab-btn.active::after { opacity: 1; }
+.tab-btn .level-num {
+  display: inline-block;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--bg-alt);
+  font-size: 0.8rem;
+  line-height: 22px;
+  text-align: center;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.tab-btn.active .level-num {
+  background: var(--primary);
+  color: #fff;
+}
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
+
+/* ── 模組卡片 ── */
+.module-section { padding: 64px 0; }
+.module-section:nth-child(even) { background: var(--bg-alt); }
+.module-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.module-num {
+  flex-shrink: 0;
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.module-num.accent-num { background: var(--accent); }
+.module-title-group { flex: 1; }
+.module-kicker {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+.module-title-group h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.module-title-group .subtitle {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+/* ── 例子框 ── */
+.example-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+.example-box.accent-box { border-left-color: var(--accent); }
+.example-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 10px;
+}
+.example-box p { margin: 8px 0 0; color: var(--ink); line-height: 1.8; }
+.example-box code {
+  display: block;
+  font-family: 'Noto Sans TC', monospace;
+  font-size: 0.92rem;
+  color: var(--primary);
+  background: var(--bg-alt);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+/* ── 對比框（好 vs 壞） ── */
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0;
+}
+@media(max-width: 600px) { .compare-grid { grid-template-columns: 1fr; } }
+.compare-card {
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 1.5px solid;
+}
+.compare-card.bad { border-color: #e2b4b4; background: #fff8f8; }
+.compare-card.good { border-color: #b4d4b4; background: #f8fff8; }
+.compare-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.compare-card.bad .compare-label { color: #c0392b; }
+.compare-card.good .compare-label { color: #27ae60; }
+.compare-card p { margin: 0; font-size: 0.93rem; line-height: 1.75; color: var(--ink); }
+
+/* ── 場景卡 ── */
+.scenario-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 28px;
+}
+.scenario-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.scenario-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+.scenario-icon { font-size: 1.8rem; margin-bottom: 12px; }
+.scenario-card h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 10px; color: var(--ink); }
+.scenario-card p { font-size: 0.9rem; color: var(--ink-soft); margin: 0 0 16px; line-height: 1.7; }
+.scenario-card .prompt-hint {
+  font-size: 0.85rem;
+  color: var(--primary);
+  background: var(--bg-alt);
+  padding: 10px 14px;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+.prompt-hint strong { display: block; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-mute); margin-bottom: 4px; }
+
+/* ── 警示框 ── */
+.tip-box {
+  display: flex;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: var(--radius);
+  margin: 24px 0;
+}
+.tip-box.warning { background: #fffbf0; border: 1px solid #f5d96e; }
+.tip-box.info { background: #f0f6ff; border: 1px solid #b8d0f0; }
+.tip-box.success { background: #f0fff4; border: 1px solid #9ed4b0; }
+.tip-icon { font-size: 1.4rem; flex-shrink: 0; }
+.tip-box p { margin: 0; font-size: 0.93rem; line-height: 1.75; color: var(--ink); }
+
+/* ── 步驟清單 ── */
+.step-list { list-style: none; padding: 0; margin: 24px 0; }
+.step-list li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.step-num {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  margin-top: 2px;
+}
+.step-list li .step-text { font-size: 0.95rem; line-height: 1.75; color: var(--ink); }
+.step-list li .step-text strong { color: var(--primary); }
+
+/* ── 進度橫幅 ── */
+.progress-banner {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: #fff;
+  padding: 48px 0;
+  text-align: center;
+}
+.progress-banner h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.6rem;
+  margin: 0 0 12px;
+}
+.progress-banner p { opacity: 0.88; margin: 0 0 28px; }
+.progress-banner .btn-gold {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--primary-dark);
+  padding: 14px 32px;
+  border-radius: 100px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.progress-banner .btn-gold:hover { background: var(--accent-dark); }
+
+/* ── CTA 底部 ── */
+.learn-cta {
+  padding: 72px 0;
+  background: var(--bg-alt);
+  text-align: center;
+}
+.learn-cta h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.8rem;
+  margin: 0 0 16px;
+}
+.learn-cta p { color: var(--ink-soft); margin: 0 0 32px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+/* ── RWD ── */
+@media(max-width: 768px) {
+  .tab-btn { padding: 16px 18px; font-size: 0.9rem; }
+  .module-header { flex-direction: column; gap: 12px; }
+  .learn-hero { padding: 48px 0 40px; }
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">昆廷老師</a>
+    <nav class="nav-links">
+      <a href="index.html#services">服務</a>
+      <a href="learn-claude.html" style="color:var(--primary);font-weight:700;">Claude 教學</a>
+      <a href="index.html#articles">文章</a>
+      <a href="index.html#contact">聯絡</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="learn-hero">
+  <div class="container">
+    <p class="eyebrow">Claude 教學 · 昆廷老師</p>
+    <h1>Claude 怎麼用<br>從零到真的能用</h1>
+    <p class="lede">這不是工程師的課。這是給老闆和社會人士的 Claude 實用指南——學會問對問題，再讓 AI 把效率拉快。</p>
+    <div class="level-badges">
+      <span class="level-badge beginner">初級：基本操作</span>
+      <span class="level-badge intermediate">中級：商業應用</span>
+    </div>
+  </div>
+</section>
+
+<!-- Tab 導覽 -->
+<div class="tab-wrapper">
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="switchTab('beginner', this)">
+      <span class="level-num">1</span>初級使用
+    </button>
+    <button class="tab-btn" onclick="switchTab('intermediate', this)">
+      <span class="level-num">2</span>中級運用
+    </button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════
+     初級 TAB
+════════════════════════════════════ -->
+<div id="tab-beginner" class="tab-pane active">
+
+  <!-- 模組 1：Claude 是什麼 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num">1</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 01 · 初級</div>
+          <h2>Claude 是什麼？跟 ChatGPT 差在哪？</h2>
+          <p class="subtitle">先搞清楚你在跟誰說話，再開口</p>
+        </div>
+      </div>
+
+      <p>Claude 是 Anthropic 開發的 AI 助理。你可以直接在瀏覽器打開 <strong>claude.ai</strong>，不用裝任何東西，跟它用中文對話——它的中文表達能力比很多人想像的好很多。</p>
+
+      <p>跟 ChatGPT 比起來，Claude 有幾個地方讓我比較常推薦給不是工程師背景的人用：</p>
+
+      <div class="scenario-grid" style="margin-top:20px;">
+        <div class="scenario-card">
+          <div class="scenario-icon">📄</div>
+          <h3>長文件處理能力強</h3>
+          <p>你可以把一份合約、一篇報告、甚至整份 SOP 貼進去，請它幫你摘要或找問題。ChatGPT 早期這塊比較弱，Claude 從一開始就設計來處理長文本。</p>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🎯</div>
+          <h3>指令執行比較老實</h3>
+          <p>你說「只要回答三點，不要多說」，它通常就真的只說三點。有時候 AI 喜歡自己發揮，Claude 在這塊比較守規矩。</p>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🗣️</div>
+          <h3>對話感比較自然</h3>
+          <p>用中文問它問題，它的回答比較像一個有在思考的人，不太會出現那種「以下是五個要點：」的官腔格式——除非你要求它這樣。</p>
+        </div>
+      </div>
+
+      <div class="tip-box info" style="margin-top:28px;">
+        <div class="tip-icon">💡</div>
+        <p><strong>怎麼開始？</strong>打開 claude.ai，用 Google 帳號登入，就可以直接免費用了。免費版每天有使用次數上限；如果你每天都在用，Pro 版（每月約 600 元台幣）值得訂閱。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 2：問對問題 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num">2</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 02 · 初級</div>
+          <h2>問對問題的基本功</h2>
+          <p class="subtitle">為什麼你覺得 Claude 沒用，通常是因為問得太模糊</p>
+        </div>
+      </div>
+
+      <p>很多人第一次用 Claude 的感受是「還好啊，跟我想的差不多」。問題通常不在 Claude，而在問題本身。</p>
+
+      <p>你給的資訊越具體，它給的答案越有用。這個道理跟你交代工作給員工是一樣的——你說「幫我做個簡報」跟「幫我做一個給客戶的三頁簡報，說明我們這次漲價的原因，語氣要誠懇但堅定」，結果完全不一樣。</p>
+
+      <div class="compare-grid">
+        <div class="compare-card bad">
+          <div class="compare-label">❌ 太模糊，結果不實用</div>
+          <p>「幫我寫一封 email」</p>
+        </div>
+        <div class="compare-card good">
+          <div class="compare-label">✅ 具體，拿到可以直接用的結果</div>
+          <p>「幫我寫一封給廠商的信，說明這批貨有 3% 瑕疵品，我們要求退換，語氣要專業但不強硬，大約 150 字」</p>
+        </div>
+      </div>
+
+      <div class="compare-grid">
+        <div class="compare-card bad">
+          <div class="compare-label">❌ 問題太大，答案都是廢話</div>
+          <p>「幫我分析我的公司要怎麼做數位轉型」</p>
+        </div>
+        <div class="compare-card good">
+          <div class="compare-label">✅ 縮小範圍，答案有行動性</div>
+          <p>「我是一家 20 人的製造業，目前訂單管理還靠 LINE 和 Excel。幫我列出導入 AI 工具的三個優先步驟，每個步驟說明理由。」</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:32px; color:var(--ink);">三個讓問題變好的方法</h3>
+
+      <ul class="step-list">
+        <li>
+          <div class="step-num">1</div>
+          <div class="step-text"><strong>說明你的身份和情境</strong>：「我是做 B2B 業務的業務主管」或「我在準備一個給老闆的報告」，Claude 就會用對的角度幫你。</div>
+        </li>
+        <li>
+          <div class="step-num">2</div>
+          <div class="step-text"><strong>說清楚你要的格式和長度</strong>：「用條列式」「寫成一封信」「100 字內」「表格呈現」——這些指令 Claude 都聽得懂。</div>
+        </li>
+        <li>
+          <div class="step-num">3</div>
+          <div class="step-text"><strong>說清楚給誰看的</strong>：「這是要給不懂技術的老闆看的」或「對象是剛入職的新人」，它會自動調整複雜度和用詞。</div>
+        </li>
+      </ul>
+
+      <div class="example-box">
+        <div class="example-label">完整範例 Prompt</div>
+        <code>我是一家餐廳的老闆，想對老客戶發一則 LINE 訊息，
+告知我們調整了部分菜色定價（平均漲 15%）。
+請幫我寫一則約 80 字的訊息，
+語氣要誠懇、誠實，不要講太多理由，
+結尾給個小優惠提示（如：本月生日客人九折）。</code>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 3：5 個日常場景 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num">3</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 03 · 初級</div>
+          <h2>從今天就能用的 6 個場景</h2>
+          <p class="subtitle">不用學新技能，直接套用這些 Prompt 框架</p>
+        </div>
+      </div>
+
+      <div class="scenario-grid">
+        <div class="scenario-card">
+          <div class="scenario-icon">📝</div>
+          <h3>整理會議記錄</h3>
+          <p>把錄音轉文字的逐字稿或筆記貼進去，請它整理成結構清楚的會議摘要。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 範例</strong>
+            以下是今天開會的逐字記錄，請整理成：決議事項、待辦事項（含負責人）、下次開會要確認的問題。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">✉️</div>
+          <h3>寫信 / 回信</h3>
+          <p>告訴它情況、對象、語氣，讓它起草。你再修改細節，比自己從頭寫快三倍。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 範例</strong>
+            幫我寫一封婉拒廠商報價的信，對方是長期合作夥伴，原因是這次預算縮減，語氣要有禮貌且留有餘地。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">📊</div>
+          <h3>資料摘要與整理</h3>
+          <p>把一篇長報告、一份 PDF 文字、或一大段說明貼進去，請它抓重點。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 範例</strong>
+            以下是一份產業報告（xxx 字），請用五個條列點說明對我們這種中小型製造業最相關的資訊。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🌐</div>
+          <h3>翻譯與潤稿</h3>
+          <p>不只翻譯，還可以要求它「翻成正式商業用語」或「把這段英文整理成可以貼到 LinkedIn 的格式」。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 範例</strong>
+            把以下英文合約條款翻成繁體中文，遇到法律術語請保留英文並在括弧內加上中文說明。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">📋</div>
+          <h3>草擬計畫或 SOP</h3>
+          <p>說明你要解決的問題和限制條件，請它幫你起草第一版。你再補細節，比空白頁開始快多了。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 範例</strong>
+            我要做一個新員工前 30 天的到職 SOP，公司是 15 人的貿易公司。請列出七個階段，每個階段說明目標和主要任務。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🔍</div>
+          <h3>解釋你不懂的東西</h3>
+          <p>看到不懂的術語、條款、或新聞，直接貼給 Claude，請它用你聽得懂的語言解釋。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 範例</strong>
+            幫我解釋「責任保險的除外條款」是什麼意思，我是第一次看保險合約的老闆，請用日常語言說明。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 4：注意事項 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num">4</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 04 · 初級</div>
+          <h2>用之前要知道的三件事</h2>
+          <p class="subtitle">避開常見的錯誤認知</p>
+        </div>
+      </div>
+
+      <div class="tip-box warning">
+        <div class="tip-icon">⚠️</div>
+        <p><strong>不要輸入公司機密。</strong>你跟 Claude 說的話，預設情況下 Anthropic 可能用來改善模型。合約內容、客戶名單、財務數字、員工個資——這些不要貼進去。如果公司有嚴格的資安政策，先確認再用。</p>
+      </div>
+
+      <div class="tip-box warning">
+        <div class="tip-icon">⚠️</div>
+        <p><strong>Claude 會說錯話，你要驗證。</strong>它有時候會生成看起來很合理、但根本不存在的數據或法規。數字、日期、法律條文——一定要自己確認。把它當「有水準的草稿機」，不是「百科全書」。</p>
+      </div>
+
+      <div class="tip-box success">
+        <div class="tip-icon">✅</div>
+        <p><strong>不滿意就直接說。</strong>Claude 不會生氣。「這個寫得太官腔，重寫一版口語一點的」「前兩點好，第三點換成講風險」——直接說它就會改。不用客氣，也不需要重新問一次。</p>
+      </div>
+
+      <div class="tip-box info">
+        <div class="tip-icon">💡</div>
+        <p><strong>用完就關，不會記住你。</strong>每次開新對話，Claude 不記得上次你說過什麼。如果你有特定的背景資訊想讓它每次都知道（例如：公司規模、產業、你的職位），可以存一段說明，每次開頭貼進去。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 過渡到中級 -->
+  <div class="progress-banner">
+    <div class="container">
+      <h2>初級用熟了？</h2>
+      <p>學會問對問題只是第一步。中級開始教你怎麼把 Claude 真正接進工作流程——角色設定、結構化輸出、商業分析場景。</p>
+      <a href="#" class="btn-gold" onclick="switchTab('intermediate', document.querySelectorAll('.tab-btn')[1]); return false;">進入中級教學 →</a>
+    </div>
+  </div>
+
+</div><!-- /tab-beginner -->
+
+
+<!-- ════════════════════════════════════
+     中級 TAB
+════════════════════════════════════ -->
+<div id="tab-intermediate" class="tab-pane">
+
+  <!-- 中級導言 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="tip-box info">
+        <div class="tip-icon">📌</div>
+        <p>中級的重點不是「更厲害的技巧」，而是<strong>把 Claude 系統性地接進你的工作流程</strong>。你不用每次都從頭解釋自己是誰、想要什麼——學會設定角色和結構，每次用起來都順很多。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 1：角色設定 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num accent-num">1</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 01 · 中級</div>
+          <h2>給 Claude 一個角色（System Prompt）</h2>
+          <p class="subtitle">讓它每次開口就知道自己在扮演什麼</p>
+        </div>
+      </div>
+
+      <p>初級的問法是「每次臨時說」。中級是「一開始就設定好角色」，之後每次問它，它都帶著那個角色的知識和語氣回答你。</p>
+
+      <p>最簡單的做法：在對話的開頭，先說一段「角色設定」。</p>
+
+      <div class="example-box accent-box">
+        <div class="example-label">角色設定範例：業務顧問</div>
+        <code>你是一個在製造業服務超過 15 年的資深業務顧問，
+熟悉 B2B 大客戶談判和長期客戶關係維護。
+我接下來問你的問題，請用實際業務場景的角度回答，
+不要給理論性的建議，要給可以馬上試的具體做法。</code>
+      </div>
+
+      <div class="example-box accent-box">
+        <div class="example-label">角色設定範例：人資主管</div>
+        <code>你是一個有 10 年台灣中小企業人資管理經驗的 HR 主管，
+熟悉勞基法和實務操作之間的落差。
+我接下來問你的問題，請用台灣中小企業實際情況回答，
+法律條文要說清楚，但也告訴我實務上通常怎麼處理。</code>
+      </div>
+
+      <h3 style="margin-top:32px; color:var(--ink);">角色設定的三個要素</h3>
+      <ul class="step-list">
+        <li>
+          <div class="step-num">1</div>
+          <div class="step-text"><strong>身份</strong>：這個角色是誰？做什麼的？幾年經驗？讓 Claude 知道從什麼視角說話。</div>
+        </li>
+        <li>
+          <div class="step-num">2</div>
+          <div class="step-text"><strong>知識背景</strong>：它對什麼特別熟悉？這樣它的回答會更精準，不會給通用的廢話。</div>
+        </li>
+        <li>
+          <div class="step-num">3</div>
+          <div class="step-text"><strong>回答風格</strong>：具體還是概念性？直接還是帶分析？幾個要點？告訴它你要的格式。</div>
+        </li>
+      </ul>
+
+      <div class="tip-box info">
+        <div class="tip-icon">💡</div>
+        <p>把你常用的角色設定存在手機備忘錄或電腦記事本裡。下次開新對話，直接貼進去，不用重寫。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 2：結構化輸出 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num accent-num">2</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 02 · 中級</div>
+          <h2>要求結構化輸出</h2>
+          <p class="subtitle">讓 Claude 給你可以直接用的東西，而不是再改一遍</p>
+        </div>
+      </div>
+
+      <p>Claude 很容易給你一大段文字，但你真正需要的可能是一份表格、一個清單、或者一個可以貼進 PPT 的結構。這件事你要主動要求。</p>
+
+      <div class="compare-grid">
+        <div class="compare-card bad">
+          <div class="compare-label">❌ 輸出是一大段，還要自己拆</div>
+          <p>「分析一下這三家廠商的優缺點」</p>
+        </div>
+        <div class="compare-card good">
+          <div class="compare-label">✅ 直接出表格，可以貼進簡報</div>
+          <p>「用表格比較這三家廠商，欄位包含：價格、交期、品質穩定度、售後服務，每格用一到兩句評語。」</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:28px; color:var(--ink);">常用的輸出格式指令</h3>
+
+      <div class="scenario-grid">
+        <div class="scenario-card">
+          <div class="scenario-icon">📋</div>
+          <h3>清單格式</h3>
+          <div class="prompt-hint">
+            <strong>Prompt 指令</strong>
+            請用條列式列出，每點不超過兩句話，不要加說明段落。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">📊</div>
+          <h3>表格格式</h3>
+          <div class="prompt-hint">
+            <strong>Prompt 指令</strong>
+            請用 Markdown 表格呈現，欄位是：項目、優點、缺點、適合情境。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">📄</div>
+          <h3>報告格式</h3>
+          <div class="prompt-hint">
+            <strong>Prompt 指令</strong>
+            用以下結構輸出：【摘要】一段、【主要發現】三點、【建議行動】三點，每個建議附理由。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">💬</div>
+          <h3>對話 / 腳本格式</h3>
+          <div class="prompt-hint">
+            <strong>Prompt 指令</strong>
+            請以「業務：」和「客戶：」交替的對話格式呈現，模擬客戶提出價格異議的情境。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 3：多輪對話技巧 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num accent-num">3</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 03 · 中級</div>
+          <h2>多輪對話技巧</h2>
+          <p class="subtitle">不要每次都重新問，學會在同一個對話裡繼續深挖</p>
+        </div>
+      </div>
+
+      <p>很多人用 Claude 的方式是：問一個問題，拿到答案，關掉。下次有問題再開新的。這樣很浪費。</p>
+
+      <p>Claude 在同一個對話視窗裡，會記得你之前說的所有東西。你可以在它的回答上直接繼續挖：</p>
+
+      <ul class="step-list">
+        <li>
+          <div class="step-num">1</div>
+          <div class="step-text"><strong>局部修改</strong>：「第二點寫得太官方，改成口語一點，但意思不要變。」</div>
+        </li>
+        <li>
+          <div class="step-num">2</div>
+          <div class="step-text"><strong>追問</strong>：「剛才說的第三個建議，可以舉一個台灣中小企業的真實例子嗎？」</div>
+        </li>
+        <li>
+          <div class="step-num">3</div>
+          <div class="step-text"><strong>加入新條件</strong>：「如果我的預算只有 10 萬，剛才那個計畫要怎麼調整？」</div>
+        </li>
+        <li>
+          <div class="step-num">4</div>
+          <div class="step-text"><strong>要求反向思考</strong>：「你剛才給了支持這個決策的理由，現在給我三個反對的理由。」</div>
+        </li>
+      </ul>
+
+      <div class="example-box accent-box">
+        <div class="example-label">多輪對話範例（節錄）</div>
+        <code>你：幫我分析這份客戶提案，找出三個潛在風險。
+
+Claude：[給出三個風險分析]
+
+你：第二個風險最讓我擔心。這個問題在合約上
+   要怎麼保護自己？請給我具體的合約條款方向。
+
+Claude：[針對第二個風險的合約保護建議]
+
+你：把這些合約建議整理成一封給律師的說明信，
+   讓律師看得懂我想保護什麼。</code>
+      </div>
+
+      <div class="tip-box success">
+        <div class="tip-icon">✅</div>
+        <p>一個好的對話可以推進很深。我有時候一個對話開著處理同一個問題超過一小時，從分析到起草文件到模擬反駁，全在同一個視窗裡完成。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 4：商業應用場景 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num accent-num">4</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 04 · 中級</div>
+          <h2>老闆最常用的商業應用場景</h2>
+          <p class="subtitle">這些不是範本，是實際測試過有效的 Prompt 結構</p>
+        </div>
+      </div>
+
+      <div class="scenario-grid">
+        <div class="scenario-card">
+          <div class="scenario-icon">⚔️</div>
+          <h3>競爭對手分析</h3>
+          <p>把你知道的競爭對手資訊整理好貼進去，請它幫你找差異化機會。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 框架</strong>
+            我是做 [產業] 的，主要競爭對手是 A、B、C。以下是我知道的他們的狀況：[資料]。請分析我們的差異化機會，不要給通用建議，要基於我提供的資料。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">📈</div>
+          <h3>SWOT 分析</h3>
+          <p>說明你的公司現況，讓它幫你做 SWOT，再追問哪個 SO 策略最可行。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 框架</strong>
+            我的公司：[基本狀況]。市場環境：[目前的挑戰和機會]。請做一個 SWOT 分析，每項不超過三點，最後給一個最值得投入的 SO 策略建議。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">📝</div>
+          <h3>合約摘要與風險標注</h3>
+          <p>把合約文字貼進去，請它找出重要條款和潛在風險，再決定哪些要問律師。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 框架</strong>
+            以下是一份採購合約，請：1) 摘要主要條款 2) 標出對我方（買方）不利的條款 3) 列出我應該跟律師確認的問題。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🎤</div>
+          <h3>簡報大綱 / 演講稿</h3>
+          <p>告訴它對象、時間、你想傳達的核心訊息，讓它起草結構，你再補細節。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 框架</strong>
+            我要對 [對象] 做一個 [時間] 分鐘的簡報，主題是 [主題]，核心訊息是 [訊息]。請給我一個三段式的簡報大綱，每段說明應該講什麼、為什麼要在這個位置講。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🤝</div>
+          <h3>談判情境模擬</h3>
+          <p>請 Claude 扮演你的客戶或廠商，練習你的談判說法，然後請它給你反饋。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 框架</strong>
+            請扮演一個對我們報價有壓力的採購主管。我會提出我的方案，請你從採購角度提出反對和異議，讓我練習回應。我說「結束」才停。
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-icon">🔧</div>
+          <h3>問題診斷 / 決策輔助</h3>
+          <p>描述你卡住的問題，請它幫你拆解為什麼卡、有哪些選項、每個選項的代價。</p>
+          <div class="prompt-hint">
+            <strong>Prompt 框架</strong>
+            我在 [問題描述] 上卡住了。背景：[情境]。請幫我：1) 分析這個問題的根本原因 2) 列出三個可能的解決方向 3) 每個方向的主要風險。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模組 5：決策框架 -->
+  <section class="module-section">
+    <div class="container">
+      <div class="module-header">
+        <div class="module-num accent-num">5</div>
+        <div class="module-title-group">
+          <div class="module-kicker">Module 05 · 中級</div>
+          <h2>先定框架，再讓 AI 加速</h2>
+          <p class="subtitle">昆廷老師在顧問工作裡用的方法</p>
+        </div>
+      </div>
+
+      <p>我常說：AI 不是在替你做決定，是在你想清楚框架之後，把分析速度拉快十倍。</p>
+
+      <p>最常見的錯誤用法是：問題還沒搞清楚，就把 Claude 當答案機在用。結果它給你一堆分析，但全部都在解答一個錯的問題。</p>
+
+      <p>我在陪客戶做 AI 導入的時候，常常先做一個問題定框架的步驟，才讓 Claude 進場。這個框架來自易經的問題意識——不是要算命，而是強迫自己把「我在哪個局、我真正要解決的是什麼」先說清楚。</p>
+
+      <div class="example-box accent-box">
+        <div class="example-label">決策輔助 Prompt 框架（昆廷老師版）</div>
+        <code>背景：[我目前的處境，盡量具體，包含數字]
+
+真正的問題：[我認為核心問題是什麼]
+
+我考慮的方向：[已經想到的選項，即使不完整也寫出來]
+
+我的限制：[時間、預算、人力、不能動的因素]
+
+請幫我：
+1. 確認我理解的「真正問題」是否準確，或者有沒有我忽略的假設
+2. 針對我的選項，分析各自的主要風險
+3. 如果要做決定，你建議我優先釐清哪一個問題</code>
+      </div>
+
+      <div class="tip-box info">
+        <div class="tip-icon">💡</div>
+        <p>這個框架最有用的地方是<strong>第一步：確認問題定義</strong>。很多時候 Claude 會回你「你說的問題可能不是根本原因，真正的問題可能是...」——這個反饋本身就值回票價了。</p>
+      </div>
+
+      <div class="tip-box success">
+        <div class="tip-icon">✅</div>
+        <p>如果你想把這個方法應用在更複雜的組織決策情境，或者想進一步了解怎麼把易經問題框架和 AI 分析結合在一起，可以直接聯絡我。這是我在顧問工作裡最常帶企業主練的一件事。</p>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /tab-intermediate -->
+
+
+<!-- CTA -->
+<section class="learn-cta">
+  <div class="container">
+    <h2>想把 Claude 真的用進你的工作？</h2>
+    <p>讀完教學是第一步。真正的改變發生在你把這些方法套進自己的業務問題上——那個過程，我陪你一起走。</p>
+    <div class="cta-buttons">
+      <a href="index.html#contact" class="btn btn-primary">預約一對一諮詢</a>
+      <a href="services/claude-code-training.html" class="btn btn-ghost">了解 Claude Code 課程</a>
+    </div>
+  </div>
+</section>
+
+<footer style="background:var(--bg-dark);color:rgba(255,255,255,0.6);text-align:center;padding:32px 24px;font-size:0.875rem;">
+  <p style="margin:0 0 8px;">© 2025 昆廷老師 · 企業 AI 導入顧問</p>
+  <p style="margin:0;"><a href="index.html" style="color:rgba(255,255,255,0.5);text-decoration:none;">首頁</a> &nbsp;·&nbsp; <a href="index.html#contact" style="color:rgba(255,255,255,0.5);text-decoration:none;">聯絡</a></p>
+</footer>
+
+<script>
+function switchTab(id, btn) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  if (btn) btn.classList.add('active');
+  // Scroll to tab nav
+  document.querySelector('.tab-wrapper').scrollIntoView({behavior: 'smooth', block: 'start'});
+}
+</script>
+
+</body>
+</html>
