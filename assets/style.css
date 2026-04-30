@@ -244,6 +244,22 @@ body {
     box-shadow: var(--shadow);
 }
 
+.intent-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+
+.intent-card-link:hover {
+    transform: translateY(-4px);
+}
+
+.intent-card-link:hover .intent-card {
+    border-color: var(--primary-light);
+    box-shadow: var(--shadow-lg);
+}
+
 .intent-kicker {
     color: var(--accent-dark);
     font-size: 0.8rem;
@@ -281,6 +297,179 @@ body {
 }
 
 .fit-item strong {
+    display: block;
+    color: var(--primary-dark);
+    margin-bottom: 8px;
+}
+
+.service-page {
+    background: linear-gradient(180deg, #f8fafd 0%, #ffffff 220px);
+}
+
+.service-hero {
+    padding: 96px 0 48px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+    gap: 28px;
+    align-items: start;
+}
+
+.service-copy {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 40px 36px;
+    box-shadow: var(--shadow);
+}
+
+.service-copy h1 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: clamp(2.1rem, 4vw, 3.3rem);
+    line-height: 1.3;
+    color: var(--primary-dark);
+    margin: 0 0 20px;
+}
+
+.service-copy p {
+    color: var(--ink-soft);
+    font-size: 1.04rem;
+    margin: 0 0 18px;
+}
+
+.service-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 24px 0 28px;
+}
+
+.service-badges span {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: #eef3f9;
+    color: var(--primary-dark);
+    font-size: 0.9rem;
+}
+
+.service-side {
+    display: grid;
+    gap: 18px;
+}
+
+.service-box {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 26px 24px;
+    box-shadow: var(--shadow);
+}
+
+.service-box h2,
+.service-box h3 {
+    font-family: 'Noto Serif TC', serif;
+    color: var(--primary-dark);
+    margin: 0 0 12px;
+    font-size: 1.2rem;
+}
+
+.service-box p,
+.service-box li {
+    color: var(--ink-soft);
+    margin: 0;
+}
+
+.service-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.service-body {
+    padding: 0 0 96px;
+}
+
+.service-sections {
+    display: grid;
+    gap: 24px;
+}
+
+.service-section-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 34px 30px;
+    box-shadow: var(--shadow);
+}
+
+.service-section-card h2 {
+    font-family: 'Noto Serif TC', serif;
+    color: var(--primary-dark);
+    margin: 0 0 14px;
+    font-size: 1.5rem;
+}
+
+.service-section-card p {
+    color: var(--ink-soft);
+    margin: 0 0 16px;
+}
+
+.service-section-card ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.service-section-card li {
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+}
+
+.service-faq details {
+    border-top: 1px solid var(--border);
+    padding: 16px 0;
+}
+
+.service-faq details:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.service-faq summary {
+    cursor: pointer;
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.service-faq p {
+    margin: 12px 0 0;
+}
+
+.service-related {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.service-related a {
+    display: block;
+    padding: 18px 18px 16px;
+    background: #f8fafd;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.service-related a:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary-light);
+}
+
+.service-related strong {
     display: block;
     color: var(--primary-dark);
     margin-bottom: 8px;
@@ -469,6 +658,10 @@ body {
     .hero-proof span { font-size: 0.85rem; }
     .btn { width: 100%; justify-content: center; }
     .brand { font-size: 1.1rem; }
+    .service-hero { padding: 80px 0 36px; }
+    .service-grid { grid-template-columns: 1fr; }
+    .service-copy { padding: 30px 24px; }
+    .service-section-card { padding: 28px 22px; }
 }
 
 /* ─── Motion preference ─── */
