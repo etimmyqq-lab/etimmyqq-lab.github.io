@@ -77,7 +77,19 @@ gtag('config', 'G-3KEGWS9929');
     <div class="container service-sections">
         <section class="service-section-card">
             <h2>需求表單</h2>
+
+            <div id="intake-form-wrapper">
             <form id="intake-form" class="intake-form">
+                <label>
+                    姓名
+                    <input type="text" name="name" required placeholder="你的稱呼">
+                </label>
+
+                <label>
+                    聯絡方式（Email 或電話）
+                    <input type="text" name="contact" required placeholder="方便回覆你的聯絡方式">
+                </label>
+
                 <label>
                     你的身份
                     <select name="identity">
@@ -116,15 +128,24 @@ gtag('config', 'G-3KEGWS9929');
                 </label>
 
                 <div class="intake-actions">
-                    <button type="button" id="open-mail" class="btn btn-primary">整理後直接開信</button>
+                    <button type="button" id="submit-btn" class="btn btn-primary">送出需求</button>
+                    <button type="button" id="open-mail" class="btn btn-ghost">整理後直接開信</button>
                     <button type="button" id="copy-summary" class="btn btn-ghost">複製需求摘要</button>
                 </div>
+                <p id="submit-error" class="intake-feedback" style="color:#c0392b;" aria-live="polite"></p>
             </form>
 
             <div class="intake-summary">
                 <h3>預覽摘要</h3>
                 <pre id="summary-output">你的需求摘要會顯示在這裡。</pre>
                 <p id="copy-feedback" class="intake-feedback" aria-live="polite"></p>
+            </div>
+            </div>
+
+            <div id="intake-success" style="display:none;text-align:center;padding:3rem 1rem;">
+                <div style="font-size:3rem;color:#27ae60;margin-bottom:1rem;">✓</div>
+                <h3 style="margin-bottom:.75rem;color:#1F4E79;">需求已送出，謝謝你！</h3>
+                <p style="color:#4a5568;">我通常會在 1–2 個工作天內回覆。<br>如果有緊急需求，也可以直接寄信到 <a href="mailto:etimmyqq@gmail.com" style="color:#1F4E79;">etimmyqq@gmail.com</a>。</p>
             </div>
         </section>
 
@@ -147,6 +168,9 @@ gtag('config', 'G-3KEGWS9929');
 </footer>
 
 <script>
+// 部署 Google Apps Script Web App 後，將 URL 填入此處
+const SCRIPT_URL = 'YOUR_APPS_SCRIPT_URL_HERE';
+
 const form = document.getElementById('intake-form');
 const summaryOutput = document.getElementById('summary-output');
 const copyFeedback = document.getElementById('copy-feedback');
@@ -164,6 +188,8 @@ function trackEvent(name, params) {
 
 function buildSummary() {
     const data = new FormData(form);
+    const name = (data.get('name') || '').trim() || '未填寫';
+    const contact = (data.get('contact') || '').trim() || '未填寫';
     const identity = data.get('identity') || '未填寫';
     const topic = data.get('topic') || '未填寫';
     const pain = (data.get('pain') || '').trim() || '未填寫';
@@ -171,6 +197,8 @@ function buildSummary() {
     const context = (data.get('context') || '').trim() || '未填寫';
 
     return [
+        '姓名：' + name,
+        '聯絡方式：' + contact,
         '我是：' + identity,
         '想談的主題：' + topic,
         '目前最卡的一件事：',
@@ -200,6 +228,35 @@ form.addEventListener('input', function () {
 refreshSummary();
 trackEvent('view_intake_page', {
     page_location: window.location.href
+});
+
+document.getElementById('submit-btn').addEventListener('click', async function () {
+    const data = new FormData(form);
+    const name = (data.get('name') || '').trim();
+    const contact = (data.get('contact') || '').trim();
+    const submitBtn = document.getElementById('submit-btn');
+    const errorEl = document.getElementById('submit-error');
+
+    if (!name) { errorEl.textContent = '請填寫姓名。'; return; }
+    if (!contact) { errorEl.textContent = '請填寫聯絡方式。'; return; }
+    errorEl.textContent = '';
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = '送出中…';
+
+    const params = new URLSearchParams();
+    for (const [k, v] of data.entries()) params.append(k, v);
+
+    try {
+        await fetch(SCRIPT_URL, { method: 'POST', mode: 'no-cors', body: params });
+        document.getElementById('intake-form-wrapper').style.display = 'none';
+        document.getElementById('intake-success').style.display = 'block';
+        trackEvent('generate_lead', { method: 'form_submit', topic: data.get('topic') || '' });
+    } catch (err) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = '送出需求';
+        errorEl.textContent = '送出失敗，請稍後再試，或直接點「整理後直接開信」聯絡我。';
+    }
 });
 
 mailButton.addEventListener('click', function () {

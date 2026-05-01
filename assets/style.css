@@ -762,6 +762,8 @@ body {
     color: var(--ink-strong);
 }
 
+.intake-form input[type="text"],
+.intake-form input[type="email"],
 .intake-form select,
 .intake-form textarea {
     width: 100%;

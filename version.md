@@ -1,5 +1,22 @@
 # 昆廷老師個人品牌網站 — 版本歷程
 
+## [2026-05-01] 需求表單接 Google Sheets + Email 通知
+
+### 變更內容
+- `intake.html`：新增「姓名」與「聯絡方式」輸入欄（表頭位置）
+- `intake.html`：新增「送出需求」主按鈕，保留「開信」與「複製摘要」為輔助操作
+- `intake.html`：`SCRIPT_URL` 常數（部署 Apps Script 後填入 URL 即生效）
+- `intake.html`：`fetch()` 以 `no-cors` + `URLSearchParams` 送到 Apps Script；成功後隱藏表單、顯示感謝畫面
+- `intake.html`：前端必填驗證（姓名、聯絡方式）、送出中狀態、失敗提示
+- `assets/style.css`：`input[type="text"]` 套用與 select/textarea 相同的表單樣式
+- `intake-script.gs`（新建）：Google Apps Script 原始碼，供部署為 Web App；doPost 寫入 Sheets + 寄通知信到 etimmyqq@gmail.com
+
+### 原因
+- 原表單為純前端，填完資料直接消失，無法收集潛在客戶資訊
+
+### 影響範圍
+- intake.html 表單送出流程全面更新；需完成 Apps Script 部署並填入 URL 才會生效
+
 ## [2026-04-23] 全自動化排程：每天 08:30 自動產文 + 發社群
 
 ### 變更內容
