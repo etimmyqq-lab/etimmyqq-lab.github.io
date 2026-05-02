@@ -1,5 +1,20 @@
 # 昆廷老師個人品牌網站 — 版本歷程
 
+## [2026-05-01] 修正 GAS 部署：改用所有人存取，匿名表單提交可正常運作
+
+### 變更內容
+- `intake.html` SCRIPT_URL 換為新部署 URL（AKfycbz5FGQnKtRHw4...）
+- `intake-script.gs` 改為獨立腳本版本（用 ScriptProperties 儲存 Spreadsheet ID，不依賴 getActiveSpreadsheet）
+- GAS 部署於 etimmyqq@cycu.org.tw 帳戶，存取設定「所有人」
+- 測試 POST 回應 {"ok":true}，sheet 寫入與 email 通知正常
+
+### 原因
+- 原部署存取設定「所有已登入 Google 帳戶的使用者」，匿名訪客送出後被 redirect 到登入頁，doPost 從未執行
+
+### 影響範圍
+- intake.html 表單送出功能（現在正常運作）
+- 新建 Google Sheet「昆廷老師需求表單」於 cycu.org.tw 雲端硬碟
+
 ## [2026-05-01] 需求表單接 Google Sheets + Email 通知
 
 ### 變更內容
