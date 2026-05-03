@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-05-02T01:16:42.071225+00:00</updated>
+  <updated>2026-05-03T02:13:55.241431+00:00</updated>
   <subtitle>企業 AI 導入顧問，提供 Claude Code 教學、數位轉型實作與易經決策對話。昆廷老師陪中小企業主與社會人士先想清楚問題，再把 AI 工具真正接進工作流程。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>老闆的角色不是工程師</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-03-c1ce97ed.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-03-c1ce97ed.html</id>
+    <updated>2026-05-03T08:00:00+08:00</updated>
+    <summary>上個月我在新竹陪一家做精密塑膠零件的老闆做 AI 工具評估。他坐下來第一句話：「老師我要先跟你坦白，我到現在還是用注音一個字一個字打字，我兒子說我是科技恐龍。我…</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>做了五年企業 AI 導入顧問，我發現一件事</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-05-02-aef9cd5b.html"/>

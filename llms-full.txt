@@ -16,6 +16,14 @@
 
 ## 全部文章
 
+### 老闆的角色不是工程師
+
+URL: https://etimmyqq-lab.github.io/articles/2026-05-03-c1ce97ed.html
+主題: 企業 AI 導入
+日期: 2026-05-03
+
+上個月我在新竹陪一家做精密塑膠零件的老闆做 AI 工具評估。他坐下來第一句話：「老師我要先跟你坦白，我到現在還是用注音一個字一個字打字，我兒子說我是科技恐龍。我…
+
 ### 做了五年企業 AI 導入顧問，我發現一件事
 
 URL: https://etimmyqq-lab.github.io/articles/2026-05-02-aef9cd5b.html
