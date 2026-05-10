@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-05-09T00:36:46.434509+00:00</updated>
+  <updated>2026-05-10T00:37:20.921140+00:00</updated>
   <subtitle>企業 AI 導入顧問，提供 Claude Code 教學、數位轉型實作與易經決策對話。昆廷老師陪中小企業主與社會人士先想清楚問題，再把 AI 工具真正接進工作流程。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>易經的核心從來不是那六十四個卦</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-10-8d346dcc.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-10-8d346dcc.html</id>
+    <updated>2026-05-10T08:00:00+08:00</updated>
+    <summary>上個月在新竹的一場分享會結束後，有個後端工程師等到最後，在會場門口找到我。他開口很直接：「老師，你這個把易經跟 Claude Code 組合在一起——我有點看不…</summary>
+    <category term="Claude Code 教學"/>
+  </entry>
   <entry>
     <title>「砍成本」這個問法本身就是陷阱</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-05-09-2ed09f28.html"/>
