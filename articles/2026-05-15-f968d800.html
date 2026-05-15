@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT 跟 Claude Code 在公司裡做的不是同一件事｜昆廷老師</title>
+<meta name="description" content="上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3KEGWS9929');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html">
+<meta property="og:title" content="ChatGPT 跟 Claude Code 在公司裡做的不是同一件事">
+<meta property="og:description" content="上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta property="og:image:alt" content="ChatGPT 跟 Claude Code 在公司裡做的不是同一件事｜昆廷老師">
+<meta property="article:author" content="昆廷老師">
+<meta property="article:published_time" content="2026-05-15">
+<meta property="og:site_name" content="昆廷老師">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ChatGPT 跟 Claude Code 在公司裡做的不是同一件事">
+<meta name="twitter:description" content="上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:image:alt" content="ChatGPT 跟 Claude Code 在公司裡做的不是同一件事｜昆廷老師">
+
+<!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "ChatGPT 跟 Claude Code 在公司裡做的不是同一件事",
+  "description": "上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師"
+  },
+  "datePublished": "2026-05-15",
+  "dateModified": "2026-05-15",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html"
+  },
+  "keywords": "企業 AI 導入, Claude Code 在企業落地的實戰應用",
+  "inLanguage": "zh-Hant",
+  "articleSection": "企業 AI 導入"
+}
+</script>
+
+<!-- schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "文章", "item": "https://etimmyqq-lab.github.io/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "ChatGPT 跟 Claude Code 在公司裡做的不是同一件事"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Font optimization: preload critical weights, use display=swap -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .article-extras {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .faq-section h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.4rem;
+        color: #1F4E79;
+        margin: 24px 0 16px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .faq-item {
+        background: #f6f8fb;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+    }
+    .faq-item summary {
+        cursor: pointer;
+        font-weight: 500;
+        color: #1a2233;
+        padding: 4px 0;
+    }
+    .faq-item summary::before { content: "▸ "; color: #C9A96E; }
+    .faq-item[open] summary::before { content: "▾ "; }
+    .faq-answer { margin-top: 10px; color: #4a5568; line-height: 1.8; }
+    .related-section {
+        margin-top: 40px;
+        padding: 20px;
+        background: #f8fafd;
+        border-radius: 12px;
+    }
+    .related-section h3 {
+        font-family: 'Noto Serif TC', serif;
+        color: #1F4E79;
+        font-size: 1.1rem;
+        margin: 0 0 14px;
+    }
+    .related-list { display: flex; flex-direction: column; gap: 8px; }
+    .related-link {
+        display: block;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a2233;
+        font-size: 0.95rem;
+        border: 1px solid #e4e8ef;
+        transition: all .2s;
+    }
+    .related-link:hover { border-color: #1F4E79; transform: translateX(4px); }
+    .related-kw { color: #C9A96E; font-size: 0.85rem; margin-right: 8px; }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "ChatGPT 跟 Claude Code 在公司裡做的不是同一件事",
+  "description": "上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…",
+  "articleBody": "上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code $20 美元，下面還列了幾個 YouTube 上整理的功能比較。他問我：「老師，價格一樣，哪個比較划算？」",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "datePublished": "2026-05-15",
+  "dateModified": "2026-05-15",
+  "inLanguage": "zh-Hant",
+  "url": "https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "keywords": "企業 AI 導入, Claude Code 在企業落地的實戰應用",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "公司只有一個人可以負責推廣 AI 工具，要從 ChatGPT 還是 Claude Code 開始？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "從 ChatGPT 開始。學習門檻低，員工接受度高，可以先讓大家有「AI 真的有用」的親身體驗，再往更複雜的工具推進。Claude Code 的效益大，但需要人願意進去摸，一開始就推太難的工具，反而讓大家覺得麻煩、覺得 AI 很累。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "我聽說 Claude Code 主要是給工程師用的，一般辦公室用得到嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "用得到。Claude Code 能做的不只是寫程式，它還可以整理 Excel、合併多份資料、根據範本批量生成文件、比對兩份清單的差異。這些都是一般辦公室工作會遇到的需求。前提是有人願意花兩三週學怎麼跟它溝通，不是完全零學習成本。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ChatGPT 跟 Claude 的回答品質有差嗎？用在繁體中文的工作上會差很多嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在繁體中文的商業寫作這塊，大多數用過兩個的人覺得 Claude 的語氣比較自然、比較少 AI 感。ChatGPT 的優勢是有 web browsing 功能，可以即時搜尋網路資訊。兩個各有強項，取決於你的任務是什麼，不是哪個「比較準」的問題。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../learn-claude.html">Claude 教學</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-05-15 · 企業 AI 導入</div>
+        <h1 class="article-title">ChatGPT 跟 Claude Code 在公司裡做的不是同一件事</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code $20 美元，下面還列了幾個 YouTube 上整理的功能比較。他問我：「老師，價格一樣，哪個比較划算？」</p>
+<p>我看了一下那張表，沒有急著回答。</p>
+<p>數字沒有錯，但這個問題本身有點偏。拿這兩個工具直接比成本，有點像問「這個月要訂哪家外送平台的月費會員比較划算」，但你一個主要用來叫便當、另一個主要用來買日用品。價格一樣，不代表你買到的是同一件事。</p>
+<h2>ChatGPT 跟 Claude Code 在公司裡做的不是同一件事</h2>
+<p>ChatGPT 是對話型工具。你輸入問題，它給你回答，你複製貼上或截圖轉給同事。大多數的使用場景是：幫我改這段文字、幫我想五個標題、幫我翻譯這封信。門檻低，大部分員工第一週就能上手。</p>
+<p>Claude Code 不一樣。它接進你的電腦環境，可以讀你硬碟裡的檔案、寫程式腳本、執行一整套流程、改掉錯誤再存檔。你說「把這 300 筆報價單整理成比較表格，再幫我產一份給客戶的摘要報告」，它可以真的去跑這件事，不是給你一段文字叫你自己抄。</p>
+<p>聽起來很強大，但有個前提：公司裡得有人願意學怎麼下指令、看輸出、發現跑歪了怎麼修正。不是高門檻，大概兩三週可以熟悉，但不是零成本。</p>
+<p>所以問題回到原點：你公司現在最想解決的是什麼？</p>
+<h2>工具能不能用，一半是工具的事，一半是人的事</h2>
+<p>台南這個老闆告訴我，他有個業務助理每天要花三個多小時核對出貨資料、整理報表交給工廠確認。他說，這個工作他想讓 AI 幫她省時間。</p>
+<p>我說，那個場景偏向 Claude Code 可以處理的類型。</p>
+<p>但我在給他建議之前，先問了另一個問題：「那個業務助理，她本人有意願學嗎？」</p>
+<p>他停了一下。「她說怕自己學不來。」</p>
+<p>這就是很多老闆評估 AI 工具時會跳過的那一塊。工具的效益，一半來自工具本身有多強，一半來自你公司的人願不願意去用。再好的工具，閒著就是成本。</p>
+<p>我反而建議他先從 ChatGPT 試起，讓幾個員工試用一個月，看看誰真的願意用、用在哪裡。等使用習慣建立了，再評估要不要把 Claude Code 引進那個報表流程。</p>
+<p>他說，這樣想清楚多了。</p>
+<h2>問對問題，比較好找答案</h2>
+<p>做易經卦牌諮詢這些年，我注意到一個規律：問「我應該選 A 還是 B」的人，通常得到的答案很模糊。不是卦不準，是問題沒問到點。比較有用的問法是：「我現在真正想解決的問題是什麼？這個問題的核心在哪？」</p>
+<p>比較 ChatGPT 跟 Claude Code 是同一件事。你問「哪個比較划算」，答案一定模糊，因為划不划算取決於你要解決的是哪種問題、你的員工能不能上手、用起來之後有沒有人跟進維護。</p>
+<p>把這幾個問題想清楚，答案通常就自己出來了。</p>
+<p>如果要給一個簡單的判斷框架：</p>
+<p>你的 AI 需求主要是讓員工在寫東西、想東西的時候有個助手，ChatGPT 月訂閱大多夠用，而且教起來快。</p>
+<p>你有一個具體的、重複性高的工作流程，想讓 AI 直接進到那個流程裡去跑，Claude Code 值得認真評估。</p>
+<p>兩個可以並用，不是非要二選一。只是預算有限的情況下，先搞清楚你現在最痛的點在哪，再決定先導哪個。</p>
+<p>台南那個老闆後來傳訊息給我，說他讓三個員工試用了 ChatGPT 兩週，其中一個業務助理開始用來回覆客戶詢價信，速度快了不少。他說，他覺得這個決定沒有錯。</p>
+<p>先走出去，走了才知道路在哪。</p>
+</article>
+<div class="article-extras">
+<section class="faq-section">
+<h2>常見問題</h2>
+<details class="faq-item"><summary>公司只有一個人可以負責推廣 AI 工具，要從 ChatGPT 還是 Claude Code 開始？</summary><div class="faq-answer">從 ChatGPT 開始。學習門檻低，員工接受度高，可以先讓大家有「AI 真的有用」的親身體驗，再往更複雜的工具推進。Claude Code 的效益大，但需要人願意進去摸，一開始就推太難的工具，反而讓大家覺得麻煩、覺得 AI 很累。</div></details><details class="faq-item"><summary>我聽說 Claude Code 主要是給工程師用的，一般辦公室用得到嗎？</summary><div class="faq-answer">用得到。Claude Code 能做的不只是寫程式，它還可以整理 Excel、合併多份資料、根據範本批量生成文件、比對兩份清單的差異。這些都是一般辦公室工作會遇到的需求。前提是有人願意花兩三週學怎麼跟它溝通，不是完全零學習成本。</div></details><details class="faq-item"><summary>ChatGPT 跟 Claude 的回答品質有差嗎？用在繁體中文的工作上會差很多嗎？</summary><div class="faq-answer">在繁體中文的商業寫作這塊，大多數用過兩個的人覺得 Claude 的語氣比較自然、比較少 AI 感。ChatGPT 的優勢是有 web browsing 功能，可以即時搜尋網路資訊。兩個各有強項，取決於你的任務是什麼，不是哪個「比較準」的問題。</div></details>
+</section>
+<section class="related-section">
+<h3>你可能也想看</h3>
+<div class="related-list"><a href="2026-05-13-62a6c5df.html" class="related-link"><span class="related-kw">[Claude Code 教學]</span> <span class="related-q">我完全不會寫程式，Claude Code 跟我有關係嗎？學了會不會浪費時間？</span></a><a href="2026-05-12-0400836d.html" class="related-link"><span class="related-kw">[易經卦牌]</span> <span class="related-q">一天可以抽幾次易經卦牌?抽太多次會不會就不準了?</span></a><a href="2026-05-11-02d7a12e.html" class="related-link"><span class="related-kw">[中小企業數位轉型]</span> <span class="related-q">要找外部顧問還是內部培養一個 AI 種子員工比較好？</span></a></div>
+</section>
+</div>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
