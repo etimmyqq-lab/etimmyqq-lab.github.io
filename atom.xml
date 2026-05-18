@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hant">
-  <title>昆廷老師｜企業 AI 導入顧問，Claude Code 教學 × 易經決策</title>
+  <title>昆廷老師｜易理為根，AI為翼</title>
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-05-14T00:35:26.818865+00:00</updated>
-  <subtitle>企業 AI 導入顧問，提供 Claude Code 教學、數位轉型實作與易經決策對話。昆廷老師陪中小企業主與社會人士先想清楚問題，再把 AI 工具真正接進工作流程。</subtitle>
+  <updated>2026-05-18T01:12:13.145728+00:00</updated>
+  <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>哪些職位「風險最高」，不是「一定消失」</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-18-60b10d12.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-18-60b10d12.html</id>
+    <updated>2026-05-18T08:00:00+08:00</updated>
+    <summary>去年九月，我在嘉義幫一家做農業機械的公司做 AI 導入前的顧問評估。會議室裡坐了十二個人，老闆、幾個主管、財務長。我問：「你們這次導入 AI，最擔心什麼？」</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
+  <entry>
+    <title>卦牌不是在替財務數字算命</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-17-1fce2218.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-17-1fce2218.html</id>
+    <updated>2026-05-17T08:00:00+08:00</updated>
+    <summary>去年第三季末，高雄一家做系統傢具的老闆請我陪他開季度複盤會。</summary>
+    <category term="易經卦牌"/>
+  </entry>
+  <entry>
+    <title>先說一個真實數字</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-16-11735a1e.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-16-11735a1e.html</id>
+    <updated>2026-05-16T08:00:00+08:00</updated>
+    <summary>去年十一月，彰化有個做印刷包裝的老闆在電話裡問我：「老師，我如果現在導入 Claude Code，三個月內能看到回本嗎？我帳上現在就這樣，不能亂花。」</summary>
+    <category term="Claude Code 教學"/>
+  </entry>
+  <entry>
+    <title>ChatGPT 跟 Claude Code 在公司裡做的不是同一件事</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html</id>
+    <updated>2026-05-15T08:00:00+08:00</updated>
+    <summary>上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>獎金量錯了東西</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-05-14-d1cc51a5.html"/>
@@ -206,37 +238,5 @@
     <updated>2026-04-23T08:00:00+08:00</updated>
     <summary>上週三下午，我在桃園一家做汽車零件的工廠坐了三個小時。老闆六十二歲，員工 38 人，公司開了二十七年。他找我來，是因為公司裡三個年輕人已經自己偷偷用 ChatG…</summary>
     <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>一人公司老闆最該先用 AI 做的事</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-04-23-a71d5be0.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-04-23-a71d5be0.html</id>
-    <updated>2026-04-23T08:00:00+08:00</updated>
-    <summary>上週四下午三點，我在民生社區一家咖啡店，對面坐著一個做進口紅酒的一人公司老闆。他翻開筆電給我看他的 Notion，密密麻麻 14 個分頁，從客戶名單、進貨報價、…</summary>
-    <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>依賴不是問題，不動腦才是</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-04-23-d38c9029.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-04-23-d38c9029.html</id>
-    <updated>2026-04-23T08:00:00+08:00</updated>
-    <summary>上週四下午，一家做工業閥門的中小企業老闆在會議室把筆電轉過來給我看。螢幕上是他工程師寫的報價單程式碼，下面一整排 Claude Code 的對話紀錄。他問我一句…</summary>
-    <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>先分清楚「出錯」到底是哪一種</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-04-23-e900c92f.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-04-23-e900c92f.html</id>
-    <updated>2026-04-23T08:00:00+08:00</updated>
-    <summary>上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們…</summary>
-    <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>客服可以完全交給 AI 嗎？我的答案是：不能，但 80% 可以——關鍵在於你分得清哪 20% 不能交出去</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-04-23-43a3f283.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-04-23-43a3f283.html</id>
-    <updated>2026-04-23T08:00:00+08:00</updated>
-    <summary>這幾年我陪了不少中小企業做 AI 導入，被問最多的一題就是：「老師，客服可以完全交給 AI 嗎？客人會不會覺得沒溫度？」我的立場很清楚：**客服不該「完全」交給 AI，但也不該「完全」留給人**。真正成熟的企業 AI 導入，是讓 AI 處理</summary>
-    <category term="中小企業數位轉型"/>
   </entry>
 </feed>
