@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 邊界不說清楚，員工就靠感覺
+
+URL: https://etimmyqq-lab.github.io/articles/2026-05-20-b8890a1d.html
+主題: 企業 AI 導入
+日期: 2026-05-20
+
+三個月前，桃園一家做電子代工的公司，人資主管傳了一份 8 頁的 Word 文件給我。她說是從網路上找到的 AI 使用政策範本，問我可不可以直接套用。
+
 ### 第一關：裝不起來
 
 URL: https://etimmyqq-lab.github.io/articles/2026-05-19-338544a3.html
