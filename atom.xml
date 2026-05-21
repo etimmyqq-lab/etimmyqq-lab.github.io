@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-05-20T00:37:11.819140+00:00</updated>
+  <updated>2026-05-21T00:37:48.765257+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>Claude 解卦，其實做得不差</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html</id>
+    <updated>2026-05-21T08:00:00+08:00</updated>
+    <summary>新竹一家做精密零件的老闆，上個月傳了三張截圖給我。都是他問 Claude 卦象的紀錄。他說：「老師你看，我問了同一個問題三次，三次答案都不一樣，Claude 到…</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>邊界不說清楚，員工就靠感覺</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-05-20-b8890a1d.html"/>
@@ -229,14 +237,6 @@
     <id>https://etimmyqq-lab.github.io/articles/2026-04-24-6caf6adb.html</id>
     <updated>2026-04-24T08:00:00+08:00</updated>
     <summary>上週三下午，一位做水五金外銷的老闆娘傳訊息給我，劈頭就問：「Timmy老師，你用易經幫客戶決策，會不會被笑啊？」我笑了一下，回她：「會。上個月才被笑過。」</summary>
-    <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>先搞清楚你為什麼非地端不可</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-04-24-0fe451ee.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-04-24-0fe451ee.html</id>
-    <updated>2026-04-24T08:00:00+08:00</updated>
-    <summary>上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了…</summary>
     <category term="中小企業數位轉型"/>
   </entry>
 </feed>
