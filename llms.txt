@@ -17,6 +17,7 @@
 
 ## 最新文章
 
+- [你真正需要懂的三件事](https://etimmyqq-lab.github.io/articles/2026-05-22-34548aa9.html): 苗栗有個做工業模具的老闆，去年十二月十一號晚上，傳了一段語音給我。
 - [Claude 解卦，其實做得不差](https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html): 新竹一家做精密零件的老闆，上個月傳了三張截圖給我。都是他問 Claude 卦象的紀錄。他說：「老師你看，我問了同一個問題三次，三次答案都不一樣，Claude 到…
 - [邊界不說清楚，員工就靠感覺](https://etimmyqq-lab.github.io/articles/2026-05-20-b8890a1d.html): 三個月前，桃園一家做電子代工的公司，人資主管傳了一份 8 頁的 Word 文件給我。她說是從網路上找到的 AI 使用政策範本，問我可不可以直接套用。
 - [第一關：裝不起來](https://etimmyqq-lab.github.io/articles/2026-05-19-338544a3.html): 上個月台中一家四人會計師事務所的所長傳了一個截圖給我。螢幕上是一條英文報錯，紅底白字。他問：「老師，我是不是裝錯了？」
@@ -26,11 +27,10 @@
 - [None](https://etimmyqq-lab.github.io/articles/None.html): 
 - [ChatGPT 跟 Claude Code 在公司裡做的不是同一件事](https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html): 上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…
 - [獎金量錯了東西](https://etimmyqq-lab.github.io/articles/2026-05-14-d1cc51a5.html): 三個月前，台中一家做汽車零件貿易的老闆傳訊息給我，語氣有點無奈：「老師，我設了 AI 使用獎金，每個月多 500 塊，跑了三個月，效率完全沒動。業績報告還是一樣…
-- [一個字，擋住了七成的人](https://etimmyqq-lab.github.io/articles/2026-05-13-62a6c5df.html): 每個月十三到十五個小時，嘉義一個補習班主任就花在這件事上——整理學生學習進度報告，還有每次要通知家長時得從頭重寫的通知信。
 
 ## 關於作者
 
 昆廷老師是AI顧問，也是易經卦牌決策引導師。他在帶企業AI導入規劃的同時，會用卦牌幫老闆釐清「現在最值得動的那一步」。他教Claude Code和Codex，但更在意的是：學了這些工具之後，你能不能問出比以前更好的問題。服務對象主要是中小企業主和想轉型的社會人士，有時候一個session就能讓人豁然開朗。
 
 網站：https://etimmyqq-lab.github.io/
-更新於：2026-05-21
+更新於：2026-05-22

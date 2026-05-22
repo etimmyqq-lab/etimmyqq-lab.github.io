@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-05-21T00:37:48.765257+00:00</updated>
+  <updated>2026-05-22T00:38:48.358873+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>你真正需要懂的三件事</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-05-22-34548aa9.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-05-22-34548aa9.html</id>
+    <updated>2026-05-22T08:00:00+08:00</updated>
+    <summary>苗栗有個做工業模具的老闆，去年十二月十一號晚上，傳了一段語音給我。</summary>
+    <category term="Codex 教學"/>
+  </entry>
   <entry>
     <title>Claude 解卦，其實做得不差</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html"/>
@@ -229,14 +237,6 @@
     <id>https://etimmyqq-lab.github.io/articles/2026-04-25-7700884e.html</id>
     <updated>2026-04-25T08:00:00+08:00</updated>
     <summary>上週三下午,一位做機械手工具的老闆在我辦公室坐下來第一句話是:「我兒子說我太老了學不來,叫我把 AI 這件事交給他。可是我心裡就是不踏實。」</summary>
-    <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>我一開始也不信</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-04-24-6caf6adb.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-04-24-6caf6adb.html</id>
-    <updated>2026-04-24T08:00:00+08:00</updated>
-    <summary>上週三下午，一位做水五金外銷的老闆娘傳訊息給我，劈頭就問：「Timmy老師，你用易經幫客戶決策，會不會被笑啊？」我笑了一下，回她：「會。上個月才被笑過。」</summary>
     <category term="中小企業數位轉型"/>
   </entry>
 </feed>
