@@ -17,6 +17,7 @@
 
 ## 最新文章
 
+- [乾卦六爻，各說各的話](https://etimmyqq-lab.github.io/articles/2026-05-24-2858ca15.html): 台南有個做汽車零件電鍍的老闆，去年九月傳了一句話給我：「老師，我起了個卦問要不要擴廠，得到乾卦。乾卦是天嘛，很強，可以衝嗎？」
 - [第一步：讓 AI 把問題說清楚](https://etimmyqq-lab.github.io/articles/2026-05-23-a462dfaf.html): 去年有一家台東的有機農食公司，做了七年電商，月業績平均落在 45 到 80 萬之間，整整三個月沒辦法決定要不要轉做 B2B。數字其實都在那裡，問題是老闆說不清楚…
 - [你真正需要懂的三件事](https://etimmyqq-lab.github.io/articles/2026-05-22-34548aa9.html): 苗栗有個做工業模具的老闆，去年十二月十一號晚上，傳了一段語音給我。
 - [Claude 解卦，其實做得不差](https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html): 新竹一家做精密零件的老闆，上個月傳了三張截圖給我。都是他問 Claude 卦象的紀錄。他說：「老師你看，我問了同一個問題三次，三次答案都不一樣，Claude 到…
@@ -26,11 +27,10 @@
 - [卦牌不是在替財務數字算命](https://etimmyqq-lab.github.io/articles/2026-05-17-1fce2218.html): 去年第三季末，高雄一家做系統傢具的老闆請我陪他開季度複盤會。
 - [先說一個真實數字](https://etimmyqq-lab.github.io/articles/2026-05-16-11735a1e.html): 去年十一月，彰化有個做印刷包裝的老闆在電話裡問我：「老師，我如果現在導入 Claude Code，三個月內能看到回本嗎？我帳上現在就這樣，不能亂花。」
 - [None](https://etimmyqq-lab.github.io/articles/None.html): 
-- [ChatGPT 跟 Claude Code 在公司裡做的不是同一件事](https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html): 上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…
 
 ## 關於作者
 
 昆廷老師是AI顧問，也是易經卦牌決策引導師。他在帶企業AI導入規劃的同時，會用卦牌幫老闆釐清「現在最值得動的那一步」。他教Claude Code和Codex，但更在意的是：學了這些工具之後，你能不能問出比以前更好的問題。服務對象主要是中小企業主和想轉型的社會人士，有時候一個session就能讓人豁然開朗。
 
 網站：https://etimmyqq-lab.github.io/
-更新於：2026-05-23
+更新於：2026-05-24
