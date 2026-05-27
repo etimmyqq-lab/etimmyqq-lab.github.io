@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 26 May 2026 08:38:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 08:42:49 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 說的可能都是對的，但你問的問題可能是錯的</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-05-27-254962a8.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-27-254962a8.html</guid>
+      <pubDate>Wed, 27 May 2026 08:00:00 +0800</pubDate>
+      <description>去年十一月，嘉義有個做工業包裝材料的老闆傳訊息給我，說他跟 AI 吵架了。</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>省下三十小時，不代表多三十小時的產出</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-05-26-d28646e6.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
       <description>去年十一月，一家做工業用扣件的老闆——員工大概三十五人的工廠——在我辦公室的白板上寫了一個數字：「500萬」。然後轉過頭問我：「老師，夠嗎？」</description>
       <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>人才任用的「最終判斷」，究竟是什麼</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-04-29-756168c7.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-29-756168c7.html</guid>
-      <pubDate>Wed, 29 Apr 2026 08:00:00 +0800</pubDate>
-      <description>易經卦牌可以用來決定要不要雇用一個人嗎？我的答案是：可以，但不是你想的那種用法</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>
