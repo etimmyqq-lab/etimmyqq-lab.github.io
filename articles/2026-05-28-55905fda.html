@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codex 教學為什麼大多是工程師視角｜昆廷老師</title>
+<meta name="description" content="基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3KEGWS9929');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html">
+<meta property="og:title" content="Codex 教學為什麼大多是工程師視角">
+<meta property="og:description" content="基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta property="og:image:alt" content="Codex 教學為什麼大多是工程師視角｜昆廷老師">
+<meta property="article:author" content="昆廷老師">
+<meta property="article:published_time" content="2026-05-28">
+<meta property="og:site_name" content="昆廷老師">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Codex 教學為什麼大多是工程師視角">
+<meta name="twitter:description" content="基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:image:alt" content="Codex 教學為什麼大多是工程師視角｜昆廷老師">
+
+<!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Codex 教學為什麼大多是工程師視角",
+  "description": "基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師"
+  },
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html"
+  },
+  "keywords": "Codex 教學, Codex 到底是什麼？給完全沒寫過程式的老闆看的白話入門",
+  "inLanguage": "zh-Hant",
+  "articleSection": "Codex 教學"
+}
+</script>
+
+<!-- schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "文章", "item": "https://etimmyqq-lab.github.io/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "Codex 教學為什麼大多是工程師視角"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Font optimization: preload critical weights, use display=swap -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .article-extras {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .faq-section h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.4rem;
+        color: #1F4E79;
+        margin: 24px 0 16px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .faq-item {
+        background: #f6f8fb;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+    }
+    .faq-item summary {
+        cursor: pointer;
+        font-weight: 500;
+        color: #1a2233;
+        padding: 4px 0;
+    }
+    .faq-item summary::before { content: "▸ "; color: #C9A96E; }
+    .faq-item[open] summary::before { content: "▾ "; }
+    .faq-answer { margin-top: 10px; color: #4a5568; line-height: 1.8; }
+    .related-section {
+        margin-top: 40px;
+        padding: 20px;
+        background: #f8fafd;
+        border-radius: 12px;
+    }
+    .related-section h3 {
+        font-family: 'Noto Serif TC', serif;
+        color: #1F4E79;
+        font-size: 1.1rem;
+        margin: 0 0 14px;
+    }
+    .related-list { display: flex; flex-direction: column; gap: 8px; }
+    .related-link {
+        display: block;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a2233;
+        font-size: 0.95rem;
+        border: 1px solid #e4e8ef;
+        transition: all .2s;
+    }
+    .related-link:hover { border-color: #1F4E79; transform: translateX(4px); }
+    .related-kw { color: #C9A96E; font-size: 0.85rem; margin-right: 8px; }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Codex 教學為什麼大多是工程師視角",
+  "description": "基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…",
+  "articleBody": "基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository、token、API endpoint 這些詞，問我：「老師，這是給人看的嗎？」",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "inLanguage": "zh-Hant",
+  "url": "https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "keywords": "Codex 教學, Codex 到底是什麼？給完全沒寫過程式的老闆看的白話入門",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Codex 跟 ChatGPT 有什麼不同？非技術人員要學哪個比較好？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Codex 的核心是生成程式碼，ChatGPT 是通用對話工具。如果你完全不懂程式、也沒有明確的「想自動化某個流程」的需求，從 ChatGPT 或 Claude 開始比較順。等你有了「我需要一個小工具幫我處理 XX 資料」這類具體問題，再來看 Codex 能幫什麼。兩個不是競爭關係，是不同場景用不同工具。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "非技術人員用 Codex，大概多久能做出實際有用的東西？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "有具體問題的話，通常兩到四週可以做出一個粗版可用的東西。沒有具體問題只是想「先學一下」，學習時間會拖很長，因為你沒有一個檢驗點知道自己學到哪裡了。帶著真實需求進去，進度會快很多。「八成可用」就是一個好的開始，不要等到百分之百才算學會。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "網路上的 Codex 教學幾乎都是英文的，有沒有中文入門的方式？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "中文的 Codex 入門資源確實少，而且大多還是針對工程師在寫。我的建議是跳過官方文件，直接用 Claude 或 ChatGPT 當你的「中文翻譯」——把你的問題用中文說清楚，請 AI 幫你生成一段 Codex 指令，你再測試、調整。這個方法比看文件快，也比較符合非技術人員的使用邏輯。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../learn-claude.html">Claude 教學</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-05-28 · Codex 教學</div>
+        <h1 class="article-title">Codex 教學為什麼大多是工程師視角</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository、token、API endpoint 這些詞，問我：「老師，這是給人看的嗎？」</p>
+<p>我說：「不是給你看的，沒錯。」</p>
+<p>他沉默了一下，回：「那我要怎麼學？」</p>
+<p>這個問題我這幾年聽到很多次了。</p>
+<h2>Codex 教學為什麼大多是工程師視角</h2>
+<p>Codex 最早是 OpenAI 在 2021 年推出的程式碼生成模型，主要定位是幫工程師自動補全程式碼。後來整合進 GitHub Copilot，又延伸出各種應用，技術文件還是延續工程師視角在寫——你要先知道什麼是 git 倉庫、什麼是開發環境，才能開始看第一章。</p>
+<p>這不是文件寫爛了。是那份文件根本不是為你寫的。</p>
+<p>阿海的問題不在「看不懂」，在「拿錯地圖」。</p>
+<p>你如果拿一張地質調查圖去問「從基隆到金山走哪條路比較好走」，看不懂是正常的。那不是你的地圖，那是地質學家的地圖。阿海需要的，是另一份東西。</p>
+<h2>非技術人員真正需要學的</h2>
+<p>我陪阿海用了大概兩個半月。他現在每週會用 Codex 做三件事：整理客戶訂單格式、轉換批發報價單欄位、讓業務跑報表的時間從每週三個小時縮到大約四十分鐘。</p>
+<p>他沒有學過寫程式。</p>
+<p>他學的是怎麼把問題說清楚。</p>
+<p>這句話聽起來簡單，但大部分老闆在這個環節就卡住了。不是不懂技術，是習慣了用模糊的語言描述需求。「我想要一個可以看出業績趨勢的東西」這種句子，給工程師聽都要花時間確認三遍，更何況給 AI 工具。</p>
+<p>Codex 對非技術人員的使用邏輯其實是這樣：你不需要自己寫程式。你需要學的，是把你的業務問題翻譯成機器能理解的語言。</p>
+<p>這個翻譯能力，才是你要培養的東西。</p>
+<h2>用易經的邏輯來理解這件事</h2>
+<p>易經每一卦每一爻都有爻辭。乾卦初九是「潛龍，勿用」。</p>
+<p>對第一次接觸的人，這五個字完全不知道在說什麼。</p>
+<p>但用易經輔助決策，你不需要一開始就把六十四卦的卦爻辭全部背懂。你需要的是學怎麼把你的問題問清楚。你帶什麼問題進來，決定你從「潛龍，勿用」這五個字裡看見什麼意思。同一句爻辭，帶著不同的處境進來，看見的東西就不一樣。</p>
+<p>Codex 也是同一個邏輯。</p>
+<p>你輸入的描述品質，決定你拿到的輸出品質。</p>
+<p>工程師學 Codex，學的是語法、流程、系統架構。非技術人員學 Codex，要學的是怎麼描述你自己的問題。工具一樣，但學習路徑完全是兩件事。</p>
+<h2>第一步要做什麼</h2>
+<p>阿海問我：「我第一步要做什麼？」</p>
+<p>我跟他說：「你先不要去看任何教學文件。你先把你每天最煩的一件重複工作寫下來，越具體越好。」</p>
+<p>他想了十分鐘，寫了一句話：「每週要花兩個小時把五個供應商傳來的報價格式整理成同一個表，因為每家供應商的 Excel 欄位名稱都不一樣。」</p>
+<p>這一句話，就是他學 Codex 的起點。</p>
+<p>把這句話告訴 Codex，或者透過 Claude 輔助也可以，請它幫你想解決方案，跟著做，第一次不一定成功，但你會開始知道問題卡在哪裡。第二次、第三次，你會慢慢調整你的描述方式。</p>
+<p>這個學習路徑，比從頭讀工程師文件有效很多。</p>
+<p>非技術人員學 AI 工具最常犯的錯，是去找一個「完整課程」從頭學起。那些課大多預設你有技術背景，或者你有大量空閒時間。你通常兩個都沒有。</p>
+<p>帶著你的問題進去。從解決你自己的一個問題開始。等你做出了第一個粗版可用的東西，再回頭去看那些工程師的文件，很多地方你突然就看懂了。不是文件變好懂了，是你已經有了使用經驗，你知道你在找什麼。</p>
+<p>---</p>
+<p>有人這時候會問：「那到底要用 Codex、還是 Claude Code、還是 ChatGPT？」</p>
+<p>老實說，這個問題我沒有一個固定答案，因為答案取決於你要做什麼。Codex 的強項是生成程式碼，如果你需要的是「幫我寫一個小工具處理重複的資料整理」，它很適合。如果你需要的是「幫我分析客戶回饋找規律」，Claude 或 ChatGPT 可能更直接。</p>
+<p>阿海現在混用三個工具。他說：「用久了就知道這種問題找哪個。」</p>
+<p>這個感覺，大概要三到六個月的實際使用才會有。先開始，比先想清楚用哪個重要。</p>
+</article>
+<div class="article-extras">
+<section class="faq-section">
+<h2>常見問題</h2>
+<details class="faq-item"><summary>Codex 跟 ChatGPT 有什麼不同？非技術人員要學哪個比較好？</summary><div class="faq-answer">Codex 的核心是生成程式碼，ChatGPT 是通用對話工具。如果你完全不懂程式、也沒有明確的「想自動化某個流程」的需求，從 ChatGPT 或 Claude 開始比較順。等你有了「我需要一個小工具幫我處理 XX 資料」這類具體問題，再來看 Codex 能幫什麼。兩個不是競爭關係，是不同場景用不同工具。</div></details><details class="faq-item"><summary>非技術人員用 Codex，大概多久能做出實際有用的東西？</summary><div class="faq-answer">有具體問題的話，通常兩到四週可以做出一個粗版可用的東西。沒有具體問題只是想「先學一下」，學習時間會拖很長，因為你沒有一個檢驗點知道自己學到哪裡了。帶著真實需求進去，進度會快很多。「八成可用」就是一個好的開始，不要等到百分之百才算學會。</div></details><details class="faq-item"><summary>網路上的 Codex 教學幾乎都是英文的，有沒有中文入門的方式？</summary><div class="faq-answer">中文的 Codex 入門資源確實少，而且大多還是針對工程師在寫。我的建議是跳過官方文件，直接用 Claude 或 ChatGPT 當你的「中文翻譯」——把你的問題用中文說清楚，請 AI 幫你生成一段 Codex 指令，你再測試、調整。這個方法比看文件快，也比較符合非技術人員的使用邏輯。</div></details>
+</section>
+<section class="related-section">
+<h3>你可能也想看</h3>
+<div class="related-list"><a href="2026-05-27-254962a8.html" class="related-link"><span class="related-kw">[企業 AI 導入]</span> <span class="related-q">老闆的直覺跟 AI 建議衝突時該聽誰的？</span></a><a href="2026-05-26-d28646e6.html" class="related-link"><span class="related-kw">[企業 AI 導入]</span> <span class="related-q">AI 省下的時間可以換算成多少錢？</span></a><a href="2026-05-25-fde9cf34.html" class="related-link"><span class="related-kw">[易經卦牌]</span> <span class="related-q">企業傳承時,把「卦牌決策日誌」當成交接資料,可行嗎?</span></a></div>
+</section>
+</div>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
