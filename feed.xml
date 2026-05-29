@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 28 May 2026 08:36:20 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 08:36:18 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 報表只處理你問得出來的問題</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-05-29-0d3d0047.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-29-0d3d0047.html</guid>
+      <pubDate>Fri, 29 May 2026 08:00:00 +0800</pubDate>
+      <description>去年底桃園有個做金屬表面處理的老闆，讓 AI 幫他跑了一份市場分析。他想知道要不要往汽車零件廠這條線拓展。</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>Codex 教學為什麼大多是工程師視角</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Fri, 01 May 2026 08:00:00 +0800</pubDate>
       <description>「老師，我昨天問了卦，得屯卦初爻，解卦的人說不宜前行。但那個代理合約的窗口就兩週，我到底要不要簽？」</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>宣布不等於溝通</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-04-30-c01539df.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-04-30-c01539df.html</guid>
-      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
-      <description>上週二晚上九點半，一個做中價位男裝批發的老闆打電話給我，語氣很不對勁。</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>
