@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 30 May 2026 10:57:32 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 08:35:51 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一口井，所有人都可以來打水</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html</guid>
+      <pubDate>Sun, 31 May 2026 08:00:00 +0800</pubDate>
+      <description>今年三月，新竹有個做精密零件的老闆約我喝茶，開口第一句：「老師，我剛發現我同業五家都在用跟我一樣的 AI 工具。」</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>隱私模式到底管什麼</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-05-30-a25f8c1e.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Sun, 03 May 2026 08:00:00 +0800</pubDate>
       <description>上個月我在新竹陪一家做精密塑膠零件的老闆做 AI 工具評估。他坐下來第一句話：「老師我要先跟你坦白，我到現在還是用注音一個字一個字打字，我兒子說我是科技恐龍。我…</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>做了五年企業 AI 導入顧問，我發現一件事</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-02-aef9cd5b.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-02-aef9cd5b.html</guid>
-      <pubDate>Sat, 02 May 2026 08:00:00 +0800</pubDate>
-      <description>上個月一家做工業扣件的老闆在我桌子對面坐下，第一句話不是問 AI、不是問系統，是問我：「老師，你有沒有想過，哪天 AI 把你的工作也取代了？」</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>
