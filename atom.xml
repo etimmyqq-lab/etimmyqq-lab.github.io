@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-05-31T00:35:51.422957+00:00</updated>
+  <updated>2026-06-01T00:55:25.116865+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>但對照表查完之後呢？</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-06-01-8b419fdb.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-06-01-8b419fdb.html</id>
+    <updated>2026-06-01T08:00:00+08:00</updated>
+    <summary>台中有個做工具機零件的老闆，去年九月找我喝咖啡，帶了一張A4紙過來。紙上寫著一行字：「易經64卦商業週期對照表，有沒有？」</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>一口井，所有人都可以來打水</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html"/>
@@ -229,14 +237,6 @@
     <id>https://etimmyqq-lab.github.io/articles/2026-05-04-4e34d198.html</id>
     <updated>2026-05-04T08:00:00+08:00</updated>
     <summary>上個月有個做禮品包裝代工的老闆傳訊息給我，附了一張截圖——他的信用卡帳單，三個 AI 工具的訂閱費加起來每月將近七千塊台幣，用了五個月。</summary>
-    <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>老闆的角色不是工程師</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-03-c1ce97ed.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-03-c1ce97ed.html</id>
-    <updated>2026-05-03T08:00:00+08:00</updated>
-    <summary>上個月我在新竹陪一家做精密塑膠零件的老闆做 AI 工具評估。他坐下來第一句話：「老師我要先跟你坦白，我到現在還是用注音一個字一個字打字，我兒子說我是科技恐龍。我…</summary>
     <category term="企業 AI 導入"/>
   </entry>
 </feed>
