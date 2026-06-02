@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 01 Jun 2026 08:55:25 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 08:38:22 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>問題欄，才是整本日誌的靈魂</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-02-1dd2bc77.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-02-1dd2bc77.html</guid>
+      <pubDate>Tue, 02 Jun 2026 08:00:00 +0800</pubDate>
+      <description>有個台南做伴手禮的老闆娘，去年四月傳了一個截圖給我。那是她在 Notion 裡建的卦牌日誌模板，欄位設計得很精緻：自動帶日期、下拉選單選卦名、還有一個「今日心情…</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>但對照表查完之後呢？</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-01-8b419fdb.html</link>
@@ -229,14 +237,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-05-c9b7d69a.html</guid>
       <pubDate>Tue, 05 May 2026 08:00:00 +0800</pubDate>
       <description>對方是一家做不鏽鋼廚具外銷的老闆，姓黃，公司大概三十幾個人。他講話很直接：「老師，我不是要你來把公司變成科技公司。我就是有一件搞不定的事，你看能不能幫我。」</description>
-      <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>買工具之前，你有沒有說清楚問題</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-04-4e34d198.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-04-4e34d198.html</guid>
-      <pubDate>Mon, 04 May 2026 08:00:00 +0800</pubDate>
-      <description>上個月有個做禮品包裝代工的老闆傳訊息給我，附了一張截圖——他的信用卡帳單，三個 AI 工具的訂閱費加起來每月將近七千塊台幣，用了五個月。</description>
       <category>企業 AI 導入</category>
     </item>
   </channel>
