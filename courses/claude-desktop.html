@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Desktop 入門實戰｜四週實戰課｜昆廷老師</title>
+<meta name="description" content="四週、八小時，把 Claude Desktop 從另一個聊天視窗，變成幫你讀檔、做報告、跑流程的工作夥伴。Projects、Artifacts、MCP 一次補齊。昆廷老師親授。">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/courses/claude-desktop.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/courses/claude-desktop.html">
+<meta property="og:title" content="Claude Desktop 入門實戰｜四週實戰課">
+<meta property="og:description" content="不講概念、不背名詞。四週、八小時，把 Claude Desktop 變成你每天用的第二顆腦。">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta property="og:site_name" content="昆廷老師 Quentin Lab">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Claude Desktop 入門實戰｜昆廷老師">
+<meta name="twitter:description" content="四週、八小時，把 Claude Desktop 變成你每天用的第二顆腦。">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3KEGWS9929');</script>
+
+<!-- JSON-LD Course -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Claude Desktop 入門實戰",
+  "description": "四週實戰課，把 Claude Desktop 從聊天視窗變成工作夥伴。涵蓋 Desktop 基本功、Projects 專屬助理、MCP 工具串接、個人工作流整合。給顧問、PM、行銷、HR、主管、SOHO。",
+  "provider": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io/"
+  },
+  "educationalLevel": "初級到中級",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "顧問、PM、行銷、HR、主管、SOHO"
+  },
+  "inLanguage": "zh-Hant",
+  "url": "https://etimmyqq-lab.github.io/courses/claude-desktop.html",
+  "teaches": [
+    "Claude Desktop 安裝與基本操作",
+    "Artifacts 直接產出可用文件",
+    "Projects 建立專屬 AI 助理",
+    "MCP 工具串接（檔案系統、瀏覽器、雲端硬碟）",
+    "個人工作流整合與優化"
+  ]
+}
+</script>
+
+<style>
+  body, table, td, p, a, li { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+  table, td { border-collapse:collapse; }
+  img { border:0; outline:none; text-decoration:none; display:block; }
+  body { margin:0; padding:0; width:100%; background:#f4f1ea; }
+  a { color:#1a1a1a; text-decoration:underline; }
+  @media screen and (max-width:600px) {
+    .container { width:100% !important; }
+    .px { padding-left:24px !important; padding-right:24px !important; }
+    .h1 { font-size:28px !important; line-height:1.25 !important; }
+    .h2 { font-size:20px !important; }
+    .cta a { display:block !important; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:#f4f1ea;font-family:'Noto Serif TC','Songti TC','PMingLiU',Georgia,serif;color:#1a1a1a;">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4f1ea;">
+  <tr><td align="center" style="padding:32px 16px;">
+
+    <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background:#ffffff;border:1px solid #1a1a1a;">
+
+      <!-- top bar -->
+      <tr>
+        <td class="px" style="padding:20px 40px;border-bottom:1px solid #1a1a1a;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td align="left" style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:2px;color:#1a1a1a;text-transform:uppercase;">
+                <a href="/" style="color:#1a1a1a;text-decoration:none;">昆廷老師　QUENTIN&nbsp;LAB</a>
+              </td>
+              <td align="right" style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:1px;color:#666;">
+                Issue&nbsp;No.&nbsp;07&nbsp;/&nbsp;2026
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- hero -->
+      <tr>
+        <td class="px" style="padding:56px 40px 40px 40px;">
+          <p style="margin:0 0 16px 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:4px;color:#8a6d3b;text-transform:uppercase;">
+            ── 四週實戰課 ──
+          </p>
+          <h1 class="h1" style="margin:0 0 20px 0;font-size:38px;line-height:1.2;font-weight:600;letter-spacing:-0.5px;color:#1a1a1a;">
+            Claude Desktop<br>入門實戰
+          </h1>
+          <p style="margin:0;font-size:16px;line-height:1.7;color:#3a3a3a;">
+            不講概念、不背名詞。<br>
+            四週、八小時，把 Claude Desktop 從「另一個聊天視窗」，變成幫你讀檔、做報告、跑流程的工作夥伴。
+          </p>
+        </td>
+      </tr>
+
+      <!-- divider -->
+      <tr><td style="padding:0 40px;"><div style="border-top:1px solid #1a1a1a;height:1px;line-height:1px;font-size:1px;">&nbsp;</div></td></tr>
+
+      <!-- pain point -->
+      <tr>
+        <td class="px" style="padding:40px;">
+          <p style="margin:0 0 8px 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#8a6d3b;text-transform:uppercase;">01　給你的</p>
+          <h2 class="h2" style="margin:0 0 16px 0;font-size:22px;line-height:1.4;font-weight:600;color:#1a1a1a;">
+            你已經追了三個月教學影片，<br>但還是不知道從哪裡開始。
+          </h2>
+          <p style="margin:0;font-size:15px;line-height:1.8;color:#3a3a3a;">
+            ChatGPT 訂了、Claude.ai 也用過——每次都是「問一句、答一段、複製貼上回 Word」。產能感覺有提升一點，但離「AI 幫我把事做完」還很遠。這堂課把 Claude Desktop 裡你沒用到的 80%——Projects、Artifacts、檔案讀取、MCP 工具——一次補齊。
+          </p>
+        </td>
+      </tr>
+
+      <!-- divider -->
+      <tr><td style="padding:0 40px;"><div style="border-top:1px solid #d4cdb8;height:1px;line-height:1px;font-size:1px;">&nbsp;</div></td></tr>
+
+      <!-- modules -->
+      <tr>
+        <td class="px" style="padding:40px;">
+          <p style="margin:0 0 8px 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#8a6d3b;text-transform:uppercase;">02　四週進度</p>
+          <h2 class="h2" style="margin:0 0 28px 0;font-size:22px;line-height:1.4;font-weight:600;color:#1a1a1a;">
+            從裝起來，到能上工。
+          </h2>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;">
+            <tr>
+              <td width="60" valign="top" style="width:60px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:32px;line-height:1;font-weight:300;color:#8a6d3b;letter-spacing:-1px;">W1</td>
+              <td valign="top" style="padding-left:8px;">
+                <h3 style="margin:0 0 6px 0;font-size:17px;font-weight:600;color:#1a1a1a;">把 Desktop 用對</h3>
+                <p style="margin:0;font-size:14px;line-height:1.7;color:#555;">Claude Desktop 安裝、模型選擇、長對話技巧、Artifacts 怎麼讓它直接產出可用文件。把「會聊天」升級成「會交付」。</p>
+              </td>
+            </tr>
+          </table>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;">
+            <tr>
+              <td width="60" valign="top" style="width:60px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:32px;line-height:1;font-weight:300;color:#8a6d3b;letter-spacing:-1px;">W2</td>
+              <td valign="top" style="padding-left:8px;">
+                <h3 style="margin:0 0 6px 0;font-size:17px;font-weight:600;color:#1a1a1a;">Projects：你的專屬助理</h3>
+                <p style="margin:0;font-size:14px;line-height:1.7;color:#555;">用 Projects 建一個「懂你公司、懂你客戶、懂你寫作風格」的常駐助理。知識庫怎麼上傳、System Prompt 怎麼寫、怎麼避免它一本正經地胡說八道。</p>
+              </td>
+            </tr>
+          </table>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;">
+            <tr>
+              <td width="60" valign="top" style="width:60px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:32px;line-height:1;font-weight:300;color:#8a6d3b;letter-spacing:-1px;">W3</td>
+              <td valign="top" style="padding-left:8px;">
+                <h3 style="margin:0 0 6px 0;font-size:17px;font-weight:600;color:#1a1a1a;">MCP：讓 Claude 真的會做事</h3>
+                <p style="margin:0;font-size:14px;line-height:1.7;color:#555;">接上檔案系統、瀏覽器、Google Drive、Notion——讓 Claude 不只是回答你，是直接幫你開檔、查資料、寫進文件。從「問它」變成「派它」。</p>
+              </td>
+            </tr>
+          </table>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td width="60" valign="top" style="width:60px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:32px;line-height:1;font-weight:300;color:#8a6d3b;letter-spacing:-1px;">W4</td>
+              <td valign="top" style="padding-left:8px;">
+                <h3 style="margin:0 0 6px 0;font-size:17px;font-weight:600;color:#1a1a1a;">做完一個自己的工作流</h3>
+                <p style="margin:0;font-size:14px;line-height:1.7;color:#555;">每人帶一個自己的真實任務（寫週報、做提案、整理會議記錄、分析客戶資料皆可）上課，最後一週直播逐案優化、收工。</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- divider -->
+      <tr><td style="padding:0 40px;"><div style="border-top:1px solid #d4cdb8;height:1px;line-height:1px;font-size:1px;">&nbsp;</div></td></tr>
+
+      <!-- testimonials -->
+      <tr>
+        <td class="px" style="padding:40px;">
+          <p style="margin:0 0 8px 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#8a6d3b;text-transform:uppercase;">03　學員回饋</p>
+          <h2 class="h2" style="margin:0 0 28px 0;font-size:22px;line-height:1.4;font-weight:600;color:#1a1a1a;">
+            前六期的學員，後來怎麼說。
+          </h2>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:28px;">
+            <tr>
+              <td style="border-left:3px solid #1a1a1a;padding:4px 0 4px 20px;">
+                <p style="margin:0 0 12px 0;font-size:16px;line-height:1.8;color:#1a1a1a;font-style:italic;">
+                  「上完第二週，我把每週五下午整理會議記錄那兩小時直接砍掉。Projects 讀完六份逐字稿，30 秒給我一份比我自己寫得還結構化的摘要。」
+                </p>
+                <p style="margin:0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:1px;color:#666;">
+                  ── 林小姐　｜　外商行銷經理
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:28px;">
+            <tr>
+              <td style="border-left:3px solid #1a1a1a;padding:4px 0 4px 20px;">
+                <p style="margin:0 0 12px 0;font-size:16px;line-height:1.8;color:#1a1a1a;font-style:italic;">
+                  「之前 ChatGPT、Claude 都用過，但都是『問一句答一句』。第三週學完 MCP 接檔案系統，Claude 直接打開我的客戶資料夾、讀完三份合約、產出比對表，這時候才知道什麼叫 AI 助理。」
+                </p>
+                <p style="margin:0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:1px;color:#666;">
+                  ── 陳先生　｜　管顧合夥人
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="border-left:3px solid #1a1a1a;padding:4px 0 4px 20px;">
+                <p style="margin:0 0 12px 0;font-size:16px;line-height:1.8;color:#1a1a1a;font-style:italic;">
+                  「我不是工程師，本來很怕跟不上。但老師的進度真的就是『先讓你會用，再告訴你為什麼』。最後一週帶自己提案上來改，Claude 給的版本主管直接通過了。」
+                </p>
+                <p style="margin:0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:1px;color:#666;">
+                  ── 黃小姐　｜　科技業 PM
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- CTA -->
+      <tr>
+        <td class="px" style="padding:8px 40px 48px 40px;">
+          <table role="presentation" class="cta" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td align="center" bgcolor="#1a1a1a" style="background:#1a1a1a;">
+                <a href="https://line.me/ti/p/aeSl1H6qRJ" style="display:inline-block;padding:20px 48px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;letter-spacing:3px;color:#ffffff;text-decoration:none;font-weight:600;">
+                  立即報名 →
+                </a>
+              </td>
+            </tr>
+          </table>
+          <p style="margin:16px 0 0 0;text-align:center;font-size:12px;color:#888;line-height:1.6;">
+            或先 <a href="https://line.me/ti/p/aeSl1H6qRJ" style="color:#1a1a1a;">加入 LINE 問細節</a>
+          </p>
+        </td>
+      </tr>
+
+      <!-- about -->
+      <tr>
+        <td class="px" style="padding:40px;background:#f4f1ea;border-top:1px solid #1a1a1a;">
+          <p style="margin:0 0 8px 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#8a6d3b;text-transform:uppercase;">04　關於講師</p>
+          <h2 class="h2" style="margin:0 0 14px 0;font-size:20px;line-height:1.4;font-weight:600;color:#1a1a1a;">昆廷老師</h2>
+          <p style="margin:0 0 12px 0;font-size:14px;line-height:1.8;color:#3a3a3a;">
+            企業 AI 顧問。每天用 Claude Desktop 處理顧問案、寫提案、做客戶分析、整理會議記錄、規劃課程；同時自架 19 個 Claude-driven 服務在跑（醫美診所官網、LINE Bot 簽核、命理網站等）。
+          </p>
+          <p style="margin:0;font-size:14px;line-height:1.8;color:#3a3a3a;">
+            這堂課不是教 prompt 技巧，是把我自己每天在用的流程，從頭拆給你。
+          </p>
+        </td>
+      </tr>
+
+      <!-- footer -->
+      <tr>
+        <td class="px" style="padding:24px 40px;background:#1a1a1a;color:#9a9a9a;">
+          <p style="margin:0 0 8px 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:2px;color:#9a9a9a;">QUENTIN&nbsp;LAB　｜　企業 AI 顧問</p>
+          <p style="margin:0;font-size:11px;line-height:1.7;color:#9a9a9a;">
+            <a href="https://etimmyqq-lab.github.io" style="color:#d4cdb8;text-decoration:none;">etimmyqq-lab.github.io</a>　·　Claude Desktop 教學　·　易經決策諮詢
+          </p>
+        </td>
+      </tr>
+
+    </table>
+
+    <p style="margin:16px 0 0 0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:10px;color:#888;letter-spacing:1px;">© 2026 Quentin Lab</p>
+
+  </td></tr>
+</table>
+
+</body>
+</html>
