@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-06-02T00:38:22.963246+00:00</updated>
+  <updated>2026-06-03T00:36:57.828697+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>先做一件事：依賴深度盤點</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-06-03-dd53af5c.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-06-03-dd53af5c.html</id>
+    <updated>2026-06-03T08:00:00+08:00</updated>
+    <summary>去年十一月，彰化有個做印刷包裝的老闆傳訊息給我。</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>問題欄，才是整本日誌的靈魂</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-06-02-1dd2bc77.html"/>
@@ -230,13 +238,5 @@
     <updated>2026-05-06T08:00:00+08:00</updated>
     <summary>台中有一家做家居雜貨進口的老闆，公司大概二十幾個人。他們進的東西很雜——廚房收納、浴室用品、小型家電周邊，主要客戶是全台各地的連鎖生活雜貨店。每週一早上九點，固…</summary>
     <category term="易經卦牌"/>
-  </entry>
-  <entry>
-    <title>我陪他做了什麼</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-05-c9b7d69a.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-05-c9b7d69a.html</id>
-    <updated>2026-05-05T08:00:00+08:00</updated>
-    <summary>對方是一家做不鏽鋼廚具外銷的老闆，姓黃，公司大概三十幾個人。他講話很直接：「老師，我不是要你來把公司變成科技公司。我就是有一件搞不定的事，你看能不能幫我。」</summary>
-    <category term="企業 AI 導入"/>
   </entry>
 </feed>
