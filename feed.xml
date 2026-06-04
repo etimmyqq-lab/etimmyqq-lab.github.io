@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 03 Jun 2026 08:36:57 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 08:40:00 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copilot 在做什麼</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-04-f116b189.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-04-f116b189.html</guid>
+      <pubDate>Thu, 04 Jun 2026 08:00:00 +0800</pubDate>
+      <description>雲林有個做農業機械代理的老闆，今年二月傳了兩張截圖給我，中間夾了一句：「老師，這兩個工具感覺都在幫我寫程式，有什麼不同？我到底繳哪個費用就好？」</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>先做一件事：依賴深度盤點</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-03-dd53af5c.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Thu, 07 May 2026 08:00:00 +0800</pubDate>
       <description>去年十二月，一個做健康食品訂閱盒的創業者傳訊息給我，時間是晚上十一點四十分。</description>
       <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>兩種會，完全不同的事</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-06-fab22ee2.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-06-fab22ee2.html</guid>
-      <pubDate>Wed, 06 May 2026 08:00:00 +0800</pubDate>
-      <description>台中有一家做家居雜貨進口的老闆，公司大概二十幾個人。他們進的東西很雜——廚房收納、浴室用品、小型家電周邊，主要客戶是全台各地的連鎖生活雜貨店。每週一早上九點，固…</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
