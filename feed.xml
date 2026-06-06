@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 05 Jun 2026 08:40:26 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 08:37:34 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CLAUDE.md 的三個層級</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html</guid>
+      <pubDate>Sat, 06 Jun 2026 08:00:00 +0800</pubDate>
+      <description>高雄有個做設備保養管理系統的軟體公司，去年十一月找我開了一次諮詢。他們不是來問要不要導入 AI，已經在用了。六個工程師，每個人的 Claude Code 都裝好…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>找那口井</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-05-6a03bb65.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Sat, 09 May 2026 08:00:00 +0800</pubDate>
       <description>三月的第一週，台北一個做室內裝修的老闆陳老闆打電話給我，開門見山：「昆廷老師，我帳上只剩六十幾萬，三個案子的尾款還沒收到，你覺得我現在應該先砍哪一塊成本？」</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>「自動回 email」展開來是幾個動作？</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-08-969a02ee.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-08-969a02ee.html</guid>
-      <pubDate>Fri, 08 May 2026 08:00:00 +0800</pubDate>
-      <description>晚上九點多，一個做品牌設計接案的老闆傳訊息給我。她在板橋，公司五個人，接的是中小企業的品牌識別案子——名片、提案文件、社群視覺。她說：「老師，我每天早上光是回詢…</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>
