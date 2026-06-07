@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 06 Jun 2026 08:37:34 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 08:38:17 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html</guid>
+      <pubDate>Sun, 07 Jun 2026 08:00:00 +0800</pubDate>
+      <description>台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>CLAUDE.md 的三個層級</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Sun, 10 May 2026 08:00:00 +0800</pubDate>
       <description>上個月在新竹的一場分享會結束後，有個後端工程師等到最後，在會場門口找到我。他開口很直接：「老師，你這個把易經跟 Claude Code 組合在一起——我有點看不…</description>
       <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>「砍成本」這個問法本身就是陷阱</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-09-2ed09f28.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-09-2ed09f28.html</guid>
-      <pubDate>Sat, 09 May 2026 08:00:00 +0800</pubDate>
-      <description>三月的第一週，台北一個做室內裝修的老闆陳老闆打電話給我，開門見山：「昆廷老師，我帳上只剩六十幾萬，三個案子的尾款還沒收到，你覺得我現在應該先砍哪一塊成本？」</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>

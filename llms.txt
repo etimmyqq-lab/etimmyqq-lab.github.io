@@ -17,6 +17,7 @@
 
 ## 最新文章
 
+- [開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？](https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html): 台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。
 - [CLAUDE.md 的三個層級](https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html): 高雄有個做設備保養管理系統的軟體公司，去年十一月找我開了一次諮詢。他們不是來問要不要導入 AI，已經在用了。六個工程師，每個人的 Claude Code 都裝好…
 - [找那口井](https://etimmyqq-lab.github.io/articles/2026-06-05-6a03bb65.html): 去年十二月，彰化有個做鋁門窗代理的老闆打電話給我。
 - [Copilot 在做什麼](https://etimmyqq-lab.github.io/articles/2026-06-04-f116b189.html): 雲林有個做農業機械代理的老闆，今年二月傳了兩張截圖給我，中間夾了一句：「老師，這兩個工具感覺都在幫我寫程式，有什麼不同？我到底繳哪個費用就好？」
@@ -26,11 +27,10 @@
 - [一口井，所有人都可以來打水](https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html): 今年三月，新竹有個做精密零件的老闆約我喝茶，開口第一句：「老師，我剛發現我同業五家都在用跟我一樣的 AI 工具。」
 - [隱私模式到底管什麼](https://etimmyqq-lab.github.io/articles/2026-05-30-a25f8c1e.html): 高雄有個老闆，做工業零件外銷二十幾年，我叫他德義哥好了。去年十月他傳訊息問我：「老師，我聽說可以開 Codex 的隱私模式，這樣資料就不會被拿去訓練模型了，是真…
 - [AI 報表只處理你問得出來的問題](https://etimmyqq-lab.github.io/articles/2026-05-29-0d3d0047.html): 去年底桃園有個做金屬表面處理的老闆，讓 AI 幫他跑了一份市場分析。他想知道要不要往汽車零件廠這條線拓展。
-- [Codex 教學為什麼大多是工程師視角](https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html): 基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…
 
 ## 關於作者
 
 昆廷老師是AI顧問，也是易經卦牌決策引導師。他在帶企業AI導入規劃的同時，會用卦牌幫老闆釐清「現在最值得動的那一步」。他教Claude Code和Codex，但更在意的是：學了這些工具之後，你能不能問出比以前更好的問題。服務對象主要是中小企業主和想轉型的社會人士，有時候一個session就能讓人豁然開朗。
 
 網站：https://etimmyqq-lab.github.io/
-更新於：2026-06-06
+更新於：2026-06-07

@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？
+
+URL: https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html
+主題: Codex 教學
+日期: 2026-06-07
+
+台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。
+
 ### CLAUDE.md 的三個層級
 
 URL: https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html
