@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-06-07T00:38:17.537346+00:00</updated>
+  <updated>2026-06-08T00:37:59.765678+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>整理資料跟理解資料，是兩件事</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-06-08-8d82c3a7.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-06-08-8d82c3a7.html</id>
+    <updated>2026-06-08T08:00:00+08:00</updated>
+    <summary>桃園有個做五金零件外銷的公司，去年十月我去那邊做了一次導入諮詢。業務部主管問我說，他們採購行政的人，原來負責每天整理報價單、把廠商回覆的 PDF 轉成 Exce…</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html"/>
@@ -230,13 +238,5 @@
     <updated>2026-05-11T08:00:00+08:00</updated>
     <summary>打來的是一家精密零件公司的人資，她說老闆最近在問她一個問題，請她幫忙來問我：「要找外部顧問，還是培養一個內部的 AI 種子員工？預算不多，最多能選一個。」</summary>
     <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>易經的核心從來不是那六十四個卦</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-10-8d346dcc.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-10-8d346dcc.html</id>
-    <updated>2026-05-10T08:00:00+08:00</updated>
-    <summary>上個月在新竹的一場分享會結束後，有個後端工程師等到最後，在會場門口找到我。他開口很直接：「老師，你這個把易經跟 Claude Code 組合在一起——我有點看不…</summary>
-    <category term="Claude Code 教學"/>
   </entry>
 </feed>

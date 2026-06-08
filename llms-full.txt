@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 整理資料跟理解資料，是兩件事
+
+URL: https://etimmyqq-lab.github.io/articles/2026-06-08-8d82c3a7.html
+主題: 企業 AI 導入
+日期: 2026-06-08
+
+桃園有個做五金零件外銷的公司，去年十月我去那邊做了一次導入諮詢。業務部主管問我說，他們採購行政的人，原來負責每天整理報價單、把廠商回覆的 PDF 轉成 Exce…
+
 ### 開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？
 
 URL: https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html
