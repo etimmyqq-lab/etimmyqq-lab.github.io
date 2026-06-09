@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 08 Jun 2026 08:37:59 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 08:58:41 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hooks 是什麼</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html</guid>
+      <pubDate>Tue, 09 Jun 2026 08:00:00 +0800</pubDate>
+      <description>上個月有個從新竹來找我的客戶，傳了一張截圖給我。</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>整理資料跟理解資料，是兩件事</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-08-8d82c3a7.html</link>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 12 May 2026 08:00:00 +0800</pubDate>
       <description>上個月，高雄一個做美甲連鎖的老闆娘傳訊息給我，時間是早上八點二十分。</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>兩條路的坑，各自不一樣</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-11-02d7a12e.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-11-02d7a12e.html</guid>
-      <pubDate>Mon, 11 May 2026 08:00:00 +0800</pubDate>
-      <description>打來的是一家精密零件公司的人資，她說老闆最近在問她一個問題，請她幫忙來問我：「要找外部顧問，還是培養一個內部的 AI 種子員工？預算不多，最多能選一個。」</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>

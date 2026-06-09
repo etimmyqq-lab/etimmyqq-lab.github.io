@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hooks 是什麼｜昆廷老師</title>
+<meta name="description" content="上個月有個從新竹來找我的客戶，傳了一張截圖給我。">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3KEGWS9929');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html">
+<meta property="og:title" content="hooks 是什麼">
+<meta property="og:description" content="上個月有個從新竹來找我的客戶，傳了一張截圖給我。">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta property="og:image:alt" content="hooks 是什麼｜昆廷老師">
+<meta property="article:author" content="昆廷老師">
+<meta property="article:published_time" content="2026-06-09">
+<meta property="og:site_name" content="昆廷老師">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="hooks 是什麼">
+<meta name="twitter:description" content="上個月有個從新竹來找我的客戶，傳了一張截圖給我。">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:image:alt" content="hooks 是什麼｜昆廷老師">
+
+<!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "hooks 是什麼",
+  "description": "上個月有個從新竹來找我的客戶，傳了一張截圖給我。",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師"
+  },
+  "datePublished": "2026-06-09",
+  "dateModified": "2026-06-09",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html"
+  },
+  "keywords": "Claude Code 教學, Claude Code 實戰技能樹:從指令、子代理到自動化工作流",
+  "inLanguage": "zh-Hant",
+  "articleSection": "Claude Code 教學"
+}
+</script>
+
+<!-- schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "文章", "item": "https://etimmyqq-lab.github.io/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "hooks 是什麼"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Font optimization: preload critical weights, use display=swap -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .article-extras {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .faq-section h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.4rem;
+        color: #1F4E79;
+        margin: 24px 0 16px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .faq-item {
+        background: #f6f8fb;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+    }
+    .faq-item summary {
+        cursor: pointer;
+        font-weight: 500;
+        color: #1a2233;
+        padding: 4px 0;
+    }
+    .faq-item summary::before { content: "▸ "; color: #C9A96E; }
+    .faq-item[open] summary::before { content: "▾ "; }
+    .faq-answer { margin-top: 10px; color: #4a5568; line-height: 1.8; }
+    .related-section {
+        margin-top: 40px;
+        padding: 20px;
+        background: #f8fafd;
+        border-radius: 12px;
+    }
+    .related-section h3 {
+        font-family: 'Noto Serif TC', serif;
+        color: #1F4E79;
+        font-size: 1.1rem;
+        margin: 0 0 14px;
+    }
+    .related-list { display: flex; flex-direction: column; gap: 8px; }
+    .related-link {
+        display: block;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a2233;
+        font-size: 0.95rem;
+        border: 1px solid #e4e8ef;
+        transition: all .2s;
+    }
+    .related-link:hover { border-color: #1F4E79; transform: translateX(4px); }
+    .related-kw { color: #C9A96E; font-size: 0.85rem; margin-right: 8px; }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "hooks 是什麼",
+  "description": "上個月有個從新竹來找我的客戶，傳了一張截圖給我。",
+  "articleBody": "上個月有個從新竹來找我的客戶，傳了一張截圖給我。",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "datePublished": "2026-06-09",
+  "dateModified": "2026-06-09",
+  "inLanguage": "zh-Hant",
+  "url": "https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "keywords": "Claude Code 教學, Claude Code 實戰技能樹:從指令、子代理到自動化工作流",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "hooks 跟在 CLAUDE.md 裡寫規則，差在哪裡？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CLAUDE.md 裡的規則是給 AI 讀的，依賴 AI 自己遵守。Hooks 是你寫的程式在執行，AI 不論在什麼情況下都要通過這道關卡，不靠 AI 的判斷。如果是真的需要強制執行的流程限制，用 hooks，不要只靠 CLAUDE.md。兩個可以並用，但別以為寫進 CLAUDE.md 就等於真的擋住了。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "一定要很會寫程式才能設定 hooks 嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不一定。簡單的 hooks 用 shell 指令就夠了，例如記錄操作時間、備份檔案、發 Slack 通知。Python 適合需要解析 JSON 輸入或做複雜邏輯判斷的場景。十到三十行程度，只要有人能寫基本 shell 或 Python 就能上手。你不需要是資深工程師，但需要公司裡有一個人能寫這個。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "hooks 能完全防止 AI 做出危險動作嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不能說完全防止，因為取決於你的 hook 寫得多嚴密、涵蓋的情境有多完整。但它讓你對 AI 的每個動作保有可見性與介入點，這本身就有很大的意義。就算有漏掉的案例，你至少有完整的操作 log 可以追蹤。有 log 跟沒 log，出事之後的處理方式差很多。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../learn-claude.html">Claude 教學</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-06-09 · Claude Code 教學</div>
+        <h1 class="article-title">hooks 是什麼</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>上個月有個從新竹來找我的客戶，傳了一張截圖給我。</p>
+<p>他工程師用 Claude Code 整理客戶報價資料，AI 建議把一份含有客戶報價的 CSV 丟去外部測試 API。工程師沒多想，準備照做。老闆盯著操作記錄看，整個人都緊了。他傳訊問我：「這種事，有沒有辦法從根本上卡住？」</p>
+<p>有。答案叫 hooks。</p>
+<h2>hooks 是什麼</h2>
+<p>Claude Code 的 hooks，是讓你在 AI 執行任何動作之前或之後，插入一段自己設定的腳本。你可以把它想成是在 Claude 跟你的系統之間設置的崗哨。</p>
+<p>目前有四個觸發時機： PreToolUse，AI 準備呼叫工具之前。 PostToolUse，工具執行完畢之後。 Notification，Claude 送出某些通知時。 Stop，Claude 完成任務停下來的時候。</p>
+<p>每個 hook 都是一段 shell 指令或 Python 腳本，設定在專案的 .claude/settings.json 裡面。AI 要做任何動作，都得先通過你設定的這道關卡。不是靠 AI 的記性，是程式層面的強制執行。</p>
+<p>跟在 CLAUDE.md 裡寫規則不一樣。CLAUDE.md 是給 AI 看的指示，AI 可能遵守，也可能在某個情況下忽略。Hooks 是你寫的程式在跑，AI 繞不過去。</p>
+<h2>對公司流程能做哪些檢查</h2>
+<p>我幫那個新竹客戶設了兩個 hook。</p>
+<p>第一個是 PreToolUse：在 AI 準備執行 Bash 指令之前，先跑一段 Python 腳本偵測指令裡有沒有出現客戶資料夾路徑或敏感關鍵字。出現就中斷，並把完整指令記進 log 檔。Python 三十行不到，花了我大概四十分鐘。</p>
+<p>第二個是 PostToolUse：每次 Claude 修改或建立檔案後，自動把檔名、時間、操作者記進一份 CSV。這個用 shell 腳本解決，十五行。</p>
+<p>後來他們自己又加了一個，針對合規需求：所有 Claude 讀取過的資料夾路徑都要記錄。法務要求的，現在每週自動產出一份稽核記錄。</p>
+<p>台中還有個做裝潢設計的公司。工程師習慣晚上十一點繼續工作，有次 AI 準備直接蓋掉正式環境的設定檔。他們後來在 Stop hook 裡加了一段：任務結束後，如果有任何尚未版本控制的修改，自動跑 git diff 輸出摘要，寄到主管的 Slack 頻道。隔天早上主管掃一眼就知道昨晚發生了什麼。</p>
+<p>hooks 能做的事大致有這幾類：操作記錄（把 AI 做了什麼寫進 log）、敏感資料防護（偵測操作路徑，必要時中斷）、自動通知（發 Slack 或 email）、流程合規（備份、格式驗證、稽核）、環境保護（防止 AI 動到不該動的地方）。</p>
+<p>不需要每個都設，選最在乎的那一兩個先做就夠了。</p>
+<h2>觀卦說的那件事</h2>
+<p>我在教這些東西的時候，有時候會用易經的觀卦解釋 hooks 的邏輯。</p>
+<p>觀卦的核心是「觀我生，進退」：在行動之前，先清楚看見自己和周圍的狀況。不是消極等待，是主動設置觀察點，讓你在真正需要介入的時候，你已經看到了、準備好了。</p>
+<p>Hooks 做的事跟這個很像。大多數時候，hook 跑完什麼事都沒發生，默默放行。但當那個真的需要被攔下來的動作出現時，你有崗哨，你看得到，你能介入。</p>
+<p>很多人問我企業 AI 導入最大的風險是什麼，我的答案一直是：不是 AI 做了什麼壞事，是你不知道它做了什麼。Hooks 解決的，就是這個問題。</p>
+<h2>怎麼設定</h2>
+<p>設定在專案的 .claude/settings.json 裡，加上 hooks 物件，指定觸發時機和要攔截的工具名稱，以及要執行的腳本路徑。你的腳本從標準輸入接收 JSON 格式的動作描述（包含工具名稱和輸入參數），然後決定要不要讓這次操作繼續。要中斷，回傳非零 exit code 就行了。</p>
+<p>不需要複雜的程式。我幫客戶設的大多數 hook，都是十行到三十行 Python 或 shell，做一件很具體的事。</p>
+<p>那個新竹客戶後來告訴我，hooks 設好之後，才第一次覺得可以放心讓工程師用 Claude Code 做比較敏感的工作。不是 AI 變安全了，是他現在看得到 AI 在做什麼了。</p>
+<p>這個差距，比你想的大。</p>
+</article>
+<div class="article-extras">
+<section class="faq-section">
+<h2>常見問題</h2>
+<details class="faq-item"><summary>hooks 跟在 CLAUDE.md 裡寫規則，差在哪裡？</summary><div class="faq-answer">CLAUDE.md 裡的規則是給 AI 讀的，依賴 AI 自己遵守。Hooks 是你寫的程式在執行，AI 不論在什麼情況下都要通過這道關卡，不靠 AI 的判斷。如果是真的需要強制執行的流程限制，用 hooks，不要只靠 CLAUDE.md。兩個可以並用，但別以為寫進 CLAUDE.md 就等於真的擋住了。</div></details><details class="faq-item"><summary>一定要很會寫程式才能設定 hooks 嗎？</summary><div class="faq-answer">不一定。簡單的 hooks 用 shell 指令就夠了，例如記錄操作時間、備份檔案、發 Slack 通知。Python 適合需要解析 JSON 輸入或做複雜邏輯判斷的場景。十到三十行程度，只要有人能寫基本 shell 或 Python 就能上手。你不需要是資深工程師，但需要公司裡有一個人能寫這個。</div></details><details class="faq-item"><summary>hooks 能完全防止 AI 做出危險動作嗎？</summary><div class="faq-answer">不能說完全防止，因為取決於你的 hook 寫得多嚴密、涵蓋的情境有多完整。但它讓你對 AI 的每個動作保有可見性與介入點，這本身就有很大的意義。就算有漏掉的案例，你至少有完整的操作 log 可以追蹤。有 log 跟沒 log，出事之後的處理方式差很多。</div></details>
+</section>
+<section class="related-section">
+<h3>你可能也想看</h3>
+<div class="related-list"><a href="2026-06-08-8d82c3a7.html" class="related-link"><span class="related-kw">[企業 AI 導入]</span> <span class="related-q">行政人員被 AI 取代後可以轉做什麼？</span></a><a href="2026-06-07-14292ae9.html" class="related-link"><span class="related-kw">[Codex 教學]</span> <span class="related-q">說真的我每次開會前都要花好幾個小時整理數據 Codex 真的能幫我省掉這些時間嗎</span></a><a href="2026-06-05-6a03bb65.html" class="related-link"><span class="related-kw">[中小企業數位轉型]</span> <span class="related-q">數位轉型有沒有不用花大錢就能看到效果的做法？</span></a></div>
+</section>
+</div>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
