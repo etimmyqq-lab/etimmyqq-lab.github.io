@@ -1,0 +1,272 @@
+
+:root {
+  --paper: #F5F1E8;
+  --ink: #1A1A1A;
+  --muted: #6B6358;
+  --line: #D6CFC0;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Noto Serif TC", "Source Han Serif TC", "PingFang TC",
+               "Microsoft JhengHei", serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+.accent-strip {
+  height: 3px;
+  background: var(--accent, var(--muted));
+}
+
+/* ---- 頁眉 ---- */
+.head {
+  padding: 32px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Noto Sans TC", "Source Han Sans TC", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+}
+.head .kw { font-family: "JetBrains Mono", "Consolas", monospace; font-weight: 700; }
+.head .cat { color: var(--accent, var(--muted)); }
+
+/* ---- 卦圖區 ---- */
+.hex-area {
+  text-align: center;
+  padding: 8px 0 28px;
+}
+.hex-area svg { display: block; margin: 0 auto 20px; }
+.hex-name {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.hex-short {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.4em;
+  color: var(--accent, var(--muted));
+  margin-bottom: 16px;
+}
+.tagline {
+  font-size: 18px;
+  line-height: 1.85;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+.tagline div { margin-bottom: 4px; }
+
+/* ---- meta 列 ---- */
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 28px;
+  justify-content: center;
+  padding: 20px 0 36px;
+  border-top: 0.5px solid var(--line);
+  border-bottom: 0.5px solid var(--line);
+  margin-bottom: 36px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+}
+.meta .k { color: var(--ink); margin-right: 6px; font-weight: 600; }
+
+/* ---- 區塊 ---- */
+section { margin-bottom: 40px; }
+h2 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--muted);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid var(--ink);
+}
+.questions { list-style: none; counter-reset: q; }
+.questions li {
+  counter-increment: q;
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 18px;
+  font-size: 17px;
+  line-height: 1.85;
+}
+.questions li::before {
+  content: counter(q, decimal-leading-zero);
+  position: absolute;
+  left: 0; top: 4px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  color: var(--accent, var(--muted));
+  letter-spacing: 0.1em;
+}
+
+.ai-mapping {
+  background: rgba(0,0,0,0.03);
+  padding: 20px 22px;
+  border-left: 3px solid var(--accent, var(--muted));
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.ai-mapping .label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.placeholder {
+  background: rgba(0,0,0,0.02);
+  border: 0.5px dashed var(--line);
+  padding: 24px;
+  text-align: center;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+/* ---- prompt 範本區 ---- */
+.prompt-wrap { position: relative; }
+.prompt-wrap .copy-btn {
+  position: absolute;
+  top: 12px; right: 12px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  background: var(--paper);
+  color: var(--ink);
+  border: 0.5px solid var(--ink);
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.prompt-wrap .copy-btn:hover { background: var(--ink); color: var(--paper); }
+.prompt-wrap .copy-btn.copied { background: var(--accent); color: var(--paper); border-color: var(--accent); }
+.prompt-block {
+  background: #FAF7F0;
+  border: 0.5px solid var(--line);
+  border-left: 3px solid var(--accent, var(--muted));
+  padding: 22px 24px 24px;
+  font-family: "JetBrains Mono", "Consolas", "Noto Sans TC", monospace;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+  margin: 0;
+}
+.prompt-note {
+  margin-top: 10px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+/* ---- footer ---- */
+.site-footer {
+  max-width: 640px;
+  margin: 60px auto 0;
+  padding: 24px 24px 40px;
+  border-top: 0.5px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.site-footer a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--ink);
+  padding-bottom: 1px;
+}
+
+/* ---- index 頁 ---- */
+.index-head {
+  padding: 60px 0 30px;
+  text-align: center;
+}
+.index-head h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+}
+.index-head .sub {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.25em;
+}
+
+.group-section { margin-bottom: 48px; }
+.group-title {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ink);
+}
+.group-title .swatch {
+  display: inline-block;
+  width: 10px; height: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+.card-link {
+  display: block;
+  padding: 14px 12px;
+  background: rgba(255,255,255,0.5);
+  border: 0.5px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color .15s;
+}
+.card-link:hover { border-color: var(--ink); }
+.card-link .num {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.2em;
+  margin-bottom: 4px;
+}
+.card-link .name {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.card-link .tag {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}

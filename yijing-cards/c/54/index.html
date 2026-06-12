@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>雷澤歸妹（54）｜易經 × AI 行動原型卡</title>
+<link rel="stylesheet" href="../../style.css">
+<style>:root { --accent: #6B8E4E; }</style>
+</head>
+<body>
+
+<div class="accent-strip"></div>
+<div class="container">
+  <div class="head">
+    <span class="kw">54</span>
+    <span class="cat">收成</span>
+  </div>
+
+  <div class="hex-area">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 61" width="80" height="61" role="img" aria-label="六爻卦圖"><rect x="0" y="0" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="0" width="34.0" height="6" fill="#1A1A1A"/><rect x="0" y="11" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="11" width="34.0" height="6" fill="#1A1A1A"/><rect x="0" y="22" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="33" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="33" width="34.0" height="6" fill="#1A1A1A"/><rect x="0" y="44" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="55" width="80" height="6" fill="#1A1A1A"/></svg>
+    <div class="hex-name">雷澤歸妹</div>
+    <div class="hex-short">歸妹</div>
+    <div class="tagline"><div>陰陽配合，婚姻大事</div><div>謹守禮節，循序而行</div></div>
+  </div>
+
+  <div class="meta">
+    <span><span class="k">上卦</span>震 (雷)</span>
+    <span><span class="k">下卦</span>兌 (澤)</span>
+    <span><span class="k">京房</span>兌宮 · 8</span>
+  </div>
+
+  <section>
+    <h2>問自己</h2>
+    <ol class="questions"><li>你目前要把哪兩個原本獨立的東西配在一起？</li><li>下一步是先談規矩，還是先讓它們接觸？</li><li>你的「配對」是為了長久，還是為了當下好看？</li></ol>
+  </section>
+
+  <section>
+    <h2>AI 對照</h2>
+    <div class="ai-mapping">
+      <span class="label">AI</span>
+      新功能對接到使用者介面的銜接
+    </div>
+  </section>
+
+  <section>
+    <h2>延伸 Prompt 範本</h2>
+    <div class="prompt-wrap">
+      <button class="copy-btn" type="button" onclick="copyPrompt(this)">複製範本</button>
+      <pre class="prompt-block"># 角色設定
+你是一位 成果整合顧問，協助我用《易經 · 雷澤歸妹》的視角思考當前處境。
+請務實、不浮誇，避免空泛勵志話術。
+
+# 我目前的處境
+（請在此具體描述：發生什麼事、我已經做了什麼、卡在哪裡）
+[ 在此貼上你的處境 ]
+
+# 雷澤歸妹 的核心訊息
+- 陰陽配合，婚姻大事
+- 謹守禮節，循序而行
+
+# 請帶我走過三層思考
+
+## 第一層：定位
+你目前要把哪兩個原本獨立的東西配在一起？
+
+## 第二層：行動
+下一步是先談規矩，還是先讓它們接觸？
+
+## 第三層：自省
+你的「配對」是為了長久，還是為了當下好看？
+
+# 用 AI 視角再看一次
+若把這件事比作「新功能對接到使用者介面的銜接」，會浮現哪些我原本忽略的盲點？
+請至少指出 1 個我的盲點。
+
+# 輸出格式（請依此結構回答）
+1. **關鍵字**：你從我處境裡聽到的 3-5 個關鍵字
+2. **三層回答**：每層 2-3 句，貼合我實際狀況，不要重複問題本身
+3. **AI 視角洞察**：用「新功能對接到使用者介面的銜接」的觀點補一段（80-150 字）
+4. **下一步行動**：48 小時內可動工的具體動作，需含動詞與可驗證的完成條件
+
+請用繁體中文，整體控制在 600 字以內。
+</pre>
+    </div>
+    <div class="prompt-note">把上方範本貼到 Claude / ChatGPT / Gemini，再填入「我目前的處境」。</div>
+  </section>
+
+  <section>
+    <h2>實作案例</h2>
+    <div class="placeholder">即將上線</div>
+  </section>
+</div>
+<script>
+function copyPrompt(btn){
+  const pre = btn.parentElement.querySelector('.prompt-block');
+  if(!pre) return;
+  const text = pre.innerText;
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(()=>{
+      btn.classList.add('copied');
+      const old = btn.textContent; btn.textContent = '已複製';
+      setTimeout(()=>{ btn.classList.remove('copied'); btn.textContent = old; }, 1500);
+    });
+  } else {
+    const r = document.createRange(); r.selectNode(pre);
+    window.getSelection().removeAllRanges(); window.getSelection().addRange(r);
+    try{ document.execCommand('copy'); btn.textContent='已複製'; setTimeout(()=>{btn.textContent='複製範本';},1500);}catch(e){}
+    window.getSelection().removeAllRanges();
+  }
+}
+</script>
+
+<footer class="site-footer">
+  <a href="../../">← 牌組索引</a>
+  <span>易經 × AI · 行動原型卡</span>
+</footer>
+</body>
+</html>

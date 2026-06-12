@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>原型 巽｜滲透順勢</title>
+<link rel="stylesheet" href="../../style.css">
+<style>:root { --accent: #C84E3C; }</style>
+</head>
+<body>
+
+<div class="accent-strip"></div>
+<div class="container">
+  <div class="head">
+    <span class="kw">原型 07</span>
+    <span class="cat">Archetype</span>
+  </div>
+
+  <div class="hex-area">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 61" width="80" height="61" role="img" aria-label="六爻卦圖"><rect x="0" y="0" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="11" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="22" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="22" width="34.0" height="6" fill="#1A1A1A"/><rect x="0" y="33" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="44" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="55" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="55" width="34.0" height="6" fill="#1A1A1A"/></svg>
+    <div class="hex-name">巽</div>
+    <div class="hex-short">風 · 滲透順勢</div>
+    <div class="tagline"><div>不衝撞既有結構，順著縫隙慢慢滲入。</div></div>
+  </div>
+
+  <div class="meta">
+    <span><span class="k">八卦</span>巽 (風)</span>
+    <span><span class="k">主題</span>滲透順勢</span>
+    <span><span class="k">AI 對照</span>漸進式組織導入</span>
+  </div>
+
+  <section>
+    <h2>問自己</h2>
+    <ol class="questions"><li>現有流程中最容易被改變的縫在哪裡？</li></ol>
+  </section>
+
+  <section>
+    <h2>AI 對照</h2>
+    <div class="ai-mapping">
+      <span class="label">AI</span>
+      漸進式組織導入
+    </div>
+  </section>
+
+  <section>
+    <h2>延伸 Prompt 範本</h2>
+    <div class="prompt-wrap">
+      <button class="copy-btn" type="button" onclick="copyPrompt(this)">複製範本</button>
+      <pre class="prompt-block"># 角色設定
+你是一位行動原型教練，協助我用《易經 · 巽》原型「滲透順勢」的方式重新框架當下決策。
+請務實、不浮誇，避免空泛勵志話術。
+
+# 我目前面對的選擇
+（請在此具體描述：要做什麼決定、選項有哪些、我猶豫的點是什麼）
+[ 在此貼上你的處境 ]
+
+# 巽 原型的核心
+不衝撞既有結構，順著縫隙慢慢滲入。
+
+# 引導問題
+現有流程中最容易被改變的縫在哪裡？
+
+# 用 AI 視角再看一次
+若把這件事對應到「漸進式組織導入」，會浮現哪些我原本忽略的觀點？
+請至少指出 1 個我的盲點。
+
+# 輸出格式（請依此結構回答）
+1. **重述我的選擇**：用一句話精準摘要我面對的決策
+2. **巽 原型回答**：用「滲透順勢」的姿態給我具體建議（3-5 點）
+3. **AI 視角洞察**：用「漸進式組織導入」的觀點補一段（80-150 字）
+4. **下一步行動**：48 小時內可動工的具體動作，含動詞與可驗證的完成條件
+
+請用繁體中文，整體控制在 600 字以內。
+</pre>
+    </div>
+    <div class="prompt-note">把上方範本貼到 Claude / ChatGPT / Gemini，再填入「我目前的處境」。</div>
+  </section>
+
+  <section>
+    <h2>實作案例</h2>
+    <div class="placeholder">即將上線</div>
+  </section>
+</div>
+<script>
+function copyPrompt(btn){
+  const pre = btn.parentElement.querySelector('.prompt-block');
+  if(!pre) return;
+  const text = pre.innerText;
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(()=>{
+      btn.classList.add('copied');
+      const old = btn.textContent; btn.textContent = '已複製';
+      setTimeout(()=>{ btn.classList.remove('copied'); btn.textContent = old; }, 1500);
+    });
+  } else {
+    const r = document.createRange(); r.selectNode(pre);
+    window.getSelection().removeAllRanges(); window.getSelection().addRange(r);
+    try{ document.execCommand('copy'); btn.textContent='已複製'; setTimeout(()=>{btn.textContent='複製範本';},1500);}catch(e){}
+    window.getSelection().removeAllRanges();
+  }
+}
+</script>
+
+<footer class="site-footer">
+  <a href="../../">← 牌組索引</a>
+  <span>易經 × AI · 行動原型卡</span>
+</footer>
+</body>
+</html>

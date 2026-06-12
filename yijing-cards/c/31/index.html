@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>澤山咸（31）｜易經 × AI 行動原型卡</title>
+<link rel="stylesheet" href="../../style.css">
+<style>:root { --accent: #4A6FA5; }</style>
+</head>
+<body>
+
+<div class="accent-strip"></div>
+<div class="container">
+  <div class="head">
+    <span class="kw">31</span>
+    <span class="cat">進退</span>
+  </div>
+
+  <div class="hex-area">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 61" width="80" height="61" role="img" aria-label="六爻卦圖"><rect x="0" y="0" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="0" width="34.0" height="6" fill="#1A1A1A"/><rect x="0" y="11" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="22" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="33" width="80" height="6" fill="#1A1A1A"/><rect x="0" y="44" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="44" width="34.0" height="6" fill="#1A1A1A"/><rect x="0" y="55" width="34.0" height="6" fill="#1A1A1A"/><rect x="46.0" y="55" width="34.0" height="6" fill="#1A1A1A"/></svg>
+    <div class="hex-name">澤山咸</div>
+    <div class="hex-short">咸</div>
+    <div class="tagline"><div>感應相通，心心相印</div><div>以誠待人，自然感通</div></div>
+  </div>
+
+  <div class="meta">
+    <span><span class="k">上卦</span>兌 (澤)</span>
+    <span><span class="k">下卦</span>艮 (山)</span>
+    <span><span class="k">京房</span>兌宮 · 4</span>
+  </div>
+
+  <section>
+    <h2>問自己</h2>
+    <ol class="questions"><li>你目前跟誰之間，正出現微妙的感應？</li><li>這份感應，下一步要轉成合作，還是先放著？</li><li>你能分清楚感應跟期待嗎？</li></ol>
+  </section>
+
+  <section>
+    <h2>AI 對照</h2>
+    <div class="ai-mapping">
+      <span class="label">AI</span>
+      UX 介面與安全護欄之間的互動回饋
+    </div>
+  </section>
+
+  <section>
+    <h2>延伸 Prompt 範本</h2>
+    <div class="prompt-wrap">
+      <button class="copy-btn" type="button" onclick="copyPrompt(this)">複製範本</button>
+      <pre class="prompt-block"># 角色設定
+你是一位 進退時機顧問，協助我用《易經 · 澤山咸》的視角思考當前處境。
+請務實、不浮誇，避免空泛勵志話術。
+
+# 我目前的處境
+（請在此具體描述：發生什麼事、我已經做了什麼、卡在哪裡）
+[ 在此貼上你的處境 ]
+
+# 澤山咸 的核心訊息
+- 感應相通，心心相印
+- 以誠待人，自然感通
+
+# 請帶我走過三層思考
+
+## 第一層：定位
+你目前跟誰之間，正出現微妙的感應？
+
+## 第二層：行動
+這份感應，下一步要轉成合作，還是先放著？
+
+## 第三層：自省
+你能分清楚感應跟期待嗎？
+
+# 用 AI 視角再看一次
+若把這件事比作「UX 介面與安全護欄之間的互動回饋」，會浮現哪些我原本忽略的盲點？
+請至少指出 1 個我的盲點。
+
+# 輸出格式（請依此結構回答）
+1. **關鍵字**：你從我處境裡聽到的 3-5 個關鍵字
+2. **三層回答**：每層 2-3 句，貼合我實際狀況，不要重複問題本身
+3. **AI 視角洞察**：用「UX 介面與安全護欄之間的互動回饋」的觀點補一段（80-150 字）
+4. **下一步行動**：48 小時內可動工的具體動作，需含動詞與可驗證的完成條件
+
+請用繁體中文，整體控制在 600 字以內。
+</pre>
+    </div>
+    <div class="prompt-note">把上方範本貼到 Claude / ChatGPT / Gemini，再填入「我目前的處境」。</div>
+  </section>
+
+  <section>
+    <h2>實作案例</h2>
+    <div class="placeholder">即將上線</div>
+  </section>
+</div>
+<script>
+function copyPrompt(btn){
+  const pre = btn.parentElement.querySelector('.prompt-block');
+  if(!pre) return;
+  const text = pre.innerText;
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(()=>{
+      btn.classList.add('copied');
+      const old = btn.textContent; btn.textContent = '已複製';
+      setTimeout(()=>{ btn.classList.remove('copied'); btn.textContent = old; }, 1500);
+    });
+  } else {
+    const r = document.createRange(); r.selectNode(pre);
+    window.getSelection().removeAllRanges(); window.getSelection().addRange(r);
+    try{ document.execCommand('copy'); btn.textContent='已複製'; setTimeout(()=>{btn.textContent='複製範本';},1500);}catch(e){}
+    window.getSelection().removeAllRanges();
+  }
+}
+</script>
+
+<footer class="site-footer">
+  <a href="../../">← 牌組索引</a>
+  <span>易經 × AI · 行動原型卡</span>
+</footer>
+</body>
+</html>
