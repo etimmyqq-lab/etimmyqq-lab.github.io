@@ -1,17 +1,22 @@
 User-agent: *
 Allow: /
+Disallow: /yijing-cards/
 
 # 給 AI 爬蟲的友善指示（Perplexity、ChatGPT、Claude 等未來若有爬蟲）
 User-agent: GPTBot
 Allow: /
+Disallow: /yijing-cards/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /yijing-cards/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /yijing-cards/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /yijing-cards/
 
 Sitemap: https://etimmyqq-lab.github.io/sitemap.xml
