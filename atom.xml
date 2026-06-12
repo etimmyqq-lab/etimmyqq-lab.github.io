@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-06-10T00:37:12.648870+00:00</updated>
+  <updated>2026-06-12T00:37:10.810016+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>數位化和數位轉型，真的不一樣</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-06-12-f2c42c0f.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-06-12-f2c42c0f.html</id>
+    <updated>2026-06-12T08:00:00+08:00</updated>
+    <summary>去年四月，台南有個做傳統糕點的老闆傳訊給我。不是問問題，是直接貼了一份收據截圖。</summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
   <entry>
     <title>你不是在問問題，你是在找允許</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-06-10-4a80d077.html"/>
@@ -230,13 +238,5 @@
     <updated>2026-05-14T08:00:00+08:00</updated>
     <summary>三個月前，台中一家做汽車零件貿易的老闆傳訊息給我，語氣有點無奈：「老師，我設了 AI 使用獎金，每個月多 500 塊，跑了三個月，效率完全沒動。業績報告還是一樣…</summary>
     <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>一個字，擋住了七成的人</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-13-62a6c5df.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-13-62a6c5df.html</id>
-    <updated>2026-05-13T08:00:00+08:00</updated>
-    <summary>每個月十三到十五個小時，嘉義一個補習班主任就花在這件事上——整理學生學習進度報告，還有每次要通知家長時得從頭重寫的通知信。</summary>
-    <category term="Claude Code 教學"/>
   </entry>
 </feed>
