@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 12 Jun 2026 08:37:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 08:36:49 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>那另一塊能不能省</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-13-a5d5dc20.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-13-a5d5dc20.html</guid>
+      <pubDate>Sat, 13 Jun 2026 08:00:00 +0800</pubDate>
+      <description>去年底，高雄有個做食品原料進口的老闆傳了一份截圖給我。</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>數位化和數位轉型，真的不一樣</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-12-f2c42c0f.html</link>
@@ -229,14 +237,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html</guid>
       <pubDate>Fri, 15 May 2026 08:00:00 +0800</pubDate>
       <description>上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…</description>
-      <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>獎金量錯了東西</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-14-d1cc51a5.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-14-d1cc51a5.html</guid>
-      <pubDate>Thu, 14 May 2026 08:00:00 +0800</pubDate>
-      <description>三個月前，台中一家做汽車零件貿易的老闆傳訊息給我，語氣有點無奈：「老師，我設了 AI 使用獎金，每個月多 500 塊，跑了三個月，效率完全沒動。業績報告還是一樣…</description>
       <category>企業 AI 導入</category>
     </item>
   </channel>
