@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-06-13T00:36:49.601735+00:00</updated>
+  <updated>2026-06-14T00:39:21.693958+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>問法決定了你能看到什麼</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-06-14-e8df3179.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-06-14-e8df3179.html</id>
+    <updated>2026-06-14T08:00:00+08:00</updated>
+    <summary>新北有個做工業耗材代理的老闆，去年三月傳訊給我，說他剛抽了一卦，問的是要不要跟另外一家同行談合作——對方有穩定的工廠通路，他有廠商資源，兩家在業界認識快八年了。</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>那另一塊能不能省</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-06-13-a5d5dc20.html"/>
@@ -230,13 +238,5 @@
     <updated>2026-05-16T08:00:00+08:00</updated>
     <summary>去年十一月，彰化有個做印刷包裝的老闆在電話裡問我：「老師，我如果現在導入 Claude Code，三個月內能看到回本嗎？我帳上現在就這樣，不能亂花。」</summary>
     <category term="Claude Code 教學"/>
-  </entry>
-  <entry>
-    <title>ChatGPT 跟 Claude Code 在公司裡做的不是同一件事</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-15-f968d800.html</id>
-    <updated>2026-05-15T08:00:00+08:00</updated>
-    <summary>上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…</summary>
-    <category term="企業 AI 導入"/>
   </entry>
 </feed>
