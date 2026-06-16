@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 「多試幾個」為什麼反而沒效
+
+URL: https://etimmyqq-lab.github.io/articles/2026-06-16-b392f052.html
+主題: 中小企業數位轉型
+日期: 2026-06-16
+
+去年九月，彰化有個做汽車零組件的老闆，傳了一份截圖給我。是他的 Google Sheet，上面列著他所有的 AI 工具訂閱：ChatGPT Plus、Claud…
+
 ### 花 8 萬請工程師，Codex 到底能取代多少？
 
 URL: https://etimmyqq-lab.github.io/articles/2026-06-15-f50fd3d5.html
