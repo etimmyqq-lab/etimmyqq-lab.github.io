@@ -61,6 +61,13 @@ if not exist ".git" (
     pause
     exit /b 1
 )
+
+echo [2a] 重生 articles/index.html（全部文章歸檔頁）...
+py build_articles_index.py
+if %errorlevel% neq 0 (
+    echo [WARN] build_articles_index.py 失敗，繼續發佈但歸檔頁未更新。
+)
+
 git add .
 git commit -m "publish article: %TODAY%"
 git push

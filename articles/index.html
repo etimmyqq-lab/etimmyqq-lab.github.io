@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全部文章｜昆廷老師</title>
+<meta name="description" content="昆廷老師的全部文章歸檔，按時間排序。涵蓋企業 AI 導入、Claude Code 教學、中小企業數位轉型、易經決策。">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3KEGWS9929');
+</script>
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="全部文章｜昆廷老師">
+<meta property="og:description" content="昆廷老師的全部文章歸檔，按時間排序。">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/articles/">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "全部文章",
+  "url": "https://etimmyqq-lab.github.io/articles/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io/"
+  },
+  "about": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io/"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "全部文章", "item": "https://etimmyqq-lab.github.io/articles/"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+.archive-hero {
+    padding: 80px 0 40px;
+    background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+}
+.archive-hero h1 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    color: #15395a;
+    margin: 0 0 12px;
+}
+.archive-hero p {
+    color: #4a5568;
+    margin: 0;
+    font-size: 1.05rem;
+}
+.archive-count {
+    color: #C9A96E;
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 12px;
+}
+.archive-body {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+}
+.archive-month { margin-bottom: 48px; }
+.archive-month-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.3rem;
+    color: #1F4E79;
+    padding: 0 0 10px 14px;
+    margin: 0 0 20px;
+    border-left: 4px solid #C9A96E;
+    border-bottom: 1px solid #e4e8ef;
+}
+.archive-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.archive-item { margin-bottom: 12px; }
+.archive-link {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-areas:
+        "date title"
+        "date desc";
+    column-gap: 18px;
+    row-gap: 4px;
+    padding: 14px 18px;
+    background: #fff;
+    border: 1px solid #e4e8ef;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1a2233;
+    transition: all .2s;
+}
+.archive-link:hover {
+    border-color: #1F4E79;
+    box-shadow: 0 4px 16px rgba(31, 78, 121, 0.08);
+    transform: translateX(2px);
+}
+.archive-date {
+    grid-area: date;
+    color: #C9A96E;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    align-self: start;
+    padding-top: 2px;
+}
+.archive-title {
+    grid-area: title;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 700;
+    color: #15395a;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+.archive-desc {
+    grid-area: desc;
+    color: #4a5568;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+@media (max-width: 600px) {
+    .archive-link {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "date"
+            "title"
+            "desc";
+    }
+    .archive-date { padding-top: 0; }
+}
+.back-link {
+    display: inline-block;
+    margin-top: 40px;
+    color: #1F4E79;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../about.html">作者</a>
+            <a href="../cooperation.html">合作</a>
+            <a href="../#services">服務</a>
+            <a href="../learn-claude.html">Claude 教學</a>
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="./">文章</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<section class="archive-hero">
+    <div class="container">
+        <div class="archive-count">ARCHIVE · 共 67 篇</div>
+        <h1>全部文章</h1>
+        <p>從企業 AI 導入、易經決策到中小企業數位轉型的實戰觀點，按時間排序。</p>
+    </div>
+</section>
+
+<main class="archive-body">
+<section class="archive-month">
+<h2 class="archive-month-title">2026 年 6 月</h2>
+<ul class="archive-list">
+  <li class="archive-item"><a href="2026-06-16-b392f052.html" class="archive-link"><span class="archive-date">2026-06-16</span><span class="archive-title">「多試幾個」為什麼反而沒效</span><span class="archive-desc">去年九月，彰化有個做汽車零組件的老闆，傳了一份截圖給我。是他的 Google Sheet，上面列著他所有的 AI 工具訂閱：ChatGPT Plus、Claud…</span></a></li>
+  <li class="archive-item"><a href="2026-06-15-f50fd3d5.html" class="archive-link"><span class="archive-date">2026-06-15</span><span class="archive-title">花 8 萬請工程師，Codex 到底能取代多少？</span><span class="archive-desc">上週有個做電商後台的老闆傳訊息給我，問題很直接：「我現在花 8 萬請工程師，聽說 Codex 出來之後可以取代？你給我一個說法。」</span></a></li>
+  <li class="archive-item"><a href="2026-06-14-e8df3179.html" class="archive-link"><span class="archive-date">2026-06-14</span><span class="archive-title">問法決定了你能看到什麼</span><span class="archive-desc">新北有個做工業耗材代理的老闆，去年三月傳訊給我，說他剛抽了一卦，問的是要不要跟另外一家同行談合作——對方有穩定的工廠通路，他有廠商資源，兩家在業界認識快八年了。</span></a></li>
+  <li class="archive-item"><a href="2026-06-13-a5d5dc20.html" class="archive-link"><span class="archive-date">2026-06-13</span><span class="archive-title">那另一塊能不能省</span><span class="archive-desc">去年底，高雄有個做食品原料進口的老闆傳了一份截圖給我。</span></a></li>
+  <li class="archive-item"><a href="2026-06-12-f2c42c0f.html" class="archive-link"><span class="archive-date">2026-06-12</span><span class="archive-title">數位化和數位轉型，真的不一樣</span><span class="archive-desc">去年四月，台南有個做傳統糕點的老闆傳訊給我。不是問問題，是直接貼了一份收據截圖。</span></a></li>
+  <li class="archive-item"><a href="2026-06-10-4a80d077.html" class="archive-link"><span class="archive-date">2026-06-10</span><span class="archive-title">你不是在問問題，你是在找允許</span><span class="archive-desc">去年十一月，台中有個做工業電機代工的老闆傳訊給我，說他剛抽了一卦，問能不能再抽一次。</span></a></li>
+  <li class="archive-item"><a href="2026-06-09-82390c17.html" class="archive-link"><span class="archive-date">2026-06-09</span><span class="archive-title">hooks 是什麼</span><span class="archive-desc">上個月有個從新竹來找我的客戶，傳了一張截圖給我。</span></a></li>
+  <li class="archive-item"><a href="2026-06-08-8d82c3a7.html" class="archive-link"><span class="archive-date">2026-06-08</span><span class="archive-title">整理資料跟理解資料，是兩件事</span><span class="archive-desc">桃園有個做五金零件外銷的公司，去年十月我去那邊做了一次導入諮詢。業務部主管問我說，他們採購行政的人，原來負責每天整理報價單、把廠商回覆的 PDF 轉成 Exce…</span></a></li>
+  <li class="archive-item"><a href="2026-06-07-14292ae9.html" class="archive-link"><span class="archive-date">2026-06-07</span><span class="archive-title">開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？</span><span class="archive-desc">台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。</span></a></li>
+  <li class="archive-item"><a href="2026-06-06-6eb07bd1.html" class="archive-link"><span class="archive-date">2026-06-06</span><span class="archive-title">CLAUDE.md 的三個層級</span><span class="archive-desc">高雄有個做設備保養管理系統的軟體公司，去年十一月找我開了一次諮詢。他們不是來問要不要導入 AI，已經在用了。六個工程師，每個人的 Claude Code 都裝好…</span></a></li>
+  <li class="archive-item"><a href="2026-06-05-6a03bb65.html" class="archive-link"><span class="archive-date">2026-06-05</span><span class="archive-title">找那口井</span><span class="archive-desc">去年十二月，彰化有個做鋁門窗代理的老闆打電話給我。</span></a></li>
+  <li class="archive-item"><a href="2026-06-04-f116b189.html" class="archive-link"><span class="archive-date">2026-06-04</span><span class="archive-title">Copilot 在做什麼</span><span class="archive-desc">雲林有個做農業機械代理的老闆，今年二月傳了兩張截圖給我，中間夾了一句：「老師，這兩個工具感覺都在幫我寫程式，有什麼不同？我到底繳哪個費用就好？」</span></a></li>
+  <li class="archive-item"><a href="2026-06-03-dd53af5c.html" class="archive-link"><span class="archive-date">2026-06-03</span><span class="archive-title">先做一件事：依賴深度盤點</span><span class="archive-desc">去年十一月，彰化有個做印刷包裝的老闆傳訊息給我。</span></a></li>
+  <li class="archive-item"><a href="2026-06-02-1dd2bc77.html" class="archive-link"><span class="archive-date">2026-06-02</span><span class="archive-title">問題欄，才是整本日誌的靈魂</span><span class="archive-desc">有個台南做伴手禮的老闆娘，去年四月傳了一個截圖給我。那是她在 Notion 裡建的卦牌日誌模板，欄位設計得很精緻：自動帶日期、下拉選單選卦名、還有一個「今日心情…</span></a></li>
+  <li class="archive-item"><a href="2026-06-01-8b419fdb.html" class="archive-link"><span class="archive-date">2026-06-01</span><span class="archive-title">但對照表查完之後呢？</span><span class="archive-desc">台中有個做工具機零件的老闆，去年九月找我喝咖啡，帶了一張A4紙過來。紙上寫著一行字：「易經64卦商業週期對照表，有沒有？」</span></a></li>
+</ul>
+</section>
+<section class="archive-month">
+<h2 class="archive-month-title">2026 年 5 月</h2>
+<ul class="archive-list">
+  <li class="archive-item"><a href="2026-05-31-9a879c83.html" class="archive-link"><span class="archive-date">2026-05-31</span><span class="archive-title">一口井，所有人都可以來打水</span><span class="archive-desc">今年三月，新竹有個做精密零件的老闆約我喝茶，開口第一句：「老師，我剛發現我同業五家都在用跟我一樣的 AI 工具。」</span></a></li>
+  <li class="archive-item"><a href="2026-05-30-a25f8c1e.html" class="archive-link"><span class="archive-date">2026-05-30</span><span class="archive-title">隱私模式到底管什麼</span><span class="archive-desc">高雄有個老闆，做工業零件外銷二十幾年，我叫他德義哥好了。去年十月他傳訊息問我：「老師，我聽說可以開 Codex 的隱私模式，這樣資料就不會被拿去訓練模型了，是真…</span></a></li>
+  <li class="archive-item"><a href="2026-05-29-0d3d0047.html" class="archive-link"><span class="archive-date">2026-05-29</span><span class="archive-title">AI 報表只處理你問得出來的問題</span><span class="archive-desc">去年底桃園有個做金屬表面處理的老闆，讓 AI 幫他跑了一份市場分析。他想知道要不要往汽車零件廠這條線拓展。</span></a></li>
+  <li class="archive-item"><a href="2026-05-28-55905fda.html" class="archive-link"><span class="archive-date">2026-05-28</span><span class="archive-title">Codex 教學為什麼大多是工程師視角</span><span class="archive-desc">基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…</span></a></li>
+  <li class="archive-item"><a href="2026-05-27-254962a8.html" class="archive-link"><span class="archive-date">2026-05-27</span><span class="archive-title">AI 說的可能都是對的，但你問的問題可能是錯的</span><span class="archive-desc">去年十一月，嘉義有個做工業包裝材料的老闆傳訊息給我，說他跟 AI 吵架了。</span></a></li>
+  <li class="archive-item"><a href="2026-05-26-d28646e6.html" class="archive-link"><span class="archive-date">2026-05-26</span><span class="archive-title">省下三十小時，不代表多三十小時的產出</span><span class="archive-desc">台中有一個做紡織輔料的老闆，上個月來找我的時候，帶了一份 Excel 表格。</span></a></li>
+  <li class="archive-item"><a href="2026-05-25-fde9cf34.html" class="archive-link"><span class="archive-date">2026-05-25</span><span class="archive-title">卦牌日誌裡面有什麼</span><span class="archive-desc">去年八月，一個叫致維的人來找我。他三十六歲，父親剛確診心臟問題，需要做支架手術，醫生說術後三個月內不能承受高壓工作。他父親在彰化做了二十二年的金屬表面處理，公司…</span></a></li>
+  <li class="archive-item"><a href="2026-05-24-2858ca15.html" class="archive-link"><span class="archive-date">2026-05-24</span><span class="archive-title">乾卦六爻，各說各的話</span><span class="archive-desc">台南有個做汽車零件電鍍的老闆，去年九月傳了一句話給我：「老師，我起了個卦問要不要擴廠，得到乾卦。乾卦是天嘛，很強，可以衝嗎？」</span></a></li>
+  <li class="archive-item"><a href="2026-05-23-a462dfaf.html" class="archive-link"><span class="archive-date">2026-05-23</span><span class="archive-title">第一步：讓 AI 把問題說清楚</span><span class="archive-desc">去年有一家台東的有機農食公司，做了七年電商，月業績平均落在 45 到 80 萬之間，整整三個月沒辦法決定要不要轉做 B2B。數字其實都在那裡，問題是老闆說不清楚…</span></a></li>
+  <li class="archive-item"><a href="2026-05-22-34548aa9.html" class="archive-link"><span class="archive-date">2026-05-22</span><span class="archive-title">你真正需要懂的三件事</span><span class="archive-desc">苗栗有個做工業模具的老闆，去年十二月十一號晚上，傳了一段語音給我。</span></a></li>
+  <li class="archive-item"><a href="2026-05-21-464c43fa.html" class="archive-link"><span class="archive-date">2026-05-21</span><span class="archive-title">Claude 解卦，其實做得不差</span><span class="archive-desc">新竹一家做精密零件的老闆，上個月傳了三張截圖給我。都是他問 Claude 卦象的紀錄。他說：「老師你看，我問了同一個問題三次，三次答案都不一樣，Claude 到…</span></a></li>
+  <li class="archive-item"><a href="2026-05-20-b8890a1d.html" class="archive-link"><span class="archive-date">2026-05-20</span><span class="archive-title">邊界不說清楚，員工就靠感覺</span><span class="archive-desc">三個月前，桃園一家做電子代工的公司，人資主管傳了一份 8 頁的 Word 文件給我。她說是從網路上找到的 AI 使用政策範本，問我可不可以直接套用。</span></a></li>
+  <li class="archive-item"><a href="2026-05-19-338544a3.html" class="archive-link"><span class="archive-date">2026-05-19</span><span class="archive-title">第一關：裝不起來</span><span class="archive-desc">上個月台中一家四人會計師事務所的所長傳了一個截圖給我。螢幕上是一條英文報錯，紅底白字。他問：「老師，我是不是裝錯了？」</span></a></li>
+  <li class="archive-item"><a href="2026-05-18-60b10d12.html" class="archive-link"><span class="archive-date">2026-05-18</span><span class="archive-title">哪些職位「風險最高」，不是「一定消失」</span><span class="archive-desc">去年九月，我在嘉義幫一家做農業機械的公司做 AI 導入前的顧問評估。會議室裡坐了十二個人，老闆、幾個主管、財務長。我問：「你們這次導入 AI，最擔心什麼？」</span></a></li>
+  <li class="archive-item"><a href="2026-05-17-1fce2218.html" class="archive-link"><span class="archive-date">2026-05-17</span><span class="archive-title">卦牌不是在替財務數字算命</span><span class="archive-desc">去年第三季末，高雄一家做系統傢具的老闆請我陪他開季度複盤會。</span></a></li>
+  <li class="archive-item"><a href="2026-05-16-11735a1e.html" class="archive-link"><span class="archive-date">2026-05-16</span><span class="archive-title">先說一個真實數字</span><span class="archive-desc">去年十一月，彰化有個做印刷包裝的老闆在電話裡問我：「老師，我如果現在導入 Claude Code，三個月內能看到回本嗎？我帳上現在就這樣，不能亂花。」</span></a></li>
+  <li class="archive-item"><a href="2026-05-15-f968d800.html" class="archive-link"><span class="archive-date">2026-05-15</span><span class="archive-title">ChatGPT 跟 Claude Code 在公司裡做的不是同一件事</span><span class="archive-desc">上個月，台南有個做成衣外銷的老闆帶著一張 Excel 表找我。表格做得很仔細：左欄 ChatGPT Plus 每個月 $20 美元，右欄 Claude Code…</span></a></li>
+  <li class="archive-item"><a href="2026-05-14-d1cc51a5.html" class="archive-link"><span class="archive-date">2026-05-14</span><span class="archive-title">獎金量錯了東西</span><span class="archive-desc">三個月前，台中一家做汽車零件貿易的老闆傳訊息給我，語氣有點無奈：「老師，我設了 AI 使用獎金，每個月多 500 塊，跑了三個月，效率完全沒動。業績報告還是一樣…</span></a></li>
+  <li class="archive-item"><a href="2026-05-13-62a6c5df.html" class="archive-link"><span class="archive-date">2026-05-13</span><span class="archive-title">一個字，擋住了七成的人</span><span class="archive-desc">每個月十三到十五個小時，嘉義一個補習班主任就花在這件事上——整理學生學習進度報告，還有每次要通知家長時得從頭重寫的通知信。</span></a></li>
+  <li class="archive-item"><a href="2026-05-12-0400836d.html" class="archive-link"><span class="archive-date">2026-05-12</span><span class="archive-title">抽太多次會不準？不，是問題沒說清楚</span><span class="archive-desc">上個月，高雄一個做美甲連鎖的老闆娘傳訊息給我，時間是早上八點二十分。</span></a></li>
+  <li class="archive-item"><a href="2026-05-11-02d7a12e.html" class="archive-link"><span class="archive-date">2026-05-11</span><span class="archive-title">兩條路的坑，各自不一樣</span><span class="archive-desc">打來的是一家精密零件公司的人資，她說老闆最近在問她一個問題，請她幫忙來問我：「要找外部顧問，還是培養一個內部的 AI 種子員工？預算不多，最多能選一個。」</span></a></li>
+  <li class="archive-item"><a href="2026-05-10-8d346dcc.html" class="archive-link"><span class="archive-date">2026-05-10</span><span class="archive-title">易經的核心從來不是那六十四個卦</span><span class="archive-desc">上個月在新竹的一場分享會結束後，有個後端工程師等到最後，在會場門口找到我。他開口很直接：「老師，你這個把易經跟 Claude Code 組合在一起——我有點看不…</span></a></li>
+  <li class="archive-item"><a href="2026-05-09-2ed09f28.html" class="archive-link"><span class="archive-date">2026-05-09</span><span class="archive-title">「砍成本」這個問法本身就是陷阱</span><span class="archive-desc">三月的第一週，台北一個做室內裝修的老闆陳老闆打電話給我，開門見山：「昆廷老師，我帳上只剩六十幾萬，三個案子的尾款還沒收到，你覺得我現在應該先砍哪一塊成本？」</span></a></li>
+  <li class="archive-item"><a href="2026-05-08-969a02ee.html" class="archive-link"><span class="archive-date">2026-05-08</span><span class="archive-title">「自動回 email」展開來是幾個動作？</span><span class="archive-desc">晚上九點多，一個做品牌設計接案的老闆傳訊息給我。她在板橋，公司五個人，接的是中小企業的品牌識別案子——名片、提案文件、社群視覺。她說：「老師，我每天早上光是回詢…</span></a></li>
+  <li class="archive-item"><a href="2026-05-07-90992a29.html" class="archive-link"><span class="archive-date">2026-05-07</span><span class="archive-title">用 Claude Code 做什麼，不做什麼</span><span class="archive-desc">去年十二月，一個做健康食品訂閱盒的創業者傳訊息給我，時間是晚上十一點四十分。</span></a></li>
+  <li class="archive-item"><a href="2026-05-06-fab22ee2.html" class="archive-link"><span class="archive-date">2026-05-06</span><span class="archive-title">兩種會，完全不同的事</span><span class="archive-desc">台中有一家做家居雜貨進口的老闆，公司大概二十幾個人。他們進的東西很雜——廚房收納、浴室用品、小型家電周邊，主要客戶是全台各地的連鎖生活雜貨店。每週一早上九點，固…</span></a></li>
+  <li class="archive-item"><a href="2026-05-05-c9b7d69a.html" class="archive-link"><span class="archive-date">2026-05-05</span><span class="archive-title">我陪他做了什麼</span><span class="archive-desc">對方是一家做不鏽鋼廚具外銷的老闆，姓黃，公司大概三十幾個人。他講話很直接：「老師，我不是要你來把公司變成科技公司。我就是有一件搞不定的事，你看能不能幫我。」</span></a></li>
+  <li class="archive-item"><a href="2026-05-04-4e34d198.html" class="archive-link"><span class="archive-date">2026-05-04</span><span class="archive-title">買工具之前，你有沒有說清楚問題</span><span class="archive-desc">上個月有個做禮品包裝代工的老闆傳訊息給我，附了一張截圖——他的信用卡帳單，三個 AI 工具的訂閱費加起來每月將近七千塊台幣，用了五個月。</span></a></li>
+  <li class="archive-item"><a href="2026-05-03-c1ce97ed.html" class="archive-link"><span class="archive-date">2026-05-03</span><span class="archive-title">老闆的角色不是工程師</span><span class="archive-desc">上個月我在新竹陪一家做精密塑膠零件的老闆做 AI 工具評估。他坐下來第一句話：「老師我要先跟你坦白，我到現在還是用注音一個字一個字打字，我兒子說我是科技恐龍。我…</span></a></li>
+  <li class="archive-item"><a href="2026-05-02-aef9cd5b.html" class="archive-link"><span class="archive-date">2026-05-02</span><span class="archive-title">做了五年企業 AI 導入顧問，我發現一件事</span><span class="archive-desc">上個月一家做工業扣件的老闆在我桌子對面坐下，第一句話不是問 AI、不是問系統，是問我：「老師，你有沒有想過，哪天 AI 把你的工作也取代了？」</span></a></li>
+  <li class="archive-item"><a href="2026-05-01-3562d5fb.html" class="archive-link"><span class="archive-date">2026-05-01</span><span class="archive-title">「不宜前行」說的是哪條路不對</span><span class="archive-desc">「老師，我昨天問了卦，得屯卦初爻，解卦的人說不宜前行。但那個代理合約的窗口就兩週，我到底要不要簽？」</span></a></li>
+</ul>
+</section>
+<section class="archive-month">
+<h2 class="archive-month-title">2026 年 4 月</h2>
+<ul class="archive-list">
+  <li class="archive-item"><a href="2026-04-30-dx-process-or-tool.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">中小企業數位轉型該從流程還是工具開始？</span><span class="archive-desc">中小企業數位轉型通常該先看流程，再決定工具，否則只會把舊問題搬到新系統裡。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-claude-code-vs-chatgpt.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">Claude Code 和 ChatGPT 最大差別是什麼？</span><span class="archive-desc">Claude Code 和 ChatGPT 都能幫忙，但兩者在工作方式、問題拆解和使用情境上有明顯差別。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-claude-code-non-coder.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">不會寫程式，也能學 Claude Code 嗎？</span><span class="archive-desc">不會寫程式也能學 Claude Code，重點不是變工程師，而是學會怎麼把工作問題講清楚。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-c01539df.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">宣布不等於溝通</span><span class="archive-desc">上週二晚上九點半，一個做中價位男裝批發的老闆打電話給我，語氣很不對勁。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-ai-foundation-before-tools.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">公司導入 AI 前，哪些基礎要先整理？</span><span class="archive-desc">公司導入 AI 前，最該先整理的是資料、流程、責任和驗證標準，不是先追最新工具。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-ai-first-step.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">中小企業導入 AI 應該先做哪一件事？</span><span class="archive-desc">中小企業導入 AI，第一步通常不是買工具，而是先找出最值得動手的一個流程。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-ai-failure-reasons.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">企業 AI 導入最常失敗的 5 個原因</span><span class="archive-desc">企業 AI 導入失敗，通常不是因為工具不夠強，而是五個更前面的決策先出錯。</span></a></li>
+  <li class="archive-item"><a href="2026-04-30-9bc61355.html" class="archive-link"><span class="archive-date">2026-04-30</span><span class="archive-title">先說行情：不同規模的真實落點</span><span class="archive-desc">去年十一月，一家做工業用扣件的老闆——員工大概三十五人的工廠——在我辦公室的白板上寫了一個數字：「500萬」。然後轉過頭問我：「老師，夠嗎？」</span></a></li>
+  <li class="archive-item"><a href="2026-04-29-756168c7.html" class="archive-link"><span class="archive-date">2026-04-29</span><span class="archive-title">人才任用的「最終判斷」，究竟是什麼</span><span class="archive-desc">易經卦牌可以用來決定要不要雇用一個人嗎？我的答案是：可以，但不是你想的那種用法</span></a></li>
+  <li class="archive-item"><a href="2026-04-28-4a0677e4.html" class="archive-link"><span class="archive-date">2026-04-28</span><span class="archive-title">兩套工具，一張桌子</span><span class="archive-desc">上週一家做塑膠零組件的工廠老闆問我：你到底是顧問還是命理師？</span></a></li>
+  <li class="archive-item"><a href="2026-04-27-81acc446.html" class="archive-link"><span class="archive-date">2026-04-27</span><span class="archive-title">真正的風險，不是駭客，是你的員工</span><span class="archive-desc">上個月陪一家做 PCB 板的老闆開內部會議，討論要不要讓業務用 AI 幫忙寫報價單。快散會的時候，他問了一句：「我讓員工用 ChatGPT，客戶的報價資料有沒有…</span></a></li>
+  <li class="archive-item"><a href="2026-04-26-18a837ea.html" class="archive-link"><span class="archive-date">2026-04-26</span><span class="archive-title">一、卦牌 App：選不混占星塔羅那種</span><span class="archive-desc">上週四晚上十點半，一個做寵物食品代工的老闆在 LINE 傳訊息給我，問的不是 Claude Code 怎麼裝，是「老師我手邊那本《周易本義》翻爛了，但我每天通勤…</span></a></li>
+  <li class="archive-item"><a href="2026-04-25-7700884e.html" class="archive-link"><span class="archive-date">2026-04-25</span><span class="archive-title">老闆兼 AI 負責人,不是學不學得會的問題</span><span class="archive-desc">上週三下午,一位做機械手工具的老闆在我辦公室坐下來第一句話是:「我兒子說我太老了學不來,叫我把 AI 這件事交給他。可是我心裡就是不踏實。」</span></a></li>
+  <li class="archive-item"><a href="2026-04-24-6caf6adb.html" class="archive-link"><span class="archive-date">2026-04-24</span><span class="archive-title">我一開始也不信</span><span class="archive-desc">上週三下午，一位做水五金外銷的老闆娘傳訊息給我，劈頭就問：「Timmy老師，你用易經幫客戶決策，會不會被笑啊？」我笑了一下，回她：「會。上個月才被笑過。」</span></a></li>
+  <li class="archive-item"><a href="2026-04-24-0fe451ee.html" class="archive-link"><span class="archive-date">2026-04-24</span><span class="archive-title">先搞清楚你為什麼非地端不可</span><span class="archive-desc">上週三下午，我在桃園一家做精密沖壓的老闆辦公室，看他攤開一張報價單。三台 NVIDIA H100、一套本地推論框架、加上機房冷氣改裝，總價 380 萬。老闆抽了…</span></a></li>
+  <li class="archive-item"><a href="2026-04-23-e900c92f.html" class="archive-link"><span class="archive-date">2026-04-23</span><span class="archive-title">先分清楚「出錯」到底是哪一種</span><span class="archive-desc">上週三下午，一家做金屬加工的客戶在電話那頭語氣有點緊張：「老師，Claude Code 剛剛跑到一半斷了，我們的報價自動化整個卡住。」我當下看了一下，其實是他們…</span></a></li>
+  <li class="archive-item"><a href="2026-04-23-de9515fa.html" class="archive-link"><span class="archive-date">2026-04-23</span><span class="archive-title">「不信的時候最準」——這句話是心理學，不是玄學</span><span class="archive-desc">上週三下午，一位做五金貿易的老闆在我桌子對面搖頭，說他昨晚隨便抽了一張卦，本來是想證明易經是假的，結果那張「蹇卦」把他這半年在馬來西亞設廠遇到的每一道坎都講完了…</span></a></li>
+  <li class="archive-item"><a href="2026-04-23-d38c9029.html" class="archive-link"><span class="archive-date">2026-04-23</span><span class="archive-title">依賴不是問題，不動腦才是</span><span class="archive-desc">上週四下午，一家做工業閥門的中小企業老闆在會議室把筆電轉過來給我看。螢幕上是他工程師寫的報價單程式碼，下面一整排 Claude Code 的對話紀錄。他問我一句…</span></a></li>
+  <li class="archive-item"><a href="2026-04-23-a71d5be0.html" class="archive-link"><span class="archive-date">2026-04-23</span><span class="archive-title">一人公司老闆最該先用 AI 做的事</span><span class="archive-desc">上週四下午三點，我在民生社區一家咖啡店，對面坐著一個做進口紅酒的一人公司老闆。他翻開筆電給我看他的 Notion，密密麻麻 14 個分頁，從客戶名單、進貨報價、…</span></a></li>
+  <li class="archive-item"><a href="2026-04-23-81ba60a0.html" class="archive-link"><span class="archive-date">2026-04-23</span><span class="archive-title">老闆不學，整個企業 AI 導入就是半套</span><span class="archive-desc">上週三下午，我在桃園一家做汽車零件的工廠坐了三個小時。老闆六十二歲，員工 38 人，公司開了二十七年。他找我來，是因為公司裡三個年輕人已經自己偷偷用 ChatG…</span></a></li>
+  <li class="archive-item"><a href="2026-04-23-43a3f283.html" class="archive-link"><span class="archive-date">2026-04-23</span><span class="archive-title">客服可以完全交給 AI 嗎？我的答案是：不能，但 80% 可以——關鍵在於你分得清哪 20% 不能交出去</span><span class="archive-desc">這幾年我陪了不少中小企業做 AI 導入，被問最多的一題就是：「老師，客服可以完全交給 AI 嗎？客人會不會覺得沒溫度？」我的立場很清楚：**客服不該「完全」交給 AI，但也不該「完全」留給人**。真正成熟的企業 AI 導入，是讓 AI 處理</span></a></li>
+</ul>
+</section>
+<a href="../" class="back-link">← 回首頁</a>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">企業 AI 導入顧問，提供 Claude Code 教學、數位轉型實作與易經決策對話。昆廷老師陪中小企業主與社會人士先想清楚問題，再把 AI 工具真正接進工作流程。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

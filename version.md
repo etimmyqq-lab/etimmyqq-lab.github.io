@@ -1,5 +1,23 @@
 # 昆廷老師個人品牌網站 — 版本歷程
 
+## [2026-06-16] 新增全部文章歸檔頁
+
+### 變更內容
+- 新建 `build_articles_index.py`：掃 `articles/*.html` → 從 filename 抽日期、`<title>` 抽標題（去尾「｜昆廷老師」）、`<meta description>` 抽摘要 → 按年月分組產 `articles/index.html`
+- 新建 `articles/index.html`（67 篇全文章歸檔，CollectionPage + BreadcrumbList JSON-LD，含 RWD）
+- `index.html`：`#articles` 區塊在 `<!-- /ARTICLES:auto -->` 後加 `articles-more` 區，放「看全部文章 →」連結到 `articles/`
+- `assets/style.css`：新增 `.articles-more`（margin-top: 36px、置中）
+- `sitemap.xml`：新增 `/articles/`（priority 0.9、daily）、首頁 lastmod 更新為 2026-06-16
+
+### 原因
+- 原本首頁 `#articles` 區塊只顯示 6 篇最新（由 auto-post pipeline 注入），無法瀏覽舊文章；改成首頁保留 6 篇精選 + 另開全部文章歸檔頁
+
+### 影響範圍
+- 新增使用者入口：`articles/` 全文章列表
+- 首頁 `#articles` 區塊呈現邏輯不變（auto block 仍由 exposure pipeline 維護），只在外層追加「看全部」CTA
+- `build_articles_index.py` 不會動原文章檔，只讀不寫
+- `daily-publish.bat` 在 git add 前自動跑 `py build_articles_index.py`，發新文時 `articles/index.html` 同步更新；build 失敗不擋發佈（只印 WARN）
+
 ## [2026-05-01] 修正 GAS 部署：改用所有人存取，匿名表單提交可正常運作
 
 ### 變更內容

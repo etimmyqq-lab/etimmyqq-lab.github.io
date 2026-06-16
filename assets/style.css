@@ -715,6 +715,11 @@ body {
     font-size: 0.92rem;
 }
 
+.articles-more {
+    margin-top: 36px;
+    text-align: center;
+}
+
 /* ─── Contact ─── */
 .contact-grid {
     display: grid;
