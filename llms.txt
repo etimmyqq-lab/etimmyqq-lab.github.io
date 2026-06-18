@@ -17,6 +17,7 @@
 
 ## 最新文章
 
+- [ChatGPT 跟 Claude Code 根本不是在做同一件事](https://etimmyqq-lab.github.io/articles/2026-06-18-1c38e232.html): 桃園有個做精密鑄件的老闆，去年十一月傳了一個截圖給我。截圖裡是他工廠的倉儲系統，底下有十四支 Python 腳本，每支兩三百行。他說：「這些都是工程師用 Cha…
 - [易經的核心從來不是答案，是問法](https://etimmyqq-lab.github.io/articles/2026-06-17-41838336.html): 台中有個做金屬沖壓的老闆，去年年底傳了一段語音給我。他說他六十二歲了，打算這幾年慢慢把生意交給兒子，但有件事讓他有點卡——他做了三十幾年生意，很多重要決策其實都…
 - [「多試幾個」為什麼反而沒效](https://etimmyqq-lab.github.io/articles/2026-06-16-b392f052.html): 去年九月，彰化有個做汽車零組件的老闆，傳了一份截圖給我。是他的 Google Sheet，上面列著他所有的 AI 工具訂閱：ChatGPT Plus、Claud…
 - [花 8 萬請工程師，Codex 到底能取代多少？](https://etimmyqq-lab.github.io/articles/2026-06-15-f50fd3d5.html): 上週有個做電商後台的老闆傳訊息給我，問題很直接：「我現在花 8 萬請工程師，聽說 Codex 出來之後可以取代？你給我一個說法。」
@@ -26,11 +27,10 @@
 - [你不是在問問題，你是在找允許](https://etimmyqq-lab.github.io/articles/2026-06-10-4a80d077.html): 去年十一月，台中有個做工業電機代工的老闆傳訊給我，說他剛抽了一卦，問能不能再抽一次。
 - [hooks 是什麼](https://etimmyqq-lab.github.io/articles/2026-06-09-82390c17.html): 上個月有個從新竹來找我的客戶，傳了一張截圖給我。
 - [整理資料跟理解資料，是兩件事](https://etimmyqq-lab.github.io/articles/2026-06-08-8d82c3a7.html): 桃園有個做五金零件外銷的公司，去年十月我去那邊做了一次導入諮詢。業務部主管問我說，他們採購行政的人，原來負責每天整理報價單、把廠商回覆的 PDF 轉成 Exce…
-- [開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？](https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html): 台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。
 
 ## 關於作者
 
 昆廷老師是AI顧問，也是易經卦牌決策引導師。他在帶企業AI導入規劃的同時，會用卦牌幫老闆釐清「現在最值得動的那一步」。他教Claude Code和Codex，但更在意的是：學了這些工具之後，你能不能問出比以前更好的問題。服務對象主要是中小企業主和想轉型的社會人士，有時候一個session就能讓人豁然開朗。
 
 網站：https://etimmyqq-lab.github.io/
-更新於：2026-06-17
+更新於：2026-06-18

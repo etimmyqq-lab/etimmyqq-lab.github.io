@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 17 Jun 2026 08:37:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 08:39:23 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT 跟 Claude Code 根本不是在做同一件事</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-18-1c38e232.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-18-1c38e232.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0800</pubDate>
+      <description>桃園有個做精密鑄件的老闆，去年十一月傳了一個截圖給我。截圖裡是他工廠的倉儲系統，底下有十四支 Python 腳本，每支兩三百行。他說：「這些都是工程師用 Cha…</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>易經的核心從來不是答案，是問法</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-17-41838336.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 19 May 2026 08:00:00 +0800</pubDate>
       <description>上個月台中一家四人會計師事務所的所長傳了一個截圖給我。螢幕上是一條英文報錯，紅底白字。他問：「老師，我是不是裝錯了？」</description>
       <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>哪些職位「風險最高」，不是「一定消失」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-18-60b10d12.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-18-60b10d12.html</guid>
-      <pubDate>Mon, 18 May 2026 08:00:00 +0800</pubDate>
-      <description>去年九月，我在嘉義幫一家做農業機械的公司做 AI 導入前的顧問評估。會議室裡坐了十二個人，老闆、幾個主管、財務長。我問：「你們這次導入 AI，最擔心什麼？」</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>

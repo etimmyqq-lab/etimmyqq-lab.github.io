@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### ChatGPT 跟 Claude Code 根本不是在做同一件事
+
+URL: https://etimmyqq-lab.github.io/articles/2026-06-18-1c38e232.html
+主題: 企業 AI 導入
+日期: 2026-06-18
+
+桃園有個做精密鑄件的老闆，去年十一月傳了一個截圖給我。截圖裡是他工廠的倉儲系統，底下有十四支 Python 腳本，每支兩三百行。他說：「這些都是工程師用 Cha…
+
 ### 易經的核心從來不是答案，是問法
 
 URL: https://etimmyqq-lab.github.io/articles/2026-06-17-41838336.html
