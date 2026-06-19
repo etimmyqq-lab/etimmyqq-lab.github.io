@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 18 Jun 2026 08:39:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 08:37:18 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>科技業為什麼特別容易把問題問錯</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-19-09900f25.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-19-09900f25.html</guid>
+      <pubDate>Fri, 19 Jun 2026 08:00:00 +0800</pubDate>
+      <description>去年十月，台北有個做 B2B SaaS 的共同創辦人來找我，開門見山就說：「我用易經卦牌做決策的事，被工程師發現了。」</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>ChatGPT 跟 Claude Code 根本不是在做同一件事</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-18-1c38e232.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 20 May 2026 08:00:00 +0800</pubDate>
       <description>三個月前，桃園一家做電子代工的公司，人資主管傳了一份 8 頁的 Word 文件給我。她說是從網路上找到的 AI 使用政策範本，問我可不可以直接套用。</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>第一關：裝不起來</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-19-338544a3.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-19-338544a3.html</guid>
-      <pubDate>Tue, 19 May 2026 08:00:00 +0800</pubDate>
-      <description>上個月台中一家四人會計師事務所的所長傳了一個截圖給我。螢幕上是一條英文報錯，紅底白字。他問：「老師，我是不是裝錯了？」</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>
