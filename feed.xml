@@ -5,8 +5,24 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 19 Jun 2026 08:37:18 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 08:46:02 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼策略會議裡需要一個「理性框架外的東西」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-22-24e233b4.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-22-24e233b4.html</guid>
+      <pubDate>Mon, 22 Jun 2026 08:00:00 +0800</pubDate>
+      <description>去年十一月，陪一家做醬料出口的中小企業開年度策略會議。會議室裡坐了八個人，老闆、業務主管、研發、財務，還有一個剛升上來的年輕品管。討論了三個小時，那個老闆最後說…</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>2026-06-21-7a061aa8</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-21-7a061aa8.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-21-7a061aa8.html</guid>
+      <pubDate>Sun, 21 Jun 2026 08:00:00 +0800</pubDate>
+      <description></description>
+      <category>(manual)</category>
+    </item>
     <item>
       <title>科技業為什麼特別容易把問題問錯</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-19-09900f25.html</link>
@@ -230,22 +246,6 @@
       <pubDate>Fri, 22 May 2026 08:00:00 +0800</pubDate>
       <description>苗栗有個做工業模具的老闆，去年十二月十一號晚上，傳了一段語音給我。</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>Claude 解卦，其實做得不差</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-21-464c43fa.html</guid>
-      <pubDate>Thu, 21 May 2026 08:00:00 +0800</pubDate>
-      <description>新竹一家做精密零件的老闆，上個月傳了三張截圖給我。都是他問 Claude 卦象的紀錄。他說：「老師你看，我問了同一個問題三次，三次答案都不一樣，Claude 到…</description>
-      <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>邊界不說清楚，員工就靠感覺</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-20-b8890a1d.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-20-b8890a1d.html</guid>
-      <pubDate>Wed, 20 May 2026 08:00:00 +0800</pubDate>
-      <description>三個月前，桃園一家做電子代工的公司，人資主管傳了一份 8 頁的 Word 文件給我。她說是從網路上找到的 AI 使用政策範本，問我可不可以直接套用。</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>
