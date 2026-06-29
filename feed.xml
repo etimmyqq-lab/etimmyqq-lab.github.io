@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 28 Jun 2026 08:41:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 08:53:26 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你不需要懂模型，但你需要懂「問什麼」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-06-29-f96c6c2f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-29-f96c6c2f.html</guid>
+      <pubDate>Mon, 29 Jun 2026 08:00:00 +0800</pubDate>
+      <description>台中有個做螺絲五金的老闆，去年十月找我吃飯。他說，公司三個月前導入了視覺AI檢測系統，專門抓瑕疵品。工程師上週跑來告訴他，準確率94%。</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>它們的起點不一樣</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-06-28-6617fab3.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 29 May 2026 08:00:00 +0800</pubDate>
       <description>去年底桃園有個做金屬表面處理的老闆，讓 AI 幫他跑了一份市場分析。他想知道要不要往汽車零件廠這條線拓展。</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>Codex 教學為什麼大多是工程師視角</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-05-28-55905fda.html</guid>
-      <pubDate>Thu, 28 May 2026 08:00:00 +0800</pubDate>
-      <description>基隆有個做水產批發的老闆，我叫他阿海好了，今年二月傳了一個網頁連結給我。那是 Codex 的官方說明文件。他說他看了四十分鐘，第一段就出現 repository…</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>
