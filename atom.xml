@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-06-30T00:39:33.028149+00:00</updated>
+  <updated>2026-07-01T01:02:47.068222+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>「保守」這個卦，在說的其實是節奏問題</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-01-be209602.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-01-be209602.html</id>
+    <updated>2026-07-01T08:00:00+08:00</updated>
+    <summary>上個月，做中古車買賣的許老闆傳了一段訊息過來，說身邊三個朋友最近各自砸了幾十萬在 AI 系統上，他也心動，去抽了一張易經卦牌問方向，結果抽到「謙卦」。他說：「老…</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>規範在管什麼？不是「能不能用」，是「知不知道風險在哪裡」</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-06-30-310f4016.html"/>
@@ -237,14 +245,6 @@
     <id>https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html</id>
     <updated>2026-05-31T08:00:00+08:00</updated>
     <summary>今年三月，新竹有個做精密零件的老闆約我喝茶，開口第一句：「老師，我剛發現我同業五家都在用跟我一樣的 AI 工具。」</summary>
-    <category term="Codex 教學"/>
-  </entry>
-  <entry>
-    <title>隱私模式到底管什麼</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-30-a25f8c1e.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-30-a25f8c1e.html</id>
-    <updated>2026-05-30T08:00:00+08:00</updated>
-    <summary>高雄有個老闆，做工業零件外銷二十幾年，我叫他德義哥好了。去年十月他傳訊息問我：「老師，我聽說可以開 Codex 的隱私模式，這樣資料就不會被拿去訓練模型了，是真…</summary>
     <category term="Codex 教學"/>
   </entry>
 </feed>
