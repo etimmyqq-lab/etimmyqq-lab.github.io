@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-07-01T01:02:47.068222+00:00</updated>
+  <updated>2026-07-02T00:51:44.588764+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>問題問歪了，卦就解歪了</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-02-ac9ea132.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-02-ac9ea132.html</id>
+    <updated>2026-07-02T08:00:00+08:00</updated>
+    <summary>去年十月，台中一個做企業禮贈品的老闆——我叫她陳老闆——傳了一張照片給我。是她剛搖完卦的手機截圖，抽到了大有卦。</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>「保守」這個卦，在說的其實是節奏問題</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-07-01-be209602.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-06-01T08:00:00+08:00</updated>
     <summary>台中有個做工具機零件的老闆，去年九月找我喝咖啡，帶了一張A4紙過來。紙上寫著一行字：「易經64卦商業週期對照表，有沒有？」</summary>
     <category term="易經卦牌"/>
-  </entry>
-  <entry>
-    <title>一口井，所有人都可以來打水</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-05-31-9a879c83.html</id>
-    <updated>2026-05-31T08:00:00+08:00</updated>
-    <summary>今年三月，新竹有個做精密零件的老闆約我喝茶，開口第一句：「老師，我剛發現我同業五家都在用跟我一樣的 AI 工具。」</summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>
