@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 02 Jul 2026 08:51:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 08:55:16 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code 不是另一個聊天機器人</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-03-779735e2.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-03-779735e2.html</guid>
+      <pubDate>Fri, 03 Jul 2026 08:00:00 +0800</pubDate>
+      <description>上個月在桃園陪一家做汽車零件出口的老闆開會，快結束的時候他問了一個問題，我感覺自己已經被問了大概三十幾次了。</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>問題問歪了，卦就解歪了</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-02-ac9ea132.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-02-1dd2bc77.html</guid>
       <pubDate>Tue, 02 Jun 2026 08:00:00 +0800</pubDate>
       <description>有個台南做伴手禮的老闆娘，去年四月傳了一個截圖給我。那是她在 Notion 裡建的卦牌日誌模板，欄位設計得很精緻：自動帶日期、下拉選單選卦名、還有一個「今日心情…</description>
-      <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>但對照表查完之後呢？</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-01-8b419fdb.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-01-8b419fdb.html</guid>
-      <pubDate>Mon, 01 Jun 2026 08:00:00 +0800</pubDate>
-      <description>台中有個做工具機零件的老闆，去年九月找我喝咖啡，帶了一張A4紙過來。紙上寫著一行字：「易經64卦商業週期對照表，有沒有？」</description>
       <category>易經卦牌</category>
     </item>
   </channel>
