@@ -14,6 +14,20 @@
 
 ## 全部文章
 
+### 「該不該」是最危險的問法
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-05-1364b196.html
+主題: Claude 教學
+日期: 2026-07-05
+
+今年五月底，一位新竹做工業紙箱的二代老闆，拿著一份 AI 產出的擴廠評估報告來找我。報告的結論是可以擴，理由列得很完整：產能利用率 87%、同業都在擴產、報價還…
+
+### 2026-07-04-74a8f65a
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-04-74a8f65a.html
+主題: 中小企業數位轉型
+日期: 2026-07-04
+
 ### Claude Code 不是另一個聊天機器人
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-03-779735e2.html
