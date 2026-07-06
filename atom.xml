@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-07-05T00:33:20.425793+00:00</updated>
+  <updated>2026-07-06T00:33:07.620771+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>用真實紀錄餵 Claude，不是叫它憑空寫</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-06-4fe26657.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-06-4fe26657.html</id>
+    <updated>2026-07-06T08:00:00+08:00</updated>
+    <summary>今年四月，高雄一家賣淨水器兼做安裝維修的公司找我，兩位客服一天接四十幾通電話，我們請她們把一週的來電內容逐通記下來統計，結果六成三的電話集中在七個問題：濾芯多久…</summary>
+    <category term="Claude 教學"/>
+  </entry>
   <entry>
     <title>「該不該」是最危險的問法</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-07-05-1364b196.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-06-05T08:00:00+08:00</updated>
     <summary>去年十二月，彰化有個做鋁門窗代理的老闆打電話給我。</summary>
     <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>Copilot 在做什麼</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-04-f116b189.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-04-f116b189.html</id>
-    <updated>2026-06-04T08:00:00+08:00</updated>
-    <summary>雲林有個做農業機械代理的老闆，今年二月傳了兩張截圖給我，中間夾了一句：「老師，這兩個工具感覺都在幫我寫程式，有什麼不同？我到底繳哪個費用就好？」</summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>
