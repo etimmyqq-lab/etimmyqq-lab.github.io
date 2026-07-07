@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 抄來的範本，天生缺一格
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-07-cea9e676.html
+主題: ChatGPT 教學
+日期: 2026-07-07
+
+今年六月中，我在內湖幫一家保險經紀公司上內訓課，中午休息的時候，一位行政主管拿手機給我看。她的備忘錄裡存了三十七個從網路上抄來的 prompt 範本，我問她實際…
+
 ### 用真實紀錄餵 Claude，不是叫它憑空寫
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-06-4fe26657.html

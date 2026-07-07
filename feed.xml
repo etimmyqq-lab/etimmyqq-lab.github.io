@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 06 Jul 2026 08:33:07 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 08:33:13 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>抄來的範本，天生缺一格</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-07-cea9e676.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-07-cea9e676.html</guid>
+      <pubDate>Tue, 07 Jul 2026 08:00:00 +0800</pubDate>
+      <description>今年六月中，我在內湖幫一家保險經紀公司上內訓課，中午休息的時候，一位行政主管拿手機給我看。她的備忘錄裡存了三十七個從網路上抄來的 prompt 範本，我問她實際…</description>
+      <category>ChatGPT 教學</category>
+    </item>
     <item>
       <title>用真實紀錄餵 Claude，不是叫它憑空寫</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-06-4fe26657.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 06 Jun 2026 08:00:00 +0800</pubDate>
       <description>高雄有個做設備保養管理系統的軟體公司，去年十一月找我開了一次諮詢。他們不是來問要不要導入 AI，已經在用了。六個工程師，每個人的 Claude Code 都裝好…</description>
       <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>找那口井</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-05-6a03bb65.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-05-6a03bb65.html</guid>
-      <pubDate>Fri, 05 Jun 2026 08:00:00 +0800</pubDate>
-      <description>去年十二月，彰化有個做鋁門窗代理的老闆打電話給我。</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>
