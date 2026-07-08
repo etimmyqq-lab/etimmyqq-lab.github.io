@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 07 Jul 2026 08:33:13 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:32:12 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>員工覺得怪,通常是因為他們以為你在算命</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-08-fe2cf5df.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-08-fe2cf5df.html</guid>
+      <pubDate>Wed, 08 Jul 2026 08:00:00 +0800</pubDate>
+      <description>去年十二月，台南一家做金屬扣件的公司,總經理在週一主管會上抽了一張卦,是坎卦。他把牌翻過來的時候,會議室裡三個中階主管的表情我到現在還記得——一個低頭滑手機,一…</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>抄來的範本，天生缺一格</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-07-cea9e676.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 07 Jun 2026 08:00:00 +0800</pubDate>
       <description>台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>CLAUDE.md 的三個層級</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-06-6eb07bd1.html</guid>
-      <pubDate>Sat, 06 Jun 2026 08:00:00 +0800</pubDate>
-      <description>高雄有個做設備保養管理系統的軟體公司，去年十一月找我開了一次諮詢。他們不是來問要不要導入 AI，已經在用了。六個工程師，每個人的 Claude Code 都裝好…</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>
