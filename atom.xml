@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-07-08T00:32:12.603999+00:00</updated>
+  <updated>2026-07-09T00:32:31.637586+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>內行的人講的是動詞，話術的人講的是名詞</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-09-505919f9.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-09-505919f9.html</id>
+    <updated>2026-07-09T08:00:00+08:00</updated>
+    <summary>上個月一個做食品加工的老闆傳訊息給我，附了一張某 AI 顧問的報價單，問我一句話：「這個人開價一場十二萬，值不值？」我看了那張投影片截圖，上面寫著「導入生成式 …</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>員工覺得怪,通常是因為他們以為你在算命</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-07-08-fe2cf5df.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-06-08T08:00:00+08:00</updated>
     <summary>桃園有個做五金零件外銷的公司，去年十月我去那邊做了一次導入諮詢。業務部主管問我說，他們採購行政的人，原來負責每天整理報價單、把廠商回覆的 PDF 轉成 Exce…</summary>
     <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>開會前整理數據要花幾個小時，Codex 省掉的到底是哪段時間？</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-07-14292ae9.html</id>
-    <updated>2026-06-07T08:00:00+08:00</updated>
-    <summary>台北有個做醫療器材進口的客戶，去年八月找我做了一次諮詢。</summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>
