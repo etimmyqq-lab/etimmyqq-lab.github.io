@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:33:06 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 08:33:26 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一個問題:你自己最近用 Claude Code 做過什麼真實的東西?</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-13-2ee7ae47.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-13-2ee7ae47.html</guid>
+      <pubDate>Mon, 13 Jul 2026 08:00:00 +0800</pubDate>
+      <description>上個月一個做外貿的年輕人,傳了一張收據截圖給我,六千八,附一句話:「老師,這堂 Claude Code 教學我上完了,為什麼我還是不會用?」</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>為什麼先動後勤，而不是現場</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-12-98ebe39a.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-13-a5d5dc20.html</guid>
       <pubDate>Sat, 13 Jun 2026 08:00:00 +0800</pubDate>
       <description>去年底，高雄有個做食品原料進口的老闆傳了一份截圖給我。</description>
-      <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>數位化和數位轉型，真的不一樣</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-12-f2c42c0f.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-12-f2c42c0f.html</guid>
-      <pubDate>Fri, 12 Jun 2026 08:00:00 +0800</pubDate>
-      <description>去年四月，台南有個做傳統糕點的老闆傳訊給我。不是問問題，是直接貼了一份收據截圖。</description>
       <category>中小企業數位轉型</category>
     </item>
   </channel>

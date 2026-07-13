@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 第一個問題:你自己最近用 Claude Code 做過什麼真實的東西?
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-13-2ee7ae47.html
+主題: Claude Code 教學
+日期: 2026-07-13
+
+上個月一個做外貿的年輕人,傳了一張收據截圖給我,六千八,附一句話:「老師,這堂 Claude Code 教學我上完了,為什麼我還是不會用?」
+
 ### 為什麼先動後勤，而不是現場
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-12-98ebe39a.html
