@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-07-13T00:33:26.030101+00:00</updated>
+  <updated>2026-07-14T00:32:25.208108+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>共用一個帳號,你以為省的是錢,其實賠的是界線</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-14-efbd579f.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-14-efbd579f.html</id>
+    <updated>2026-07-14T08:00:00+08:00</updated>
+    <summary>五個人的公司,買一個 ChatGPT 帳號共用,一年省下大概兩萬四台幣。這是很多小老闆算完之後決定共用的理由。但我上個月陪一家做進口紅酒的貿易商處理過一次麻煩,…</summary>
+    <category term="ChatGPT 教學"/>
+  </entry>
   <entry>
     <title>第一個問題:你自己最近用 Claude Code 做過什麼真實的東西?</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-07-13-2ee7ae47.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-06-14T08:00:00+08:00</updated>
     <summary>新北有個做工業耗材代理的老闆，去年三月傳訊給我，說他剛抽了一卦，問的是要不要跟另外一家同行談合作——對方有穩定的工廠通路，他有廠商資源，兩家在業界認識快八年了。</summary>
     <category term="易經卦牌"/>
-  </entry>
-  <entry>
-    <title>那另一塊能不能省</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-13-a5d5dc20.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-13-a5d5dc20.html</id>
-    <updated>2026-06-13T08:00:00+08:00</updated>
-    <summary>去年底，高雄有個做食品原料進口的老闆傳了一份截圖給我。</summary>
-    <category term="中小企業數位轉型"/>
   </entry>
 </feed>
