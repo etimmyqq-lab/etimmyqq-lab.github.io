@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 卡關不在技術，在你不會「開口」
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-15-e57403b5.html
+主題: Claude Code 教學
+日期: 2026-07-15
+
+上週五晚上快十一點，一個做網頁接案的年輕人打視訊給我。螢幕分享出來，是一整片全黑的終端機，游標在那邊一閃一閃。他說：「老師，我照 YouTube 把 Claud…
+
 ### 共用一個帳號,你以為省的是錢,其實賠的是界線
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-14-efbd579f.html

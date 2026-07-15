@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 14 Jul 2026 08:32:25 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:33:38 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>卡關不在技術，在你不會「開口」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-15-e57403b5.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-15-e57403b5.html</guid>
+      <pubDate>Wed, 15 Jul 2026 08:00:00 +0800</pubDate>
+      <description>上週五晚上快十一點，一個做網頁接案的年輕人打視訊給我。螢幕分享出來，是一整片全黑的終端機，游標在那邊一閃一閃。他說：「老師，我照 YouTube 把 Claud…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>共用一個帳號,你以為省的是錢,其實賠的是界線</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-14-efbd579f.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 15 Jun 2026 08:00:00 +0800</pubDate>
       <description>上週有個做電商後台的老闆傳訊息給我，問題很直接：「我現在花 8 萬請工程師，聽說 Codex 出來之後可以取代？你給我一個說法。」</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>問法決定了你能看到什麼</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-14-e8df3179.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-14-e8df3179.html</guid>
-      <pubDate>Sun, 14 Jun 2026 08:00:00 +0800</pubDate>
-      <description>新北有個做工業耗材代理的老闆，去年三月傳訊給我，說他剛抽了一卦，問的是要不要跟另外一家同行談合作——對方有穩定的工廠通路，他有廠商資源，兩家在業界認識快八年了。</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
