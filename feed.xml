@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 15 Jul 2026 08:33:38 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 08:33:47 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你不是在問「要不要付錢」，是在問「我一天靠它做多少事」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-16-c70454d3.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-16-c70454d3.html</guid>
+      <pubDate>Thu, 16 Jul 2026 08:00:00 +0800</pubDate>
+      <description>上週三下午三點多，一個在假日市集擺攤賣手工貝果的媽媽傳訊息給我，說她的 Claude 突然叫她「稍後再試」。她那天在趕一批客製訂單的文案，寫到第七款口味，畫面就…</description>
+      <category>Claude 教學</category>
+    </item>
     <item>
       <title>卡關不在技術，在你不會「開口」</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-15-e57403b5.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 16 Jun 2026 08:00:00 +0800</pubDate>
       <description>去年九月，彰化有個做汽車零組件的老闆，傳了一份截圖給我。是他的 Google Sheet，上面列著他所有的 AI 工具訂閱：ChatGPT Plus、Claud…</description>
       <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>花 8 萬請工程師，Codex 到底能取代多少？</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-15-f50fd3d5.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-15-f50fd3d5.html</guid>
-      <pubDate>Mon, 15 Jun 2026 08:00:00 +0800</pubDate>
-      <description>上週有個做電商後台的老闆傳訊息給我，問題很直接：「我現在花 8 萬請工程師，聽說 Codex 出來之後可以取代？你給我一個說法。」</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>
