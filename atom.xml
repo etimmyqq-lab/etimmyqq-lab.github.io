@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-07-17T00:32:26.062089+00:00</updated>
+  <updated>2026-07-18T00:33:36.017411+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>交給員工，你交出去的其實是判斷權</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-18-2328f1c9.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-18-2328f1c9.html</id>
+    <updated>2026-07-18T08:00:00+08:00</updated>
+    <summary>老闆該自己學 Claude Code 還是交給員工，我的答案是老闆自己得學，但學的東西跟員工不一樣。員工學怎麼操作，老闆學怎麼判斷。老闆學到能看懂員工交出來的成…</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>先設界線，再談效率</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-07-17-2f6ddc22.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-06-18T08:00:00+08:00</updated>
     <summary>桃園有個做精密鑄件的老闆，去年十一月傳了一個截圖給我。截圖裡是他工廠的倉儲系統，底下有十四支 Python 腳本，每支兩三百行。他說：「這些都是工程師用 Cha…</summary>
     <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>易經的核心從來不是答案，是問法</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-17-41838336.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-17-41838336.html</id>
-    <updated>2026-06-17T08:00:00+08:00</updated>
-    <summary>台中有個做金屬沖壓的老闆，去年年底傳了一段語音給我。他說他六十二歲了，打算這幾年慢慢把生意交給兒子，但有件事讓他有點卡——他做了三十幾年生意，很多重要決策其實都…</summary>
-    <category term="易經卦牌"/>
   </entry>
 </feed>
