@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 一般顧問給答案，AI 顧問系統陪你問問題
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-19-6d7e1ded.html
+主題: ChatGPT 教學
+日期: 2026-07-19
+
+AI 顧問系統跟一般顧問最大的差別，是一般顧問交給你一份報告就結束了，AI 顧問系統是每天都在你公司裡上班。前者是一次性的診斷，後者是可以反覆問、反覆跑、反覆修…
+
 ### 交給員工，你交出去的其實是判斷權
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-18-2328f1c9.html
