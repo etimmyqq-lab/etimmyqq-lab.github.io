@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 21 Jul 2026 08:35:43 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 08:33:19 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>這件事，易經兩千年前就講過</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-22-15b50730.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-22-15b50730.html</guid>
+      <pubDate>Wed, 22 Jul 2026 08:00:00 +0800</pubDate>
+      <description>上個月一家做塑膠射出的工廠，老闆在晨會上宣布要導 AI，做了十九年的會計陳姐當場把筆放下，冷冷丟一句：「那我是不是可以準備走了。」會議室安靜了大概五秒。散會後老…</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>版本大致分三種，但差別不在貴不貴</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-21-00e4ecee.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-23-2e4d5ab7.html</guid>
       <pubDate>Tue, 23 Jun 2026 08:00:00 +0800</pubDate>
       <description>去年四月，新竹一家做被動元件的廠商找我去看他們的「每週 AI 分享會」。</description>
-      <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>為什麼策略會議裡需要一個「理性框架外的東西」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-22-24e233b4.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-22-24e233b4.html</guid>
-      <pubDate>Mon, 22 Jun 2026 08:00:00 +0800</pubDate>
-      <description>去年十一月，陪一家做醬料出口的中小企業開年度策略會議。會議室裡坐了八個人，老闆、業務主管、研發、財務，還有一個剛升上來的年輕品管。討論了三個小時，那個老闆最後說…</description>
       <category>企業 AI 導入</category>
     </item>
   </channel>
