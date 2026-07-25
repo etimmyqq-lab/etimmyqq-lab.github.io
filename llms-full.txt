@@ -14,6 +14,26 @@
 
 ## 全部文章
 
+### 先讓 AI 把事實攤平
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-25-d78baac2.html
+主題: Claude Code 教學
+日期: 2026-07-25
+
+五個 AI 導入案子攤在會議桌上，老闆問我先做哪一個。我沒有馬上抽卦。我請他先打開 Claude，把五個案子的成本、要花多久、需要誰配合、失敗會怎樣，一條一條列…
+
+### 2026-07-24-cbf2c5ae
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-24-cbf2c5ae.html
+主題: ChatGPT 教學
+日期: 2026-07-24
+
+### 2026-07-23-de9091fb
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html
+主題: 中小企業數位轉型
+日期: 2026-07-23
+
 ### 這件事，易經兩千年前就講過
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-22-15b50730.html

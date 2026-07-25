@@ -4,9 +4,33 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-07-22T00:33:19.074338+00:00</updated>
+  <updated>2026-07-25T00:33:43.421213+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>先讓 AI 把事實攤平</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-25-d78baac2.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-25-d78baac2.html</id>
+    <updated>2026-07-25T08:00:00+08:00</updated>
+    <summary>五個 AI 導入案子攤在會議桌上，老闆問我先做哪一個。我沒有馬上抽卦。我請他先打開 Claude，把五個案子的成本、要花多久、需要誰配合、失敗會怎樣，一條一條列…</summary>
+    <category term="Claude Code 教學"/>
+  </entry>
+  <entry>
+    <title>2026-07-24-cbf2c5ae</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-24-cbf2c5ae.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-24-cbf2c5ae.html</id>
+    <updated>2026-07-24T08:00:00+08:00</updated>
+    <summary></summary>
+    <category term="ChatGPT 教學"/>
+  </entry>
+  <entry>
+    <title>2026-07-23-de9091fb</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html</id>
+    <updated>2026-07-23T08:00:00+08:00</updated>
+    <summary></summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
   <entry>
     <title>這件事，易經兩千年前就講過</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-07-22-15b50730.html"/>
@@ -222,29 +246,5 @@
     <updated>2026-06-26T08:00:00+08:00</updated>
     <summary>去年四月，彰化一個做自行車零件代工的老闆傳了一份合約照片給我。</summary>
     <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>三年後，差距長什麼樣子？</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-25-6a6d411f.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-25-6a6d411f.html</id>
-    <updated>2026-06-25T08:00:00+08:00</updated>
-    <summary>去年底，高雄一個做水產加工的老闆，在我們午餐快結束的時候問了我一個問題。</summary>
-    <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>什麼工作 AI 已經能做了</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-24-58888074.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-24-58888074.html</id>
-    <updated>2026-06-24T08:00:00+08:00</updated>
-    <summary>今年三月，台南有個做印刷包裝的老闆傳訊給我。說他準備貼一則招募，三個職缺：客服一個、報價專員一個、倉管助理一個。但在他按下發佈之前，他想先問我一件事：「這三個我…</summary>
-    <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>介紹型 vs 操作型</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-06-23-2e4d5ab7.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-06-23-2e4d5ab7.html</id>
-    <updated>2026-06-23T08:00:00+08:00</updated>
-    <summary>去年四月，新竹一家做被動元件的廠商找我去看他們的「每週 AI 分享會」。</summary>
-    <category term="企業 AI 導入"/>
   </entry>
 </feed>
