@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 25 Jul 2026 08:33:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 08:33:45 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先搞懂它要站在什麼上面</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-27-756983e7.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-27-756983e7.html</guid>
+      <pubDate>Mon, 27 Jul 2026 08:00:00 +0800</pubDate>
+      <description>一台剛開封的 MacBook 攤在會議桌上，一個做手工皮件的大姐坐我旁邊，手指在觸控板上滑得還不太順。她說：老師，Claude Code 我裝了三次都失敗，畫面…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>先讓 AI 把事實攤平</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-25-d78baac2.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-27-ec64a396.html</guid>
       <pubDate>Sat, 27 Jun 2026 08:00:00 +0800</pubDate>
       <description>去年八月，高雄一家做物流調度的公司，導入 AI 系統三個月後，總經理打電話給我，說了一件讓他頭痛的事。</description>
-      <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>問題不在 AI 寫了什麼，在你告訴 AI 什麼</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-26-8d009ce2.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-26-8d009ce2.html</guid>
-      <pubDate>Fri, 26 Jun 2026 08:00:00 +0800</pubDate>
-      <description>去年四月，彰化一個做自行車零件代工的老闆傳了一份合約照片給我。</description>
       <category>中小企業數位轉型</category>
     </item>
   </channel>
