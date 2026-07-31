@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 先決定對方要做什麼決定，再決定架構
+
+URL: https://etimmyqq-lab.github.io/articles/2026-07-31-1578b79f.html
+主題: Gemini 教學
+日期: 2026-07-31
+
+上週三，一個做商用清潔設備的業務副理把筆電轉過來給我看。他週五要提案給一家連鎖火鍋店，簡報開了十七頁，卡在第三頁改不下去。他問我：Gemini 能不能幫我想這份…
+
 ### 先把「取代」這個詞拆開
 
 URL: https://etimmyqq-lab.github.io/articles/2026-07-30-a961c735.html

@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 30 Jul 2026 08:33:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 08:32:44 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先決定對方要做什麼決定，再決定架構</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-07-31-1578b79f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-31-1578b79f.html</guid>
+      <pubDate>Fri, 31 Jul 2026 08:00:00 +0800</pubDate>
+      <description>上週三，一個做商用清潔設備的業務副理把筆電轉過來給我看。他週五要提案給一家連鎖火鍋店，簡報開了十七頁，卡在第三頁改不下去。他問我：Gemini 能不能幫我想這份…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>先把「取代」這個詞拆開</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-07-30-a961c735.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 01 Jul 2026 08:00:00 +0800</pubDate>
       <description>上個月，做中古車買賣的許老闆傳了一段訊息過來，說身邊三個朋友最近各自砸了幾十萬在 AI 系統上，他也心動，去抽了一張易經卦牌問方向，結果抽到「謙卦」。他說：「老…</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>規範在管什麼？不是「能不能用」，是「知不知道風險在哪裡」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-06-30-310f4016.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-06-30-310f4016.html</guid>
-      <pubDate>Tue, 30 Jun 2026 08:00:00 +0800</pubDate>
-      <description>去年十一月，彰化一家做食品配送的老闆打電話給我，語氣有點遲疑。說有一件事想跟我確認一下。</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>
