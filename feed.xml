@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 04 Aug 2026 08:32:49 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 08:33:42 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>製造業老闆說「跟我沒關係」，通常是問錯了問題</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-05-14733977.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-05-14733977.html</guid>
+      <pubDate>Wed, 05 Aug 2026 08:00:00 +0800</pubDate>
+      <description>上週二我開車去彰化一家做螺絲扣件的工廠，老闆姓陳，六十出頭，廠裡十四台沖床從早響到晚。我還沒坐下，他就先擋在我前面說了一句：老師我先講，我們這行跟 AI 沒關係…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>你問錯問題了</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-04-eb0d05fd.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-06-4fe26657.html</guid>
       <pubDate>Mon, 06 Jul 2026 08:00:00 +0800</pubDate>
       <description>今年四月，高雄一家賣淨水器兼做安裝維修的公司找我，兩位客服一天接四十幾通電話，我們請她們把一週的來電內容逐通記下來統計，結果六成三的電話集中在七個問題：濾芯多久…</description>
-      <category>Claude 教學</category>
-    </item>
-    <item>
-      <title>「該不該」是最危險的問法</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-05-1364b196.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-05-1364b196.html</guid>
-      <pubDate>Sun, 05 Jul 2026 08:00:00 +0800</pubDate>
-      <description>今年五月底，一位新竹做工業紙箱的二代老闆，拿著一份 AI 產出的擴廠評估報告來找我。報告的結論是可以擴，理由列得很完整：產能利用率 87%、同業都在擴產、報價還…</description>
       <category>Claude 教學</category>
     </item>
   </channel>
