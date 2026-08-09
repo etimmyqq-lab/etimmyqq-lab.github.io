@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 08 Aug 2026 08:32:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 08:33:17 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中年轉職，第一個要學的不是工具名字，是「把問題講清楚」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-09-fe17f677.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-09-fe17f677.html</guid>
+      <pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate>
+      <description>上週六早上課後，一個做壽險做了十九年的大哥留下來，五十一歲，聲音壓得很低。他說公司組織調整，他大概撐不到年底，想趁還有點積蓄轉職學 AI。然後他問了一句我這半年…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>什麼樣的第一個專案會讓你想繼續</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-08-6c3c15a9.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
       <description>去年秋天，一位在科技公司做了十四年組織發展的人資主管來找我，她不是來談 AI 的。她桌上放著一本榮格的書，翻到一半。她問我的第一句話是：「你們拿易經卦牌幫老闆做…</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>內行的人講的是動詞，話術的人講的是名詞</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-09-505919f9.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-09-505919f9.html</guid>
-      <pubDate>Thu, 09 Jul 2026 08:00:00 +0800</pubDate>
-      <description>上個月一個做食品加工的老闆傳訊息給我，附了一張某 AI 顧問的報價單，問我一句話：「這個人開價一場十二萬，值不值？」我看了那張投影片截圖，上面寫著「導入生成式 …</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>
