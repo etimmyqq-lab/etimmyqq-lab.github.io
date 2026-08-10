@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 09 Aug 2026 08:33:17 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 08:32:37 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先別急著問問題，先描述你的處境</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-10-dbb67b5f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-10-dbb67b5f.html</guid>
+      <pubDate>Mon, 10 Aug 2026 08:00:00 +0800</pubDate>
+      <description>上週日下午課後，一個做室內設計的女生把筆電轉過來給我看。螢幕上 Claude 開著，對話框空的，游標一直閃。她說，老師我付了錢，用了快一個月，大概真的打開來認真…</description>
+      <category>Claude 教學</category>
+    </item>
     <item>
       <title>中年轉職，第一個要學的不是工具名字，是「把問題講清楚」</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-09-fe17f677.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 11 Jul 2026 08:00:00 +0800</pubDate>
       <description>「你先別急著關電腦,先跟我說,你貼進去的名單有哪幾欄?」</description>
       <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>榮格真的替易經背過書</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-10-5437267e.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-10-5437267e.html</guid>
-      <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
-      <description>去年秋天，一位在科技公司做了十四年組織發展的人資主管來找我，她不是來談 AI 的。她桌上放著一本榮格的書，翻到一半。她問我的第一句話是：「你們拿易經卦牌幫老闆做…</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
