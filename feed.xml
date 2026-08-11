@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 10 Aug 2026 08:32:37 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 08:32:55 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工廠裡真正該自動化的，是「搬資料」不是「做決策」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html</guid>
+      <pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate>
+      <description>先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>先別急著問問題，先描述你的處境</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-10-dbb67b5f.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 12 Jul 2026 08:00:00 +0800</pubDate>
       <description>上個月，台中一家做塑膠射出的老闆在他辦公室問我一句話：「我想導 AI，你說我該先從機台那邊弄，還是先從辦公室這邊弄？」他右手往窗外指，二十幾台射出機正在跑；左手…</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>風險不在「被別人看到」,在你不知道它存去哪</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-11-9f8af0f4.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-11-9f8af0f4.html</guid>
-      <pubDate>Sat, 11 Jul 2026 08:00:00 +0800</pubDate>
-      <description>「你先別急著關電腦,先跟我說,你貼進去的名單有哪幾欄?」</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>

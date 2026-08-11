@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工廠裡真正該自動化的，是「搬資料」不是「做決策」｜昆廷老師</title>
+<meta name="description" content="先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3KEGWS9929');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html">
+<meta property="og:title" content="工廠裡真正該自動化的，是「搬資料」不是「做決策」">
+<meta property="og:description" content="先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta property="og:image:alt" content="工廠裡真正該自動化的，是「搬資料」不是「做決策」｜昆廷老師">
+<meta property="article:author" content="昆廷老師">
+<meta property="article:published_time" content="2026-08-11">
+<meta property="og:site_name" content="昆廷老師">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="工廠裡真正該自動化的，是「搬資料」不是「做決策」">
+<meta name="twitter:description" content="先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:image:alt" content="工廠裡真正該自動化的，是「搬資料」不是「做決策」｜昆廷老師">
+
+<!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "工廠裡真正該自動化的，是「搬資料」不是「做決策」",
+  "description": "先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師"
+  },
+  "datePublished": "2026-08-11",
+  "dateModified": "2026-08-11",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html"
+  },
+  "keywords": "企業 AI 導入, Claude Code 在企業落地的實戰應用",
+  "inLanguage": "zh-Hant",
+  "articleSection": "企業 AI 導入"
+}
+</script>
+
+<!-- schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "文章", "item": "https://etimmyqq-lab.github.io/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "工廠裡真正該自動化的，是「搬資料」不是「做決策」"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Font optimization: preload critical weights, use display=swap -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .article-extras {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .faq-section h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.4rem;
+        color: #1F4E79;
+        margin: 24px 0 16px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .faq-item {
+        background: #f6f8fb;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+    }
+    .faq-item summary {
+        cursor: pointer;
+        font-weight: 500;
+        color: #1a2233;
+        padding: 4px 0;
+    }
+    .faq-item summary::before { content: "▸ "; color: #C9A96E; }
+    .faq-item[open] summary::before { content: "▾ "; }
+    .faq-answer { margin-top: 10px; color: #4a5568; line-height: 1.8; }
+    .related-section {
+        margin-top: 40px;
+        padding: 20px;
+        background: #f8fafd;
+        border-radius: 12px;
+    }
+    .related-section h3 {
+        font-family: 'Noto Serif TC', serif;
+        color: #1F4E79;
+        font-size: 1.1rem;
+        margin: 0 0 14px;
+    }
+    .related-list { display: flex; flex-direction: column; gap: 8px; }
+    .related-link {
+        display: block;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a2233;
+        font-size: 0.95rem;
+        border: 1px solid #e4e8ef;
+        transition: all .2s;
+    }
+    .related-link:hover { border-color: #1F4E79; transform: translateX(4px); }
+    .related-kw { color: #C9A96E; font-size: 0.85rem; margin-right: 8px; }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "工廠裡真正該自動化的，是「搬資料」不是「做決策」",
+  "description": "先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…",
+  "articleBody": "先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 Excel，再手算每台的良率。他做這件事做了九年，每天兩趟，早班一次晚班一次。我讓他打開 Claude Code，花了差不多四十分鐘，這件事以後變成兩秒。",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "datePublished": "2026-08-11",
+  "dateModified": "2026-08-11",
+  "inLanguage": "zh-Hant",
+  "url": "https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "keywords": "企業 AI 導入, Claude Code 在企業落地的實戰應用",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "我們工廠的電腦很舊，也沒有網路，Claude Code 能用嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "它需要能連網，這點跑不掉，因為運算在雲端。但電腦舊沒關係，它不吃你本機效能，寫出來的小程式也都是很輕的東西，十年前的辦公電腦跑日報綽綽有餘。真正的門檻不是硬體，是你那台機台匯不匯得出資料檔，匯得出就好辦。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "我完全不會寫程式，交代給它會不會反而被它唬？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "會有一點這個風險，老實講。它寫的東西你看不懂，只能看跑出來對不對。我的建議是第一支程式一定要用你手上已經有正確答案的舊資料去對，比如拿上個月你手算過的日報，讓它跑一次同一批資料，數字對得起來你才敢用在新資料上。用已知答案驗證未知工具，這招在工廠特別重要。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "值得為了省那兩個小時特地學嗎？我怕學了用不起來。",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "如果你只是想省兩小時，可能真的不太划算，學習成本擺在那。但你換個角度：省下來的不是兩小時，是廠長的判斷力。一個能專心看產線、看人、看料的廠長，跟一個埋在 Excel 裡的廠長，一年下來的差別遠不只兩小時。要不要學，看你把時間算在哪一格。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../learn-claude.html">Claude 教學</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-08-11 · 企業 AI 導入</div>
+        <h1 class="article-title">工廠裡真正該自動化的，是「搬資料」不是「做決策」</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 Excel，再手算每台的良率。他做這件事做了九年，每天兩趟，早班一次晚班一次。我讓他打開 Claude Code，花了差不多四十分鐘，這件事以後變成兩秒。</p>
+<p>所以「Claude Code 能幫工廠做什麼自動化」這個問題，我的答案很直接：它最擅長的不是取代機台、不是接手產線，而是接手你和你幹部每天用手在做、電腦其實可以做的那些搬運資料的動作。工廠裡這種動作多到你自己都沒察覺。</p>
+<h2>工廠裡真正該自動化的，是「搬資料」不是「做決策」</h2>
+<p>我陪傳產跑了這幾年，發現一個很一致的現象：老闆們一聽到自動化，想的都是很大的東西，機械手臂、無人倉、AGV。這些當然存在，但那是幾百萬起跳、要停線施工的事。而每天真正在偷走你幹部時間的，是這些沒人正眼看的小動作。</p>
+<p>那家橡膠廠的廠長，他一天的行政時間我算給他聽：早上彙整六台機台紀錄大概五十分鐘，中午把品檢拍的照片依模具編號改檔名歸檔二十分鐘，下午把三個供應商的到料明細對進料單三十分鐘，晚班再彙整一次五十分鐘。加起來快兩個半小時，一週五天就是十二個多小時。他一個月薪水攤下來，等於有一個多禮拜的工時是在做電腦能做的搬運。</p>
+<p>Claude Code 能吃下的，正好就是這一塊。它是一個你用中文交代、它幫你把小程式寫出來並跑起來的工具。你不需要會寫程式。你要會的，是把「我每天在幹嘛」講清楚。</p>
+<h2>三件我實際幫工廠做過的事</h2>
+<p>第一件，機台紀錄自動彙整。橡膠廠那六台射出機，每台會匯出一個 csv 檔到同一個資料夾。我讓廠長在那台電腦開 Claude Code，`cd` 進那個資料夾，然後就用講的：「這個資料夾每天會多六個機台匯出的 csv，欄位有生產數、不良數、模號，幫我寫一支程式，把它們合併成一張日報，每台算出良率，不良率超過百分之三的那一列標紅色。」它寫完、跑給你看、你說哪裡不對它就改。四十分鐘後，廠長以後只要雙擊一個檔案，日報自己生出來。</p>
+<p>第二件，品檢照片歸檔。做精密的廠幾乎都有這個痛：品檢人員一天拍幾百張照片，檔名是相機給的 IMG_4471 這種，事後要對編號翻到死。我讓 Claude Code 寫了個小工具，監看那個照片資料夾，只要有新照片進來，就依照當下的工單號和模具號自動改檔名分類。品檢不用動，繼續拍就好。</p>
+<p>第三件，到料對單。這件最多工廠在做，也最容易錯。供應商寄 Excel 報價或到料明細，格式每家都不一樣，人工比對進料單很花眼力。Claude Code 可以幫你把三家不同格式的表，讀進來、對到你的採購單、把數量對不上或單價跳動的挑出來。</p>
+<p>這三件的共通點，你有沒有看出來：都是規則清楚、重複、而且錯了很煩但不難判斷對錯的事。這種事交給它，最安全。</p>
+<h2>用易經的角度看，這其實是「損」</h2>
+<p>我平常也拿易經卦牌幫老闆問方向，所以請容我用一個東方的角度講這件事。易經有個損卦，很多人一看到「損」字就覺得是壞的，其實它講的是有意識地減去。減去多餘的、佔用你精力的，好讓真正重要的東西浮出來。</p>
+<p>工廠導入 Claude Code 做自動化，本質上就是在做損卦這件事。你不是要它變強、變大、變聰明，你是要它幫你把每天那兩個半小時的搬運動作減掉，讓廠長的腦子空出來，去看那些機器看不到的東西：這批料的味道不太對、這個老師傅今天狀況不好、這個客戶的口氣變了。</p>
+<p>易經還有一句我很喜歡，「幾者，動之微」，講的是徵兆都藏在很細微的地方。一個好廠長的價值，就在他能看見那個「幾」。但如果他一天有兩個半小時埋在複製貼上裡，他哪有餘力去看那個微弱的徵兆。所以自動化的真正目的，從來不是機器多做了什麼，而是人被還回來了多少判斷力。</p>
+<p>這也是為什麼我一直跟老闆講，別問「Claude Code 能不能取代人」，要問「Claude Code 能不能把人從搬運裡撈出來」。前者是恐懼，後者才是策略。</p>
+<h2>要注意的邊界：哪些不要交給它</h2>
+<p>講了這麼多好處，也得說清楚坑。凡是牽涉到「判斷對錯要靠經驗、錯了代價很大」的事，別急著自動化。良率算出來它可以，但這批要不要出貨，人決定。料號對不上它可以挑出來，但要不要退貨、要不要跟供應商翻臉，人決定。</p>
+<p>易經艮卦講「知止」，知道什麼地方該停下來。自動化最忌諱的就是一路推到底，把該由人扛的判斷也丟給程式。機器做搬運，人做取捨，這條線劃清楚，你導入 AI 才不會導出一堆沒人負責的決策。</p>
+<p>那家橡膠廠的廠長，臨走前跟我說了一句我記到現在。他說，老師，我以前覺得我每天很忙很充實，現在才知道那個充實，有一半是假的。</p>
+<p>就這樣。沒別的。</p>
+</article>
+<div class="article-extras">
+<section class="faq-section">
+<h2>常見問題</h2>
+<details class="faq-item"><summary>我們工廠的電腦很舊，也沒有網路，Claude Code 能用嗎？</summary><div class="faq-answer">它需要能連網，這點跑不掉，因為運算在雲端。但電腦舊沒關係，它不吃你本機效能，寫出來的小程式也都是很輕的東西，十年前的辦公電腦跑日報綽綽有餘。真正的門檻不是硬體，是你那台機台匯不匯得出資料檔，匯得出就好辦。</div></details><details class="faq-item"><summary>我完全不會寫程式，交代給它會不會反而被它唬？</summary><div class="faq-answer">會有一點這個風險，老實講。它寫的東西你看不懂，只能看跑出來對不對。我的建議是第一支程式一定要用你手上已經有正確答案的舊資料去對，比如拿上個月你手算過的日報，讓它跑一次同一批資料，數字對得起來你才敢用在新資料上。用已知答案驗證未知工具，這招在工廠特別重要。</div></details><details class="faq-item"><summary>值得為了省那兩個小時特地學嗎？我怕學了用不起來。</summary><div class="faq-answer">如果你只是想省兩小時，可能真的不太划算，學習成本擺在那。但你換個角度：省下來的不是兩小時，是廠長的判斷力。一個能專心看產線、看人、看料的廠長，跟一個埋在 Excel 裡的廠長，一年下來的差別遠不只兩小時。要不要學，看你把時間算在哪一格。</div></details>
+</section>
+<section class="related-section">
+<h3>你可能也想看</h3>
+<div class="related-list"><a href="2026-08-10-dbb67b5f.html" class="related-link"><span class="related-kw">[Claude 教學]</span> <span class="related-q">我知道 Claude 很厲害但我打開來完全不知道要問什麼</span></a><a href="2026-08-09-fe17f677.html" class="related-link"><span class="related-kw">[Claude Code 教學]</span> <span class="related-q">中年轉職想學 AI 工具,Claude Code 是第一個該學的嗎？還是先學別的？</span></a><a href="2026-08-08-6c3c15a9.html" class="related-link"><span class="related-kw">[Codex 教學]</span> <span class="related-q">Codex 第一次用要做什麼任務比較有成就感 有沒有推薦的入門小專案</span></a></div>
+</section>
+</div>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
