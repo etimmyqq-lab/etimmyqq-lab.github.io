@@ -14,6 +14,20 @@
 
 ## 全部文章
 
+### 先分清楚：他是不肯，還是不敢
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-14-14dc324a.html
+主題: 中小企業數位轉型
+日期: 2026-08-14
+
+上個月一家做包裝紙箱的老闆傳訊息問我一句話：老師，我那個做了十四年的倉管，死都不肯碰 AI，我是不是該把他換掉？我回他之前先問了一件事：這個人走了，明天早上第一…
+
+### 2026-08-12-7ca42593
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-12-7ca42593.html
+主題: Claude Code 教學
+日期: 2026-08-12
+
 ### 工廠裡真正該自動化的，是「搬資料」不是「做決策」
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html
