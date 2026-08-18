@@ -5,8 +5,40 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 14 Aug 2026 08:32:21 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 08:32:13 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>內訓會失敗，是因為順序反了</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-18-b6124d45.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-18-b6124d45.html</guid>
+      <pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate>
+      <description>去年冬天我去一家做水五金的工廠上內訓，早上九點進去，老闆在後排坐了整整兩小時，中場休息他把我拉到走廊，講了一句話我到現在記得：老師你講得很好，但我知道禮拜一大家…</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>2026-08-17-6c58d1f2</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-17-6c58d1f2.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-17-6c58d1f2.html</guid>
+      <pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate>
+      <description></description>
+      <category>Codex 教學</category>
+    </item>
+    <item>
+      <title>2026-08-16-42ca773f</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html</guid>
+      <pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate>
+      <description></description>
+      <category>ChatGPT 教學</category>
+    </item>
+    <item>
+      <title>2026-08-15-a5c0c21d</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html</guid>
+      <pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate>
+      <description></description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>先分清楚：他是不肯，還是不敢</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-14-14dc324a.html</link>
@@ -214,38 +246,6 @@
       <pubDate>Sat, 18 Jul 2026 08:00:00 +0800</pubDate>
       <description>老闆該自己學 Claude Code 還是交給員工，我的答案是老闆自己得學，但學的東西跟員工不一樣。員工學怎麼操作，老闆學怎麼判斷。老闆學到能看懂員工交出來的成…</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>先設界線，再談效率</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-17-2f6ddc22.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-17-2f6ddc22.html</guid>
-      <pubDate>Fri, 17 Jul 2026 08:00:00 +0800</pubDate>
-      <description>Claude Code 可以客製化權限，方法是在專案根目錄放一個 `.claude/settings.json`，用 `permissions.deny` 把正…</description>
-      <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>你不是在問「要不要付錢」，是在問「我一天靠它做多少事」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-16-c70454d3.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-16-c70454d3.html</guid>
-      <pubDate>Thu, 16 Jul 2026 08:00:00 +0800</pubDate>
-      <description>上週三下午三點多，一個在假日市集擺攤賣手工貝果的媽媽傳訊息給我，說她的 Claude 突然叫她「稍後再試」。她那天在趕一批客製訂單的文案，寫到第七款口味，畫面就…</description>
-      <category>Claude 教學</category>
-    </item>
-    <item>
-      <title>卡關不在技術，在你不會「開口」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-15-e57403b5.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-15-e57403b5.html</guid>
-      <pubDate>Wed, 15 Jul 2026 08:00:00 +0800</pubDate>
-      <description>上週五晚上快十一點，一個做網頁接案的年輕人打視訊給我。螢幕分享出來，是一整片全黑的終端機，游標在那邊一閃一閃。他說：「老師，我照 YouTube 把 Claud…</description>
-      <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>共用一個帳號,你以為省的是錢,其實賠的是界線</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-14-efbd579f.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-14-efbd579f.html</guid>
-      <pubDate>Tue, 14 Jul 2026 08:00:00 +0800</pubDate>
-      <description>五個人的公司,買一個 ChatGPT 帳號共用,一年省下大概兩萬四台幣。這是很多小老闆算完之後決定共用的理由。但我上個月陪一家做進口紅酒的貿易商處理過一次麻煩,…</description>
-      <category>ChatGPT 教學</category>
     </item>
   </channel>
 </rss>

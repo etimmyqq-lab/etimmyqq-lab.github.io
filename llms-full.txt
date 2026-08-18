@@ -14,6 +14,32 @@
 
 ## 全部文章
 
+### 內訓會失敗，是因為順序反了
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-18-b6124d45.html
+主題: 企業 AI 導入
+日期: 2026-08-18
+
+去年冬天我去一家做水五金的工廠上內訓，早上九點進去，老闆在後排坐了整整兩小時，中場休息他把我拉到走廊，講了一句話我到現在記得：老師你講得很好，但我知道禮拜一大家…
+
+### 2026-08-17-6c58d1f2
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-17-6c58d1f2.html
+主題: Codex 教學
+日期: 2026-08-17
+
+### 2026-08-16-42ca773f
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html
+主題: ChatGPT 教學
+日期: 2026-08-16
+
+### 2026-08-15-a5c0c21d
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html
+主題: Codex 教學
+日期: 2026-08-15
+
 ### 先分清楚：他是不肯，還是不敢
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-14-14dc324a.html
