@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-08-18T00:32:13.919612+00:00</updated>
+  <updated>2026-08-19T00:34:01.502589+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>型錄是他想給你看的，不是全部</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-08-19-f7b4eeac.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-08-19-f7b4eeac.html</id>
+    <updated>2026-08-19T08:00:00+08:00</updated>
+    <summary>上週二下午，一個做咖啡烘豆機代理的老闆，把對手一份三十七頁的型錄 PDF 丟進 Gemini，打了四個字：幫我分析。三秒後跑出一大段摘要，他轉頭問我：老師，這樣…</summary>
+    <category term="Gemini 教學"/>
+  </entry>
   <entry>
     <title>內訓會失敗，是因為順序反了</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-08-18-b6124d45.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-07-19T08:00:00+08:00</updated>
     <summary>AI 顧問系統跟一般顧問最大的差別，是一般顧問交給你一份報告就結束了，AI 顧問系統是每天都在你公司裡上班。前者是一次性的診斷，後者是可以反覆問、反覆跑、反覆修…</summary>
     <category term="ChatGPT 教學"/>
-  </entry>
-  <entry>
-    <title>交給員工，你交出去的其實是判斷權</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-07-18-2328f1c9.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-07-18-2328f1c9.html</id>
-    <updated>2026-07-18T08:00:00+08:00</updated>
-    <summary>老闆該自己學 Claude Code 還是交給員工，我的答案是老闆自己得學，但學的東西跟員工不一樣。員工學怎麼操作，老闆學怎麼判斷。老闆學到能看懂員工交出來的成…</summary>
-    <category term="企業 AI 導入"/>
   </entry>
 </feed>
