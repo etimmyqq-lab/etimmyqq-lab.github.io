@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 19 Aug 2026 08:34:01 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 08:33:18 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>易經的「隨」，不是隨大家，是隨時機</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-20-b0b68d5f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-20-b0b68d5f.html</guid>
+      <pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate>
+      <description>上週三晚上九點多，一個開兩家寵物用品店的老闆傳一句話給我：老師，我隔壁同業三家都上了 AI 客服，我是不是得趕快也弄一個。</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>型錄是他想給你看的，不是全部</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-19-f7b4eeac.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 20 Jul 2026 08:00:00 +0800</pubDate>
       <description>上週二晚上快九點，一個在社區藥局顧櫃檯的女生傳訊息給我，說她白天花了三個小時想搞懂 Codex，最後連「這東西到底在幫我做什麼」都講不出來。她問：「老師，我連 …</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>一般顧問給答案，AI 顧問系統陪你問問題</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-19-6d7e1ded.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-19-6d7e1ded.html</guid>
-      <pubDate>Sun, 19 Jul 2026 08:00:00 +0800</pubDate>
-      <description>AI 顧問系統跟一般顧問最大的差別，是一般顧問交給你一份報告就結束了，AI 顧問系統是每天都在你公司裡上班。前者是一次性的診斷，後者是可以反覆問、反覆跑、反覆修…</description>
-      <category>ChatGPT 教學</category>
     </item>
   </channel>
 </rss>
