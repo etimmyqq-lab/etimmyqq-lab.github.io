@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-08-20T00:33:18.692225+00:00</updated>
+  <updated>2026-08-21T00:32:43.369604+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>那些數字大多沒說謊，只是沒說完</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-08-21-d4865f25.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-08-21-d4865f25.html</id>
+    <updated>2026-08-21T08:00:00+08:00</updated>
+    <summary>上個月一個做辦公家具的老闆，拿著手機來找我，螢幕上是一篇報導，標題寫著導入 AI 後行政流程省下 62%。他把手機轉過來對著我：老師，這 62% 是真的嗎，我公…</summary>
+    <category term="Gemini 教學"/>
+  </entry>
   <entry>
     <title>易經的「隨」，不是隨大家，是隨時機</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-08-20-b0b68d5f.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-07-21T08:00:00+08:00</updated>
     <summary>一副易經卦牌，從書店架上兩三百塊的口袋版，到手工繪製要價一萬八的收藏版都有。上個月一個做烘焙原料批發的老闆，把三副不同版本攤在會議桌上問我：老師，我要拿哪一副來…</summary>
     <category term="易經卦牌"/>
-  </entry>
-  <entry>
-    <title>你以為的門檻，跟真正的門檻不一樣</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-07-20-da31bb50.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-07-20-da31bb50.html</id>
-    <updated>2026-07-20T08:00:00+08:00</updated>
-    <summary>上週二晚上快九點，一個在社區藥局顧櫃檯的女生傳訊息給我，說她白天花了三個小時想搞懂 Codex，最後連「這東西到底在幫我做什麼」都講不出來。她問：「老師，我連 …</summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>
