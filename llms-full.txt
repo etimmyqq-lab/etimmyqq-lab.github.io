@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 用 Gemini 搭配 Google 文件一起用跟單純在對話框問它有什麼不同
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-22-8b4db025.html
+主題: Gemini 教學
+日期: 2026-08-22
+
+（1500–2500 字長文，含 ## 常見問題 FAQ 三題，見檔案）
+
 ### 那些數字大多沒說謊，只是沒說完
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-21-d4865f25.html

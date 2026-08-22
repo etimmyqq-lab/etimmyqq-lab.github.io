@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 21 Aug 2026 08:32:43 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 08:32:33 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 Gemini 搭配 Google 文件一起用跟單純在對話框問它有什麼不同</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-22-8b4db025.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-22-8b4db025.html</guid>
+      <pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate>
+      <description>（1500–2500 字長文，含 ## 常見問題 FAQ 三題，見檔案）</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>那些數字大多沒說謊，只是沒說完</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-21-d4865f25.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 22 Jul 2026 08:00:00 +0800</pubDate>
       <description>上個月一家做塑膠射出的工廠，老闆在晨會上宣布要導 AI，做了十九年的會計陳姐當場把筆放下，冷冷丟一句：「那我是不是可以準備走了。」會議室安靜了大概五秒。散會後老…</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>版本大致分三種，但差別不在貴不貴</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-21-00e4ecee.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-21-00e4ecee.html</guid>
-      <pubDate>Tue, 21 Jul 2026 08:00:00 +0800</pubDate>
-      <description>一副易經卦牌，從書店架上兩三百塊的口袋版，到手工繪製要價一萬八的收藏版都有。上個月一個做烘焙原料批發的老闆，把三副不同版本攤在會議桌上問我：老師，我要拿哪一副來…</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
