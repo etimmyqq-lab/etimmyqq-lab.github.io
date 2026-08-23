@@ -17,6 +17,7 @@
 
 ## 最新文章
 
+- [先搞清楚你在問哪一題](https://etimmyqq-lab.github.io/articles/2026-08-23-7e5f112c.html): 上週四下午，一個做烘焙原料批發的老闆坐在我對面，桌上攤著兩張紙。一張是他請 Claude 幫他整理的近三年營收和第二倉庫的損益試算，另一張是空白的。他說，數字我…
 - [用 Gemini 搭配 Google 文件一起用跟單純在對話框問它有什麼不同](https://etimmyqq-lab.github.io/articles/2026-08-22-8b4db025.html): （1500–2500 字長文，含 ## 常見問題 FAQ 三題，見檔案）
 - [那些數字大多沒說謊，只是沒說完](https://etimmyqq-lab.github.io/articles/2026-08-21-d4865f25.html): 上個月一個做辦公家具的老闆，拿著手機來找我，螢幕上是一篇報導，標題寫著導入 AI 後行政流程省下 62%。他把手機轉過來對著我：老師，這 62% 是真的嗎，我公…
 - [易經的「隨」，不是隨大家，是隨時機](https://etimmyqq-lab.github.io/articles/2026-08-20-b0b68d5f.html): 上週三晚上九點多，一個開兩家寵物用品店的老闆傳一句話給我：老師，我隔壁同業三家都上了 AI 客服，我是不是得趕快也弄一個。
@@ -26,11 +27,10 @@
 - [2026-08-16-42ca773f](https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html): 
 - [2026-08-15-a5c0c21d](https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html): 
 - [先分清楚：他是不肯，還是不敢](https://etimmyqq-lab.github.io/articles/2026-08-14-14dc324a.html): 上個月一家做包裝紙箱的老闆傳訊息問我一句話：老師，我那個做了十四年的倉管，死都不肯碰 AI，我是不是該把他換掉？我回他之前先問了一件事：這個人走了，明天早上第一…
-- [2026-08-12-7ca42593](https://etimmyqq-lab.github.io/articles/2026-08-12-7ca42593.html): 
 
 ## 關於作者
 
 昆廷老師是AI顧問，也是易經卦牌決策引導師。他在帶企業AI導入規劃的同時，會用卦牌幫老闆釐清「現在最值得動的那一步」。他教Claude Code和Codex，但更在意的是：學了這些工具之後，你能不能問出比以前更好的問題。服務對象主要是中小企業主和想轉型的社會人士，有時候一個session就能讓人豁然開朗。
 
 網站：https://etimmyqq-lab.github.io/
-更新於：2026-08-22
+更新於：2026-08-23
