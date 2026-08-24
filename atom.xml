@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-08-23T00:32:28.145346+00:00</updated>
+  <updated>2026-08-24T00:33:24.859648+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>這三件事，對機器來說是三種工作</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html</id>
+    <updated>2026-08-24T08:00:00+08:00</updated>
+    <summary>上週五下午，一個做進口食品批發的老闆傳訊息給我，說他前一晚花了幾個小時想讓 Claude Code 一次幫他做三件事：把過夜沒看的 email 分類、把該回的訊…</summary>
+    <category term="Claude Code 教學"/>
+  </entry>
   <entry>
     <title>先搞清楚你在問哪一題</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-08-23-7e5f112c.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-07-24T08:00:00+08:00</updated>
     <summary></summary>
     <category term="ChatGPT 教學"/>
-  </entry>
-  <entry>
-    <title>2026-07-23-de9091fb</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html</id>
-    <updated>2026-07-23T08:00:00+08:00</updated>
-    <summary></summary>
-    <category term="中小企業數位轉型"/>
   </entry>
 </feed>

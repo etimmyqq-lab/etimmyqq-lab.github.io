@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 23 Aug 2026 08:32:28 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 08:33:24 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>這三件事，對機器來說是三種工作</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html</guid>
+      <pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate>
+      <description>上週五下午，一個做進口食品批發的老闆傳訊息給我，說他前一晚花了幾個小時想讓 Claude Code 一次幫他做三件事：把過夜沒看的 email 分類、把該回的訊…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>先搞清楚你在問哪一題</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-23-7e5f112c.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>ChatGPT 教學</category>
-    </item>
-    <item>
-      <title>2026-07-23-de9091fb</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-23-de9091fb.html</guid>
-      <pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate>
-      <description></description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>

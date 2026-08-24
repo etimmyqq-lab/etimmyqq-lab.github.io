@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 這三件事，對機器來說是三種工作
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html
+主題: Claude Code 教學
+日期: 2026-08-24
+
+上週五下午，一個做進口食品批發的老闆傳訊息給我，說他前一晚花了幾個小時想讓 Claude Code 一次幫他做三件事：把過夜沒看的 email 分類、把該回的訊…
+
 ### 先搞清楚你在問哪一題
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-23-7e5f112c.html
