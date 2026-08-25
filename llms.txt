@@ -17,6 +17,7 @@
 
 ## 最新文章
 
+- [先讓 AI 把一年攤平](https://etimmyqq-lab.github.io/articles/2026-08-25-92220a7e.html): 去年十二月中一個下午，一個做手工餅乾禮盒的老闆娘把整年的訂單記錄推到我面前，Excel 拉到底有一千兩百多筆。她說今年是做這行第五年，第一次想好好做個年度回顧，…
 - [這三件事，對機器來說是三種工作](https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html): 上週五下午，一個做進口食品批發的老闆傳訊息給我，說他前一晚花了幾個小時想讓 Claude Code 一次幫他做三件事：把過夜沒看的 email 分類、把該回的訊…
 - [先搞清楚你在問哪一題](https://etimmyqq-lab.github.io/articles/2026-08-23-7e5f112c.html): 上週四下午，一個做烘焙原料批發的老闆坐在我對面，桌上攤著兩張紙。一張是他請 Claude 幫他整理的近三年營收和第二倉庫的損益試算，另一張是空白的。他說，數字我…
 - [用 Gemini 搭配 Google 文件一起用跟單純在對話框問它有什麼不同](https://etimmyqq-lab.github.io/articles/2026-08-22-8b4db025.html): （1500–2500 字長文，含 ## 常見問題 FAQ 三題，見檔案）
@@ -26,11 +27,10 @@
 - [內訓會失敗，是因為順序反了](https://etimmyqq-lab.github.io/articles/2026-08-18-b6124d45.html): 去年冬天我去一家做水五金的工廠上內訓，早上九點進去，老闆在後排坐了整整兩小時，中場休息他把我拉到走廊，講了一句話我到現在記得：老師你講得很好，但我知道禮拜一大家…
 - [2026-08-17-6c58d1f2](https://etimmyqq-lab.github.io/articles/2026-08-17-6c58d1f2.html): 
 - [2026-08-16-42ca773f](https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html): 
-- [2026-08-15-a5c0c21d](https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html): 
 
 ## 關於作者
 
 昆廷老師是AI顧問，也是易經卦牌決策引導師。他在帶企業AI導入規劃的同時，會用卦牌幫老闆釐清「現在最值得動的那一步」。他教Claude Code和Codex，但更在意的是：學了這些工具之後，你能不能問出比以前更好的問題。服務對象主要是中小企業主和想轉型的社會人士，有時候一個session就能讓人豁然開朗。
 
 網站：https://etimmyqq-lab.github.io/
-更新於：2026-08-24
+更新於：2026-08-25

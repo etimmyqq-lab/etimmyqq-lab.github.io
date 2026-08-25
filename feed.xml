@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 24 Aug 2026 08:33:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 08:33:36 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先讓 AI 把一年攤平</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-25-92220a7e.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-25-92220a7e.html</guid>
+      <pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate>
+      <description>去年十二月中一個下午，一個做手工餅乾禮盒的老闆娘把整年的訂單記錄推到我面前，Excel 拉到底有一千兩百多筆。她說今年是做這行第五年，第一次想好好做個年度回顧，…</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>這三件事，對機器來說是三種工作</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-24-782208ab.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 25 Jul 2026 08:00:00 +0800</pubDate>
       <description>五個 AI 導入案子攤在會議桌上，老闆問我先做哪一個。我沒有馬上抽卦。我請他先打開 Claude，把五個案子的成本、要花多久、需要誰配合、失敗會怎樣，一條一條列…</description>
       <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>2026-07-24-cbf2c5ae</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-24-cbf2c5ae.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-24-cbf2c5ae.html</guid>
-      <pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate>
-      <description></description>
-      <category>ChatGPT 教學</category>
     </item>
   </channel>
 </rss>
