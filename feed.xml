@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 25 Aug 2026 08:33:36 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 08:33:37 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>別問「有沒有用」，先問「哪一步最省力」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html</guid>
+      <pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate>
+      <description>你問 Codex 對個體戶有沒有用，我先給答案：有用，但不是一次接管全部，而是先讓它替你做掉一件你每週重複做、又最煩的小事。</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>先讓 AI 把一年攤平</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-25-92220a7e.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-27-756983e7.html</guid>
       <pubDate>Mon, 27 Jul 2026 08:00:00 +0800</pubDate>
       <description>一台剛開封的 MacBook 攤在會議桌上，一個做手工皮件的大姐坐我旁邊，手指在觸控板上滑得還不太順。她說：老師，Claude Code 我裝了三次都失敗，畫面…</description>
-      <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>先讓 AI 把事實攤平</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-25-d78baac2.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-25-d78baac2.html</guid>
-      <pubDate>Sat, 25 Jul 2026 08:00:00 +0800</pubDate>
-      <description>五個 AI 導入案子攤在會議桌上，老闆問我先做哪一個。我沒有馬上抽卦。我請他先打開 Claude，把五個案子的成本、要花多久、需要誰配合、失敗會怎樣，一條一條列…</description>
       <category>Claude Code 教學</category>
     </item>
   </channel>

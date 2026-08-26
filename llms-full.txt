@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 別問「有沒有用」，先問「哪一步最省力」
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html
+主題: Codex 教學
+日期: 2026-08-26
+
+你問 Codex 對個體戶有沒有用，我先給答案：有用，但不是一次接管全部，而是先讓它替你做掉一件你每週重複做、又最煩的小事。
+
 ### 先讓 AI 把一年攤平
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-25-92220a7e.html
