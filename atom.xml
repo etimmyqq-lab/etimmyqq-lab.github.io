@@ -4,9 +4,33 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-08-26T00:33:37.604024+00:00</updated>
+  <updated>2026-08-29T00:33:06.341583+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>兩個東西根本不是同一個層級的問題</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html</id>
+    <updated>2026-08-29T08:00:00+08:00</updated>
+    <summary>我先把結論放前面：如果只有你一個人在用、拿來查資料寫寫東西，Gemini Advanced 就夠了；但只要公司裡有第二個人要一起用，而且會把客戶名單、報價單、內…</summary>
+    <category term="Gemini 教學"/>
+  </entry>
+  <entry>
+    <title>2026-08-28-cedf6bbf</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-08-28-cedf6bbf.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-08-28-cedf6bbf.html</id>
+    <updated>2026-08-28T08:00:00+08:00</updated>
+    <summary></summary>
+    <category term="Gemini 教學"/>
+  </entry>
+  <entry>
+    <title>2026-08-27-d245991a</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-08-27-d245991a.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-08-27-d245991a.html</id>
+    <updated>2026-08-27T08:00:00+08:00</updated>
+    <summary></summary>
+    <category term="Claude 教學"/>
+  </entry>
   <entry>
     <title>別問「有沒有用」，先問「哪一步最省力」</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html"/>
@@ -222,29 +246,5 @@
     <updated>2026-07-30T08:00:00+08:00</updated>
     <summary>上週一家做工業零件的公司，老闆跟他們唯一的 IT 把我夾在中間。老闆說：我看 Codex 幾秒鐘就寫出一段程式，那我還養一個工程師幹嘛。IT 坐在對面，臉已經綠…</summary>
     <category term="Codex 教學"/>
-  </entry>
-  <entry>
-    <title>先搞清楚：你要的重點，是「決定」還是「情報」</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-07-29-2ef3dc37.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-07-29-2ef3dc37.html</id>
-    <updated>2026-07-29T08:00:00+08:00</updated>
-    <summary>上週四，一個做進出口報關的老闆娘丟了一段 43 分鐘的會議錄音給我。她們公司每週三固定開業務會，會後她要把錄音聽完、打成逐字稿、再抓出誰欠誰什麼事。光這一件，她…</summary>
-    <category term="Gemini 教學"/>
-  </entry>
-  <entry>
-    <title>「外國信用卡」這四個字，本身就是傳錯的</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-07-28-0ff432e2.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-07-28-0ff432e2.html</id>
-    <updated>2026-07-28T08:00:00+08:00</updated>
-    <summary>上週三下午，一個在三重市場賣滷味的阿姨，把手機推到我面前，螢幕停在 ChatGPT 那個一個月 20 美金的付費頁。她說：老師，我沒有可以刷國外的信用卡，是不是…</summary>
-    <category term="ChatGPT 教學"/>
-  </entry>
-  <entry>
-    <title>先搞懂它要站在什麼上面</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-07-27-756983e7.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-07-27-756983e7.html</id>
-    <updated>2026-07-27T08:00:00+08:00</updated>
-    <summary>一台剛開封的 MacBook 攤在會議桌上，一個做手工皮件的大姐坐我旁邊，手指在觸控板上滑得還不太順。她說：老師，Claude Code 我裝了三次都失敗，畫面…</summary>
-    <category term="Claude Code 教學"/>
   </entry>
 </feed>

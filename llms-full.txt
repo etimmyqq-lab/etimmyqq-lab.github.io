@@ -14,6 +14,26 @@
 
 ## 全部文章
 
+### 兩個東西根本不是同一個層級的問題
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html
+主題: Gemini 教學
+日期: 2026-08-29
+
+我先把結論放前面：如果只有你一個人在用、拿來查資料寫寫東西，Gemini Advanced 就夠了；但只要公司裡有第二個人要一起用，而且會把客戶名單、報價單、內…
+
+### 2026-08-28-cedf6bbf
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-28-cedf6bbf.html
+主題: Gemini 教學
+日期: 2026-08-28
+
+### 2026-08-27-d245991a
+
+URL: https://etimmyqq-lab.github.io/articles/2026-08-27-d245991a.html
+主題: Claude 教學
+日期: 2026-08-27
+
 ### 別問「有沒有用」，先問「哪一步最省力」
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html
