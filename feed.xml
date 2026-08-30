@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 29 Aug 2026 08:33:06 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 19:27:54 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工具沒有友善不友善，只有你有沒有把要它做的事講清楚</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-08-30-2b9bfb63.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-30-2b9bfb63.html</guid>
+      <pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate>
+      <description>上週二下午，一個在建設公司做人資的朋友打電話給我，開口第一句是：我不會寫程式，可是每個月光把應徵者的履歷整理成一張比較表就要耗掉我一整個下午，聽人家說 Code…</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>兩個東西根本不是同一個層級的問題</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 31 Jul 2026 08:00:00 +0800</pubDate>
       <description>上週三，一個做商用清潔設備的業務副理把筆電轉過來給我看。他週五要提案給一家連鎖火鍋店，簡報開了十七頁，卡在第三頁改不下去。他問我：Gemini 能不能幫我想這份…</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>先把「取代」這個詞拆開</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-07-30-a961c735.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-07-30-a961c735.html</guid>
-      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
-      <description>上週一家做工業零件的公司，老闆跟他們唯一的 IT 把我夾在中間。老闆說：我看 Codex 幾秒鐘就寫出一段程式，那我還養一個工程師幹嘛。IT 坐在對面，臉已經綠…</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>
