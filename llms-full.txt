@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 為什麼「它到底是什麼」會決定你怎麼用它
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-01-14b5c5f7.html
+主題: Claude Code 教學
+日期: 2026-09-01
+
+上週四中午，一個在台中做五金零件批發的會計傳了張 Excel 截圖給我，問了一句我這半年被問過至少二十次的話：Claude Code 到底是聊天機器人，還是寫程…
+
 ### 主管在意的從來不是文法，是判斷
 
 URL: https://etimmyqq-lab.github.io/articles/2026-08-31-5b0ccd60.html

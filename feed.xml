@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 31 Aug 2026 08:33:06 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:33:08 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼「它到底是什麼」會決定你怎麼用它</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-01-14b5c5f7.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-01-14b5c5f7.html</guid>
+      <pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週四中午，一個在台中做五金零件批發的會計傳了張 Excel 截圖給我，問了一句我這半年被問過至少二十次的話：Claude Code 到底是聊天機器人，還是寫程…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>主管在意的從來不是文法，是判斷</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-08-31-5b0ccd60.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 02 Aug 2026 08:00:00 +0800</pubDate>
       <description>上週三，一個做烘焙原料批發的大姐傳訊息問我：老師，網路上那些「每日一卦」的模板到底哪一個能下載？我找了兩個下午，不是要加 LINE 領、就是格式亂到在手機上打不…</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>賣點不是想出來的，是從真實客戶身上撿回來的</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-01-794d1659.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-01-794d1659.html</guid>
-      <pubDate>Sat, 01 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上週一個做機能襪的二代，把手機轉過來給我看。螢幕上是 ChatGPT 幫他生的一串產品賣點：透氣、抗菌除臭、台灣製造、久站不悶、CP值高。他手指戳著螢幕說：老師…</description>
-      <category>ChatGPT 教學</category>
     </item>
   </channel>
 </rss>
