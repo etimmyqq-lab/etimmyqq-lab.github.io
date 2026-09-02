@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 01 Sep 2026 08:33:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 08:33:44 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>差的是介面，不是你會的東西</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-02-80d777b0.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-02-80d777b0.html</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週五下午，一個在新竹開了兩家手搖飲店的老闆娘，把手機推到我面前。螢幕上同時開著兩個 AI 的對話框。她說她用其中一個排班表、寫促銷簡訊，用了差不多八個月，最近…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>為什麼「它到底是什麼」會決定你怎麼用它</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-01-14b5c5f7.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 03 Aug 2026 08:00:00 +0800</pubDate>
       <description>上週五晚上九點多，一個做包裝耗材的老闆打電話給我。他沒先問好，開口就是：「老師，我知道這聽起來很不科學，但你能不能用那個卦幫我看一下，這個獨家代理權我到底該不該…</description>
       <category>ChatGPT 教學</category>
-    </item>
-    <item>
-      <title>十分鐘做一個屬於你自己的每日一卦模板</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-02-718b939e.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-02-718b939e.html</guid>
-      <pubDate>Sun, 02 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上週三，一個做烘焙原料批發的大姐傳訊息問我：老師，網路上那些「每日一卦」的模板到底哪一個能下載？我找了兩個下午，不是要加 LINE 領、就是格式亂到在手機上打不…</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
