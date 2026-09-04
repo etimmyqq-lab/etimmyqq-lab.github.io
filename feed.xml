@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 03 Sep 2026 08:32:26 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 08:32:31 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從你這禮拜真正卡住的一件事開始</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-04-1cb0c4c8.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-04-1cb0c4c8.html</guid>
+      <pubDate>Fri, 04 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週有個開文具行的老闆娘，把一盒易經卦牌整盒倒在我桌上，六十四張攤開，問我一句：買的時候覺得很酷，回家拆開完全看不懂，到底要從哪一張開始?</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>先想清楚：你要它「幾點做、做什麼」</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-03-066a400b.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 05 Aug 2026 08:00:00 +0800</pubDate>
       <description>上週二我開車去彰化一家做螺絲扣件的工廠，老闆姓陳，六十出頭，廠裡十四台沖床從早響到晚。我還沒坐下，他就先擋在我前面說了一句：老師我先講，我們這行跟 AI 沒關係…</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>你問錯問題了</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-04-eb0d05fd.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-04-eb0d05fd.html</guid>
-      <pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上週四下午，一個做鋁窗的二代把手機轉過來給我看，螢幕上三張 AI 概念股的走勢圖，紅一片綠一片。他問了一句很實在的話：老師，現在大家都在喊 AI 泡沫，我要是把…</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>
