@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 04 Sep 2026 08:32:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 08:33:20 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼直接問「該不該」會壞掉</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-05-3dea62fc.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-05-3dea62fc.html</guid>
+      <pubDate>Sat, 05 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週三晚上快十點，一個在嘉義山上開民宿的老闆打電話給我。他想把後棟擴建三間房，工程加裝潢估下來要一百二十萬，得跟銀行借八成。但淡季平日住房率只有四成，他心裡沒底…</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>從你這禮拜真正卡住的一件事開始</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-04-1cb0c4c8.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 06 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>製造業老闆說「跟我沒關係」，通常是問錯了問題</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-05-14733977.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-05-14733977.html</guid>
-      <pubDate>Wed, 05 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上週二我開車去彰化一家做螺絲扣件的工廠，老闆姓陳，六十出頭，廠裡十四台沖床從早響到晚。我還沒坐下，他就先擋在我前面說了一句：老師我先講，我們這行跟 AI 沒關係…</description>
-      <category>Gemini 教學</category>
     </item>
   </channel>
 </rss>
