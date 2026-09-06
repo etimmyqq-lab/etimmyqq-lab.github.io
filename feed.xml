@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 05 Sep 2026 08:33:20 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 08:32:09 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一個給答案，一個逼你把問題問清楚</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-06-59820421.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-06-59820421.html</guid>
+      <pubDate>Sun, 06 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週四下午一個做烘焙原料批發的老闆坐在我對面，問了一句我這兩年被問超過五十次的話：你這種又講 Claude 又抽卦牌的，跟我阿姨常去的那個算命老師，到底差在哪？</description>
+      <category>易經卦牌</category>
+    </item>
     <item>
       <title>為什麼直接問「該不該」會壞掉</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-05-3dea62fc.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 07 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>ChatGPT 教學</category>
-    </item>
-    <item>
-      <title>2026-08-06-b451f66b</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-06-b451f66b.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-06-b451f66b.html</guid>
-      <pubDate>Thu, 06 Aug 2026 08:00:00 +0800</pubDate>
-      <description></description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
