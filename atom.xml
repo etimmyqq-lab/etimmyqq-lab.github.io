@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-09-06T00:32:09.234133+00:00</updated>
+  <updated>2026-09-07T00:32:38.969255+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>值不值得，其實不是在問未來</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-09-07-becf2b35.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-09-07-becf2b35.html</id>
+    <updated>2026-09-07T08:00:00+08:00</updated>
+    <summary>上週三下午，一個開了二十六年印刷廠的老闆坐在我對面，手機螢幕上是他兒子傳的一句話：爸，你們這行再不碰 AI 就真的沒了。他今年五十七，廠裡九台機器，這兩年訂單大…</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>一個給答案，一個逼你把問題問清楚</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-09-06-59820421.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-08-08T08:00:00+08:00</updated>
     <summary>第一次用 Codex，最容易有成就感的專案不是「做一個網站」，而是「把你每週手動重複做三次以上的那件小事自動化」。上週三晚上，一個做進口食材的老闆娘在我旁邊坐了…</summary>
     <category term="Codex 教學"/>
-  </entry>
-  <entry>
-    <title>2026-08-07-a9a67e81</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-08-07-a9a67e81.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-08-07-a9a67e81.html</id>
-    <updated>2026-08-07T08:00:00+08:00</updated>
-    <summary></summary>
-    <category term="ChatGPT 教學"/>
   </entry>
 </feed>
