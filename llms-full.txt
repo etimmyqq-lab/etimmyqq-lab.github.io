@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 這件事我在易經桌上看過一模一樣的場景
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-08-ee240a89.html
+主題: Claude 教學
+日期: 2026-09-08
+
+想讓 Claude 別再反問、直接給答案，最快的做法是在句子開頭先把身分、目的、格式一次講清楚，再補一句「先給結論，需要補充的假設放最後」。我上週三下午陪一家做…
+
 ### 值不值得，其實不是在問未來
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-07-becf2b35.html

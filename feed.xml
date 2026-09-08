@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 07 Sep 2026 08:32:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 08:34:09 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>這件事我在易經桌上看過一模一樣的場景</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-08-ee240a89.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-08-ee240a89.html</guid>
+      <pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate>
+      <description>想讓 Claude 別再反問、直接給答案，最快的做法是在句子開頭先把身分、目的、格式一次講清楚，再補一句「先給結論，需要補充的假設放最後」。我上週三下午陪一家做…</description>
+      <category>Claude 教學</category>
+    </item>
     <item>
       <title>值不值得，其實不是在問未來</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-07-becf2b35.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate>
       <description>上週六早上課後，一個做壽險做了十九年的大哥留下來，五十一歲，聲音壓得很低。他說公司組織調整，他大概撐不到年底，想趁還有點積蓄轉職學 AI。然後他問了一句我這半年…</description>
       <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>什麼樣的第一個專案會讓你想繼續</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-08-6c3c15a9.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-08-6c3c15a9.html</guid>
-      <pubDate>Sat, 08 Aug 2026 08:00:00 +0800</pubDate>
-      <description>第一次用 Codex，最容易有成就感的專案不是「做一個網站」，而是「把你每週手動重複做三次以上的那件小事自動化」。上週三晚上，一個做進口食材的老闆娘在我旁邊坐了…</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>
