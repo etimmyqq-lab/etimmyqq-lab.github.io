@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 09 Sep 2026 08:32:08 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 08:33:50 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gems 到底是什麼</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-10-99ae8ff4.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-10-99ae8ff4.html</guid>
+      <pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週二早上，一位開了三家眼鏡行的老闆娘把手機轉向我，螢幕上是一張便利貼的照片：她把「我是眼鏡行老闆，語氣親切，字數一百字內，不要用驚嘆號」這串話抄在上面。因為她…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>三到五分鐘，做的是三件事</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-09-67681bd5.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate>
       <description>先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>先別急著問問題，先描述你的處境</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-10-dbb67b5f.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-10-dbb67b5f.html</guid>
-      <pubDate>Mon, 10 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上週日下午課後，一個做室內設計的女生把筆電轉過來給我看。螢幕上 Claude 開著，對話框空的，游標一直閃。她說，老師我付了錢，用了快一個月，大概真的打開來認真…</description>
-      <category>Claude 教學</category>
     </item>
   </channel>
 </rss>
