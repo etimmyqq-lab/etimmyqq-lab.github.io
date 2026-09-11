@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 10 Sep 2026 08:33:50 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 08:32:48 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先把問題寫成一句人話</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-11-32253041.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-11-32253041.html</guid>
+      <pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週四下午，一個做保健食品電商的老闆把筆電轉過來給我看，螢幕上是一張 Excel，八個分頁，每個分頁是一個通路的月銷售明細。他每個月月初要做的事情很固定：把八張…</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>Gems 到底是什麼</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-10-99ae8ff4.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>Claude Code 教學</category>
-    </item>
-    <item>
-      <title>工廠裡真正該自動化的，是「搬資料」不是「做決策」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-11-e98cfd8d.html</guid>
-      <pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate>
-      <description>先講一個具體的：上週四下午，一家做汽車橡膠密封件的工廠，廠長在他辦公室那台舊電腦前坐了兩個多小時，就為了把六台射出機當天匯出的生產紀錄，一台一台複製貼進一張 E…</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>
