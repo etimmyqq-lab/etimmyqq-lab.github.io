@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 12 Sep 2026 08:34:10 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 08:33:17 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先看自己，再看工具</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-13-0f2d9196.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-13-0f2d9196.html</guid>
+      <pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate>
+      <description>老闆叫你評估要不要導入 ChatGPT，最不該先花時間的是比較功能和價格。最該先做的，是記錄自己兩週的工作時間，找出三件重複、耗時、又不涉及機密的事拿去試。評估…</description>
+      <category>ChatGPT 教學</category>
+    </item>
     <item>
       <title>你只需要先學一件事</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-12-e59915b3.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>先分清楚：他是不肯，還是不敢</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-14-14dc324a.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-14-14dc324a.html</guid>
-      <pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上個月一家做包裝紙箱的老闆傳訊息問我一句話：老師，我那個做了十四年的倉管，死都不肯碰 AI，我是不是該把他換掉？我回他之前先問了一件事：這個人走了，明天早上第一…</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>

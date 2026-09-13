@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 先看自己，再看工具
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-13-0f2d9196.html
+主題: ChatGPT 教學
+日期: 2026-09-13
+
+老闆叫你評估要不要導入 ChatGPT，最不該先花時間的是比較功能和價格。最該先做的，是記錄自己兩週的工作時間，找出三件重複、耗時、又不涉及機密的事拿去試。評估…
+
 ### 你只需要先學一件事
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-12-e59915b3.html
