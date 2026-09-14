@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 一封被頭銜寫壞的道歉信
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html
+主題: ChatGPT 教學
+日期: 2026-09-14
+
+「你是一位擁有二十年經驗的專家」這句話，我在學員的 prompt 開頭大概看過兩百次以上。可是讓 ChatGPT 回答變好的，其實不是這個頭銜。真正有用的是頭銜…
+
 ### 先看自己，再看工具
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-13-0f2d9196.html

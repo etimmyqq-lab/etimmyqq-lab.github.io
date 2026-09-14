@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-09-13T00:33:17.665223+00:00</updated>
+  <updated>2026-09-14T00:34:31.434566+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>一封被頭銜寫壞的道歉信</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html</id>
+    <updated>2026-09-14T08:00:00+08:00</updated>
+    <summary>「你是一位擁有二十年經驗的專家」這句話，我在學員的 prompt 開頭大概看過兩百次以上。可是讓 ChatGPT 回答變好的，其實不是這個頭銜。真正有用的是頭銜…</summary>
+    <category term="ChatGPT 教學"/>
+  </entry>
   <entry>
     <title>先看自己，再看工具</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-09-13-0f2d9196.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-08-16T08:00:00+08:00</updated>
     <summary></summary>
     <category term="ChatGPT 教學"/>
-  </entry>
-  <entry>
-    <title>2026-08-15-a5c0c21d</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html</id>
-    <updated>2026-08-15T08:00:00+08:00</updated>
-    <summary></summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>

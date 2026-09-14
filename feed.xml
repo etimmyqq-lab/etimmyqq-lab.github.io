@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 13 Sep 2026 08:33:17 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 08:34:31 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一封被頭銜寫壞的道歉信</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html</guid>
+      <pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate>
+      <description>「你是一位擁有二十年經驗的專家」這句話，我在學員的 prompt 開頭大概看過兩百次以上。可是讓 ChatGPT 回答變好的，其實不是這個頭銜。真正有用的是頭銜…</description>
+      <category>ChatGPT 教學</category>
+    </item>
     <item>
       <title>先看自己，再看工具</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-13-0f2d9196.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>ChatGPT 教學</category>
-    </item>
-    <item>
-      <title>2026-08-15-a5c0c21d</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-15-a5c0c21d.html</guid>
-      <pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate>
-      <description></description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>
