@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 14 Sep 2026 08:34:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 08:33:51 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>那張表是怎麼出錯的</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-15-3edb57b3.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-15-3edb57b3.html</guid>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上個月，一家做烘焙原料進口的貿易商用一張 AI 整理的報價表報價，一筆訂單少收了 11 萬 3 千元。問題不是 AI 算術不好。供應商的原始報價單裡，有 3 個…</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>一封被頭銜寫壞的道歉信</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>2026-08-16-42ca773f</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-16-42ca773f.html</guid>
-      <pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate>
-      <description></description>
-      <category>ChatGPT 教學</category>
     </item>
   </channel>
 </rss>

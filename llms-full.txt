@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 那張表是怎麼出錯的
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-15-3edb57b3.html
+主題: 中小企業數位轉型
+日期: 2026-09-15
+
+上個月，一家做烘焙原料進口的貿易商用一張 AI 整理的報價表報價，一筆訂單少收了 11 萬 3 千元。問題不是 AI 算術不好。供應商的原始報價單裡，有 3 個…
+
 ### 一封被頭銜寫壞的道歉信
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-14-53d48130.html
