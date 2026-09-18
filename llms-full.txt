@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 我教占卦的第一堂課，跟企業 AI 導入卡在同一關
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-18-c0a09b0c.html
+主題: Gemini 教學
+日期: 2026-09-18
+
+上週五下午，一家做廚房排煙設備安裝的老闆把一疊報價單推到我桌上，說這些東西他每個月要重打一次，加起來 26 小時。公司連他在內五個人。他問我的不是「AI 怎麼用…
+
 ### 版本名稱其實很快就過時
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-17-c9bbcc71.html

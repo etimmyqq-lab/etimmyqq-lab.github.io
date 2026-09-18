@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-09-17T00:32:12.486502+00:00</updated>
+  <updated>2026-09-18T00:33:21.579418+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>我教占卦的第一堂課，跟企業 AI 導入卡在同一關</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-09-18-c0a09b0c.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-09-18-c0a09b0c.html</id>
+    <updated>2026-09-18T08:00:00+08:00</updated>
+    <summary>上週五下午，一家做廚房排煙設備安裝的老闆把一疊報價單推到我桌上，說這些東西他每個月要重打一次，加起來 26 小時。公司連他在內五個人。他問我的不是「AI 怎麼用…</summary>
+    <category term="Gemini 教學"/>
+  </entry>
   <entry>
     <title>版本名稱其實很快就過時</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-09-17-c9bbcc71.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-08-20T08:00:00+08:00</updated>
     <summary>上週三晚上九點多，一個開兩家寵物用品店的老闆傳一句話給我：老師，我隔壁同業三家都上了 AI 客服，我是不是得趕快也弄一個。</summary>
     <category term="易經卦牌"/>
-  </entry>
-  <entry>
-    <title>型錄是他想給你看的，不是全部</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-08-19-f7b4eeac.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-08-19-f7b4eeac.html</id>
-    <updated>2026-08-19T08:00:00+08:00</updated>
-    <summary>上週二下午，一個做咖啡烘豆機代理的老闆，把對手一份三十七頁的型錄 PDF 丟進 Gemini，打了四個字：幫我分析。三秒後跑出一大段摘要，他轉頭問我：老師，這樣…</summary>
-    <category term="Gemini 教學"/>
   </entry>
 </feed>
