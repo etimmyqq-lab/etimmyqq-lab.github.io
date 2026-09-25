@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 24 Sep 2026 08:34:10 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 08:32:36 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先記三天，再決定</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-25-b3cf5b52.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-25-b3cf5b52.html</guid>
+      <pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週二下午，新竹一家做客製化禮贈品的老闆把兩個訂閱頁面並排開在筆電上，問我該先訂哪一個。我請他先不要訂，回去記三天。第三天晚上他傳訊息給我，說他原本以為自己一天…</description>
+      <category>Claude 教學</category>
+    </item>
     <item>
       <title>那什麼時候才真的需要自己做一個</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-24-ae573693.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate>
       <description></description>
       <category>Claude 教學</category>
-    </item>
-    <item>
-      <title>別問「有沒有用」，先問「哪一步最省力」</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html</guid>
-      <pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate>
-      <description>你問 Codex 對個體戶有沒有用，我先給答案：有用，但不是一次接管全部，而是先讓它替你做掉一件你每週重複做、又最煩的小事。</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>

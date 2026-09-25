@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-09-24T00:34:10.204467+00:00</updated>
+  <updated>2026-09-25T00:32:36.356363+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>先記三天，再決定</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-09-25-b3cf5b52.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-09-25-b3cf5b52.html</id>
+    <updated>2026-09-25T08:00:00+08:00</updated>
+    <summary>上週二下午，新竹一家做客製化禮贈品的老闆把兩個訂閱頁面並排開在筆電上，問我該先訂哪一個。我請他先不要訂，回去記三天。第三天晚上他傳訊息給我，說他原本以為自己一天…</summary>
+    <category term="Claude 教學"/>
+  </entry>
   <entry>
     <title>那什麼時候才真的需要自己做一個</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-09-24-ae573693.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-08-27T08:00:00+08:00</updated>
     <summary></summary>
     <category term="Claude 教學"/>
-  </entry>
-  <entry>
-    <title>別問「有沒有用」，先問「哪一步最省力」</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-08-26-d79ebb65.html</id>
-    <updated>2026-08-26T08:00:00+08:00</updated>
-    <summary>你問 Codex 對個體戶有沒有用，我先給答案：有用，但不是一次接管全部，而是先讓它替你做掉一件你每週重複做、又最煩的小事。</summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>
