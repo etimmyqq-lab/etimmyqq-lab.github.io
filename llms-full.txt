@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 你真正需要先會的，不是語法
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-26-9b722585.html
+主題: Claude Code 教學
+日期: 2026-09-26
+
+不需要。我做 Claude Code 教學這幾年，真的學到能自己動手的那幾位中小企業主，沒有一個是先讀完 Python 才開始的。順序反而常常是倒的：先用它解決…
+
 ### 先記三天，再決定
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-25-b3cf5b52.html
