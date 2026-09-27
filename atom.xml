@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-09-26T00:33:25.474841+00:00</updated>
+  <updated>2026-09-27T00:34:23.021215+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>先把印象換成事實，這一段我用 AI 做</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-09-27-fa4b8c8d.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-09-27-fa4b8c8d.html</id>
+    <updated>2026-09-27T08:00:00+08:00</updated>
+    <summary>上個月一位做汽車零件緩衝包材的老闆，把兩張 A4 推到我面前，開口第一句就是這個。我把卦牌收回盒子裡，跟他說今天先不抽。</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>你真正需要先會的，不是語法</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-09-26-9b722585.html"/>
@@ -237,14 +245,6 @@
     <id>https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html</id>
     <updated>2026-08-29T08:00:00+08:00</updated>
     <summary>我先把結論放前面：如果只有你一個人在用、拿來查資料寫寫東西，Gemini Advanced 就夠了；但只要公司裡有第二個人要一起用，而且會把客戶名單、報價單、內…</summary>
-    <category term="Gemini 教學"/>
-  </entry>
-  <entry>
-    <title>2026-08-28-cedf6bbf</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-08-28-cedf6bbf.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-08-28-cedf6bbf.html</id>
-    <updated>2026-08-28T08:00:00+08:00</updated>
-    <summary></summary>
     <category term="Gemini 教學"/>
   </entry>
 </feed>
