@@ -1,5 +1,16 @@
 # 昆廷老師個人品牌網站 — 版本歷程
 
+## [2026-09-27] 首頁主標改為「企業 AI 易經決策顧問，Claude Code / Codex 教學」
+
+### 變更內容
+- `index.html`：hero 主標、og/twitter image alt、JSON-LD alternateName 由「企業 AI 導入顧問，Claude Code 教學 × 易經決策」改為「企業 AI 易經決策顧問，Claude Code / Codex 教學」
+
+### 原因
+- 用戶調整定位：易經決策併入顧問頭銜，教學加入 Codex
+
+### 影響範圍
+- 僅首頁；其他頁 footer-bio / about 的「企業 AI 導入顧問」未動。注意 sync_from_brand_profile.py 會用 brand_profile tagline 覆蓋 hero_title
+
 ## [2026-06-16] 新增全部文章歸檔頁
 
 ### 變更內容
