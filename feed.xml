@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 27 Sep 2026 08:34:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:33:19 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>老闆買的不是工具名字，是你換掉了哪一段時間</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-29-71f08968.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-29-71f08968.html</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
+      <description>會 Claude Code 這件事本身，在台灣目前我看到的價錢大概是月薪多四千到一萬二；那幾位談到年薪多二十萬以上的，加的其實不是技能，是職稱。</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>先把印象換成事實，這一段我用 AI 做</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-27-fa4b8c8d.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate>
       <description>上週二下午，一個在建設公司做人資的朋友打電話給我，開口第一句是：我不會寫程式，可是每個月光把應徵者的履歷整理成一張比較表就要耗掉我一整個下午，聽人家說 Code…</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>兩個東西根本不是同一個層級的問題</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-29-f76c3e16.html</guid>
-      <pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate>
-      <description>我先把結論放前面：如果只有你一個人在用、拿來查資料寫寫東西，Gemini Advanced 就夠了；但只要公司裡有第二個人要一起用，而且會把客戶名單、報價單、內…</description>
-      <category>Gemini 教學</category>
     </item>
   </channel>
 </rss>
