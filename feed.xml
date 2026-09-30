@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 29 Sep 2026 08:33:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 08:33:58 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通用的輸入只會換來通用的輸出</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-09-30-5f76a26b.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-30-5f76a26b.html</guid>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
+      <description>上週五下午，嘉義一家做手工醬油的二代把筆電轉過來給我看螢幕。他餵進去的是一份產品 PDF：成分表、容量、保存期限、SGS 報告編號，四頁。生成出來的文案第一句是…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>老闆買的不是工具名字，是你換掉了哪一段時間</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-09-29-71f08968.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate>
       <description>上週四下午，一個在桃園做塑膠射出的品管主管傳了張截圖給我。是他主管在月報底下的回覆：這次寫得比上個月順很多，不過怎麼讀起來不太像你。他很挫折，問我：我明明是用 …</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>工具沒有友善不友善，只有你有沒有把要它做的事講清楚</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-08-30-2b9bfb63.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-08-30-2b9bfb63.html</guid>
-      <pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate>
-      <description>上週二下午，一個在建設公司做人資的朋友打電話給我，開口第一句是：我不會寫程式，可是每個月光把應徵者的履歷整理成一張比較表就要耗掉我一整個下午，聽人家說 Code…</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>

@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 通用的輸入只會換來通用的輸出
+
+URL: https://etimmyqq-lab.github.io/articles/2026-09-30-5f76a26b.html
+主題: Gemini 教學
+日期: 2026-09-30
+
+上週五下午，嘉義一家做手工醬油的二代把筆電轉過來給我看螢幕。他餵進去的是一份產品 PDF：成分表、容量、保存期限、SGS 報告編號，四頁。生成出來的文案第一句是…
+
 ### 老闆買的不是工具名字，是你換掉了哪一段時間
 
 URL: https://etimmyqq-lab.github.io/articles/2026-09-29-71f08968.html
