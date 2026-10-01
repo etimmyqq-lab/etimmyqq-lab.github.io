@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-09-30T00:33:58.331584+00:00</updated>
+  <updated>2026-10-01T00:34:59.339405+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>它要的是欄位，不是資料</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-10-01-c8442559.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-10-01-c8442559.html</id>
+    <updated>2026-10-01T08:00:00+08:00</updated>
+    <summary>個資法裡沒有一條寫「不可以用 AI」。它管的是三件事：你有沒有把資料送出去、蒐集當初的告知內容有沒有涵蓋這個用途、送出去之後有沒有盡到監督義務。這三件事決定你能…</summary>
+    <category term="Codex 教學"/>
+  </entry>
   <entry>
     <title>通用的輸入只會換來通用的輸出</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-09-30-5f76a26b.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-09-01T08:00:00+08:00</updated>
     <summary>上週四中午，一個在台中做五金零件批發的會計傳了張 Excel 截圖給我，問了一句我這半年被問過至少二十次的話：Claude Code 到底是聊天機器人，還是寫程…</summary>
     <category term="Claude Code 教學"/>
-  </entry>
-  <entry>
-    <title>主管在意的從來不是文法，是判斷</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-08-31-5b0ccd60.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-08-31-5b0ccd60.html</id>
-    <updated>2026-08-31T08:00:00+08:00</updated>
-    <summary>上週四下午，一個在桃園做塑膠射出的品管主管傳了張截圖給我。是他主管在月報底下的回覆：這次寫得比上個月順很多，不過怎麼讀起來不太像你。他很挫折，問我：我明明是用 …</summary>
-    <category term="Gemini 教學"/>
   </entry>
 </feed>
