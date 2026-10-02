@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 它看得懂，但你要先讓它說出它看到什麼
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-02-0124de0f.html
+主題: Gemini 教學
+日期: 2026-10-02
+
+上週二一位做工業濾網批發的會計，把一份 1,340 列的出貨表傳給 Gemini，請它「幫我整理成乾淨的格式」，回來的表只剩 1,180 列。她沒數，差點拿那份…
+
 ### 它要的是欄位，不是資料
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-01-c8442559.html

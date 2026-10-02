@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 01 Oct 2026 08:34:59 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:33:28 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>它看得懂，但你要先讓它說出它看到什麼</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-02-0124de0f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-02-0124de0f.html</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
+      <description>上週二一位做工業濾網批發的會計，把一份 1,340 列的出貨表傳給 Gemini，請它「幫我整理成乾淨的格式」，回來的表只剩 1,180 列。她沒數，差點拿那份…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>它要的是欄位，不是資料</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-10-01-c8442559.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
       <description>上週五下午，一個在新竹開了兩家手搖飲店的老闆娘，把手機推到我面前。螢幕上同時開著兩個 AI 的對話框。她說她用其中一個排班表、寫促銷簡訊，用了差不多八個月，最近…</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>為什麼「它到底是什麼」會決定你怎麼用它</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-01-14b5c5f7.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-01-14b5c5f7.html</guid>
-      <pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate>
-      <description>上週四中午，一個在台中做五金零件批發的會計傳了張 Excel 截圖給我，問了一句我這半年被問過至少二十次的話：Claude Code 到底是聊天機器人，還是寫程…</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>
