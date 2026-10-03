@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 它是一台狀態機，不是水晶球
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-03-a27c92bf.html
+主題: Claude 教學
+日期: 2026-10-03
+
+易經的 64 卦，就是 6 個位元能排出的全部組合，2 的 6 次方，一個不多一個不少。我跟理工背景的人聊易經，通常從這句開始，因為這句能讓他們先把「算命」兩個…
+
 ### 它看得懂，但你要先讓它說出它看到什麼
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-02-0124de0f.html
