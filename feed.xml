@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 05 Oct 2026 08:35:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 08:33:16 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你以為你打了一句話，其實你做了九件事</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-06-ff8ce2ec.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-06-ff8ce2ec.html</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+      <description>上個月幫一家做冷凍食品配送的公司上課，營運主管自己用 ChatGPT 寫客訴回信已經用了快一年，每封大概三分鐘搞定。她請我去教她底下 6 個客服同事，結果上課前…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>「最賺錢」至少有三種算法</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-10-05-4b8466ca.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-06-59820421.html</guid>
       <pubDate>Sun, 06 Sep 2026 08:00:00 +0800</pubDate>
       <description>上週四下午一個做烘焙原料批發的老闆坐在我對面，問了一句我這兩年被問超過五十次的話：你這種又講 Claude 又抽卦牌的，跟我阿姨常去的那個算命老師，到底差在哪？</description>
-      <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>為什麼直接問「該不該」會壞掉</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-05-3dea62fc.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-05-3dea62fc.html</guid>
-      <pubDate>Sat, 05 Sep 2026 08:00:00 +0800</pubDate>
-      <description>上週三晚上快十點，一個在嘉義山上開民宿的老闆打電話給我。他想把後棟擴建三間房，工程加裝潢估下來要一百二十萬，得跟銀行借八成。但淡季平日住房率只有四成，他心裡沒底…</description>
       <category>易經卦牌</category>
     </item>
   </channel>
