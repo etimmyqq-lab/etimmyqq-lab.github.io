@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 她一開始問的那句話，Claude 也答不出來
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-07-337b1fae.html
+主題: Claude 教學
+日期: 2026-10-07
+
+上個月幫新竹一家補習班的櫃台行政對學費，212 個學生的報名名單、187 筆銀行匯款紀錄，她以前每個月用眼睛對，一次 3 個小時。那天我請她把需求用白話講給 C…
+
 ### 你以為你打了一句話，其實你做了九件事
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-06-ff8ce2ec.html
