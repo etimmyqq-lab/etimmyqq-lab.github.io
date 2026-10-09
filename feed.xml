@@ -5,8 +5,24 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 07 Oct 2026 08:33:38 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 08:33:53 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一條毛利 9.4% 的產線，和兩個待了十一年的人</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-09-12c8db57.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-09-12c8db57.html</guid>
+      <pubDate>Fri, 09 Oct 2026 08:00:00 +0800</pubDate>
+      <description>上個月有家做汽車模具的公司，採購把我的課程報價單退回來，紅筆圈了兩行，旁邊寫：「請確認是否為同一位講師。」</description>
+      <category>企業 AI 導入</category>
+    </item>
+    <item>
+      <title>那八個月到底出了什麼事</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-08-acdc14fb.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-08-acdc14fb.html</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
+      <description>38 個人的公司，去年請了一位月薪 9 萬的數位轉型主管，八個月後他離職，留下三份簡報、一套沒人登入的 Notion，還有一句老闆到現在還在問我的話：「我是不是…</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>她一開始問的那句話，Claude 也答不出來</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-10-07-337b1fae.html</link>
@@ -229,22 +245,6 @@
       <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-09-67681bd5.html</guid>
       <pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate>
       <description>每天早上抽一張卦，我自己實測下來只花三到五分鐘，真正值不值得，關鍵不在那張卦，而在你有沒有把「今天最卡的那件事」先想出來。多數人抽完就滑掉了，那當然浪費時間。</description>
-      <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>這件事我在易經桌上看過一模一樣的場景</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-08-ee240a89.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-08-ee240a89.html</guid>
-      <pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate>
-      <description>想讓 Claude 別再反問、直接給答案，最快的做法是在句子開頭先把身分、目的、格式一次講清楚，再補一句「先給結論，需要補充的假設放最後」。我上週三下午陪一家做…</description>
-      <category>Claude 教學</category>
-    </item>
-    <item>
-      <title>值不值得，其實不是在問未來</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-07-becf2b35.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-07-becf2b35.html</guid>
-      <pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate>
-      <description>上週三下午，一個開了二十六年印刷廠的老闆坐在我對面，手機螢幕上是他兒子傳的一句話：爸，你們這行再不碰 AI 就真的沒了。他今年五十七，廠裡九台機器，這兩年訂單大…</description>
       <category>易經卦牌</category>
     </item>
   </channel>
