@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sat, 10 Oct 2026 08:34:07 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 08:34:17 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你需要認的英文只有四個</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-11-0b110f05.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-11-0b110f05.html</guid>
+      <pubDate>Sun, 11 Oct 2026 08:00:00 +0800</pubDate>
+      <description>Claude Code 可以全中文操作，你用中文打字它就用中文回你。整個流程裡你真正需要認得的英文，我在課堂上幫學員數過，四個：`/init`、`/clear`…</description>
+      <category>Claude Code 教學</category>
+    </item>
     <item>
       <title>分界線不是難易度，是「錯了誰看得出來」</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-10-10-a375ab82.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate>
       <description>上週四下午，一個做保健食品電商的老闆把筆電轉過來給我看，螢幕上是一張 Excel，八個分頁，每個分頁是一個通路的月銷售明細。他每個月月初要做的事情很固定：把八張…</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>Gems 到底是什麼</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-10-99ae8ff4.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-10-99ae8ff4.html</guid>
-      <pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate>
-      <description>上週二早上，一位開了三家眼鏡行的老闆娘把手機轉向我，螢幕上是一張便利貼的照片：她把「我是眼鏡行老闆，語氣親切，字數一百字內，不要用驚嘆號」這串話抄在上面。因為她…</description>
-      <category>Gemini 教學</category>
     </item>
   </channel>
 </rss>

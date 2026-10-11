@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 你需要認的英文只有四個
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-11-0b110f05.html
+主題: Claude Code 教學
+日期: 2026-10-11
+
+Claude Code 可以全中文操作，你用中文打字它就用中文回你。整個流程裡你真正需要認得的英文，我在課堂上幫學員數過，四個：`/init`、`/clear`…
+
 ### 分界線不是難易度，是「錯了誰看得出來」
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-10-a375ab82.html
