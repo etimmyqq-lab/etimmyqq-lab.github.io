@@ -1,0 +1,122 @@
+/* 昆廷老師線下課程網站：A/B 兩版共用 */
+:root{
+  --bg:#0f1a2a; --bg-2:#132238; --bg-3:#1a2d47;
+  --blue:#1F4E79; --blue-hi:#5b93c9;
+  --gold:#C9A96E; --gold-hi:#e2c99a;
+  --ink:#eef2f7; --muted:#9fb0c4; --line:rgba(201,169,110,.2);
+  --serif:"Noto Serif TC",serif; --sans:"Noto Sans TC",sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --gut:clamp(16px,6vw,96px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,li{text-wrap:pretty}
+::selection{background:var(--gold);color:var(--bg)}
+
+/* 細格線底紋：科技感來源之一 */
+.grid-bg{background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;background-position:-1px -1px}
+
+/* 導覽列 */
+.nav{position:fixed;inset:0 0 auto;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px var(--gut);transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+.nav.solid{background:rgba(15,26,42,.86);backdrop-filter:blur(12px);border-color:var(--line)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:50%;background:#fff}
+.brand b{font-family:var(--serif);font-weight:700;font-size:17px;letter-spacing:.04em}
+.brand small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--gold)}
+.nav ul{display:flex;gap:28px;list-style:none;font-size:14px}
+.nav ul a{text-decoration:none;color:var(--muted);transition:color .25s}
+.nav ul a:hover,.nav ul a:focus-visible{color:var(--ink)}
+@media (max-width:860px){.nav ul{display:none}}
+
+/* 按鈕 */
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 24px;border-radius:4px;font-weight:700;font-size:15px;text-decoration:none;border:1px solid var(--gold);cursor:pointer;transition:background .25s,color .25s,transform .25s var(--ease),box-shadow .25s;font-family:var(--sans)}
+.btn.primary{background:var(--gold);color:var(--bg)}
+.btn.primary:hover{background:var(--gold-hi);transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,169,110,.25)}
+.btn.ghost{background:transparent;color:var(--gold)}
+.btn.ghost:hover{background:rgba(201,169,110,.1)}
+.btn:focus-visible{outline:2px solid var(--blue-hi);outline-offset:3px}
+.btn.sm{min-height:40px;padding:0 16px;font-size:14px}
+
+/* 等寬小標：像終端機註解 */
+.kicker{font-family:var(--mono);font-size:13px;letter-spacing:.12em;color:var(--gold)}
+.kicker::before{content:"// "}
+.h-sec{font-family:var(--serif);font-weight:700;font-size:clamp(32px,4.4vw,60px);line-height:1.2;margin:14px 0 22px}
+.lead{font-size:clamp(16px,1.25vw,19px);color:var(--muted);max-width:36em}
+.wrap{padding:clamp(88px,12vw,160px) var(--gut)}
+
+/* 進場 */
+.io{opacity:0;transform:translateY(40px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.io.in{opacity:1;transform:none}
+
+/* 捲動運鏡 */
+.scrub{position:relative;background:#000}
+.scrub .stage{position:sticky;top:0;height:100vh;overflow:hidden}
+.scrub canvas{position:absolute;inset:0;width:100%;height:100%}
+.scrub .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,26,42,.85),rgba(15,26,42,.35) 50%,rgba(15,26,42,.05) 75%),linear-gradient(0deg,rgba(15,26,42,.9),transparent 35%)}
+.beat{position:absolute;left:var(--gut);right:var(--gut);top:50%;transform:translateY(-50%);max-width:880px;visibility:hidden}
+.beat h1,.beat h2{font-family:var(--serif);font-weight:700;font-size:clamp(32px,6.2vw,92px);line-height:1.12}
+.ln{white-space:nowrap}   /* 標題每行不斷行，避免「」。單獨掉到下一行 */
+.beat p{margin-top:20px;font-size:clamp(16px,1.35vw,20px);color:#d5dde7;max-width:30em}
+.beat .row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.ch{display:inline-block;will-change:opacity,transform,filter}
+.scrub .meter{position:absolute;left:var(--gut);bottom:28px;font-family:var(--mono);font-size:12px;letter-spacing:.15em;color:var(--muted);display:flex;gap:14px;align-items:center}
+.scrub .meter i{display:block;width:120px;height:1px;background:rgba(255,255,255,.2);position:relative}
+.scrub .meter i::after{content:"";position:absolute;inset:0;background:var(--gold);transform-origin:left;transform:scaleX(var(--p,0))}
+.placeholder-note{position:absolute;right:var(--gut);top:84px;z-index:3;font-family:var(--mono);font-size:12px;color:var(--gold);border:1px dashed var(--gold);padding:6px 10px}
+
+/* 價格卡 */
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:24px}
+.plan{position:relative;border:1px solid var(--line);background:var(--bg-2);padding:36px 32px;border-radius:6px;transition:border-color .3s,transform .3s var(--ease)}
+.plan:hover{border-color:var(--gold);transform:translateY(-4px)}
+.plan .tag{font-family:var(--mono);font-size:12px;letter-spacing:.15em;color:var(--blue-hi)}
+.plan h3{font-family:var(--serif);font-size:26px;margin:8px 0 18px}
+.plan .price{font-family:var(--mono);font-size:clamp(34px,3.4vw,44px);color:var(--gold);line-height:1}
+.plan .price small{font-size:14px;color:var(--muted);margin-left:6px}
+.plan ul{list-style:none;margin:24px 0 30px;display:grid;gap:10px;color:#cfd8e3;font-size:15px}
+.plan li{padding-left:22px;position:relative}
+.plan li::before{content:"›";position:absolute;left:4px;color:var(--gold);font-family:var(--mono)}
+
+/* 課程時間軸 */
+.agenda{list-style:none;border-left:1px solid var(--line);margin-left:6px}
+.agenda li{position:relative;padding:0 0 34px 32px}
+.agenda li::before{content:"";position:absolute;left:-5px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1px solid var(--gold)}
+.agenda li.key::before{background:var(--gold)}
+.agenda time{font-family:var(--mono);font-size:13px;color:var(--gold)}
+.agenda h4{font-size:19px;margin:4px 0 6px}
+.agenda p{color:var(--muted);font-size:15px;max-width:40em}
+
+/* FAQ */
+.faq details{border-bottom:1px solid var(--line);padding:20px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::after{content:"+";font-family:var(--mono);color:var(--gold);transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary:focus-visible{outline:2px solid var(--blue-hi);outline-offset:4px}
+.faq p{margin-top:10px;color:var(--muted);max-width:44em}
+
+/* 表單 */
+.form{display:grid;gap:16px;max-width:620px}
+.form label{display:grid;gap:6px;font-size:14px;color:var(--muted)}
+.form input,.form select,.form textarea{font:inherit;color:var(--ink);background:var(--bg-2);border:1px solid var(--line);border-radius:4px;padding:12px 14px;min-height:48px;transition:border-color .2s}
+.form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--gold)}
+.form .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:640px){.form .two{grid-template-columns:1fr}}
+.form .msg{font-size:14px;min-height:1.5em}
+.form button[disabled]{opacity:.5;cursor:wait}
+
+/* 手機固定報名列 */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:55;display:none;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(15,26,42,.94);backdrop-filter:blur(10px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .4s var(--ease)}
+.dock.show{transform:none}
+.dock .btn{flex:1;justify-content:center}
+@media (max-width:860px){.dock{display:flex}}
+
+footer{padding:56px var(--gut) 96px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between}
+footer a{text-decoration:none}
+footer a:hover{color:var(--gold)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .io{opacity:1;transform:none}
+}

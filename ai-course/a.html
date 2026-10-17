@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>把 AI 帶回辦公室｜昆廷老師 ChatGPT × Claude 一日實戰（A 沉浸版）</title>
+<meta name="description" content="線下實體課，1 天 5 小時。帶你手上真實的工作來，用 ChatGPT 與 Claude 現場做完一遍，明天進公司就用得上。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="core.css">
+<style>
+/* A 沉浸電影型：全幅運鏡為主，內容以章節形式穿插 */
+.chapter{min-height:100vh;display:grid;align-content:center}
+.pains{display:grid;gap:clamp(48px,8vw,96px);margin-top:48px}
+.pain{display:grid;grid-template-columns:auto 1fr;gap:clamp(16px,3vw,40px);align-items:baseline}
+.pain .no{font-family:var(--mono);color:var(--gold);font-size:14px}
+.pain p{font-family:var(--serif);font-size:clamp(24px,3.2vw,44px);line-height:1.35;max-width:22em}
+.after{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:48px}
+.after div{background:var(--bg);padding:28px}
+.after b{display:block;font-family:var(--mono);font-size:13px;color:var(--blue-hi);letter-spacing:.1em;margin-bottom:10px}
+.after s{color:var(--muted);text-decoration-color:rgba(201,169,110,.6)}
+.after span{display:block;margin-top:6px;font-size:18px}
+.teacher{position:relative;min-height:100vh;overflow:hidden;display:grid;align-items:end}
+.teacher .photo{position:absolute;inset:-12% 0;background:url(assets/photos/class-3.jpg) 70% 30%/cover}
+.teacher::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 8%,rgba(15,26,42,.55) 55%,rgba(15,26,42,.2))}
+.teacher .ring{position:absolute;right:var(--gut);top:16vh;width:clamp(120px,16vw,220px);aspect-ratio:1;border-radius:50%;border:1px solid var(--gold);z-index:2;display:grid;place-items:center;font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--gold);text-align:center;line-height:1.8}
+.teacher .body{position:relative;z-index:2;padding:0 var(--gut) clamp(64px,10vw,120px);max-width:980px}
+.teacher .facts{font-family:var(--mono);font-size:14px;color:var(--gold);margin:18px 0 22px;letter-spacing:.04em}
+.teacher blockquote{font-family:var(--serif);font-size:clamp(20px,2vw,26px);line-height:1.6;border-left:2px solid var(--gold);padding-left:20px;margin-top:28px;color:#e7ecf3}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-auto-rows:clamp(160px,18vw,260px);gap:12px;margin-top:48px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:4px;filter:saturate(.85)}
+.gallery img:first-child{grid-row:span 2}
+.gallery figcaption{grid-column:1/-1;font-family:var(--mono);font-size:13px;color:var(--muted)}
+@media (max-width:760px){.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{grid-column:span 2;grid-row:auto}}
+.signup{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,96px)}
+@media (max-width:900px){.signup{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="#top"><img src="assets/logo-mark.png" alt=""><span><b>昆廷老師</b><small>QUENTIN LAB</small></span></a>
+  <ul>
+    <li><a href="#course">課程內容</a></li>
+    <li><a href="#teacher">講師</a></li>
+    <li><a href="#plans">方案</a></li>
+    <li><a href="#faq">常見問題</a></li>
+  </ul>
+  <a class="btn primary sm" href="#signup">登記下一梯</a>
+</nav>
+
+<!-- 運鏡 1：夜景 → 亮燈的辦公大樓 -->
+<section class="scrub" id="top" style="height:360vh" data-frames="assets/frames/city" data-count="60">
+  <div class="stage">
+    <canvas></canvas><div class="shade"></div>
+    <div class="beat" data-in="0" data-out=".38">
+      <span class="kicker">線下實體課 · 1 天 5 小時</span>
+      <h1 class="split" style="margin-top:14px">把 AI<br>帶回辦公室</h1>
+      <p>ChatGPT × Claude 一日實戰。帶你手上真實的工作來，現場做完一遍，明天進公司就用得上。</p>
+      <div class="row"><a class="btn primary" href="#signup">登記下一梯</a><a class="btn ghost" href="#plans">看方案與價格</a></div>
+    </div>
+    <div class="beat" data-in=".42" data-out=".7">
+      <span class="kicker">週一 08:30</span>
+      <h2 class="split">信箱 40 封未讀，<br>週報還沒寫。</h2>
+    </div>
+    <div class="beat" data-in=".74" data-out="1">
+      <span class="kicker">三個月後</span>
+      <h2 class="split">公司說要導入 AI，<br>結果沒有人在用。</h2>
+      <p>不是工具不好，是沒有人陪你把第一份工作做完。</p>
+    </div>
+    <div class="meter">SCROLL<i></i></div>
+  </div>
+</section>
+
+<!-- 痛點 -->
+<section class="wrap grid-bg chapter">
+  <span class="kicker io">你可能也是這樣</span>
+  <div class="pains">
+    <div class="pain io"><span class="no">01</span><p>看了很多教學影片，自己打開對話框，還是不知道要打什麼。</p></div>
+    <div class="pain io"><span class="no">02</span><p>ChatGPT 和 Claude 都註冊了，卻說不出兩個差在哪、哪件事該交給誰。</p></div>
+    <div class="pain io"><span class="no">03</span><p>試過幾次，AI 給的東西不能直接用，最後還是自己重寫。</p></div>
+  </div>
+</section>
+
+<!-- 運鏡 2：穿進筆電螢幕 → 資料流變成流程圖 -->
+<section class="scrub" style="height:260vh" data-frames="assets/frames/screen" data-count="60">
+  <div class="stage">
+    <canvas></canvas><div class="shade"></div>
+    <div class="beat" data-in="0" data-out=".82">
+      <span class="kicker">同一份工作，交給 AI 之後</span>
+      <h2 class="split">你的角色，<br>從「寫」變成「改」。</h2>
+      <div class="after row" style="display:grid">
+        <div><b>WEEKLY_REPORT</b><s>從零開始整理資料</s><span>檢查 AI 打好的草稿</span></div>
+        <div><b>CLIENT_MAIL</b><s>一封一封想措辭</s><span>挑一個語氣，送出</span></div>
+        <div><b>CONTRACT</b><s>30 頁逐字看</s><span>先看 AI 標出的風險條款</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 課程內容 -->
+<section class="wrap" id="course">
+  <span class="kicker io">課程內容 · 5 HOURS</span>
+  <h2 class="h-sec io" data-decode>ChatGPT × Claude 一日實戰</h2>
+  <p class="lead io" style="margin-bottom:56px">不講 AI 的歷史，不比較十幾種工具。只用兩個最好用的，把你每天會碰到的工作做一遍。</p>
+  <ol class="agenda">
+    <li class="io"><time>0:00–0:40</time><h4>開場：兩個 AI 各自擅長什麼</h4><p>什麼工作交給 ChatGPT、什麼交給 Claude；公司資料哪些可以丟、哪些不行。</p></li>
+    <li class="io"><time>0:40–1:40</time><h4>ChatGPT 實作</h4><p>一套提示詞骨架，現場寫客戶信、週報、會議紀錄；讓它讀你的表格和截圖。</p></li>
+    <li class="io"><time>1:40–2:40</time><h4>Claude 實作</h4><p>讀長文件與合約、用「專案」建你自己的知識庫、用 Artifacts 直接做出報表或小工具。</p></li>
+    <li class="io"><time>2:50–3:50</time><h4>兩個 AI 接力</h4><p>同一個任務，ChatGPT 發想、Claude 整理成能交出去的企劃、SOP 或簡報大綱。</p></li>
+    <li class="io key"><time>3:50–4:40</time><h4>帶你自己的工作來做</h4><p>用你手上真實的工作從頭做一遍，我逐桌走、逐個排解卡關。這一段是線上課做不到的。</p></li>
+    <li class="io"><time>4:40–5:00</time><h4>成果分享 + 30 天練習清單</h4><p>回家後每天 15 分鐘，讓今天學的東西變成習慣。</p></li>
+  </ol>
+</section>
+
+<!-- 運鏡 3：真實教室（用上課照片推鏡） -->
+<section class="scrub" style="height:280vh" data-frames="assets/frames/class" data-count="60">
+  <div class="stage">
+    <canvas></canvas><div class="shade"></div>
+    <div class="beat" data-in=".06" data-out=".55">
+      <span class="kicker">為什麼一定要來現場</span>
+      <h2 class="split">卡住的那一刻，<br>旁邊有人。</h2>
+    </div>
+    <div class="beat" data-in=".6" data-out="1">
+      <p style="font-family:var(--serif);font-size:clamp(20px,2.2vw,30px);line-height:1.6;color:#fff;max-width:24em">我也教過線上直播課。後來發現差別不在內容，在你卡住的那一刻。現場上課，你打錯一句提示詞，我走過去看一眼就知道問題在哪；隔壁同學的用法，常常比我的範例更貼近你的工作。五個小時，你是真的做完一遍，不是看完一遍。</p>
+      <p class="kicker" style="margin-top:20px">昆廷老師</p>
+    </div>
+  </div>
+</section>
+
+<!-- 講師 -->
+<section class="teacher" id="teacher">
+  <div class="photo" data-depth="-.25"></div>
+  <div class="ring" data-depth=".35">AI 解決<br>怎麼做<br>────<br>易經回答<br>該不該做</div>
+  <div class="body">
+    <span class="kicker io">講師</span>
+    <h2 class="h-sec io">鄒昆廷　昆廷老師</h2>
+    <div class="facts io" data-decode>19 年企業顧問 / 4 年 AI 導入 / 紡織・汽車・模具・精密・農食・醫療</div>
+    <p class="lead io" style="color:#d5dde7">在企業現場陪老闆和主管把 AI 接進日常工作。比起教工具怎麼按，我更在意你回到公司後，第一件事要拿 AI 做什麼。</p>
+  </div>
+</section>
+
+<!-- 上課現場 -->
+<section class="wrap">
+  <span class="kicker io">上課現場</span>
+  <h2 class="h-sec io">一人一台電腦，整天都在動手</h2>
+  <figure class="gallery io">
+    <img src="assets/photos/class-1.jpg" alt="昆廷老師在台前講解，學員各自操作筆電" loading="lazy">
+    <img src="assets/photos/class-2.jpg" alt="教室全景，學員面向投影" loading="lazy">
+    <img src="assets/photos/class-4.jpg" alt="昆廷老師手持麥克風講解課程地圖" loading="lazy">
+    <img src="assets/photos/class-3.jpg" alt="學員跟著投影操作" loading="lazy">
+    <img src="assets/photos/class-5.jpg" alt="下課後學員圍著老師繼續提問" loading="lazy">
+    <figcaption>最後一張：下課了，問題還沒問完。</figcaption>
+  </figure>
+</section>
+
+<!-- 方案 -->
+<section class="wrap grid-bg" id="plans">
+  <span class="kicker io">方案與價格</span>
+  <h2 class="h-sec io">個人報名，或整個團隊一起來</h2>
+  <div class="plans">
+    <article class="plan io">
+      <span class="tag">INDIVIDUAL</span>
+      <h3>個人線下班</h3>
+      <div class="price">NT$4,000<small>/ 人 · 1 天 5 小時</small></div>
+      <ul><li>實體小班，現場逐桌指導</li><li>帶自己的筆電與真實工作來練</li><li>課後 30 天練習清單</li><li>日期與地點：下一梯開放登記中</li></ul>
+      <a class="btn primary" href="#signup" data-plan="線下課-個人班">登記下一梯</a>
+    </article>
+    <article class="plan io">
+      <span class="tag">ENTERPRISE</span>
+      <h3>企業包班</h3>
+      <div class="price">NT$50,000<small>/ 班 · 1 天 5 小時</small></div>
+      <ul><li>到貴公司或指定場地上課</li><li>練習題改用貴公司的真實工作</li><li>先約 30 分鐘免費諮詢，再排課</li></ul>
+      <a class="btn ghost" href="#signup" data-plan="線下課-企業包班">預約免費諮詢</a>
+    </article>
+  </div>
+</section>
+
+<!-- FAQ + 報名 -->
+<section class="wrap" id="signup">
+  <div class="signup">
+    <div class="faq" id="faq">
+      <span class="kicker">常見問題</span>
+      <h2 class="h-sec">上課前你可能想問</h2>
+      <details><summary>完全沒用過 AI 可以上嗎？</summary><p>可以。課程從註冊、介面開始，重點是讓你在現場把真實工作做完，不需要任何程式背景。</p></details>
+      <details><summary>要帶什麼？</summary><p>一台筆電，以及一件你最近手上正在處理的工作（信件、報表、企劃都可以）。帳號設定方式會在課前寄給你。</p></details>
+      <details><summary>什麼時候開課？在哪裡？</summary><p>下一梯的日期與地點確定後，會優先通知有登記的人。</p></details>
+      <details><summary>企業包班怎麼進行？</summary><p>先約 30 分鐘免費諮詢，了解團隊現況與想解決的工作，再把練習題換成貴公司的真實案例。</p></details>
+    </div>
+    <form class="form">
+      <span class="kicker">登記下一梯 / 企業諮詢</span>
+      <h2 class="h-sec" style="margin-bottom:6px">留下聯絡方式</h2>
+      <div class="two">
+        <label>稱呼<input name="name" required autocomplete="name"></label>
+        <label>Email 或電話<input name="contact" required autocomplete="email"></label>
+      </div>
+      <div class="two">
+        <label>方案<select name="topic"><option>線下課-個人班</option><option>線下課-企業包班</option></select></label>
+        <label>身分<select name="identity"><option>老闆 / 經營者</option><option>主管</option><option>一般員工</option><option>HR / 教育訓練</option><option>其他</option></select></label>
+      </div>
+      <label>想用 AI 解決哪件工作？（選填）<textarea name="pain" rows="3"></textarea></label>
+      <button class="btn primary" type="submit">送出登記</button>
+      <p class="msg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <span>© 昆廷老師 Quentin · 企業 AI 導入顧問</span>
+  <span><a href="mailto:etimmyqq@gmail.com">etimmyqq@gmail.com</a>　·　<a href="https://line.me/ti/p/aeSl1H6qRJ">LINE</a>　·　<a href="https://www.threads.net/@timmy.tsou.tw">Threads</a>　·　<a href="https://etimmyqq-lab.github.io">個人網站</a></span>
+</footer>
+
+<div class="dock"><a class="btn ghost sm" href="#plans">看方案</a><a class="btn primary sm" href="#signup">登記下一梯</a></div>
+
+<script src="core.js"></script>
+</body>
+</html>
