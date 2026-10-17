@@ -45,7 +45,7 @@ const scrubs = [...document.querySelectorAll('.scrub')].map(sec => {
   s.beats = [...sec.querySelectorAll('.beat')].map(el => {
     el.querySelectorAll('.split').forEach(h => {
       h.innerHTML = h.innerHTML.split(/(<br>)/).map(part => part === '<br>' ? part :
-        `<span class="ln">${[...part].map(c => `<span class="ch">${c}</span>`).join('')}</span>`).join('');
+        `<span class="ln">${[...part].map(c => `<span class="ch">${c === ' ' ? '&nbsp;' : c}</span>`).join('')}</span>`).join('');
     });
     return { el, a: +el.dataset.in, b: +el.dataset.out, chars: [...el.querySelectorAll('.ch')], subs: [...el.querySelectorAll('.kicker, p, .row')] };
   });
@@ -114,6 +114,18 @@ function tick() {
 sizeCanvases();
 addEventListener('resize', sizeCanvases);
 requestAnimationFrame(tick);
+
+// 數字信任列：捲到時從 0 數到目標值
+const cio = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return; cio.unobserve(e.target);
+  const el = e.target, to = +el.dataset.to, t0 = performance.now();
+  (function step(t) {
+    const k = reduce ? 1 : clamp((t - t0) / 1200);
+    el.textContent = Math.round(to * (1 - (1 - k) ** 3)).toLocaleString();
+    if (k < 1) requestAnimationFrame(step);
+  })(t0);
+}), { threshold: .5 });
+document.querySelectorAll('[data-to]').forEach(el => cio.observe(el));
 
 // 方案按鈕 → 預選表單方案
 document.querySelectorAll('[data-plan]').forEach(a => a.addEventListener('click', () => {

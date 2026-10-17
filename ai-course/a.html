@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="core.css">
+<link rel="stylesheet" href="core.css?v=4">
 <style>
 /* A 沉浸電影型：全幅運鏡為主，內容以章節形式穿插 */
 .chapter{min-height:100vh;display:grid;align-content:center}
@@ -24,15 +24,9 @@
 .teacher{position:relative;min-height:100vh;overflow:hidden;display:grid;align-items:end}
 .teacher .photo{position:absolute;inset:-12% 0;background:url(assets/photos/class-3.jpg) 70% 30%/cover}
 .teacher::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 8%,rgba(15,26,42,.55) 55%,rgba(15,26,42,.2))}
-.teacher .ring{position:absolute;right:var(--gut);top:16vh;width:clamp(120px,16vw,220px);aspect-ratio:1;border-radius:50%;border:1px solid var(--gold);z-index:2;display:grid;place-items:center;font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--gold);text-align:center;line-height:1.8}
 .teacher .body{position:relative;z-index:2;padding:0 var(--gut) clamp(64px,10vw,120px);max-width:980px}
 .teacher .facts{font-family:var(--mono);font-size:14px;color:var(--gold);margin:18px 0 22px;letter-spacing:.04em}
 .teacher blockquote{font-family:var(--serif);font-size:clamp(20px,2vw,26px);line-height:1.6;border-left:2px solid var(--gold);padding-left:20px;margin-top:28px;color:#e7ecf3}
-.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-auto-rows:clamp(160px,18vw,260px);gap:12px;margin-top:48px}
-.gallery img{width:100%;height:100%;object-fit:cover;border-radius:4px;filter:saturate(.85)}
-.gallery img:first-child{grid-row:span 2}
-.gallery figcaption{grid-column:1/-1;font-family:var(--mono);font-size:13px;color:var(--muted)}
-@media (max-width:760px){.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{grid-column:span 2;grid-row:auto}}
 .signup{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,96px)}
 @media (max-width:900px){.signup{grid-template-columns:1fr}}
 </style>
@@ -58,6 +52,7 @@
       <span class="kicker">線下實體課 · 1 天 5 小時</span>
       <h1 class="split" style="margin-top:14px">把 AI<br>帶回辦公室</h1>
       <p>ChatGPT × Claude 一日實戰。帶你手上真實的工作來，現場做完一遍，明天進公司就用得上。</p>
+      <p class="kicker" style="margin-top:14px;color:var(--gold-hi)"><span class="ln">個人 NT$4,000 · 15 人成班 ／</span> <span class="ln">企業包班請洽詢</span></p>
       <div class="row"><a class="btn primary" href="#signup">登記下一梯</a><a class="btn ghost" href="#plans">看方案與價格</a></div>
     </div>
     <div class="beat" data-in=".42" data-out=".7">
@@ -71,6 +66,14 @@
     </div>
     <div class="meter">SCROLL<i></i></div>
   </div>
+</section>
+
+<!-- 數字信任列 -->
+<section class="stats" aria-label="講師經歷">
+  <div><b><i data-to="3000">3,000</i><em>+ 位</em></b><span>累積帶過學員</span></div>
+  <div><b><i data-to="30">30</i><em>+ 家</em></b><span>企業內訓</span></div>
+  <div><b><i data-to="19">19</i><em>年</em></b><span>企業顧問經驗</span></div>
+  <div><b><i data-to="4">4</i><em>年</em></b><span>AI 導入實戰</span></div>
 </section>
 
 <!-- 痛點 -->
@@ -115,7 +118,7 @@
 </section>
 
 <!-- 運鏡 3：真實教室（用上課照片推鏡） -->
-<section class="scrub" style="height:280vh" data-frames="assets/frames/class" data-count="60">
+<section class="scrub short-m" style="height:280vh" data-frames="assets/frames/class" data-count="60">
   <div class="stage">
     <canvas></canvas><div class="shade"></div>
     <div class="beat" data-in=".06" data-out=".55">
@@ -132,27 +135,13 @@
 <!-- 講師 -->
 <section class="teacher" id="teacher">
   <div class="photo" data-depth="-.25"></div>
-  <div class="ring" data-depth=".35">AI 解決<br>怎麼做<br>────<br>易經回答<br>該不該做</div>
   <div class="body">
     <span class="kicker io">講師</span>
     <h2 class="h-sec io">鄒昆廷　昆廷老師</h2>
     <div class="facts io" data-decode>19 年企業顧問 / 4 年 AI 導入 / 紡織・汽車・模具・精密・農食・醫療</div>
     <p class="lead io" style="color:#d5dde7">在企業現場陪老闆和主管把 AI 接進日常工作。比起教工具怎麼按，我更在意你回到公司後，第一件事要拿 AI 做什麼。</p>
+    <blockquote class="io">AI 解決「怎麼做」，易經回答「該不該做」。</blockquote>
   </div>
-</section>
-
-<!-- 上課現場 -->
-<section class="wrap">
-  <span class="kicker io">上課現場</span>
-  <h2 class="h-sec io">一人一台電腦，整天都在動手</h2>
-  <figure class="gallery io">
-    <img src="assets/photos/class-1.jpg" alt="昆廷老師在台前講解，學員各自操作筆電" loading="lazy">
-    <img src="assets/photos/class-2.jpg" alt="教室全景，學員面向投影" loading="lazy">
-    <img src="assets/photos/class-4.jpg" alt="昆廷老師手持麥克風講解課程地圖" loading="lazy">
-    <img src="assets/photos/class-3.jpg" alt="學員跟著投影操作" loading="lazy">
-    <img src="assets/photos/class-5.jpg" alt="下課後學員圍著老師繼續提問" loading="lazy">
-    <figcaption>最後一張：下課了，問題還沒問完。</figcaption>
-  </figure>
 </section>
 
 <!-- 方案 -->
@@ -163,14 +152,14 @@
     <article class="plan io">
       <span class="tag">INDIVIDUAL</span>
       <h3>個人線下班</h3>
-      <div class="price">NT$4,000<small>/ 人 · 1 天 5 小時</small></div>
-      <ul><li>實體小班，現場逐桌指導</li><li>帶自己的筆電與真實工作來練</li><li>課後 30 天練習清單</li><li>日期與地點：下一梯開放登記中</li></ul>
+      <div class="price">NT$4,000<small>/ 人 · 1 天 5 小時 · 15 人成班</small></div>
+      <ul><li>實體班，現場逐桌指導</li><li>帶自己的筆電與真實工作來練</li><li>課後 30 天練習清單</li><li>日期與地點：下一梯開放登記中</li></ul>
       <a class="btn primary" href="#signup" data-plan="線下課-個人班">登記下一梯</a>
     </article>
     <article class="plan io">
       <span class="tag">ENTERPRISE</span>
       <h3>企業包班</h3>
-      <div class="price">NT$50,000<small>/ 班 · 1 天 5 小時</small></div>
+      <div class="price ask">請洽詢<small>1 天 5 小時 · 依團隊人數與需求報價</small></div>
       <ul><li>到貴公司或指定場地上課</li><li>練習題改用貴公司的真實工作</li><li>先約 30 分鐘免費諮詢，再排課</li></ul>
       <a class="btn ghost" href="#signup" data-plan="線下課-企業包班">預約免費諮詢</a>
     </article>
@@ -191,6 +180,7 @@
     <form class="form">
       <span class="kicker">登記下一梯 / 企業諮詢</span>
       <h2 class="h-sec" style="margin-bottom:6px">留下聯絡方式</h2>
+      <p class="recap">個人 NT$4,000 · 15 人成班 · 5 小時 · 帶自己的工作來<small>開課日期與地點確定後，優先通知有登記的人；企業包班會先約 30 分鐘免費諮詢。</small></p>
       <div class="two">
         <label>稱呼<input name="name" required autocomplete="name"></label>
         <label>Email 或電話<input name="contact" required autocomplete="email"></label>
@@ -213,6 +203,6 @@
 
 <div class="dock"><a class="btn ghost sm" href="#plans">看方案</a><a class="btn primary sm" href="#signup">登記下一梯</a></div>
 
-<script src="core.js"></script>
+<script src="core.js?v=4"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="core.css">
+<link rel="stylesheet" href="core.css?v=4">
 <style>
 /* B 運鏡＋資訊型：首屏影片自動播放，內容以清楚排版為主 */
 .hero{position:relative;min-height:100vh;display:grid;align-items:center;overflow:hidden}
@@ -74,12 +74,20 @@
     <dl class="quick">
       <div><dt>形式</dt><dd>線下實體 · 一人一台電腦</dd></div>
       <div><dt>時數</dt><dd>1 天 5 小時</dd></div>
-      <div><dt>個人班</dt><dd>NT$4,000</dd></div>
-      <div><dt>企業包班</dt><dd>NT$50,000 / 5 小時</dd></div>
+      <div><dt>個人班</dt><dd>NT$4,000 · 15 人成班</dd></div>
+      <div><dt>企業包班</dt><dd>請洽詢</dd></div>
       <div><dt>下一梯</dt><dd>開放登記中</dd></div>
     </dl>
   </div>
 </header>
+
+<!-- 數字信任列 -->
+<section class="stats" aria-label="講師經歷">
+  <div><b><i data-to="3000">3,000</i><em>+ 位</em></b><span>累積帶過學員</span></div>
+  <div><b><i data-to="30">30</i><em>+ 家</em></b><span>企業內訓</span></div>
+  <div><b><i data-to="19">19</i><em>年</em></b><span>企業顧問經驗</span></div>
+  <div><b><i data-to="4">4</i><em>年</em></b><span>AI 導入實戰</span></div>
+</section>
 
 <!-- 痛點 -->
 <section class="wrap">
@@ -165,14 +173,14 @@
     <article class="plan io">
       <span class="tag">INDIVIDUAL</span>
       <h3>個人線下班</h3>
-      <div class="price">NT$4,000<small>/ 人 · 1 天 5 小時</small></div>
-      <ul><li>實體小班，現場逐桌指導</li><li>帶自己的筆電與真實工作來練</li><li>課後 30 天練習清單</li><li>日期與地點：下一梯開放登記中</li></ul>
+      <div class="price">NT$4,000<small>/ 人 · 1 天 5 小時 · 15 人成班</small></div>
+      <ul><li>實體班，現場逐桌指導</li><li>帶自己的筆電與真實工作來練</li><li>課後 30 天練習清單</li><li>日期與地點：下一梯開放登記中</li></ul>
       <a class="btn primary" href="#signup" data-plan="線下課-個人班">登記下一梯</a>
     </article>
     <article class="plan io">
       <span class="tag">ENTERPRISE</span>
       <h3>企業包班</h3>
-      <div class="price">NT$50,000<small>/ 班 · 1 天 5 小時</small></div>
+      <div class="price ask">請洽詢<small>1 天 5 小時 · 依團隊人數與需求報價</small></div>
       <ul><li>到貴公司或指定場地上課</li><li>練習題改用貴公司的真實工作</li><li>先約 30 分鐘免費諮詢，再排課</li></ul>
       <a class="btn ghost" href="#signup" data-plan="線下課-企業包班">預約免費諮詢</a>
     </article>
@@ -193,6 +201,7 @@
     <form class="form">
       <span class="kicker">登記下一梯 / 企業諮詢</span>
       <h2 class="h-sec" style="margin-bottom:6px">留下聯絡方式</h2>
+      <p class="recap">個人 NT$4,000 · 15 人成班 · 5 小時 · 帶自己的工作來<small>開課日期與地點確定後，優先通知有登記的人；企業包班會先約 30 分鐘免費諮詢。</small></p>
       <div class="two">
         <label>稱呼<input name="name" required autocomplete="name"></label>
         <label>Email 或電話<input name="contact" required autocomplete="email"></label>
@@ -215,6 +224,6 @@
 
 <div class="dock"><a class="btn ghost sm" href="#plans">看方案</a><a class="btn primary sm" href="#signup">登記下一梯</a></div>
 
-<script src="core.js"></script>
+<script src="core.js?v=4"></script>
 </body>
 </html>
