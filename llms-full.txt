@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 零售能交給它的，其實只有三類活
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html
+主題: Codex 教學
+日期: 2026-10-17
+
+九月二十九號上午，台中一家童鞋店的老闆娘在我面前把她每週一的例行工作做了一遍給我看：四間門市的 POS 匯出檔，四個 Excel，複製貼上拼成一張總表，然後用眼…
+
 ### 不懂技術的人，可以懂「怎麼問」
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-16-e99e5bfa.html

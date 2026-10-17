@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 16 Oct 2026 08:33:51 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:33:23 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>零售能交給它的，其實只有三類活</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 +0800</pubDate>
+      <description>九月二十九號上午，台中一家童鞋店的老闆娘在我面前把她每週一的例行工作做了一遍給我看：四間門市的 POS 匯出檔，四個 Excel，複製貼上拼成一張總表，然後用眼…</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>不懂技術的人，可以懂「怎麼問」</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-10-16-e99e5bfa.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate>
       <description>上週一下午，一家做水電材料批發的老闆娘拿著手機問我：「GPT-4o 跟 GPT-3.5 差很多嗎？我姪子說 3.5 就夠用，每個月不用多花六百多塊。」我點開她姪…</description>
       <category>ChatGPT 教學</category>
-    </item>
-    <item>
-      <title>三樣東西，回答的根本不是同一種問題</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-16-8c1aa191.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-16-8c1aa191.html</guid>
-      <pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate>
-      <description>上週三下午，一個做紙盒包裝的老闆在我桌上擺了三樣東西：一本星座書、一副塔羅牌，還有他女兒去年送他的易經卦牌。他問我這三個到底哪裡不一樣，公司的事該用哪一個。</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>

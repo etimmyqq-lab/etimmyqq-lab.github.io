@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-10-16T00:33:51.382562+00:00</updated>
+  <updated>2026-10-17T00:33:23.153996+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>零售能交給它的，其實只有三類活</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html</id>
+    <updated>2026-10-17T08:00:00+08:00</updated>
+    <summary>九月二十九號上午，台中一家童鞋店的老闆娘在我面前把她每週一的例行工作做了一遍給我看：四間門市的 POS 匯出檔，四個 Excel，複製貼上拼成一張總表，然後用眼…</summary>
+    <category term="Codex 教學"/>
+  </entry>
   <entry>
     <title>不懂技術的人，可以懂「怎麼問」</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-10-16-e99e5bfa.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-09-17T08:00:00+08:00</updated>
     <summary>上週一下午，一家做水電材料批發的老闆娘拿著手機問我：「GPT-4o 跟 GPT-3.5 差很多嗎？我姪子說 3.5 就夠用，每個月不用多花六百多塊。」我點開她姪…</summary>
     <category term="ChatGPT 教學"/>
-  </entry>
-  <entry>
-    <title>三樣東西，回答的根本不是同一種問題</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-09-16-8c1aa191.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-09-16-8c1aa191.html</id>
-    <updated>2026-09-16T08:00:00+08:00</updated>
-    <summary>上週三下午，一個做紙盒包裝的老闆在我桌上擺了三樣東西：一本星座書、一副塔羅牌，還有他女兒去年送他的易經卦牌。他問我這三個到底哪裡不一樣，公司的事該用哪一個。</summary>
-    <category term="Claude Code 教學"/>
   </entry>
 </feed>
