@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>親手煮一盤｜貴婦好客 波隆那肉醬</title>
 <meta name="description" content="撕開、倒入、拌炒、盛盤、撒起司。30 秒，在網頁上親手做完一盤貴婦好客波隆那肉醬麵。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,7 +86,8 @@ h1,h2,p{text-wrap:pretty}
 .ring text{font:700 16px var(--sans);fill:var(--wine)}
 /* 肉醬包：本體＋撕掉的封口兩張同圖裁切 */
 .pouch{position:absolute;width:26%;left:-34%;top:2%;z-index:4;transition:transform .7s var(--ease);touch-action:none;cursor:grab}
-.pouch img{position:absolute;inset:0;width:100%;user-select:none;filter:drop-shadow(0 14px 18px rgba(108,81,69,.25));-webkit-user-drag:none}
+.pouch{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.pouch img{position:absolute;inset:0;width:100%;pointer-events:none;user-select:none;filter:drop-shadow(0 14px 18px rgba(108,81,69,.25));-webkit-user-drag:none}
 .pouch .body{position:relative;clip-path:inset(5.5% 0 0 0)}
 .pouch .top{clip-path:inset(0 0 94.5% 0);transition:transform .9s var(--ease),opacity .9s}
 .pouch.torn .top{transform:translate(60%,-80%) rotate(35deg);opacity:0}
@@ -260,7 +262,7 @@ const mask = Object.assign(document.createElement('canvas'), { width: 600, heigh
 let sauceImg; load('assets/pan-sauce.webp').then(i => sauceImg = i);
 const STEPS = [
   ['沿著虛線，撕開肉醬包', '按住封口的剪刀記號，往右拖過去'],
-  ['把肉醬倒進鍋裡', '按住肉醬包不放，倒到進度滿為止'],
+  ['把肉醬倒進鍋裡', '按住肉醬包倒醬，或點一下讓它自己倒'],
   ['在鍋裡畫圈拌炒', '按住鍋子畫圈，讓每根麵都裹上醬'],
   ['起鍋前，試一下鹹度', '太淡就加點煮麵水，剛好就起鍋'],
   ['盛盤上桌', '把麵夾進盤子，配一杯熱紅茶'],
@@ -291,9 +293,12 @@ function bxy(e) { const r = board.getBoundingClientRect(); return [(e.clientX - 
 
 // 1. 撕開：拖過封口
 let tearX = null;
+// 手機長按圖片會跳出系統選單、中斷按住的動作 → 擋掉
+pouch.addEventListener('contextmenu', e => e.preventDefault());
+let downAt = 0, wasAuto = false, autoPour = false;
 pouch.addEventListener('pointerdown', e => {
   if (step === 0) { tearX = e.clientX; pouch.setPointerCapture(e.pointerId); }
-  if (step === 1) startPour();
+  if (step === 1) { pouch.setPointerCapture(e.pointerId); downAt = performance.now(); wasAuto = autoPour; startPour(); }
 });
 pouch.addEventListener('pointermove', e => {
   if (step !== 0 || tearX === null) return;
@@ -301,8 +306,14 @@ pouch.addEventListener('pointermove', e => {
   pouch.style.setProperty('--t', t * 100 + '%');
   if (t >= 1) tear();
 });
-pouch.addEventListener('pointerup', () => { tearX = null; if (step === 0) pouch.style.setProperty('--t', '0%'); stopPour(); });
-pouch.addEventListener('pointercancel', () => { tearX = null; stopPour(); });
+pouch.addEventListener('pointerup', () => {
+  tearX = null; if (step === 0) pouch.style.setProperty('--t', '0%');
+  // 短按＝切換自動倒（再點一下暫停）；長按＝放開就停
+  const tap = performance.now() - downAt < 300;
+  autoPour = step === 1 && tap && !wasAuto;
+  if (!autoPour) stopPour();
+});
+pouch.addEventListener('pointercancel', () => { tearX = null; if (!autoPour) stopPour(); });
 function tear() { tearX = null; pouch.classList.add('torn'); setStep(1); }
 
 // 2. 倒入：按住 → 袋子傾斜，播放真實倒醬影片（放開就停在當下那一格）
@@ -327,7 +338,7 @@ function pourTick(dt) {
   if (pouring) { pouring = pouring === true ? performance.now() : pouring; if (performance.now() - pouring > 450) poured = clamp(poured + dt / 4200); }
   if (step === 1) ring(poured);
   drawPour();
-  if (step === 1 && poured >= 1) { pouring = false; pouch.classList.remove('pouring'); pouch.style.opacity = 0; setTimeout(() => setStep(2), 300); }
+  if (step === 1 && poured >= 1) { pouring = autoPour = false; pouch.classList.remove('pouring'); pouch.style.opacity = 0; setTimeout(() => setStep(2), 300); }
 }
 
 // 3. 拌炒：鍋鏟劃過處露出「裹醬」那張圖
@@ -398,7 +409,7 @@ $('skipBtn').onclick = () => {
 };
 $('againBtn').onclick = () => {
   pouch.className = 'pouch'; pouch.style.opacity = 1; pouch.style.setProperty('--t', '0%');
-  board.classList.remove('plated'); poured = 0; pLast = -1; cover = 0; stuck = 0; shreds.length = 0;
+  board.classList.remove('plated'); poured = 0; pLast = -1; autoPour = false; cover = 0; stuck = 0; shreds.length = 0;
   mctx.clearRect(0, 0, 600, 600); mix.clearRect(0, 0, 600, 600); cheese.clearRect(0, 0, 600, 600);
   setStep(0);
 };
