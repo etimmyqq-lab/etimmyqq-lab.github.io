@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-10-17T00:33:23.153996+00:00</updated>
+  <updated>2026-10-18T00:34:29.881989+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>卦不是拿來給答案的，是拿來卡住你的問題</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-10-18-1950a8b2.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-10-18-1950a8b2.html</id>
+    <updated>2026-10-18T08:00:00+08:00</updated>
+    <summary>八月十四號晚上九點多，一位做進口咖啡生豆分裝的老闆傳 LINE 給我，附一張訂閱頁截圖，問：「這個一年六萬，我該不該訂？」</summary>
+    <category term="Claude 教學"/>
+  </entry>
   <entry>
     <title>零售能交給它的，其實只有三類活</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-09-18T08:00:00+08:00</updated>
     <summary>上週五下午，一家做廚房排煙設備安裝的老闆把一疊報價單推到我桌上，說這些東西他每個月要重打一次，加起來 26 小時。公司連他在內五個人。他問我的不是「AI 怎麼用…</summary>
     <category term="Gemini 教學"/>
-  </entry>
-  <entry>
-    <title>版本名稱其實很快就過時</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-09-17-c9bbcc71.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-09-17-c9bbcc71.html</id>
-    <updated>2026-09-17T08:00:00+08:00</updated>
-    <summary>上週一下午，一家做水電材料批發的老闆娘拿著手機問我：「GPT-4o 跟 GPT-3.5 差很多嗎？我姪子說 3.5 就夠用，每個月不用多花六百多塊。」我點開她姪…</summary>
-    <category term="ChatGPT 教學"/>
   </entry>
 </feed>
