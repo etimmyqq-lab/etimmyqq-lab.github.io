@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>親手煮一盤｜貴婦好客 波隆那肉醬</title>
+<meta name="description" content="撕開、倒入、拌炒、盛盤、撒起司。30 秒，在網頁上親手做完一盤貴婦好客波隆那肉醬麵。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#fbf7f2; --cream-2:#f3ebe1; --wine:#8f3027; --wine-hi:#a8423a; --cocoa:#6c5145; --caramel:#a77b62; --ink:#3a2a23;
+  --serif:"Noto Serif TC",serif; --sans:"Noto Sans TC",sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1); --gut:clamp(16px,6vw,88px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+h1,h2,p{text-wrap:pretty}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 26px;border-radius:999px;font:700 15px var(--sans);border:1.5px solid var(--wine);background:var(--wine);color:#fff;cursor:pointer;text-decoration:none;transition:background .25s,transform .25s var(--ease)}
+.btn:hover{background:var(--wine-hi);transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--wine)}
+.btn:focus-visible,.skip:focus-visible{outline:2px solid var(--caramel);outline-offset:3px}
+.eyebrow{font-size:14px;letter-spacing:.1em;color:var(--caramel);font-weight:700}
+.h2{font-family:var(--serif);font-weight:900;font-size:clamp(30px,4.2vw,56px);line-height:1.2;color:var(--wine);margin:10px 0 16px}
+.wrap{padding:clamp(72px,10vw,128px) var(--gut)}
+.io{opacity:0;transform:translateY(30px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.io.in{opacity:1;transform:none}
+
+/* 導覽 */
+.nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;gap:12px;padding:12px var(--gut);transition:background .4s}
+.nav.solid{background:rgba(251,247,242,.9);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(108,81,69,.12)}
+.nav img{width:36px;height:36px;border-radius:6px}
+.nav b{font-family:var(--serif);color:var(--wine);letter-spacing:.08em}
+
+/* 首屏：品牌實拍照滿版，文字壓在左側淡出區 */
+.hero{position:relative;min-height:100svh;display:grid;align-items:center;padding:96px var(--gut) 56px;overflow:hidden}
+.hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:68% 0}  /* 靠上對齊：照片右上角的品牌 logo 才不會被裁掉 */
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--cream) 0,rgba(251,247,242,.92) 34%,rgba(251,247,242,0) 62%)}
+.hero .txt{position:relative;z-index:2;max-width:560px}
+.hero h1{font-family:var(--serif);font-weight:900;font-size:clamp(40px,5.8vw,84px);line-height:1.15;color:var(--wine);margin-top:14px}
+.hero p{margin:22px 0 30px;font-size:clamp(16px,1.3vw,19px);color:var(--cocoa);max-width:26em}
+.hero .meta{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;color:var(--caramel);margin-top:22px}
+.hero .meta b{color:var(--wine)}
+@media (max-width:820px),(max-aspect-ratio:1/1){
+  .hero{align-items:end;padding:60px var(--gut) 40px;min-height:auto}
+  .hero .bg{position:relative;inset:auto;height:auto;aspect-ratio:4/3;margin:0 calc(var(--gut) * -1);width:calc(100% + var(--gut) * 2);max-width:none}
+  .hero::before{display:none}
+  .hero{display:block}.hero .txt{margin-top:24px}
+}
+
+/* 煮麵運鏡 */
+.scrub{position:relative;height:260vh;background:#1c140f}
+.scrub .stage{position:sticky;top:0;height:100svh;overflow:hidden}
+.scrub canvas{position:absolute;inset:0;width:100%;height:100%}
+.scrub .shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(28,20,15,.75),transparent 45%)}
+.scrub .cap{position:absolute;left:var(--gut);right:var(--gut);bottom:12vh;color:#fff;transition:opacity .4s}
+.scrub .cap .h2{color:#fff}
+.scrub .cap p{color:#f1e6da;max-width:28em}
+
+/* 廚房互動 */
+.kitchen{position:relative;min-height:100svh;padding:88px var(--gut) 40px;background:var(--cream-2);display:grid;grid-template-rows:auto auto 1fr auto;justify-items:center;overflow:hidden}
+.steps{display:flex;gap:6px;list-style:none;flex-wrap:wrap;justify-content:center}
+.steps li{font-size:13px;padding:4px 12px;border-radius:999px;color:var(--caramel);border:1px solid rgba(167,123,98,.35);transition:all .3s}
+.steps li.on{background:var(--wine);color:#fff;border-color:var(--wine)}
+.steps li.done{color:var(--wine);border-color:var(--wine)}
+.say{text-align:center;margin:18px 0 6px;min-height:4.2em}
+.say h3{font-family:var(--serif);font-weight:900;font-size:clamp(24px,3vw,38px);color:var(--wine);line-height:1.25}
+.say p{color:var(--cocoa);font-size:15px}
+.board{position:relative;width:min(92vw,62svh,640px);aspect-ratio:1;align-self:center}
+.board .layer{position:absolute;inset:0;width:100%;height:100%;border-radius:50%}
+.board img.layer,.board canvas.layer{border-radius:0}
+.pan,.plate{position:absolute;inset:0;transition:transform 1s var(--ease),opacity .8s}
+.plate{opacity:0;transform:scale(.8) rotate(-25deg);pointer-events:none}
+.board.plated .pan{opacity:0;transform:scale(.6) rotate(30deg)}
+.board.plated .plate{opacity:1;transform:none;pointer-events:auto}
+.touch{touch-action:none;cursor:none}
+.spatula{position:absolute;left:0;top:0;width:90px;pointer-events:none;opacity:0;transform-origin:20% 15%;z-index:5;transition:opacity .2s}
+.board.stirring.moved .spatula{opacity:1}
+.ring{position:absolute;right:-6px;top:-6px;width:78px;height:78px;z-index:6;opacity:0;transition:opacity .3s}
+.ring.show{opacity:1}
+.ring circle{fill:none;stroke-width:6}
+.ring text{font:700 16px var(--sans);fill:var(--wine)}
+/* 肉醬包：本體＋撕掉的封口兩張同圖裁切 */
+.pouch{position:absolute;width:26%;left:-34%;top:2%;z-index:4;transition:transform .7s var(--ease);touch-action:none;cursor:grab}
+.pouch img{position:absolute;inset:0;width:100%;user-select:none;filter:drop-shadow(0 14px 18px rgba(108,81,69,.25));-webkit-user-drag:none}
+.pouch .body{position:relative;clip-path:inset(5.5% 0 0 0)}
+.pouch .top{clip-path:inset(0 0 94.5% 0);transition:transform .9s var(--ease),opacity .9s}
+.pouch.torn .top{transform:translate(60%,-80%) rotate(35deg);opacity:0}
+.pouch .tear{position:absolute;left:4%;right:4%;top:5.5%;height:0;border-top:2px dashed var(--wine);transition:opacity .3s}
+.pouch .tear i{position:absolute;left:0;top:-2px;height:3px;width:var(--t,0%);background:var(--wine)}
+.pouch .tear::before{content:"✂";position:absolute;left:-22px;top:-14px;color:var(--wine);font-size:18px}
+.pouch.torn .tear{opacity:0}
+.pouch.pouring{transform:translate(93%,-59%) rotate(100deg)}
+@media (max-width:900px){.pouch{width:28%;left:-4%;top:-12%}.pouch.pouring{transform:translate(-30%,-28%) rotate(100deg)}}
+.tools{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:18px;min-height:52px}
+.skip{background:none;border:0;color:var(--caramel);font:14px var(--sans);text-decoration:underline;cursor:pointer;padding:8px}
+.hidden{display:none!important}
+.toast{position:absolute;left:50%;top:44%;translate:-50% -50%;background:#fff;color:var(--wine);font:900 clamp(22px,3vw,32px) var(--serif);padding:14px 26px;border-radius:14px;box-shadow:0 20px 50px rgba(108,81,69,.25);opacity:0;scale:.8;transition:all .5s var(--ease);z-index:7;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1;scale:1}
+.steam{position:absolute;inset:20% 25%;pointer-events:none;opacity:0;transition:opacity .6s}
+.steam.on{opacity:1}
+.steam i{position:absolute;bottom:30%;width:28%;aspect-ratio:1;border-radius:50%;background:radial-gradient(#fff,transparent 65%);filter:blur(8px);opacity:0;animation:rise 3.2s infinite}
+.steam i:nth-child(2){left:36%;animation-delay:1.1s}.steam i:nth-child(3){left:66%;animation-delay:2.1s}
+@keyframes rise{0%{transform:translateY(0) scale(.6);opacity:0}30%{opacity:.55}100%{transform:translateY(-120%) scale(1.4);opacity:0}}
+
+/* 更多吃法 */
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px;margin-top:36px}
+.yt{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;border:0;padding:0}
+.yt img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease),opacity .3s;opacity:.88}
+.yt:hover img{transform:scale(1.04);opacity:1}
+.yt::after{content:"";position:absolute;left:50%;top:50%;width:64px;height:64px;translate:-50% -50%;border-radius:50%;background:var(--wine) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/28px no-repeat;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* 產品 */
+.product{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,80px);align-items:center;background:#fff}
+.product .shot{border-radius:16px;overflow:hidden}
+.how{list-style:none;counter-reset:s;display:grid;gap:14px;margin:24px 0}
+.how li{counter-increment:s;padding-left:46px;position:relative;color:var(--cocoa)}
+.how li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--wine);color:#fff;display:grid;place-items:center;font:700 14px var(--sans)}
+.spec{display:flex;gap:24px;flex-wrap:wrap;font-size:15px;color:var(--caramel)}
+.spec b{display:block;font-family:var(--serif);font-size:24px;color:var(--wine)}
+@media (max-width:820px){.product{grid-template-columns:1fr}}
+footer{padding:40px var(--gut);background:var(--wine);color:#f6e9e0;font-size:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+footer img{width:40px;border-radius:6px}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.io{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav class="nav"><img src="assets/logo.png" alt=""><b>貴婦好客</b></nav>
+
+<header class="hero" id="top">
+  <img class="bg" src="assets/hero-dish.webp" alt="在波隆那肉醬寬扁麵上現刨帕瑪森起司">
+  <div class="txt">
+    <span class="eyebrow">貴婦好客 · 波隆那肉醬（牛）</span>
+    <h1>一包肉醬，<br>一盤儀式感</h1>
+    <p>濃郁肉香與醬汁包覆食材，每一口都讓人滿足。撕開倒進鍋裡，和麵拌一兩分鐘就能上桌。往下捲，先在這裡煮一盤看看。</p>
+    <a class="btn" href="#kitchen">來煮一盤</a>
+    <div class="meta"><span><b>420g</b> 單入</span><span><b>牛肉</b> 口味</span><span><b>1～2 分鐘</b> 拌炒上桌</span></div>
+  </div>
+</header>
+
+<!-- 煮麵：AI 運鏡影片拆格，捲動播放 -->
+<section class="scrub" data-frames="assets/frames/boil" data-count="60">
+  <div class="stage">
+    <canvas></canvas><div class="shade"></div>
+    <div class="cap">
+      <span class="eyebrow">先把麵煮好</span>
+      <h2 class="h2">起鍋前 1 分鐘撈起</h2>
+      <p>麵條保留一點彈性，再留一小碗煮麵水，等一下拌炒會用到。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 主互動：撕開 → 倒入 → 拌炒 → 試味 → 盛盤 → 撒起司 -->
+<section class="kitchen" id="kitchen">
+  <ol class="steps" id="steps"><li>撕開</li><li>倒入</li><li>拌炒</li><li>試味</li><li>盛盤</li><li>撒起司</li></ol>
+  <div class="say" aria-live="polite"><h3 id="sayH">沿著虛線，撕開肉醬包</h3><p id="sayP">按住封口的剪刀記號，往右拖過去</p></div>
+  <div class="board" id="board">
+    <div class="pan" id="pan">
+      <canvas class="layer" id="pourC" width="720" height="720" role="img" aria-label="平底鍋裡的寬扁麵，肉醬倒入中"></canvas>
+      <canvas class="layer" id="mix" width="600" height="600"></canvas>
+      <div class="steam" id="steam"><i></i><i></i><i></i></div>
+    </div>
+    <div class="plate" id="plate">
+      <img class="layer" src="assets/plate.webp" alt="盛在白色花邊盤裡的波隆那肉醬寬扁麵">
+      <canvas class="layer" id="cheese" width="600" height="600"></canvas>
+    </div>
+    <canvas class="layer" id="fx" width="600" height="600" style="pointer-events:none;z-index:3"></canvas>
+    <div class="pouch" id="pouch">
+      <img class="body" src="assets/pouch.webp" alt="肉醬調理包" draggable="false">
+      <img class="top" src="assets/pouch.webp" alt="" draggable="false">
+      <div class="tear"><i></i></div>
+    </div>
+    <svg class="spatula" id="spatula" viewBox="0 0 90 160" aria-hidden="true"><rect x="38" y="60" width="12" height="98" rx="6" fill="#8a5a3b"/><path d="M14 8 Q44 -6 76 8 L66 68 Q44 78 24 68 Z" fill="#b07a52"/><path d="M30 20 L32 60 M44 16 L44 62 M58 20 L56 60" stroke="#8a5a3b" stroke-width="3" stroke-linecap="round"/></svg>
+    <svg class="ring" id="ring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="32" stroke="rgba(143,48,39,.15)"/><circle id="ringBar" cx="40" cy="40" r="32" stroke="#8f3027" stroke-dasharray="201" stroke-dashoffset="201" transform="rotate(-90 40 40)" stroke-linecap="round"/><text id="ringTxt" x="40" y="46" text-anchor="middle">0%</text></svg>
+    <div class="toast" id="toast">鹹度剛剛好</div>
+  </div>
+  <div class="tools">
+    <button class="btn hidden" id="tasteBtn">嚐一口</button>
+    <button class="btn hidden" id="againBtn">再煮一次</button>
+    <button class="btn ghost hidden" id="shareBtn">分享給朋友</button>
+    <a class="btn ghost hidden" id="moreBtn" href="#more">看更多吃法</a>
+    <button class="skip" id="skipBtn">跳過這一步</button>
+  </div>
+</section>
+
+<section class="wrap" id="more">
+  <span class="eyebrow io">更多吃法</span>
+  <h2 class="h2 io">一包肉醬，還能這樣吃</h2>
+  <p class="io" style="color:var(--cocoa)">拌麵之外，配馬鈴薯也很對味。點影片直接看示範。</p>
+  <div class="vids">
+    <button class="yt io" data-id="Dq4H6PiflZo" aria-label="播放：義大利肉醬麵示範"><img src="https://i.ytimg.com/vi/Dq4H6PiflZo/hqdefault.jpg" alt="" loading="lazy"></button>
+    <button class="yt io" data-id="7KT_69LUnn8" aria-label="播放：肉醬應用示範 2"><img src="https://i.ytimg.com/vi/7KT_69LUnn8/hqdefault.jpg" alt="" loading="lazy"></button>
+    <button class="yt io" data-id="Rn6aHaGW17Y" aria-label="播放：肉醬應用示範 3"><img src="https://i.ytimg.com/vi/Rn6aHaGW17Y/hqdefault.jpg" alt="" loading="lazy"></button>
+    <button class="yt io" data-id="u6a_hGl-skI" aria-label="播放：肉醬應用示範 4"><img src="https://i.ytimg.com/vi/u6a_hGl-skI/hqdefault.jpg" alt="" loading="lazy"></button>
+  </div>
+</section>
+
+<section class="wrap product" id="product">
+  <div class="shot io"><img src="assets/lineup.webp" alt="貴婦好客波隆那肉醬調理包實拍" loading="lazy"></div>
+  <div>
+    <span class="eyebrow io">這次用的是</span>
+    <h2 class="h2 io">波隆那肉醬（牛）</h2>
+    <div class="spec io"><span><b>420g</b>單入</span><span><b>牛肉</b>口味</span><span><b>NT$420</b>優惠價</span></div>
+    <ol class="how io">
+      <li>義大利麵煮到起鍋前 1 分鐘撈起，留一些煮麵水</li>
+      <li>肉醬直接倒入鍋中，與麵條一起拌勻</li>
+      <li>持續拌炒約 1～2 分鐘，太乾就加一點煮麵水</li>
+      <li>起鍋前試鹹度，盛盤撒上帕瑪森起司</li>
+    </ol>
+  </div>
+</section>
+
+<footer><img src="assets/logo.png" alt=""><span>© 貴婦好客</span></footer>
+
+<script>
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $ = id => document.getElementById(id);
+const load = src => new Promise(r => { const i = new Image(); i.onload = () => r(i); i.src = src; });
+
+// ---- 進場、導覽 ----
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .2 });
+document.querySelectorAll('.io').forEach(el => io.observe(el));
+const nav = document.querySelector('.nav');
+
+// ---- 煮麵運鏡：捲動進度 → 影格 ----
+const sc = document.querySelector('.scrub'), scv = sc.querySelector('canvas'), sctx = scv.getContext('2d');
+const frames = [], N = +sc.dataset.count;
+let lastF = -1, scLoaded = false;
+function scLoad() {
+  if (scLoaded) return; scLoaded = true;
+  for (let i = 0; i < N; i++) { const im = new Image(); im.src = `${sc.dataset.frames}/f${String(i + 1).padStart(3, '0')}.webp`; frames[i] = im; }
+}
+function scDraw(i) {
+  let k = i; for (let d = 0; d < N; d++) { if (frames[i - d]?.naturalWidth) { k = i - d; break; } if (frames[i + d]?.naturalWidth) { k = i + d; break; } }
+  const im = frames[k]; if (!im?.naturalWidth) return;
+  const s = Math.max(scv.width / im.naturalWidth, scv.height / im.naturalHeight), w = im.naturalWidth * s, h = im.naturalHeight * s;
+  sctx.drawImage(im, (scv.width - w) / 2, (scv.height - h) / 2, w, h); lastF = i;
+}
+function scSize() { const d = Math.min(devicePixelRatio || 1, 2); scv.width = innerWidth * d; scv.height = innerHeight * d; lastF = -1; }
+scSize(); addEventListener('resize', scSize);
+(function tick() {
+  nav.classList.toggle('solid', scrollY > 40);
+  const r = sc.getBoundingClientRect(), vh = innerHeight;
+  if (r.top < vh * 2) scLoad();
+  if (r.bottom > 0 && r.top < vh) { const f = Math.round(clamp(-r.top / (r.height - vh)) * (N - 1)); if (f !== lastF) scDraw(f); }
+  requestAnimationFrame(tick);
+})();
+
+// ---- 廚房互動 ----
+const board = $('board'), pouch = $('pouch'), fx = $('fx').getContext('2d');
+const mixC = $('mix'), mix = mixC.getContext('2d'), cheese = $('cheese').getContext('2d');
+const mask = Object.assign(document.createElement('canvas'), { width: 600, height: 600 }), mctx = mask.getContext('2d');
+let sauceImg; load('assets/pan-sauce.webp').then(i => sauceImg = i);
+const STEPS = [
+  ['沿著虛線，撕開肉醬包', '按住封口的剪刀記號，往右拖過去'],
+  ['把肉醬倒進鍋裡', '按住肉醬包不放，倒到進度滿為止'],
+  ['在鍋裡畫圈拌炒', '按住鍋子畫圈，讓每根麵都裹上醬'],
+  ['起鍋前，試一下鹹度', '太淡就加點煮麵水，剛好就起鍋'],
+  ['盛盤上桌', '把麵夾進盤子，配一杯熱紅茶'],
+  ['撒上帕瑪森起司', '在盤子上方來回滑動'],
+  ['完成！你剛做好一盤肉醬麵', '撕開、倒入、拌炒，真的只要 1～2 分鐘'],
+];
+let step = 0;
+function setStep(n) {
+  step = n;
+  [...$('steps').children].forEach((li, i) => { li.classList.toggle('on', i === n); li.classList.toggle('done', i < n); });
+  $('sayH').textContent = STEPS[n][0]; $('sayP').textContent = STEPS[n][1];
+  $('tasteBtn').classList.toggle('hidden', n !== 3);
+  $('againBtn').classList.toggle('hidden', n !== 6);
+  $('moreBtn').classList.toggle('hidden', n !== 6);
+  $('shareBtn').classList.toggle('hidden', n !== 6);
+  $('skipBtn').classList.toggle('hidden', n >= 3);
+  $('ring').classList.toggle('show', n === 1 || n === 2 || n === 5);
+  board.classList.toggle('stirring', n === 2);
+  $('pan').classList.toggle('touch', n === 2);
+  $('plate').classList.toggle('touch', n === 5);
+  $('steam').classList.toggle('on', n === 2);
+  ring(0);
+  if (n === 4) { board.classList.add('plated'); setTimeout(() => setStep(5), 1300); }
+}
+function ring(p) { $('ringBar').style.strokeDashoffset = 201 * (1 - p); $('ringTxt').textContent = Math.round(p * 100) + '%'; }
+// 把螢幕座標換成 board 內 600×600 的座標
+function bxy(e) { const r = board.getBoundingClientRect(); return [(e.clientX - r.left) / r.width * 600, (e.clientY - r.top) / r.height * 600]; }
+
+// 1. 撕開：拖過封口
+let tearX = null;
+pouch.addEventListener('pointerdown', e => {
+  if (step === 0) { tearX = e.clientX; pouch.setPointerCapture(e.pointerId); }
+  if (step === 1) startPour();
+});
+pouch.addEventListener('pointermove', e => {
+  if (step !== 0 || tearX === null) return;
+  const t = clamp((e.clientX - tearX) / (pouch.offsetWidth * .6));
+  pouch.style.setProperty('--t', t * 100 + '%');
+  if (t >= 1) tear();
+});
+pouch.addEventListener('pointerup', () => { tearX = null; if (step === 0) pouch.style.setProperty('--t', '0%'); stopPour(); });
+pouch.addEventListener('pointercancel', () => { tearX = null; stopPour(); });
+function tear() { tearX = null; pouch.classList.add('torn'); setStep(1); }
+
+// 2. 倒入：按住 → 袋子傾斜，播放真實倒醬影片（放開就停在當下那一格）
+const pourC = $('pourC'), pctx = pourC.getContext('2d'), PN = 60, Z = 1.07;
+const pframes = [...Array(PN)].map(() => new Image());
+const fsrc = i => `assets/frames/pour/f${String(i + 1).padStart(3, '0')}.webp`;
+pframes[0].onload = () => drawPour(); pframes[0].src = fsrc(0);
+new IntersectionObserver((es, o) => { if (es[0].isIntersecting) { o.disconnect(); pframes.forEach((im, i) => i && (im.src = fsrc(i))); } }, { rootMargin: '150% 0px' }).observe(board);
+// 畫面放大 Z 倍、往左上裁：蓋掉影片左上角的倒醬來源物
+const zoomDraw = (ctx, im, n) => ctx.drawImage(im, -n * (Z - 1), -n * (Z - 1), n * Z, n * Z);
+let pouring = false, poured = 0, pLast = -1;
+function drawPour() {
+  const i = Math.round(poured * (PN - 1)); let k = i;
+  while (k > 0 && !pframes[k].naturalWidth) k--;            // 還沒載到 → 用前一張已載入的
+  if (!pframes[k].naturalWidth || k === pLast) return;
+  zoomDraw(pctx, pframes[k], 720); pLast = k;
+}
+function startPour() { pouring = true; pouch.classList.add('pouring'); }
+function stopPour() { pouring = false; if (step === 1) pouch.classList.remove('pouring'); }
+function pourTick(dt) {
+  // 袋子轉到定位（約 0.5 秒）後醬汁才開始流
+  if (pouring) { pouring = pouring === true ? performance.now() : pouring; if (performance.now() - pouring > 450) poured = clamp(poured + dt / 4200); }
+  if (step === 1) ring(poured);
+  drawPour();
+  if (step === 1 && poured >= 1) { pouring = false; pouch.classList.remove('pouring'); pouch.style.opacity = 0; setTimeout(() => setStep(2), 300); }
+}
+
+// 3. 拌炒：鍋鏟劃過處露出「裹醬」那張圖
+let stirring = false, cover = 0, frame = 0;
+const pan = $('pan'), spat = $('spatula');
+pan.addEventListener('pointerdown', e => { if (step === 2) { stirring = true; pan.setPointerCapture(e.pointerId); brush(e); } });
+pan.addEventListener('pointermove', e => {
+  if (step !== 2) return;
+  board.classList.add('moved');
+  const r = board.getBoundingClientRect();
+  spat.style.transform = `translate(${e.clientX - r.left - 18}px,${e.clientY - r.top - 20}px) rotate(${Math.sin(Date.now() / 120) * 12 - 20}deg)`;
+  if (stirring) brush(e);
+});
+addEventListener('pointerup', () => stirring = false);
+function brush(e) {
+  const [x, y] = bxy(e), g = mctx.createRadialGradient(x, y, 0, x, y, 70);
+  g.addColorStop(0, 'rgba(0,0,0,.35)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+  mctx.fillStyle = g; mctx.beginPath(); mctx.arc(x, y, 70, 0, 7); mctx.fill();
+}
+function stirTick() {
+  if (step !== 2 || !sauceImg) return;
+  mix.clearRect(0, 0, 600, 600); zoomDraw(mix, sauceImg, 600);
+  mix.globalCompositeOperation = 'destination-in'; mix.drawImage(mask, 0, 0); mix.globalCompositeOperation = 'source-over';
+  if (++frame % 12) return;
+  // 覆蓋率：只算麵條所在的圓形區域
+  const d = mctx.getImageData(0, 0, 600, 600).data; let hit = 0, tot = 0;
+  for (let y = 120; y < 480; y += 12) for (let x = 120; x < 480; x += 12) {
+    if ((x - 300) ** 2 + (y - 300) ** 2 > 175 ** 2) continue; tot++; if (d[(y * 600 + x) * 4 + 3] > 160) hit++;
+  }
+  cover = hit / tot; ring(cover);
+  if (cover > .9) finishStir();
+}
+function finishStir() {
+  mctx.fillStyle = '#000'; mctx.fillRect(0, 0, 600, 600);
+  mix.clearRect(0, 0, 600, 600); sauceImg && zoomDraw(mix, sauceImg, 600);
+  ring(1); setTimeout(() => setStep(3), 400);
+}
+
+// 4. 試味
+$('tasteBtn').onclick = () => { $('toast').classList.add('show'); setTimeout(() => { $('toast').classList.remove('show'); setStep(4); }, 1300); };
+
+// 6. 撒起司：滑過盤子上方，起司絲落在麵上
+const plate = $('plate'), shreds = []; let stuck = 0;
+function sprinkle(e) {
+  if (step !== 5) return;
+  const [x, y] = bxy(e);
+  for (let k = 0; k < 3; k++) shreds.push({ x: x + (Math.random() - .5) * 40, y: y - 40, vy: 1 + Math.random(), stop: y + 10 + Math.random() * 50, a: Math.random() * 3, l: 5 + Math.random() * 7 });
+}
+plate.addEventListener('pointermove', sprinkle);
+plate.addEventListener('pointerdown', sprinkle);
+function cheeseTick() {
+  fx.clearRect(0, 0, 600, 600);
+  for (let i = shreds.length - 1; i >= 0; i--) {
+    const s = shreds[i]; s.vy += .35; s.y += s.vy;
+    const ctx = s.y >= s.stop ? cheese : fx;
+    ctx.strokeStyle = '#fff6d8'; ctx.lineWidth = 2.4; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(s.x, s.y); ctx.lineTo(s.x + Math.cos(s.a) * s.l, s.y + Math.sin(s.a) * s.l); ctx.stroke();
+    if (s.y >= s.stop) { shreds.splice(i, 1); if (((s.x - 300) / 110) ** 2 + ((s.y - 285) / 215) ** 2 < 1) stuck++; }
+  }
+  if (step === 5) { ring(clamp(stuck / 120)); if (stuck >= 120) setStep(6); }
+}
+
+// 跳過、重玩
+$('skipBtn').onclick = () => {
+  if (step === 0) tear();
+  else if (step === 1) { poured = 1; pouch.style.opacity = 0; setStep(2); }
+  else if (step === 2) finishStir();
+};
+$('againBtn').onclick = () => {
+  pouch.className = 'pouch'; pouch.style.opacity = 1; pouch.style.setProperty('--t', '0%');
+  board.classList.remove('plated'); poured = 0; pLast = -1; cover = 0; stuck = 0; shreds.length = 0;
+  mctx.clearRect(0, 0, 600, 600); mix.clearRect(0, 0, 600, 600); cheese.clearRect(0, 0, 600, 600);
+  setStep(0);
+};
+
+let last = performance.now();
+(function loop(t) { const dt = Math.min(50, t - last); last = t; pourTick(dt); stirTick(); cheeseTick(); requestAnimationFrame(loop); })(last);
+setStep(0);
+
+$('shareBtn').onclick = async () => {
+  const data = { title: document.title, text: '我剛在網頁上煮了一盤波隆那肉醬麵', url: location.href };
+  try { if (navigator.share) return await navigator.share(data); await navigator.clipboard.writeText(location.href); $('shareBtn').textContent = '已複製連結'; }
+  catch { /* 使用者取消分享 */ }
+};
+
+// ---- 影片：點了才載入 YouTube ----
+document.querySelectorAll('.yt').forEach(b => b.addEventListener('click', () => {
+  b.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${b.dataset.id}?autoplay=1" title="料理示範影片" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+}, { once: true }));
+</script>
+</body>
+</html>
