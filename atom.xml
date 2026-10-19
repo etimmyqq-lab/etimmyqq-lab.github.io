@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-10-18T00:34:29.881989+00:00</updated>
+  <updated>2026-10-19T00:33:54.674491+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>交接文件通常只交第一層</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-10-19-e598ea2b.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-10-19-e598ea2b.html</id>
+    <updated>2026-10-19T08:00:00+08:00</updated>
+    <summary>十月七號下午，台南一家做水五金外銷的工廠，我在會議室聽到一個數字：他們報價單自動產出的準確率，從九成掉到六成四，已經掉了五個星期，廠裡沒有人知道要怎麼修。</summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
   <entry>
     <title>卦不是拿來給答案的，是拿來卡住你的問題</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-10-18-1950a8b2.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-09-19T08:00:00+08:00</updated>
     <summary>上週二晚上八點多，一家做工業用清潔劑的老闆打電話給我，說他業務部快吵起來了。</summary>
     <category term="ChatGPT 教學"/>
-  </entry>
-  <entry>
-    <title>我教占卦的第一堂課，跟企業 AI 導入卡在同一關</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-09-18-c0a09b0c.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-09-18-c0a09b0c.html</id>
-    <updated>2026-09-18T08:00:00+08:00</updated>
-    <summary>上週五下午，一家做廚房排煙設備安裝的老闆把一疊報價單推到我桌上，說這些東西他每個月要重打一次，加起來 26 小時。公司連他在內五個人。他問我的不是「AI 怎麼用…</summary>
-    <category term="Gemini 教學"/>
   </entry>
 </feed>
