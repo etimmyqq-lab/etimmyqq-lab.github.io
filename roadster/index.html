@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla Roadster｜最後一台駕駛者之車</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body data-mode="free">
+
+<section class="sec" id="hero" data-stop="hero">
+  <div class="sticky">
+    <video id="heroVideo" src="assets/video/hero.mp4" poster="assets/video/hero.jpg" muted playsinline preload="auto"></video>
+    <div class="veil"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">TESLA · 2026</p>
+      <h1 class="title">ROADSTER</h1>
+      <p class="tag">最後一台，真正為駕駛而生的跑車。</p>
+    </div>
+    <div class="hero-late">
+      <p>從側面看是雕塑，<br>轉過來，它在看你。</p>
+    </div>
+    <div class="hint">往下捲 <span>↓</span></div>
+  </div>
+</section>
+
+<section class="sec" id="perf" data-stop="perf">
+  <div class="bgs">
+    <video class="bg on" data-clip="launch" src="assets/video/clip-launch.mp4" poster="assets/video/clip-launch.jpg" muted playsinline preload="auto"></video>
+    <video class="bg" data-clip="ramp" src="assets/video/clip-ramp.mp4" poster="assets/video/clip-ramp.jpg" muted playsinline preload="auto"></video>
+    <video class="bg" data-clip="kickflip" src="assets/video/clip-kickflip.mp4" poster="assets/video/clip-kickflip.jpg" muted playsinline preload="auto"></video>
+    <video class="bg" data-clip="flight" src="assets/video/clip-flight.mp4" poster="assets/video/clip-flight.jpg" muted playsinline preload="auto"></video>
+  </div>
+  <div class="perf-copy">
+    <p class="eyebrow">性能</p>
+    <h2>0 到 96 公里，<br><em>不到一秒。</em></h2>
+    <div class="specs" id="specs"></div>
+  </div>
+</section>
+
+<section class="sec room" id="design" data-stop="design">
+  <header class="room-head">
+    <p class="eyebrow">設計｜展間</p>
+    <h2>每個亮點，<br>都藏著一段細節。</h2>
+    <p class="lede">點車身上發光的點，雷射會帶出說明。</p>
+  </header>
+  <div class="stage-wrap"><div class="stage" data-photo="front" style="--ar:2200/1040"><img class="base" src="assets/img/front.jpg" alt="Roadster 正面"><div class="hotspots"></div><div class="card"></div><p class="stage-label">正面</p></div></div>
+  <div class="stage-wrap"><div class="stage" data-photo="doors" style="--ar:2200/1040"><img class="base" src="assets/img/doors.jpg" alt="Roadster 鷗翼門打開俯視"><div class="hotspots"></div><div class="card"></div><p class="stage-label">俯視・開門</p></div></div>
+  <div class="stage-wrap"><div class="stage" data-photo="rear" style="--ar:2200/1040"><img class="base" src="assets/img/rear.jpg" alt="Roadster 車尾"><div class="hotspots"></div><div class="card"></div><p class="stage-label">車尾</p></div></div>
+</section>
+
+<section class="sec room" id="tech" data-stop="tech">
+  <header class="room-head">
+    <p class="eyebrow">科技｜照進車身裡</p>
+    <h2>看不到的地方，<br>才是它真正的本事。</h2>
+  </header>
+  <div class="stage-wrap"><div class="stage" data-photo="suspension" style="--ar:2200/1040"><img class="base" src="assets/img/suspension.jpg" alt="懸吊特寫"><div class="hotspots"></div><div class="card"></div><p class="stage-label">懸吊</p></div></div>
+  <div class="stage-wrap"><div class="stage" data-photo="fans" style="--ar:1920/1080"><img class="base" src="assets/img/fans.jpg" alt="底盤 X 光俯視"><div class="hotspots"></div><div class="card"></div><p class="stage-label">底盤</p></div></div>
+  <div class="stage-wrap"><div class="stage" data-photo="thrust" style="--ar:1920/1080"><img class="base" src="assets/img/thrust.jpg" alt="冷氣體推進測試"><div class="hotspots"></div><div class="card"></div><p class="stage-label">冷氣體推進</p></div></div>
+</section>
+
+<section class="sec" id="story" data-stop="story">
+  <header class="room-head">
+    <p class="eyebrow">故事</p>
+    <h2>十八年，<br>從一台電動跑車到一顆火箭。</h2>
+  </header>
+  <ol class="timeline" id="timeline"></ol>
+</section>
+
+<section class="sec" id="end" data-stop="end">
+  <video class="end-bg" src="assets/video/end.mp4" poster="assets/video/end.jpg" muted playsinline loop preload="auto"></video>
+  <div class="end-copy">
+    <h2 class="title">ROADSTER</h2>
+    <p class="tag">2028，上路。</p>
+  </div>
+  <footer>
+    <p>影像素材來源 Tesla 官方；本站為個人作品，非 Tesla 官方網站，與 Tesla 無隸屬關係。</p>
+    <p>歷史照片：第一代 Roadster — Wikimedia Commons（Tesla Motors, free use）；Starman — SpaceX（CC0）。開場與結尾影片以官方照片為首幀、AI 生成。規格引自 Tesla 2026-10-15 發表會與 Top Gear、Teslarati 報導。</p>
+  </footer>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+<script src="js/stops.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/spotlight.js"></script>
+<script src="js/presenter.js"></script>
+<script>RS.scroll.init(); document.querySelectorAll(".stage").forEach(el => RS.spotlight.mount(el)); RS.presenter.init();</script>
+</body>
+</html>
