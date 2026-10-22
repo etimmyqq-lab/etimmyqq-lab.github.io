@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 補全跟交辦，是兩個不同的動作
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-22-faa16def.html
+主題: Codex 教學
+日期: 2026-10-22
+
+十月九號晚上八點多，一位在包裝材料公司管 ERP 報表的工程師傳訊息問我：「我 VS Code 的補全套件都裝好了，還需要特別去學 Codex 嗎？」我沒直接回…
+
 ### 答案很廢話，通常是因為問題很廢話
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-21-bf6bb38f.html
