@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 我聽說 Gemini 可以幫我找 Google 雲端裡的檔案，這個功能要怎麼開啟
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-24-887a1fcb.html
+主題: Gemini 教學
+日期: 2026-10-24
+
+十月十四號下午，台中一家辦公家具經銷商的辦公室。行政人員要調出 2023 年跟一所學校簽的保固附約，電話那頭的窗口在等。她的雲端硬碟裡有四千兩百多個檔案，搜尋框…
+
 ### 公司能不能看到你的對話，取決於這個帳號是誰開的
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-23-ba275318.html
