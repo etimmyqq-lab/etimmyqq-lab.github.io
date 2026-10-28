@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-10-27T00:34:43.082979+00:00</updated>
+  <updated>2026-10-28T00:32:39.241995+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>顧問跟路人的差別，不在頭銜</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-10-28-8e80d36b.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-10-28-8e80d36b.html</id>
+    <updated>2026-10-28T08:00:00+08:00</updated>
+    <summary>十月二十二號晚上的線上課，一位在高雄做寵物零食電商的學員把兩張截圖丟進聊天室。第一張她直接問「我的寵物零食要怎麼行銷」，第二張前面多加了一句「你是一位行銷顧問」…</summary>
+    <category term="Claude 教學"/>
+  </entry>
   <entry>
     <title>AI 負責算完，不負責替你承擔</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-10-27-2cdf2602.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-09-29T08:00:00+08:00</updated>
     <summary>會 Claude Code 這件事本身，在台灣目前我看到的價錢大概是月薪多四千到一萬二；那幾位談到年薪多二十萬以上的，加的其實不是技能，是職稱。</summary>
     <category term="Claude Code 教學"/>
-  </entry>
-  <entry>
-    <title>先把印象換成事實，這一段我用 AI 做</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-09-27-fa4b8c8d.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-09-27-fa4b8c8d.html</id>
-    <updated>2026-09-27T08:00:00+08:00</updated>
-    <summary>上個月一位做汽車零件緩衝包材的老闆，把兩張 A4 推到我面前，開口第一句就是這個。我把卦牌收回盒子裡，跟他說今天先不抽。</summary>
-    <category term="易經卦牌"/>
   </entry>
 </feed>
