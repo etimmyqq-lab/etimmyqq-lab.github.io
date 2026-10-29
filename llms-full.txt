@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 把「該不該」換成「會改變什麼」
+
+URL: https://etimmyqq-lab.github.io/articles/2026-10-29-8ef66c05.html
+主題: Gemini 教學
+日期: 2026-10-29
+
+十月十八號下午，彰化一家做織帶代工的工廠。老闆把越南客戶的詢價單整段貼進對話框，最後打了一句「這張單我該不該接」。AI 回他建議接，理由是毛利率 18.4%，比…
+
 ### 顧問跟路人的差別，不在頭銜
 
 URL: https://etimmyqq-lab.github.io/articles/2026-10-28-8e80d36b.html

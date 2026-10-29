@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 28 Oct 2026 08:32:39 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:34:16 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>把「該不該」換成「會改變什麼」</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-10-29-8ef66c05.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-29-8ef66c05.html</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 +0800</pubDate>
+      <description>十月十八號下午，彰化一家做織帶代工的工廠。老闆把越南客戶的詢價單整段貼進對話框，最後打了一句「這張單我該不該接」。AI 回他建議接，理由是毛利率 18.4%，比…</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>顧問跟路人的差別，不在頭銜</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-10-28-8e80d36b.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
       <description>上週五下午，嘉義一家做手工醬油的二代把筆電轉過來給我看螢幕。他餵進去的是一份產品 PDF：成分表、容量、保存期限、SGS 報告編號，四頁。生成出來的文案第一句是…</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>老闆買的不是工具名字，是你換掉了哪一段時間</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-09-29-71f08968.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-09-29-71f08968.html</guid>
-      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
-      <description>會 Claude Code 這件事本身，在台灣目前我看到的價錢大概是月薪多四千到一萬二；那幾位談到年薪多二十萬以上的，加的其實不是技能，是職稱。</description>
-      <category>Claude Code 教學</category>
     </item>
   </channel>
 </rss>
