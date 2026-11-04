@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-11-03T00:33:30.462430+00:00</updated>
+  <updated>2026-11-04T00:33:47.007817+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>先決定省下來的時間歸誰，再談錢</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-11-04-030a076f.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-11-04-030a076f.html</id>
+    <updated>2026-11-04T08:00:00+08:00</updated>
+    <summary>報價單整理從三小時縮到四十分鐘，省下的那兩小時二十分鐘，獎金要算誰的？十月三十一號下午，新莊一家做機械零件的貿易商，老闆在會議室問我這題，我前後想了快二十分鐘才…</summary>
+    <category term="中小企業數位轉型"/>
+  </entry>
   <entry>
     <title>沒記下原話，就沒資格說結果不一樣</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-11-03-c544dc2a.html"/>
@@ -237,14 +245,6 @@
     <id>https://etimmyqq-lab.github.io/articles/2026-10-06-ff8ce2ec.html</id>
     <updated>2026-10-06T08:00:00+08:00</updated>
     <summary>上個月幫一家做冷凍食品配送的公司上課，營運主管自己用 ChatGPT 寫客訴回信已經用了快一年，每封大概三分鐘搞定。她請我去教她底下 6 個客服同事，結果上課前…</summary>
-    <category term="Gemini 教學"/>
-  </entry>
-  <entry>
-    <title>「最賺錢」至少有三種算法</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-10-05-4b8466ca.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-10-05-4b8466ca.html</id>
-    <updated>2026-10-05T08:00:00+08:00</updated>
-    <summary>同一張九月業績表，問「哪個產品最賺錢」，可以得到三個不同的答案：凍乾雞胸、鴨肉條、牛肉粒。三個都對，差別只在你沒說清楚「賺錢」是什麼意思。</summary>
     <category term="Gemini 教學"/>
   </entry>
 </feed>
