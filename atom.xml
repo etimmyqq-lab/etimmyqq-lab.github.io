@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-11-04T00:33:47.007817+00:00</updated>
+  <updated>2026-11-05T00:33:30.273496+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>兩種停，處理方法完全不一樣</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html</id>
+    <updated>2026-11-05T08:00:00+08:00</updated>
+    <summary>AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。</summary>
+    <category term="Claude 教學"/>
+  </entry>
   <entry>
     <title>先決定省下來的時間歸誰，再談錢</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-11-04-030a076f.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-10-07T08:00:00+08:00</updated>
     <summary>上個月幫新竹一家補習班的櫃台行政對學費，212 個學生的報名名單、187 筆銀行匯款紀錄，她以前每個月用眼睛對，一次 3 個小時。那天我請她把需求用白話講給 C…</summary>
     <category term="Claude 教學"/>
-  </entry>
-  <entry>
-    <title>你以為你打了一句話，其實你做了九件事</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-10-06-ff8ce2ec.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-10-06-ff8ce2ec.html</id>
-    <updated>2026-10-06T08:00:00+08:00</updated>
-    <summary>上個月幫一家做冷凍食品配送的公司上課，營運主管自己用 ChatGPT 寫客訴回信已經用了快一年，每封大概三分鐘搞定。她請我去教她底下 6 個客服同事，結果上課前…</summary>
-    <category term="Gemini 教學"/>
   </entry>
 </feed>

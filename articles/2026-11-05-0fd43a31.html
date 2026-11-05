@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>兩種停，處理方法完全不一樣｜昆廷老師</title>
+<meta name="description" content="AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。">
+<meta name="author" content="昆廷老師">
+<link rel="canonical" href="https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KEGWS9929"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3KEGWS9929');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html">
+<meta property="og:title" content="兩種停，處理方法完全不一樣">
+<meta property="og:description" content="AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。">
+<meta property="og:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta property="og:image:alt" content="兩種停，處理方法完全不一樣｜昆廷老師">
+<meta property="article:author" content="昆廷老師">
+<meta property="article:published_time" content="2026-11-05">
+<meta property="og:site_name" content="昆廷老師">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="兩種停，處理方法完全不一樣">
+<meta name="twitter:description" content="AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。">
+<meta name="twitter:image" content="https://etimmyqq-lab.github.io/assets/og-default.jpg">
+<meta name="twitter:image:alt" content="兩種停，處理方法完全不一樣｜昆廷老師">
+
+<!-- schema.org BlogPosting JSON-LD（比 Article 更精準） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "兩種停，處理方法完全不一樣",
+  "description": "AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師"
+  },
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html"
+  },
+  "keywords": "Claude 教學, Prompt 技巧全攻略：學會說話才能讓 Claude 真正幫到你",
+  "inLanguage": "zh-Hant",
+  "articleSection": "Claude 教學"
+}
+</script>
+
+<!-- schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://etimmyqq-lab.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "文章", "item": "https://etimmyqq-lab.github.io/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "兩種停，處理方法完全不一樣"}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Font optimization: preload critical weights, use display=swap -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* 文章頁專用樣式 */
+    .article-hero {
+        padding: 80px 0 40px;
+        background: linear-gradient(135deg, #f8fafd 0%, #eef3f9 100%);
+    }
+    .article-meta-top {
+        color: #C9A96E;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+    }
+    .article-title {
+        font-family: 'Noto Serif TC', serif;
+        font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+        color: #15395a;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .article-body {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 60px 24px 80px;
+        font-size: 1.05rem;
+        line-height: 1.9;
+        color: #4a5568;
+    }
+    .article-body h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.5rem;
+        color: #1F4E79;
+        margin: 48px 0 20px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .article-body h3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.2rem;
+        color: #1F4E79;
+        margin: 32px 0 16px;
+    }
+    .article-body p { margin: 0 0 20px; }
+    .article-body ul, .article-body ol { padding-left: 24px; margin: 0 0 20px; }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: #1F4E79; font-weight: 600; }
+    .article-body blockquote {
+        margin: 28px 0;
+        padding: 18px 24px;
+        background: #f6f8fb;
+        border-left: 4px solid #1F4E79;
+        color: #1a2233;
+        font-style: italic;
+    }
+    .article-footer {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 1px solid #e4e8ef;
+    }
+    .article-footer-bio {
+        background: #f6f8fb;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+    .article-extras {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .faq-section h2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 1.4rem;
+        color: #1F4E79;
+        margin: 24px 0 16px;
+        padding-left: 14px;
+        border-left: 4px solid #C9A96E;
+    }
+    .faq-item {
+        background: #f6f8fb;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+    }
+    .faq-item summary {
+        cursor: pointer;
+        font-weight: 500;
+        color: #1a2233;
+        padding: 4px 0;
+    }
+    .faq-item summary::before { content: "▸ "; color: #C9A96E; }
+    .faq-item[open] summary::before { content: "▾ "; }
+    .faq-answer { margin-top: 10px; color: #4a5568; line-height: 1.8; }
+    .related-section {
+        margin-top: 40px;
+        padding: 20px;
+        background: #f8fafd;
+        border-radius: 12px;
+    }
+    .related-section h3 {
+        font-family: 'Noto Serif TC', serif;
+        color: #1F4E79;
+        font-size: 1.1rem;
+        margin: 0 0 14px;
+    }
+    .related-list { display: flex; flex-direction: column; gap: 8px; }
+    .related-link {
+        display: block;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a2233;
+        font-size: 0.95rem;
+        border: 1px solid #e4e8ef;
+        transition: all .2s;
+    }
+    .related-link:hover { border-color: #1F4E79; transform: translateX(4px); }
+    .related-kw { color: #C9A96E; font-size: 0.85rem; margin-right: 8px; }
+    .back-link {
+        display: inline-block;
+        margin: 40px 0 0;
+        color: #1F4E79;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "兩種停，處理方法完全不一樣",
+  "description": "AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。",
+  "articleBody": "AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。",
+  "author": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "昆廷老師",
+    "url": "https://etimmyqq-lab.github.io"
+  },
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "inLanguage": "zh-Hant",
+  "url": "https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html",
+  "image": "https://etimmyqq-lab.github.io/assets/og-default.jpg",
+  "keywords": "Claude 教學, Prompt 技巧全攻略：學會說話才能讓 Claude 真正幫到你",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "我打「繼續」它就從頭重寫，是不是這工具有問題？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不是。問題在「繼續」這兩個字沒有資訊。它不知道你手上留了哪些、要從第幾點接。你把原文最後五六個字複製給它，再加一句「前面的不要重寫」，命中率會差很多。多打十五個字，省掉重跑一輪的時間。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "怎麼知道它是被切斷，還是真的講完了？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "看最後一個字。停在逗號、停在半個詞、停在編號後面空白，是被切斷。停在句號而且那段有結論語氣，是它自己收了。第二種你叫它繼續，它會開始補一些你沒要的內容，或者把講過的換句話再說一次。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "長文件有沒有一次搞定的方法？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "我自己的做法是先要大綱，不要內文。大綱確認完，再一批一批產，每批三到五段。看起來多繞一步，實際上比重試兩次還快，而且每段品質穩定。超過二十輪的對話建議開新的，把定稿內容貼過去當起點。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="nav">
+    <div class="container nav-inner">
+        <a href="../" class="brand">昆廷老師</a>
+        <nav class="nav-links">
+            <a href="../#about">關於</a>
+            <a href="../#topics">核心主題</a>
+            <a href="../#articles">文章</a>
+            <a href="../learn-claude.html">Claude 教學</a>
+            <a href="../#contact">聯絡</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Article Hero -->
+<section class="article-hero">
+    <div class="container">
+        <div class="article-meta-top">2026-11-05 · Claude 教學</div>
+        <h1 class="article-title">兩種停，處理方法完全不一樣</h1>
+    </div>
+</section>
+
+<!-- Article Body -->
+<article class="article-body">
+    <p>AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。</p>
+<p>十一月三號下午，三重一家做食品包材的貿易商。行政主管想產一份出貨檢驗 SOP，一共要 20 條。她打完需求，畫面上條列跑到第七條「驗收標準」，然後停了。最後四個字是「若外箱有」。</p>
+<p>她以為當機。關掉重開，重問一次。這次斷在第六條。再來一次，斷在第八條。前後四十幾分鐘，她手上有三份不完整的 SOP，還有一個結論：這東西不能用。</p>
+<p>我請她把畫面往上滑，看最後那四個字。</p>
+<p>「若外箱有」。沒有句號，沒有收尾，連那個詞都沒講完。這種斷法是被切的。如果它真的講完了，不會停在這裡。</p>
+<h2>兩種停，處理方法完全不一樣</h2>
+<p>第一種是被長度切斷。特徵很明顯：停在逗號後面、停在半個詞、停在條列編號後面什麼都沒有。這代表這一輪輸出的字數到上限了，話還沒說完就被截掉。</p>
+<p>第二種是它自己收了尾。停在句號，最後一段有明顯的結論語氣，例如「以上是建議的做法」。這種情況你再叫它繼續，它會開始補一些你沒要的東西，或者把前面講過的換句話再講一次。</p>
+<p>這兩種的處置剛好相反。第一種要接續，第二種要重新指派範圍。</p>
+<p>她那次打的是兩個字：「繼續」。</p>
+<p>結果 AI 從第一條重新寫了一遍。她覺得這工具很笨。我覺得這句指令太模糊。「繼續」沒有告訴它從哪裡接、哪些不要重複，它只能猜，猜錯的成本就是你再等九十秒。</p>
+<h2>接回去的那句話，有三個元素</h2>
+<p>我給她的版本是這樣：</p>
+<p>「從第七條『驗收標準』最後那句『若外箱有』往下接著寫，第 1 到 6 條不要重寫。」</p>
+<p>三個元素：</p>
+<ol>
+<li>接續點在哪（第七條）</li>
+<li>原文最後幾個字（若外箱有）</li>
+<li>明確禁止重複（1 到 6 條不要重寫）</li>
+</ol>
+<p>第三個最常被漏掉，也最常出事。你不說，它傾向從頭鋪陳一次，因為它不確定你手上留了哪些。</p>
+<p>這招我在課堂上做 Claude 教學的時候幾乎每次都要重複，因為太多人卡在這裡就放棄了。</p>
+<h2>真正該改的是前面，不是後面</h2>
+<p>接續只是補救。更省時間的做法是一開始就不要讓它有被切斷的機會。</p>
+<p>她第二次照我說的打：</p>
+<p>「我要一份食品包材的出貨檢驗 SOP，一共 20 條。先寫第 1 到 5 條，寫完就停，等我說繼續再寫下一批。」</p>
+<p>四輪，六分多鐘，拿到完整 20 條。比她前面重試三次還快，而且每一段都是完整的。</p>
+<p>這裡有個反直覺的地方：你主動要求它少寫，整件事反而更快完成。因為重試是全損，分批是累積。</p>
+<h2>還有一種斷，原因在對話長度</h2>
+<p>如果你跟它聊了二三十輪，後面會開始出現另一種狀況：回答變短、品質下滑、動不動就斷。這通常是對話本身太長了。每一輪它都要把前面所有內容讀一遍，可用的空間被歷史訊息佔掉。</p>
+<p>處理方式不是繼續在同一個對話裡硬撐。開一個新對話，第一句話貼摘要：</p>
+<p>「我們在做一份食品包材出貨檢驗 SOP。第 1 到 12 條已定稿如下：（貼上）。請接著寫第 13 到 20 條，風格跟前面一致。」</p>
+<p>這招在企業 AI 導入的場合特別有用。很多公司的流程文件一寫就是幾十頁，硬塞在一個對話裡，到後面模型等於是在霧裡寫字。</p>
+<h2>終端機裡的那種停住是另一回事</h2>
+<p>用 Claude Code 的人問我同一件事，但原因完全不同。</p>
+<p>在終端機裡，它看起來停住，多半不是輸出被切，是它在等你。它想跑一個指令，等你按允許；或者它問了一個選擇題，你以為那是結論。畫面不動，是因為球在你手上。</p>
+<p>所以先往上滑看最後一行寫什麼，再決定要不要關。長時間的 session 如果反應變鈍，可以打 `/compact` 把前面的歷史壓縮掉再繼續。我在 Claude Code 教學裡會請學員養成一個習慣：覺得不對勁，先讀最後一行，不要先關視窗。</p>
+<h2>一卦六爻這件事</h2>
+<p>那天回程我在車上想到一個對照。</p>
+<p>易經一卦六爻，從初九排到上九。乾卦沒有打算在一個單位裡把「龍」這件事講完，它切成潛龍、見龍、躍龍、飛龍、亢龍，每一爻只負責一個階段。上九那句「亢龍有悔」，講的就是到頂了還硬往上會出問題。</p>
+<p>換句話說，它一開始就承認一次只能講一段。這不是能力限制，是結構設計。</p>
+<p>我們用 AI 的時候常常反過來。一個指令丟 20 條需求，期待它一口氣講完，然後怪它斷掉。</p>
+<p>斷掉這件事是誰的問題？我現在的答案是：切得太粗的那個人。</p>
+<p>她後來在螢幕邊貼了一張便利貼，上面寫九個字：從哪裡接、不要重寫。</p>
+<p>就這樣。</p>
+</article>
+<div class="article-extras">
+<section class="faq-section">
+<h2>常見問題</h2>
+<details class="faq-item"><summary>我打「繼續」它就從頭重寫，是不是這工具有問題？</summary><div class="faq-answer">不是。問題在「繼續」這兩個字沒有資訊。它不知道你手上留了哪些、要從第幾點接。你把原文最後五六個字複製給它，再加一句「前面的不要重寫」，命中率會差很多。多打十五個字，省掉重跑一輪的時間。</div></details><details class="faq-item"><summary>怎麼知道它是被切斷，還是真的講完了？</summary><div class="faq-answer">看最後一個字。停在逗號、停在半個詞、停在編號後面空白，是被切斷。停在句號而且那段有結論語氣，是它自己收了。第二種你叫它繼續，它會開始補一些你沒要的內容，或者把講過的換句話再說一次。</div></details><details class="faq-item"><summary>長文件有沒有一次搞定的方法？</summary><div class="faq-answer">我自己的做法是先要大綱，不要內文。大綱確認完，再一批一批產，每批三到五段。看起來多繞一步，實際上比重試兩次還快，而且每段品質穩定。超過二十輪的對話建議開新的，把定稿內容貼過去當起點。</div></details>
+</section>
+<section class="related-section">
+<h3>你可能也想看</h3>
+<div class="related-list"><a href="2026-11-04-030a076f.html" class="related-link"><span class="related-kw">[中小企業數位轉型]</span> <span class="related-q">員工用 AI 把工作時間縮短一半，獎金要怎麼給才公平？</span></a><a href="2026-11-03-c544dc2a.html" class="related-link"><span class="related-kw">[易經卦牌]</span> <span class="related-q">同一件事抽第二次結果不一樣,是卦牌不準還是我問錯了?</span></a><a href="2026-11-02-7ef269db.html" class="related-link"><span class="related-kw">[Claude Code 教學]</span> <span class="related-q">Claude Code 安裝完第一行指令要打什麼？我看教學都看不懂</span></a></div>
+</section>
+</div>
+
+<!-- Article Footer -->
+<div class="article-footer">
+    <div class="article-footer-bio">
+        <strong>關於作者</strong><br>
+        昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。
+    </div>
+    <a href="../" class="back-link">← 回首頁</a>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="footer-bio">昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</p>
+        <p class="footer-copy">© 2026 昆廷老師. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 兩種停，處理方法完全不一樣
+
+URL: https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html
+主題: Claude 教學
+日期: 2026-11-05
+
+AI 回答斷在半句話，大部分時候不是它壞了，是單次輸出的長度到頂被切斷。要分辨，只要看最後一個字停在哪裡。
+
 ### 先決定省下來的時間歸誰，再談錢
 
 URL: https://etimmyqq-lab.github.io/articles/2026-11-04-030a076f.html
