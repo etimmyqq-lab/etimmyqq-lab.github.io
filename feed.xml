@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:33:30 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:33:29 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>它不是不會寫，是你沒給它東西寫</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-06-5f9ee9a8.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-06-5f9ee9a8.html</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 +0800</pubDate>
+      <description>文案讀起來像 AI，九成的原因不是它用了什麼詞，是整段話裡面一個具體的東西都沒有。</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>兩種停，處理方法完全不一樣</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-05-0fd43a31.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
       <description>38 個人的公司，去年請了一位月薪 9 萬的數位轉型主管，八個月後他離職，留下三份簡報、一套沒人登入的 Notion，還有一句老闆到現在還在問我的話：「我是不是…</description>
       <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>她一開始問的那句話，Claude 也答不出來</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-07-337b1fae.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-07-337b1fae.html</guid>
-      <pubDate>Wed, 07 Oct 2026 08:00:00 +0800</pubDate>
-      <description>上個月幫新竹一家補習班的櫃台行政對學費，212 個學生的報名名單、187 筆銀行匯款紀錄，她以前每個月用眼睛對，一次 3 個小時。那天我請她把需求用白話講給 C…</description>
-      <category>Claude 教學</category>
     </item>
   </channel>
 </rss>
