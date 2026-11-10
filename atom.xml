@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-11-09T00:34:36.231086+00:00</updated>
+  <updated>2026-11-10T00:33:19.398135+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>要分辨工具差異，只有控制變數這一條路</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-11-10-06ed3e9b.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-11-10-06ed3e9b.html</id>
+    <updated>2026-11-10T08:00:00+08:00</updated>
+    <summary>同一套 AI 工具，兩個人用出完全不同的評價，大部分時候差別不在模型，在送進去的字數和附件。十一月五號下午，新莊一家做包裝設計的工作室，兩個合夥人為這件事在我面…</summary>
+    <category term="Gemini 教學"/>
+  </entry>
   <entry>
     <title>你要學的那一段，誰都教不了</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-11-09-a559ba5d.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-10-12T08:00:00+08:00</updated>
     <summary>上週二下午，一家做食品包裝設計的工作室老闆把一份新合約推到我面前，指著第 14 條：「乙方保證交付物未使用生成式 AI 製作，違反者甲方得解除契約並請求懲罰性違…</summary>
     <category term="中小企業數位轉型"/>
-  </entry>
-  <entry>
-    <title>你需要認的英文只有四個</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-10-11-0b110f05.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-10-11-0b110f05.html</id>
-    <updated>2026-10-11T08:00:00+08:00</updated>
-    <summary>Claude Code 可以全中文操作，你用中文打字它就用中文回你。整個流程裡你真正需要認得的英文，我在課堂上幫學員數過，四個：`/init`、`/clear`…</summary>
-    <category term="Claude Code 教學"/>
   </entry>
 </feed>
