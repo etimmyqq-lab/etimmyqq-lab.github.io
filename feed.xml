@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 10 Nov 2026 08:33:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 08:32:46 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一步不是接 API，是把問題分類</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-11-e812c11f.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-11-e812c11f.html</guid>
+      <pubDate>Wed, 11 Nov 2026 08:00:00 +0800</pubDate>
+      <description>板橋一家賣烘焙原料的電商，客服 LINE 一天進來兩百多則訊息。我請老闆娘把近 90 天的對話匯出來，總共 4,100 則，分批丟進 ChatGPT 做分類，結…</description>
+      <category>ChatGPT 教學</category>
+    </item>
     <item>
       <title>要分辨工具差異，只有控制變數這一條路</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-10-06ed3e9b.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
       <description>去年十二月二十八號下午，一位做住宅室內設計的老闆娘把一張 A4 紙推到我這邊。紙上十二個格子，一個月一卦，每格旁邊寫兩三個字：「謹慎」、「可擴張」、「小心合約」…</description>
       <category>易經卦牌</category>
-    </item>
-    <item>
-      <title>三層風險要拆開，不然你會防錯地方</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-12-2cedbc40.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-12-2cedbc40.html</guid>
-      <pubDate>Mon, 12 Oct 2026 08:00:00 +0800</pubDate>
-      <description>上週二下午，一家做食品包裝設計的工作室老闆把一份新合約推到我面前，指著第 14 條：「乙方保證交付物未使用生成式 AI 製作，違反者甲方得解除契約並請求懲罰性違…</description>
-      <category>中小企業數位轉型</category>
     </item>
   </channel>
 </rss>

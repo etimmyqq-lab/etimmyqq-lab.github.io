@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 第一步不是接 API，是把問題分類
+
+URL: https://etimmyqq-lab.github.io/articles/2026-11-11-e812c11f.html
+主題: ChatGPT 教學
+日期: 2026-11-11
+
+板橋一家賣烘焙原料的電商，客服 LINE 一天進來兩百多則訊息。我請老闆娘把近 90 天的對話匯出來，總共 4,100 則，分批丟進 ChatGPT 做分類，結…
+
 ### 要分辨工具差異，只有控制變數這一條路
 
 URL: https://etimmyqq-lab.github.io/articles/2026-11-10-06ed3e9b.html
