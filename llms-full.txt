@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 難的不是寄出去，是決定寄給誰、什麼時候停
+
+URL: https://etimmyqq-lab.github.io/articles/2026-11-12-bc91a5c0.html
+主題: Codex 教學
+日期: 2026-11-12
+
+新竹湖口一家做 PCB 檢測治具的公司，業務助理每週一早上要寄 37 封出貨通知信。收件人從一張 Excel 撈，主旨要帶客戶代號跟出貨批號，內文八成一樣，附件…
+
 ### 第一步不是接 API，是把問題分類
 
 URL: https://etimmyqq-lab.github.io/articles/2026-11-11-e812c11f.html
