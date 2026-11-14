@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-11-13T00:33:23.621090+00:00</updated>
+  <updated>2026-11-14T00:34:23.065806+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>第一層：你跟工具廠商之間</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-11-14-24607ff9.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-11-14-24607ff9.html</id>
+    <updated>2026-11-14T08:00:00+08:00</updated>
+    <summary>十月二十九號下午，台中大里一家做碳纖維輪組貿易的公司，老闆把筆電轉過來給我看。螢幕上是他用 Claude Code 花三個晚上做出來的報價單產生器，讀 Exce…</summary>
+    <category term="企業 AI 導入"/>
+  </entry>
   <entry>
     <title>系統不會告訴你規則，你的舊資料會</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-11-13-1548e343.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-10-16T08:00:00+08:00</updated>
     <summary>九月二十六號下午，桃園一家做工業用膠帶的公司，會議室坐了七個人。AI 廠商的簡報 42 頁，報價 186 萬，預計四個月上線。老闆今年 58 歲，做了三十一年膠…</summary>
     <category term="企業 AI 導入"/>
-  </entry>
-  <entry>
-    <title>我看過最常重複的三種</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-10-15-c4c09ce1.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-10-15-c4c09ce1.html</id>
-    <updated>2026-10-15T08:00:00+08:00</updated>
-    <summary>九月十九號下午，我花了十一分鐘，在一個用 AI 寫出來的會員訂單查詢頁上，看到五十個陌生人的收件地址和手機號碼。我沒有破解密碼，也沒有裝任何工具。我只是把網址最…</summary>
-    <category term="Codex 教學"/>
   </entry>
 </feed>
