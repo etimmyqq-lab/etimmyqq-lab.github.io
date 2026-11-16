@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 15 Nov 2026 08:33:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 08:34:26 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三個工具，接受的是三種不一樣的問題</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-16-828f29a4.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-16-828f29a4.html</guid>
+      <pubDate>Mon, 16 Nov 2026 08:00:00 +0800</pubDate>
+      <description>高雄岡山一位做螺絲外銷的二代老闆，去年一年去廟裡擲了十一次筊，問的都是同一件事：要不要在越南設廠。十一次裡七次聖筊。他還是沒去。</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>卦不是答案，是你的立場</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-15-5965fd67.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 18 Oct 2026 08:00:00 +0800</pubDate>
       <description>八月十四號晚上九點多，一位做進口咖啡生豆分裝的老闆傳 LINE 給我，附一張訂閱頁截圖，問：「這個一年六萬，我該不該訂？」</description>
       <category>Claude 教學</category>
-    </item>
-    <item>
-      <title>零售能交給它的，其實只有三類活</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-17-8cde9c74.html</guid>
-      <pubDate>Sat, 17 Oct 2026 08:00:00 +0800</pubDate>
-      <description>九月二十九號上午，台中一家童鞋店的老闆娘在我面前把她每週一的例行工作做了一遍給我看：四間門市的 POS 匯出檔，四個 Excel，複製貼上拼成一張總表，然後用眼…</description>
-      <category>Codex 教學</category>
     </item>
   </channel>
 </rss>
