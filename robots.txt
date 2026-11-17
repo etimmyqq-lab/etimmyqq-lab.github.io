@@ -20,3 +20,4 @@ Allow: /
 Disallow: /yijing-cards/
 
 Sitemap: https://etimmyqq-lab.github.io/sitemap.xml
+Sitemap: https://etimmyqq-lab.github.io/crystal/sitemap.xml
