@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-11-17T00:34:28.203716+00:00</updated>
+  <updated>2026-11-19T00:33:07.611415+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>卦牌不替你選人，它逼你看清楚你在怕什麼</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-11-19-3d54d9dc.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-11-19-3d54d9dc.html</id>
+    <updated>2026-11-19T08:00:00+08:00</updated>
+    <summary>嘉義民雄一家釀醬油的家族企業，老闆六十八歲，三個孩子都有可能接班，他手上那副卦牌，過去兩年問了同一個問題至少二十次。這是他十一月九號下午親口跟我說的。我當場的回…</summary>
+    <category term="易經卦牌"/>
+  </entry>
   <entry>
     <title>問題不在卦牌，在你把它放在流程的哪一格</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-11-17-9cbee6a1.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-10-20T08:00:00+08:00</updated>
     <summary>十月四號下午，教室裡三十二個人，我請大家打開筆電現場註冊 Claude 帳號。十分鐘後有七個人舉手，卡住的點幾乎一模一樣：四個人的信用卡被銀行退掉，兩個人手機驗…</summary>
     <category term="Claude 教學"/>
-  </entry>
-  <entry>
-    <title>交接文件通常只交第一層</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-10-19-e598ea2b.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-10-19-e598ea2b.html</id>
-    <updated>2026-10-19T08:00:00+08:00</updated>
-    <summary>十月七號下午，台南一家做水五金外銷的工廠，我在會議室聽到一個數字：他們報價單自動產出的準確率，從九成掉到六成四，已經掉了五個星期，廠裡沒有人知道要怎麼修。</summary>
-    <category term="中小企業數位轉型"/>
   </entry>
 </feed>
