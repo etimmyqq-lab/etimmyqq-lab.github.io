@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 20 Nov 2026 08:33:43 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 08:47:44 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先講清楚程式該做什麼、不該做什麼</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-21-d78388ff.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-21-d78388ff.html</guid>
+      <pubDate>Sat, 21 Nov 2026 08:00:00 +0800</pubDate>
+      <description>十一月四號上午十點，台南永康一家做沖壓模具的公司，會計把兩疊紙放在會議桌上。左邊是銀行當月進帳明細，142 筆。右邊是系統列印的應收帳款明細，138 張。他說這…</description>
+      <category>企業 AI 導入</category>
+    </item>
     <item>
       <title>卦不回答「要不要」</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-20-eb032e1f.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 22 Oct 2026 08:00:00 +0800</pubDate>
       <description>十月九號晚上八點多，一位在包裝材料公司管 ERP 報表的工程師傳訊息問我：「我 VS Code 的補全套件都裝好了，還需要特別去學 Codex 嗎？」我沒直接回…</description>
       <category>Codex 教學</category>
-    </item>
-    <item>
-      <title>答案很廢話，通常是因為問題很廢話</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-21-bf6bb38f.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-21-bf6bb38f.html</guid>
-      <pubDate>Wed, 21 Oct 2026 08:00:00 +0800</pubDate>
-      <description>十月十二號晚上九點多，一位做塑膠射出模具的廠長傳一張截圖給我。他問：「怎麼提升生產效率？」螢幕上回了六大點，流程優化、設備稼動率、員工培訓、數據化管理，每一點都…</description>
-      <category>Claude 教學</category>
     </item>
   </channel>
 </rss>
