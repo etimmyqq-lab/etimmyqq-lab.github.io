@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 22 Nov 2026 08:33:22 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 08:35:54 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 不會自己醒過來，這是最多人誤會的地方</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-23-82604bae.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-23-82604bae.html</guid>
+      <pubDate>Mon, 23 Nov 2026 08:00:00 +0800</pubDate>
+      <description>十一月十八號下午三點，新北樹林一家做紙盒印刷的公司，老闆把筆電轉過來給我看，螢幕上開著三個分頁：紙廠的月報價公告、政府電子採購網的標案搜尋結果、還有他最大客戶的…</description>
+      <category>Claude 教學</category>
+    </item>
     <item>
       <title>老闆真正要懂的三件事</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-22-fc2db60e.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate>
       <description>十月十四號下午，台中一家辦公家具經銷商的辦公室。行政人員要調出 2023 年跟一所學校簽的保固附約，電話那頭的窗口在等。她的雲端硬碟裡有四千兩百多個檔案，搜尋框…</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>公司能不能看到你的對話，取決於這個帳號是誰開的</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-23-ba275318.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-23-ba275318.html</guid>
-      <pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate>
-      <description>十月二十號上午，一家做食品代工的公司，我在他們會議室看到一份被整段貼進對話框的客戶報價單。客戶全名、每公斤單價、付款天數六十天，全在上面。那位業務很無辜地說，他…</description>
-      <category>Claude 教學</category>
     </item>
   </channel>
 </rss>

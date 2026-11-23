@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### AI 不會自己醒過來，這是最多人誤會的地方
+
+URL: https://etimmyqq-lab.github.io/articles/2026-11-23-82604bae.html
+主題: Claude 教學
+日期: 2026-11-23
+
+十一月十八號下午三點，新北樹林一家做紙盒印刷的公司，老闆把筆電轉過來給我看，螢幕上開著三個分頁：紙廠的月報價公告、政府電子採購網的標案搜尋結果、還有他最大客戶的…
+
 ### 老闆真正要懂的三件事
 
 URL: https://etimmyqq-lab.github.io/articles/2026-11-22-fc2db60e.html
