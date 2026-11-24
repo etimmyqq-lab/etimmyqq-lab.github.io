@@ -4,9 +4,17 @@
   <link href="https://etimmyqq-lab.github.io/atom.xml" rel="self"/>
   <link href="https://etimmyqq-lab.github.io/"/>
   <id>https://etimmyqq-lab.github.io/</id>
-  <updated>2026-11-23T00:35:54.990634+00:00</updated>
+  <updated>2026-11-24T00:33:25.419904+00:00</updated>
   <subtitle>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</subtitle>
   <author><name>昆廷老師</name></author>
+  <entry>
+    <title>生成跟挑選是兩個不同的動作</title>
+    <link href="https://etimmyqq-lab.github.io/articles/2026-11-24-7a710e7d.html"/>
+    <id>https://etimmyqq-lab.github.io/articles/2026-11-24-7a710e7d.html</id>
+    <updated>2026-11-24T08:00:00+08:00</updated>
+    <summary>十一月十七號上午，新竹湖口一家做進口食品代理的公司，二樓會議室。老闆四十二歲，接班第六年。他把筆電轉過來給我看，螢幕上是他的 AI 對話列表，往下滑了快二十秒才…</summary>
+    <category term="Gemini 教學"/>
+  </entry>
   <entry>
     <title>AI 不會自己醒過來，這是最多人誤會的地方</title>
     <link href="https://etimmyqq-lab.github.io/articles/2026-11-23-82604bae.html"/>
@@ -238,13 +246,5 @@
     <updated>2026-10-25T08:00:00+08:00</updated>
     <summary>桃園一家做汽車零件模具表面處理的工廠，老闆手機記事本裡從今年三月到十月記了 186 次卦。要不要接一張新客戶的試單、要不要讓做滿兩年的技術員轉正、要不要換掉合作…</summary>
     <category term="易經卦牌"/>
-  </entry>
-  <entry>
-    <title>我聽說 Gemini 可以幫我找 Google 雲端裡的檔案，這個功能要怎麼開啟</title>
-    <link href="https://etimmyqq-lab.github.io/articles/2026-10-24-887a1fcb.html"/>
-    <id>https://etimmyqq-lab.github.io/articles/2026-10-24-887a1fcb.html</id>
-    <updated>2026-10-24T08:00:00+08:00</updated>
-    <summary>十月十四號下午，台中一家辦公家具經銷商的辦公室。行政人員要調出 2023 年跟一所學校簽的保固附約，電話那頭的窗口在等。她的雲端硬碟裡有四千兩百多個檔案，搜尋框…</summary>
-    <category term="Gemini 教學"/>
   </entry>
 </feed>
