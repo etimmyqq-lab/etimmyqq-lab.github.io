@@ -5,8 +5,24 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 24 Nov 2026 08:33:25 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:34:08 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>起手式只有一個動作：讓重複浮出來</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-26-866a570a.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-26-866a570a.html</guid>
+      <pubDate>Thu, 26 Nov 2026 08:00:00 +0800</pubDate>
+      <description>一人公司要做數位轉型，起手式不是買系統，是先花五個工作日把自己重複做的事記下來。十一月二十號上午，台中南屯一家做包裝材料的貿易公司，全公司就老闆一個人。他把前一…</description>
+      <category>中小企業數位轉型</category>
+    </item>
+    <item>
+      <title>整份都在上下文裡，不等於整份都被看得一樣仔細</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-25-2ad44f27.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-25-2ad44f27.html</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 +0800</pubDate>
+      <description>134 頁的投標規範書，丟進去問一次，拿回 7 條「我們做不到」。人工逐頁對完，實際有 14 條。漏掉的那 7 條，全部落在第 58 到 92 頁。</description>
+      <category>Gemini 教學</category>
+    </item>
     <item>
       <title>生成跟挑選是兩個不同的動作</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-24-7a710e7d.html</link>
@@ -230,22 +246,6 @@
       <pubDate>Tue, 27 Oct 2026 08:00:00 +0800</pubDate>
       <description>同一份資料，我見過三個老闆看完做出完全相反的決定。數字沒錯，錯在他們一開始問的根本不是同一個問題。</description>
       <category>企業 AI 導入</category>
-    </item>
-    <item>
-      <title>先改出口，不要改入口</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-26-f0508284.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-26-f0508284.html</guid>
-      <pubDate>Mon, 26 Oct 2026 08:00:00 +0800</pubDate>
-      <description>嘉義一家做冷凍食品配送的公司，進銷存系統用了十一年。十月六號下午我坐在他們二樓會議室，老闆講了一句我到現在還記得的話：「系統我不是不想換，我換過一次，上線三個月…</description>
-      <category>中小企業數位轉型</category>
-    </item>
-    <item>
-      <title>你問的不是方向，是許可</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-25-0a9039fc.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-25-0a9039fc.html</guid>
-      <pubDate>Sun, 25 Oct 2026 08:00:00 +0800</pubDate>
-      <description>桃園一家做汽車零件模具表面處理的工廠，老闆手機記事本裡從今年三月到十月記了 186 次卦。要不要接一張新客戶的試單、要不要讓做滿兩年的技術員轉正、要不要換掉合作…</description>
-      <category>易經卦牌</category>
     </item>
   </channel>
 </rss>
