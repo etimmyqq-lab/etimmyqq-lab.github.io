@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 26 Nov 2026 08:34:08 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:33:02 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我現在要求每個數字都帶三樣東西回來</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-27-35317d92.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-27-35317d92.html</guid>
+      <pubDate>Fri, 27 Nov 2026 08:00:00 +0800</pubDate>
+      <description>AI 算出來的北美市場佔比是 34.7%，我們逐筆核完，實際是 28.2%。差了 6.5 個百分點。而那家公司正準備拿這份數字去跟銀行談擴廠貸款。</description>
+      <category>中小企業數位轉型</category>
+    </item>
     <item>
       <title>起手式只有一個動作：讓重複浮出來</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-26-866a570a.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 28 Oct 2026 08:00:00 +0800</pubDate>
       <description>十月二十二號晚上的線上課，一位在高雄做寵物零食電商的學員把兩張截圖丟進聊天室。第一張她直接問「我的寵物零食要怎麼行銷」，第二張前面多加了一句「你是一位行銷顧問」…</description>
       <category>Claude 教學</category>
-    </item>
-    <item>
-      <title>AI 負責算完，不負責替你承擔</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-27-2cdf2602.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-27-2cdf2602.html</guid>
-      <pubDate>Tue, 27 Oct 2026 08:00:00 +0800</pubDate>
-      <description>同一份資料，我見過三個老闆看完做出完全相反的決定。數字沒錯，錯在他們一開始問的根本不是同一個問題。</description>
-      <category>企業 AI 導入</category>
     </item>
   </channel>
 </rss>
