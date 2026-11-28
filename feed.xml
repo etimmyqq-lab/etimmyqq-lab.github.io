@@ -5,8 +5,16 @@
     <link>https://etimmyqq-lab.github.io/</link>
     <description>昆廷老師教企業主用AI工具做決策，也拿易經卦牌來問方向。兩件事他一起做了好幾年，客戶說做完之後看事情不一樣了。</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 27 Nov 2026 08:33:02 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:33:22 +0800</lastBuildDate>
     <atom:link href="https://etimmyqq-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>他第一次寫的 prompt</title>
+      <link>https://etimmyqq-lab.github.io/articles/2026-11-28-c49f12af.html</link>
+      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-11-28-c49f12af.html</guid>
+      <pubDate>Sat, 28 Nov 2026 08:00:00 +0800</pubDate>
+      <description>同一個需求，他用中文寫了 47 個字丟給 Codex，三輪跑下來有兩輪把「未稅金額」抓成「含稅金額」；換成英文重寫，三輪只錯一輪。他當場說「看來還是要用英文」。…</description>
+      <category>Codex 教學</category>
+    </item>
     <item>
       <title>我現在要求每個數字都帶三樣東西回來</title>
       <link>https://etimmyqq-lab.github.io/articles/2026-11-27-35317d92.html</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 29 Oct 2026 08:00:00 +0800</pubDate>
       <description>十月十八號下午，彰化一家做織帶代工的工廠。老闆把越南客戶的詢價單整段貼進對話框，最後打了一句「這張單我該不該接」。AI 回他建議接，理由是毛利率 18.4%，比…</description>
       <category>Gemini 教學</category>
-    </item>
-    <item>
-      <title>顧問跟路人的差別，不在頭銜</title>
-      <link>https://etimmyqq-lab.github.io/articles/2026-10-28-8e80d36b.html</link>
-      <guid isPermaLink="true">https://etimmyqq-lab.github.io/articles/2026-10-28-8e80d36b.html</guid>
-      <pubDate>Wed, 28 Oct 2026 08:00:00 +0800</pubDate>
-      <description>十月二十二號晚上的線上課，一位在高雄做寵物零食電商的學員把兩張截圖丟進聊天室。第一張她直接問「我的寵物零食要怎麼行銷」，第二張前面多加了一句「你是一位行銷顧問」…</description>
-      <category>Claude 教學</category>
     </item>
   </channel>
 </rss>

@@ -14,6 +14,14 @@
 
 ## 全部文章
 
+### 他第一次寫的 prompt
+
+URL: https://etimmyqq-lab.github.io/articles/2026-11-28-c49f12af.html
+主題: Codex 教學
+日期: 2026-11-28
+
+同一個需求，他用中文寫了 47 個字丟給 Codex，三輪跑下來有兩輪把「未稅金額」抓成「含稅金額」；換成英文重寫，三輪只錯一輪。他當場說「看來還是要用英文」。…
+
 ### 我現在要求每個數字都帶三樣東西回來
 
 URL: https://etimmyqq-lab.github.io/articles/2026-11-27-35317d92.html
